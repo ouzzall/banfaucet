@@ -13,27 +13,27 @@ class Auth extends CI_Controller
 	}
 	public function register()
 	{
-		$captcha = $this->input->post('captcha');
-		$checkCaptcha = false;
-		setcookie('captcha', $captcha, time() + 86400 * 10);
-		switch ($captcha) {
-			case "recaptchav3":
-				$checkCaptcha = verifyRecaptchaV3($this->input->post('recaptchav3'), $this->data['recaptcha_v3_secret_key']);
-				break;
-			case "recaptchav2":
-				$checkCaptcha = verifyRecaptchaV2($this->input->post('g-recaptcha-response'), $this->data['recaptcha_v2_secret_key']);
-				break;
-			case "solvemedia":
-				$checkCaptcha = verifySolvemedia($this->data['v_key'], $this->data['h_key'], $this->input->ip_address(), $this->input->post('adcopy_challenge'), $this->input->post('adcopy_response'));
-				break;
-			case "hcaptcha":
-				$checkCaptcha = verifyHcaptcha($this->input->post('h-captcha-response'), $this->data['hcaptcha_secret_key'], $this->input->ip_address());
-				break;
-		}
-		if (!$checkCaptcha) {
-			$this->session->set_flashdata('sweet_message', faucet_alert('error', 'Failed Captcha'));
-			return redirect(site_url('register'));
-		}
+		// $captcha = $this->input->post('captcha');
+		// $checkCaptcha = false;
+		// setcookie('captcha', $captcha, time() + 86400 * 10);
+		// switch ($captcha) {
+		// 	case "recaptchav3":
+		// 		$checkCaptcha = verifyRecaptchaV3($this->input->post('recaptchav3'), $this->data['recaptcha_v3_secret_key']);
+		// 		break;
+		// 	case "recaptchav2":
+		// 		$checkCaptcha = verifyRecaptchaV2($this->input->post('g-recaptcha-response'), $this->data['recaptcha_v2_secret_key']);
+		// 		break;
+		// 	case "solvemedia":
+		// 		$checkCaptcha = verifySolvemedia($this->data['v_key'], $this->data['h_key'], $this->input->ip_address(), $this->input->post('adcopy_challenge'), $this->input->post('adcopy_response'));
+		// 		break;
+		// 	case "hcaptcha":
+		// 		$checkCaptcha = verifyHcaptcha($this->input->post('h-captcha-response'), $this->data['hcaptcha_secret_key'], $this->input->ip_address());
+		// 		break;
+		// }
+		// if (!$checkCaptcha) {
+		// 	$this->session->set_flashdata('sweet_message', faucet_alert('error', 'Failed Captcha'));
+		// 	return redirect(site_url('register'));
+		// }
 
 		$this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|max_length[75]|is_unique[users.email]', array('is_unique' => 'This email is registered with another account'));
 		$this->form_validation->set_rules('username', 'Username', 'trim|required|min_length[4]|max_length[15]|is_unique[users.username]', array('is_unique' => 'This username already exists'));
@@ -51,23 +51,23 @@ class Auth extends CI_Controller
 
 		$isocode = 'N/A';
 		$country = 'N/A';
-		if (!empty($this->data['proxycheck'])) {
-			$check = proxycheck($this->data, $this->input->ip_address());
-			if ($check['status'] == 1) {
-				$this->session->set_flashdata('sweet_message', faucet_alert('error', 'VPN or Proxy is not allowed'));
-				return redirect(site_url('register'));
-			}
-			$isocode = isset($check['isocode']) ? $check['isocode'] : 'N/A';
-			$country = isset($check['country']) ? $check['country'] : 'N/A';
-		} else if (!empty($this->data['iphub'])) {
-			$check = iphub($this->data, $this->input->ip_address());
-			if ($check['status'] == 1) {
-				$this->session->set_flashdata('sweet_message', faucet_alert('error', 'VPN or Proxy is not allowed'));
-				return redirect(site_url('register'));
-			}
-			$isocode = isset($check['isocode']) ? $check['isocode'] : 'N/A';
-			$country = isset($check['country']) ? $check['country'] : 'N/A';
-		}
+		// if (!empty($this->data['proxycheck'])) {
+		// 	$check = proxycheck($this->data, $this->input->ip_address());
+		// 	if ($check['status'] == 1) {
+		// 		$this->session->set_flashdata('sweet_message', faucet_alert('error', 'VPN or Proxy is not allowed'));
+		// 		return redirect(site_url('register'));
+		// 	}
+		// 	$isocode = isset($check['isocode']) ? $check['isocode'] : 'N/A';
+		// 	$country = isset($check['country']) ? $check['country'] : 'N/A';
+		// } else if (!empty($this->data['iphub'])) {
+		// 	$check = iphub($this->data, $this->input->ip_address());
+		// 	if ($check['status'] == 1) {
+		// 		$this->session->set_flashdata('sweet_message', faucet_alert('error', 'VPN or Proxy is not allowed'));
+		// 		return redirect(site_url('register'));
+		// 	}
+		// 	$isocode = isset($check['isocode']) ? $check['isocode'] : 'N/A';
+		// 	$country = isset($check['country']) ? $check['country'] : 'N/A';
+		// }
 		$email = $this->db->escape_str($this->input->post('email'));
 		$username = $this->db->escape_str($this->input->post('username'));
 		$password = $this->db->escape_str($this->input->post('password'));
