@@ -1,0 +1,29 @@
+[23-Feb-2022 16:16:05 UTC] PHP Fatal error:  <br/>The file <b>/home/banfaswz/public_html/application/core/MY_Controller.php</b> was encoded with the Encoder for PHP 7.2 and can only run on PHP 7.2 or later.<br/> If you are the administrator of this site then please upgrade to PHP 7.2 or later and install the corresponding ionCube Loader. in Unknown on line 0
+[23-Feb-2022 16:16:07 UTC] PHP Fatal error:  <br/>The file <b>/home/banfaswz/public_html/application/core/MY_Controller.php</b> was encoded with the Encoder for PHP 7.2 and can only run on PHP 7.2 or later.<br/> If you are the administrator of this site then please upgrade to PHP 7.2 or later and install the corresponding ionCube Loader. in Unknown on line 0
+[24-Feb-2022 00:09:29 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:31 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:32 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:33 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:41 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:41 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:45 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:45 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:47 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:48 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:48 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:49 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:52 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:52 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:52 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:55 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:56 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:56 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:09:59 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[24-Feb-2022 00:10:00 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'America/New York' is invalid in /home/banfaswz/public_html/application/config/config.php on line 4
+[17-Mar-2022 19:04:16 America/New_York] PHP Fatal error:  Cannot redeclare M_Account::get_ref() in /home/banfaswz/public_html/application/models/M_account.php on line 99
+[17-Mar-2022 19:04:21 America/New_York] PHP Fatal error:  Cannot redeclare M_Account::get_ref() in /home/banfaswz/public_html/application/models/M_account.php on line 99
+[17-Mar-2022 19:04:24 America/New_York] PHP Fatal error:  Cannot redeclare M_Account::get_ref() in /home/banfaswz/public_html/application/models/M_account.php on line 99
+[21-Mar-2022 18:11:06 America/New_York] PHP Fatal error:  Cannot redeclare M_Account::getReferrals() in /home/banfaswz/public_html/application/models/M_account.php on line 114
+[25-Mar-2022 15:35:20 America/New_York] PHP Fatal error:  Cannot redeclare M_Admin::countLotteries() in /home/banfaswz/public_html/application/models/M_admin.php on line 573
+[25-Mar-2022 15:40:43 America/New_York] PHP Fatal error:  Cannot redeclare M_Admin::countLotteries() in /home/banfaswz/public_html/application/models/M_admin.php on line 573
+[25-Mar-2022 15:44:31 America/New_York] PHP Fatal error:  Cannot redeclare M_Admin::countLotteries() in /home/banfaswz/public_html/application/models/M_admin.php on line 573

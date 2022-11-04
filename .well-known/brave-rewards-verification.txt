@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: banfaucet.com
+Token: 3c25af72fc9a8c84a66a2e48abfb1e531b4de5b292642dd2fec2863879f8c014
