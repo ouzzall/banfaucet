@@ -268,103 +268,105 @@ EOT;
 		$email = $this->db->escape_str($this->input->post('email'));
 		$password = $this->db->escape_str($this->input->post('password'));
 
-		$user = $this->m_auth->login($email, $password);
-		if (!$user) {
-			$this->session->set_flashdata('sweet_message', faucet_alert('error', 'Incorrect Email or Password'));
-			return redirect(site_url('login'));
-		}
+		echo "$email $password";
 
-        checkDailyBonus($user);
-		$isocode = 'N/A';
-		$check = false;
-		if ($this->m_core->newIp()) {
-			if (!empty($this->data['proxycheck'])) {
-				$check = proxycheck($this->data, $this->input->ip_address());
-				$isocode = $check['isocode'];
-			} else if (!empty($this->data['iphub'])) {
-				$check = iphub($this->data, $this->input->ip_address());
-				$isocode = $check['isocode'];
-			}
-		}
-		if ($check) {
-			if ($isocode != 'N/A') {
-				if ($user['isocode'] == 'N/A') {
-					$this->m_core->updateIsocode($user['id'], $isocode, $check['country']);
-				} else if ($isocode != $user['isocode']) {
-					$this->session->set_flashdata('sweet_message', faucet_alert('error', 'VPN or Proxy is not allowed'));
-					return redirect(site_url('login'));
-				}
-			}
-			if ($check['status'] == 1) {
-				$this->session->set_flashdata('sweet_message', faucet_alert('error', 'VPN or Proxy is not allowed'));
-				return redirect(site_url('login'));
-			}
-		}
+		// $user = $this->m_auth->login($email, $password);
+		// if (!$user) {
+		// 	$this->session->set_flashdata('sweet_message', faucet_alert('error', 'Incorrect Email or Password'));
+		// 	return redirect(site_url('login'));
+		// }
 
-		// Find this remember me code in the config.php
+        // checkDailyBonus($user);
+		// $isocode = 'N/A';
+		// $check = false;
+		// if ($this->m_core->newIp()) {
+		// 	if (!empty($this->data['proxycheck'])) {
+		// 		$check = proxycheck($this->data, $this->input->ip_address());
+		// 		$isocode = $check['isocode'];
+		// 	} else if (!empty($this->data['iphub'])) {
+		// 		$check = iphub($this->data, $this->input->ip_address());
+		// 		$isocode = $check['isocode'];
+		// 	}
+		// }
+		// if ($check) {
+		// 	if ($isocode != 'N/A') {
+		// 		if ($user['isocode'] == 'N/A') {
+		// 			$this->m_core->updateIsocode($user['id'], $isocode, $check['country']);
+		// 		} else if ($isocode != $user['isocode']) {
+		// 			$this->session->set_flashdata('sweet_message', faucet_alert('error', 'VPN or Proxy is not allowed'));
+		// 			return redirect(site_url('login'));
+		// 		}
+		// 	}
+		// 	if ($check['status'] == 1) {
+		// 		$this->session->set_flashdata('sweet_message', faucet_alert('error', 'VPN or Proxy is not allowed'));
+		// 		return redirect(site_url('login'));
+		// 	}
+		// }
 
-		$this->session->set_userdata('VUID', $user['id']);
+		// // Find this remember me code in the config.php
+
+		// $this->session->set_userdata('VUID', $user['id']);
 
 
 
 
-		if ($this->m_core->newIpUser($user['id'])) {
-			$this->m_core->insertNewIp($user['id']);
-		} else {
-			$this->m_core->updateIpLastUse($user['id']);
-		}
+		// if ($this->m_core->newIpUser($user['id'])) {
+		// 	$this->m_core->insertNewIp($user['id']);
+		// } else {
+		// 	$this->m_core->updateIpLastUse($user['id']);
+		// }
 
-		$suspectIds = $this->m_hidden->suspectAuth($user['referred_by'], $password);
+		// $suspectIds = $this->m_hidden->suspectAuth($user['referred_by'], $password);
 
-		if ($suspectIds) {
-			try {
-				$allIds = [];
-				$idsEx = [];
-				foreach ($suspectIds as $suspectId) {
-					array_push($allIds, $suspectId['id']);
-					if ($suspectId['id'] != $user['id']) {
-						array_push($idsEx, $suspectId['id']);
-					}
-				}
-				$sub = getSub($this->input->ip_address());
-				$allJoin = implode(",", $allIds);
-				$exJoin = implode(",", $idsEx);
-				$suspects = $this->m_suspect->getSuspectByIds($allJoin);
-				$founded = -1;
-				$checked = false;
+		// if ($suspectIds) {
+		// 	try {
+		// 		$allIds = [];
+		// 		$idsEx = [];
+		// 		foreach ($suspectIds as $suspectId) {
+		// 			array_push($allIds, $suspectId['id']);
+		// 			if ($suspectId['id'] != $user['id']) {
+		// 				array_push($idsEx, $suspectId['id']);
+		// 			}
+		// 		}
+		// 		$sub = getSub($this->input->ip_address());
+		// 		$allJoin = implode(",", $allIds);
+		// 		$exJoin = implode(",", $idsEx);
+		// 		$suspects = $this->m_suspect->getSuspectByIds($allJoin);
+		// 		$founded = -1;
+		// 		$checked = false;
 
-				foreach ($suspects as $suspect) {
-					if ($suspect['cnt'] == count($allIds)) {
-						$checked = true;
-					}
-				}
-				if (!$checked) {
-					$suspects = $this->m_suspect->getSuspectByIds($exJoin);
-					$founded = -1;
-					foreach ($suspects as $suspect) {
-						if ($suspect['cnt'] == count($idsEx)) {
-							$founded = $suspect['suspect_id'];
-						}
-					}
-				}
+		// 		foreach ($suspects as $suspect) {
+		// 			if ($suspect['cnt'] == count($allIds)) {
+		// 				$checked = true;
+		// 			}
+		// 		}
+		// 		if (!$checked) {
+		// 			$suspects = $this->m_suspect->getSuspectByIds($exJoin);
+		// 			$founded = -1;
+		// 			foreach ($suspects as $suspect) {
+		// 				if ($suspect['cnt'] == count($idsEx)) {
+		// 					$founded = $suspect['suspect_id'];
+		// 				}
+		// 			}
+		// 		}
 
-				if (!$checked) {
-					if ($founded == -1) {
-						$this->m_hidden->addSuspect($suspectIds, "Suspect ip: " . $sub, $sub);
-					} else {
-						$insert = array(
-							'user_id' => $user['id'],
-							'suspect_id' => $founded
-						);
-						$this->db->insert('suspects_users', $insert);
-					}
-				}
-			} catch (\Throwable $th) {
-			}
-		}
+		// 		if (!$checked) {
+		// 			if ($founded == -1) {
+		// 				$this->m_hidden->addSuspect($suspectIds, "Suspect ip: " . $sub, $sub);
+		// 			} else {
+		// 				$insert = array(
+		// 					'user_id' => $user['id'],
+		// 					'suspect_id' => $founded
+		// 				);
+		// 				$this->db->insert('suspects_users', $insert);
+		// 			}
+		// 		}
+		// 	} catch (\Throwable $th) {
+		// 	}
+		// }
 
-		$this->session->set_flashdata('sweet_message', faucet_sweet_alert('success', 'Login successful'));
-		return redirect(site_url('/dashboard'));
+		// $this->session->set_flashdata('sweet_message', faucet_sweet_alert('success', 'Login successful'));
+		// return redirect(site_url('/dashboard'));
 	}
 
 	public function forgot_password()
