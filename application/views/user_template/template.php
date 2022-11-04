@@ -146,7 +146,7 @@
                                 </div>
                             </div>
 						<button type="button" class="btn btn-light btn-block">
-						<a href="https://banfaucet.com/history" class="text-dark">View All</a>
+						<a href="https://banfaucet.com/new/history" class="text-dark">View All</a>
 						</button>
                       </div>
                     </div>
@@ -272,7 +272,7 @@
                                 </li>
                             <?php } else { ?>
                                 <li>
-                                    <a href="https://banfaucet.com/offerwalls" class="waves-effect">
+                                    <a href="https://banfaucet.com/new/offerwalls" class="waves-effect">
                                         <i class="fa-solid fa-pencil"></i>
                                         <span key="t-offerwall">Offerwalls &nbsp<span class="badge badge-dark">8</span></span>
                                     </a>
@@ -487,7 +487,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-6">
-                            <p class="mb-2">&copy <?= date('Y') ?> <a href="<?= base_url() ?>"><?= $settings['name'] ?></a> | <a href="https://banfaucet.com/page/terms-of-service">Terms of Service</a> | <i class="fas fa-clock"></i> Server Time: <?= date('H:i') ?>.</p>
+                            <p class="mb-2">&copy <?= date('Y') ?> <a href="<?= base_url() ?>"><?= $settings['name'] ?></a> | <a href="https://banfaucet.com/new/page/terms-of-service">Terms of Service</a> | <i class="fas fa-clock"></i> Server Time: <?= date('H:i') ?>.</p>
                         </div>
                         <div class="col-sm-6">
                             <div class="text-sm-right d-none d-sm-block">
@@ -651,7 +651,7 @@ z-index: 10; }
 <div class='sticky-ads-content'>
 
 <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="Join our Telegram Group">
-<a href="https://t.me/banfaucet" target="_blank"><img src="https://banfaucet.com/assets/images/telegram.png" style="width:50px;height:50px;"></a>
+<a href="https://t.me/banfaucet" target="_blank"><img src="https://banfaucet.com/new/assets/images/telegram.png" style="width:50px;height:50px;"></a>
 </div>
 </div>
 </div>

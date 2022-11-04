@@ -1024,7 +1024,7 @@ public function adscendmedia()
 			'debug' => $_GET['debug']
 		);
 		$encoded_key = utf8_encode('a5d64312ac7a2c42743a5028fe26f5dd2b1cce4e');
-		$encoded_URL = utf8_encode('https://banfaucet.com/wh/theoremreach?'.http_build_query($URL));
+		$encoded_URL = utf8_encode('https://banfaucet.com/new/wh/theoremreach?'.http_build_query($URL));
 		$hashed = hash_hmac('sha1', $encoded_URL, $encoded_key);
 		$digested_hash = pack('H*',$hashed);
 		$base64_encoded_result = base64_encode($digested_hash);

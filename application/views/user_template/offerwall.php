@@ -1,4 +1,4 @@
-<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" class="alert-link">Timewall</a>!
+<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div><p><center><span id="ct_cJd95UwrCma"></span></center><p>
@@ -6,7 +6,7 @@
 <script>var _coinzilla_fp_id_ = "173623529710ebcf195",  _coinzilla_fp_interval_ = "5"; </script>
 <script src="https://coinzillatag.com/lib/fp.js"></script>
 <div class="alert alert-primary text-center alert-dismissible fade show" role="alert">
-  <strong>Earn $1 USD (1,000 tokens) per day from Offerwalls and redeem the <a href="https://banfaucet.com/achievements" class="alert-link">challenge</a> worth 50 tokens!</strong>
+  <strong>Earn $1 USD (1,000 tokens) per day from Offerwalls and redeem the <a href="https://banfaucet.com/new/achievements" class="alert-link">challenge</a> worth 50 tokens!</strong>
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>

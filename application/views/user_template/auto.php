@@ -62,7 +62,7 @@
                     </div>
                 <?php } else {
                     echo '<div class="alert alert-danger" role="alert">
-  To continue using the Fast Faucet you have to earn more energy by completing offers in the <a href="https://banfaucet.com/offerwalls" class="alert-link">Offerwall</a> section.
+  To continue using the Fast Faucet you have to earn more energy by completing offers in the <a href="https://banfaucet.com/new/offerwalls" class="alert-link">Offerwall</a> section.
 </div>';
                 } ?>
                 <!-- end table-responsive -->

@@ -10,7 +10,7 @@ date_default_timezone_set('America/New_York');
 | URL to your CodeIgniter root. Typically this will be your base URL,
 | WITH a trailing slash:
 |
-|	https://banfaucet.com/
+|	https://banfaucet.com/new/
 |
 | WARNING: You MUST set this value!
 |

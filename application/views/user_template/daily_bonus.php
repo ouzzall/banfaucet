@@ -1,4 +1,4 @@
-<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" class="alert-link">Timewall</a>!
+<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div>
@@ -131,7 +131,7 @@ if ($dailyStatus){
 </script></center>
 <script>var _coinzilla_fp_id_ = "173623529710ebcf195",  _coinzilla_fp_interval_ = "5"; </script>
 <script src="https://coinzillatag.com/lib/fp.js"></script>
-<script src="https://banfaucet.com/assets/js/clipboard.min.js"></script>
+<script src="https://banfaucet.com/new/assets/js/clipboard.min.js"></script>
 <script src="<?= base_url() ?>assets/js/vie/captcha.js"></script>
 <script async src="https://appsha-lon2.cointraffic.io/js/?wkey=lgXFfbiPoT"></script>
 <style>

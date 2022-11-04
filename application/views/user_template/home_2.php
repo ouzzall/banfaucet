@@ -44,8 +44,8 @@
 							<li><a data-scroll href="#pricing">Pricing</a></li>
 							<li><a data-scroll href="#author">Author</a></li>
 							<li><a data-scroll href="#contact">Contact</a></li> -->
-							<li><a class="tp-btn" style="color:#" href="https://banfaucet.com/register">Register</a></li>
-							<li><a class="tp-btn lgn" href="https://banfaucet.com/login">Login</a></li>
+							<li><a class="tp-btn" style="color:#" href="https://banfaucet.com/new/register">Register</a></li>
+							<li><a class="tp-btn lgn" href="https://banfaucet.com/new/login">Login</a></li>
 						</ul>
 					</div> <!-- End Header -->
 				</div>
@@ -84,7 +84,7 @@
 						</div>
 						
 						
-						<a href="https://banfaucet.com/register" class="boxed-btn-1 read-btn btn-bg-1color ">Register Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a><br>
+						<a href="https://banfaucet.com/new/register" class="boxed-btn-1 read-btn btn-bg-1color ">Register Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a><br>
 <!-- Coinzilla Banner 300x250 -->
 <script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-246623529710f792603"></div>
@@ -125,7 +125,7 @@
 									</div>
 								  </div>
 								  <div class="form-group">
-									  <a href="https://banfaucet.com/register" class="btn btn-block bt">Register</a>
+									  <a href="https://banfaucet.com/new/register" class="btn btn-block bt">Register</a>
 								  </div>
 								</form>
 						</div>
@@ -306,40 +306,40 @@
 
 			<div class="row">
 				<div class="col-md-3">
-					<div class="partner-1"><img src="https://banfaucet.com/assets/images/bitlabs.svg" alt="BitLabs" /></div>
+					<div class="partner-1"><img src="https://banfaucet.com/new/assets/images/bitlabs.svg" alt="BitLabs" /></div>
 				</div>
 				<div class="col-md-3">
-					<div class="partner-1"><img src="https://banfaucet.com/assets/images/theorem.svg" alt="TheoremReach" /></div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3">
-					<div class="partner-1"><img src="https://banfaucet.com/assets/images/adscendmedia.svg" alt="Adscend Media" /></div>
-					
-				</div>
-				<div class="col-md-3">
-					<div class="partner-1"><img src="https://banfaucet.com/assets/images/cpxresearch.png" alt="CPX Research" /></div>
-				</div>
-				<div class="col-md-3">
-					<div class="partner-1"><img src="https://banfaucet.com/assets/images/hideout.svg" alt="HideoutTV" /></div>
-				</div>
-				<div class="col-md-3">
-					<div class="partner-1"><img src="https://banfaucet.com/assets/images/loot.svg" alt="LootTV" /></div>
+					<div class="partner-1"><img src="https://banfaucet.com/new/assets/images/theorem.svg" alt="TheoremReach" /></div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3">
-					<div class="partner-1"><img src="https://banfaucet.com/assets/images/lootably.png" alt="Lootably" /></div>
-				</div>
-				<div class="col-md-3">
-					<div class="partner-1"><img src="https://banfaucet.com/assets/images/monlix.svg" alt="Monlix" /></div>
-				</div>
-				<div class="col-md-3">
-					<div class="partner-1"><img src="https://banfaucet.com/assets/images/bitswall.png" alt="Bitswall" /></div>
+					<div class="partner-1"><img src="https://banfaucet.com/new/assets/images/adscendmedia.svg" alt="Adscend Media" /></div>
 					
 				</div>
 				<div class="col-md-3">
-					<div class="partner-1"><img src="https://banfaucet.com/assets/images/timewall.png" alt="Timewall" /></div>
+					<div class="partner-1"><img src="https://banfaucet.com/new/assets/images/cpxresearch.png" alt="CPX Research" /></div>
+				</div>
+				<div class="col-md-3">
+					<div class="partner-1"><img src="https://banfaucet.com/new/assets/images/hideout.svg" alt="HideoutTV" /></div>
+				</div>
+				<div class="col-md-3">
+					<div class="partner-1"><img src="https://banfaucet.com/new/assets/images/loot.svg" alt="LootTV" /></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="partner-1"><img src="https://banfaucet.com/new/assets/images/lootably.png" alt="Lootably" /></div>
+				</div>
+				<div class="col-md-3">
+					<div class="partner-1"><img src="https://banfaucet.com/new/assets/images/monlix.svg" alt="Monlix" /></div>
+				</div>
+				<div class="col-md-3">
+					<div class="partner-1"><img src="https://banfaucet.com/new/assets/images/bitswall.png" alt="Bitswall" /></div>
+					
+				</div>
+				<div class="col-md-3">
+					<div class="partner-1"><img src="https://banfaucet.com/new/assets/images/timewall.png" alt="Timewall" /></div>
 					
 				</div>
 			</div>
