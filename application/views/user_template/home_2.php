@@ -317,8 +317,8 @@
         <!-- End Toggle Button -->
       </div>
       <hr class="horizontal dark my-1">
-      <div class="card-body pt-sm-3 pt-0">
-      <div class="d-xl-block d-none">
+      <div class="card-body pt-0">
+      <div class="d-xl-block">
         <h6 class="mb-0">Light/Dark</h6>
       </div>
       <div class="form-check form-switch ps-0 d-xl-block d-none">
