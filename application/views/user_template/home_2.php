@@ -655,7 +655,9 @@
     </div>
   </main>
 
-
+  <script src="newAssets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="newAssets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="newAssets/js/soft-ui-dashboard.min.js?v=1.1.0"></script>
 	<!-- new code end -->
 	<!-- Start  scripts -->
 	<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
