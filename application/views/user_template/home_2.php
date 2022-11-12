@@ -17,21 +17,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="../../newAssets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="../../newAssets/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="newAssets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="newAssets/img/favicon.png">
   <title>
     Soft UI Dashboard PRO by Creative Tim
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
   <!-- Nucleo Icons -->
-  <link href="../../newAssets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="../../newAssets/css/nucleo-svg.css" rel="stylesheet" />
+  <link href="newAssets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="newAssets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-  <link href="../../newAssets/css/nucleo-svg.css" rel="stylesheet" />
+  <link href="newAssets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
-  <link id="pagestyle" href="../../newAssets/css/soft-ui-dashboard.css?v=1.1.0" rel="stylesheet" />
+  <link id="pagestyle" href="newAssets/css/soft-ui-dashboard.css?v=1.1.0" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css" integrity="sha512-aNH2ILn88yXgp/1dcFPt2/EkSNc03f9HBFX0rqX3Kw37+vjipi1pK3L9W08TZLhMg4Slk810sPLdJlNIjwygFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css" integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -42,7 +42,7 @@
     <div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
       <a class="navbar-brand m-0" href=" https://demos.creative-tim.com/soft-ui-dashboard-pro/pages/dashboards/default.html " target="_blank">
-        <img src="../../newAssets/img/logo-ct-dark.png" class="navbar-brand-img h-100" alt="main_logo">
+        <img src="newAssets/img/logo-ct-dark.png" class="navbar-brand-img h-100" alt="main_logo">
         <span class="ms-1 font-weight-bold">Soft UI Dashboard PRO</span>
       </a>
     </div>
@@ -350,7 +350,7 @@
     </div>
     <div class="sidenav-footer mx-3 mt-3 pt-3">
       <div class="card card-background shadow-none card-background-mask-secondary" id="sidenavCard">
-        <div class="full-background" style="background-image: url('../../newAssets/img/curved-images/white-curved.jpg')"></div>
+        <div class="full-background" style="background-image: url('newAssets/img/curved-images/white-curved.jpg')"></div>
         <div class="card-body text-start p-3 w-100">
           <div class="icon icon-shape icon-sm bg-white shadow text-center mb-3 d-flex align-items-center justify-content-center border-radius-md">
             <i class="ni ni-diamond text-dark text-gradient text-lg top-0" aria-hidden="true" id="sidenavCardIcon"></i>
@@ -430,7 +430,7 @@
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col-xl-7">
-          <img src="../../newAssets/img/imgLanding.png" style="width: 600px;height: 476px;border-radius: 17px;">
+          <img src="newAssets/img/imgLanding.png" style="width: 600px;height: 476px;border-radius: 17px;">
         </div>
         <div class="col-xl-5 ms-auto mt-xl-0 mt-4">
           <div class="row">
@@ -543,40 +543,40 @@
         <h1 class="text-center">Our Partners</h1>
         <hr class="horizontal dark my-2">
         <div class="col-md-4 mt-4 mb-4">
-          <img style="width: 250px;display: block;margin: auto;" src="../../newAssets/img/bitlabs.svg">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/bitlabs.svg">
         </div>
         <div class="col-md-4 mt-4 mb-4">
-          <img style="width: 250px;display: block;margin: auto;" src="../../newAssets/img/TheoremReach.png">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/TheoremReach.png">
         </div>
         <div class="col-md-4 mt-4 mb-4">
-          <img style="width: 250px;display: block;margin: auto;" src="../../newAssets/img/adscendmedia.svg">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/adscendmedia.svg">
         </div>
         <div class="col-md-4 mt-4 mb-4">
-          <img style="width: 250px;display: block;margin: auto;" src="../../newAssets/img/cpxresearch-removebg-preview.png">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/cpxresearch-removebg-preview.png">
         </div>
         <div class="col-md-4 mt-4 mb-4">
-          <img style="width: 250px;display: block;margin: auto;" src="../../newAssets/img/hideout.svg">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/hideout.svg">
         </div>
         <div class="col-md-4 mt-4 mb-4">
-          <img style="width: 250px;display: block;margin: auto;" src="../../newAssets/img/loot.svg">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/loot.svg">
         </div>
         <div class="col-md-4 mt-4 mb-4">
-          <img style="width: 250px;display: block;margin: auto;" src="../../newAssets/img/loot.svg">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/loot.svg">
         </div>
         <div class="col-md-4 mt-4 mb-4">
-          <img style="width: 250px;display: block;margin: auto;" src="../../newAssets/img/lootably.png">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/lootably.png">
         </div>
         <div class="col-md-4 mt-4 mb-4">
-          <img style="width: 250px;display: block;margin: auto;" src="../../newAssets/img/monlix.svg">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/monlix.svg">
         </div>
         <div class="col-md-2 ">
 
         </div>
         <div class="col-md-4 mt-4 mb-4">
-          <img style="width: 250px;display: block;margin: auto;" src="../../newAssets/img/bitswall.png">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/bitswall.png">
         </div>
         <div class="col-md-4 mt-4 mb-4">
-          <img style="width: 250px;display: block;margin: auto;" src="../../newAssets/img/timewall.png">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/timewall.png">
         </div>
       </div>
       <footer class="footer pt-3  ">
@@ -695,17 +695,17 @@
     </div>
   </div>
   <!--   Core JS Files   -->
-  <script src="../../newAssets/js/core/popper.min.js"></script>
-  <script src="../../newAssets/js/core/bootstrap.min.js"></script>
-  <script src="../../newAssets/js/plugins/perfect-scrollbar.min.js"></script>
-  <script src="../../newAssets/js/plugins/smooth-scrollbar.min.js"></script>
-  <script src="../../newAssets/js/plugins/choices.min.js"></script>
+  <script src="newAssets/js/core/popper.min.js"></script>
+  <script src="newAssets/js/core/bootstrap.min.js"></script>
+  <script src="newAssets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="newAssets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="newAssets/js/plugins/choices.min.js"></script>
   <!-- Kanban scripts -->
-  <script src="../../newAssets/js/plugins/dragula/dragula.min.js"></script>
-  <script src="../../newAssets/js/plugins/jkanban/jkanban.js"></script>
-  <script src="../../newAssets/js/plugins/countup.min.js"></script>
-  <script src="../../newAssets/js/plugins/chartjs.min.js"></script>
-  <script src="../../newAssets/js/plugins/round-slider.min.js"></script>
+  <script src="newAssets/js/plugins/dragula/dragula.min.js"></script>
+  <script src="newAssets/js/plugins/jkanban/jkanban.js"></script>
+  <script src="newAssets/js/plugins/countup.min.js"></script>
+  <script src="newAssets/js/plugins/chartjs.min.js"></script>
+  <script src="newAssets/js/plugins/round-slider.min.js"></script>
   <script>
     // Rounded slider
     const setValue = function(value, active) {
@@ -958,7 +958,7 @@
   <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="../../newAssets/js/soft-ui-dashboard.min.js?v=1.1.0"></script>
+  <script src="newAssets/js/soft-ui-dashboard.min.js?v=1.1.0"></script>
 </body>
 
 </html>
