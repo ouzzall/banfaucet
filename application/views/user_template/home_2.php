@@ -737,17 +737,17 @@
     </div>
   </div>
   <!--   Core JS Files   -->
-  <script src="../../newAssets/js/core/popper.min.js"></script>
-  <script src="../../newAssets/js/core/bootstrap.min.js"></script>
-  <script src="../../newAssets/js/plugins/perfect-scrollbar.min.js"></script>
-  <script src="../../newAssets/js/plugins/smooth-scrollbar.min.js"></script>
-  <script src="../../newAssets/js/plugins/choices.min.js"></script>
+  <script src="../newAssets/js/core/popper.min.js"></script>
+  <script src="../newAssets/js/core/bootstrap.min.js"></script>
+  <script src="../newAssets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="../newAssets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="../newAssets/js/plugins/choices.min.js"></script>
   <!-- Kanban scripts -->
-  <script src="../../newAssets/js/plugins/dragula/dragula.min.js"></script>
-  <script src="../../newAssets/js/plugins/jkanban/jkanban.js"></script>
-  <script src="../../newAssets/js/plugins/countup.min.js"></script>
-  <script src="../../newAssets/js/plugins/chartjs.min.js"></script>
-  <script src="../../newAssets/js/plugins/round-slider.min.js"></script>
+  <script src="../newAssets/js/plugins/dragula/dragula.min.js"></script>
+  <script src="../newAssets/js/plugins/jkanban/jkanban.js"></script>
+  <script src="../newAssets/js/plugins/countup.min.js"></script>
+  <script src="../newAssets/js/plugins/chartjs.min.js"></script>
+  <script src="../newAssets/js/plugins/round-slider.min.js"></script>
   <script>
     // Rounded slider
     const setValue = function(value, active) {
@@ -1000,7 +1000,7 @@
   <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="../../newAssets/js/soft-ui-dashboard.min.js?v=1.1.0"></script>
+  <script src="../newAssets/js/soft-ui-dashboard.min.js?v=1.1.0"></script>
 	<!-- new code end -->
 	<!-- Start  scripts -->
 	<!-- <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script> -->
