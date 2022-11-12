@@ -51,9 +51,7 @@
 			width: 100%;
 			height: auto;
 		}
-		.mobile-topbar{
-			display: block !important;
-		}
+		
   }
 
 	</style>
@@ -442,7 +440,7 @@
           </ol>
           <h6 class="font-weight-bolder mb-0">Smart Home</h6>
         </nav> -->
-        <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none mobile-topbar " >
+        <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none mobile-topbar ">
 			<div>  
 				<a href="javascript:;" class="nav-link text-body p-0">
 					<div class="sidenav-toggler-inner">
@@ -453,7 +451,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://banfaucet.com/new/login" class="nav-link text-body font-weight-bold px-0" style="padding: 0 !important;" target="_blank">
+				<a href="https://banfaucet.com/new/login" class="nav-link text-body font-weight-bold px-0" target="_blank">
 					<i class="fa fa-user me-sm-1"></i>
 					<span class="d-sm-inline d-none">Sign In</span>
 				</a>
