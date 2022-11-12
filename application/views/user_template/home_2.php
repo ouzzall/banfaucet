@@ -53,10 +53,6 @@
 		}
 		.mobile-topbar{
 			display: block !important;
-			display: flex;
-			justify-content: space-between;
-			width: 100%;
-			align-content: center;
 		}
   }
 
@@ -472,7 +468,7 @@
             <li class="nav-item d-flex align-items-center">
               <a href="https://banfaucet.com/new/login" class="nav-link text-body font-weight-bold px-0" target="_blank">
                 <i class="fa fa-user me-sm-1"></i>
-                <span class="d-sm-inline d-none">Sign In</span>
+                <span class="d-sm-inline d-none">Sign</span>
               </a>
             </li>
 
