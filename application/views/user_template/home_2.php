@@ -369,8 +369,9 @@
 	<!-- OUR PARTNERS AREA End -->
 
 	
-	<!-- <div class="footer-area padding-section color-bg-1 black-footer design-color1 design-color2"> <!-- Start Footer -->
-		<div class="container">
+	<!-- <div class="footer-area padding-section color-bg-1 black-footer design-color1 design-color2">
+		 Start Footer -->
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="author-links margin-top">
@@ -390,7 +391,7 @@
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>  -->
 	<!-- End footer -->
 	<!-- new code start -->
 	<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
