@@ -7,25 +7,43 @@
 	  <meta content="<?= $settings['description'] ?>" name="description" />
         <title><?= $settings['name'] ?></title>
 		<!-- All css files -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-        <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
-	  <link href="assets/css/slicknav.min.css" rel="stylesheet">
-        <link href="assets/css/magnific-popup.css" rel="stylesheet">
-	  <link rel="shortcut icon" href="<?= base_url() ?>assets/images/favicon.ico">
+        <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+        <!-- <link href="assets/css/font-awesome.min.css" rel="stylesheet"> -->
+        <!-- <link href="assets/css/owl.carousel.min.css" rel="stylesheet"> -->
+	  <!-- <link href="assets/css/slicknav.min.css" rel="stylesheet"> -->
+        <!-- <link href="assets/css/magnific-popup.css" rel="stylesheet"> -->
+	  <!-- <link rel="shortcut icon" href="<?= base_url() ?>assets/images/favicon.ico"> -->
 		<!-- Main css -->
-        <link href="style.css" rel="stylesheet">
+        <!-- <link href="style.css" rel="stylesheet"> -->
 		<!-- Responsive css -->
-        <link href="assets/css/responsive.css" rel="stylesheet">
+        <!-- <link href="assets/css/responsive.css" rel="stylesheet"> -->
 
 
         <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+
+		<!-- new code start -->
+		<!--     Fonts and icons     -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="newAssets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="newAssets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="newAssets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link id="pagestyle" href="newAssets/css/soft-ui-dashboard.css?v=1.1.0" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css" integrity="sha512-aNH2ILn88yXgp/1dcFPt2/EkSNc03f9HBFX0rqX3Kw37+vjipi1pK3L9W08TZLhMg4Slk810sPLdJlNIjwygFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css" integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<!-- new code end -->
     </head>
     <body >
-	<div class="ebook-header absolute-header fixed-head design-color1 design-color2"> <!-- Start Header -->
+	<!-- <div class="ebook-header absolute-header fixed-head design-color1 design-color2">  -->
+		<!-- Start Header -->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 col-xs-12">
@@ -51,10 +69,12 @@
 				</div>
 			</div>
 		</div>
-	</div> <!-- End Header -->
+	<!-- </div>  -->
+	<!-- End Header -->
 	
-	<div class="single-box-design-1 padding-section video-bg-1 black-overlay-bg black-overlay design-color1" id="home"> <!-- Start section one -->
-		<div class="container">
+	<!-- <div class="single-box-design-1 padding-section video-bg-1 black-overlay-bg black-overlay design-color1" id="home">  -->
+		<!-- Start section one -->
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col-md-7">
 					<div class="ebook-slider-txt-1">
@@ -84,9 +104,9 @@
 						</div>
 						
 						
-						<a href="https://banfaucet.com/new/register" class="boxed-btn-1 read-btn btn-bg-1color ">Register Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a><br>
+						<a href="https://banfaucet.com/new/register" class="boxed-btn-1 read-btn btn-bg-1color ">Register Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a><br> -->
 <!-- Coinzilla Banner 300x250 -->
-<script async src="https://coinzillatag.com/lib/display.js"></script>
+<!-- <script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-246623529710f792603"></div>
 <script>
     window.coinzilla_display = window.coinzilla_display || [];
@@ -95,9 +115,9 @@
     c_display_preferences.width = "300";
     c_display_preferences.height = "250";
     coinzilla_display.push(c_display_preferences);
-</script>
+</script> -->
 						<!-- <a href="" class="boxed-btn-1 buy-btn btn-bg-1color">Hire Developers <i class="fa fa-shopping-cart" aria-hidden="true"></i></a> -->
-					</div>
+					<!-- </div>
 				</div>
 				<div class="col-md-5">
 					<div class="ebook-slider-img-1">
@@ -136,11 +156,12 @@
 				</div>
 			</div>
 		</div>
-	</div><!-- End section one -->
+	</div> -->
+	<!-- End section one -->
 	
  
-	<div class="sell-ebook-area padding-section design-color1 design-color2" id="features"><!-- Start section two -->
-		<div class="container">
+	<!-- <div class="sell-ebook-area padding-section design-color1 design-color2" id="features"> Start section two -->
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center">
 					<div class="sell-title">
@@ -237,9 +258,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>  -->
 	<!-- single box design 1 -->	
-<div class="single-box-design-1 padding-01 video-bg-1 black-overlay-bg black-overlay design-color1">
+<!-- <div class="single-box-design-1 padding-01 video-bg-1 black-overlay-bg black-overlay design-color1">
 	<div class="container">
 		<div class="row">
 			<div class="heading-01 text-center">
@@ -290,10 +311,10 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!-- OUR PARTNERS AREA  start-->
-	<div class="our_partner">
+	<!-- <div class="our_partner">
 		<div class="container">
 		
 			<div class="row">
@@ -344,11 +365,11 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- OUR PARTNERS AREA End -->
 
 	
-	<div class="footer-area padding-section color-bg-1 black-footer design-color1 design-color2"> <!-- Start Footer -->
+	<!-- <div class="footer-area padding-section color-bg-1 black-footer design-color1 design-color2"> <!-- Start Footer -->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
@@ -369,8 +390,261 @@
 				</div>
 			</div>
 		</div>
-	</div><!-- End footer -->
-	
+	</div> -->
+	<!-- End footer -->
+	<!-- new code start -->
+	<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <!-- Navbar -->
+    <nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky" id="navbarBlur" data-scroll="true">
+      <div class="container-fluid py-1 px-3">
+        <!-- <nav aria-label="breadcrumb">
+          <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
+            <li class="breadcrumb-item text-sm">
+              <a class="opacity-3 text-dark" href="javascript:;">
+                <svg width="12px" height="12px" class="mb-1" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <title>shop </title>
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g transform="translate(-1716.000000, -439.000000)" fill="#252f40" fill-rule="nonzero">
+                      <g transform="translate(1716.000000, 291.000000)">
+                        <g transform="translate(0.000000, 148.000000)">
+                          <path d="M46.7199583,10.7414583 L40.8449583,0.949791667 C40.4909749,0.360605034 39.8540131,0 39.1666667,0 L7.83333333,0 C7.1459869,0 6.50902508,0.360605034 6.15504167,0.949791667 L0.280041667,10.7414583 C0.0969176761,11.0460037 -1.23209662e-05,11.3946378 -1.23209662e-05,11.75 C-0.00758042603,16.0663731 3.48367543,19.5725301 7.80004167,19.5833333 L7.81570833,19.5833333 C9.75003686,19.5882688 11.6168794,18.8726691 13.0522917,17.5760417 C16.0171492,20.2556967 20.5292675,20.2556967 23.494125,17.5760417 C26.4604562,20.2616016 30.9794188,20.2616016 33.94575,17.5760417 C36.2421905,19.6477597 39.5441143,20.1708521 42.3684437,18.9103691 C45.1927731,17.649886 47.0084685,14.8428276 47.0000295,11.75 C47.0000295,11.3946378 46.9030823,11.0460037 46.7199583,10.7414583 Z"></path>
+                          <path d="M39.198,22.4912623 C37.3776246,22.4928106 35.5817531,22.0149171 33.951625,21.0951667 L33.92225,21.1107282 C31.1430221,22.6838032 27.9255001,22.9318916 24.9844167,21.7998837 C24.4750389,21.605469 23.9777983,21.3722567 23.4960833,21.1018359 L23.4745417,21.1129513 C20.6961809,22.6871153 17.4786145,22.9344611 14.5386667,21.7998837 C14.029926,21.6054643 13.533337,21.3722507 13.0522917,21.1018359 C11.4250962,22.0190609 9.63246555,22.4947009 7.81570833,22.4912623 C7.16510551,22.4842162 6.51607673,22.4173045 5.875,22.2911849 L5.875,44.7220845 C5.875,45.9498589 6.7517757,46.9451667 7.83333333,46.9451667 L19.5833333,46.9451667 L19.5833333,33.6066734 L27.4166667,33.6066734 L27.4166667,46.9451667 L39.1666667,46.9451667 C40.2482243,46.9451667 41.125,45.9498589 41.125,44.7220845 L41.125,22.2822926 C40.4887822,22.4116582 39.8442868,22.4815492 39.198,22.4912623 Z"></path>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+           
+          </ol>
+          <h6 class="font-weight-bolder mb-0">Smart Home</h6>
+        </nav> -->
+        <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
+          <a href="javascript:;" class="nav-link text-body p-0">
+            <div class="sidenav-toggler-inner">
+              <i class="sidenav-toggler-line"></i>
+              <i class="sidenav-toggler-line"></i>
+              <i class="sidenav-toggler-line"></i>
+            </div>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+          <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+            
+          </div>
+          <ul class="navbar-nav  justify-content-end">
+            <li class="nav-item d-flex align-items-center">
+              <a href="../../pages/authentication/signin/illustration.html" class="nav-link text-body font-weight-bold px-0" target="_blank">
+                <i class="fa fa-user me-sm-1"></i>
+                <span class="d-sm-inline d-none">Sign In</span>
+              </a>
+            </li>
+            <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+              <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
+                <div class="sidenav-toggler-inner">
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                </div>
+              </a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="col-xl-7">
+          <img src="newAssets/img/imgLanding.png" style="width: 600px;height: 476px;border-radius: 17px;">
+        </div>
+        <div class="col-xl-5 ms-auto mt-xl-0 mt-4">
+          <div class="row">
+            <div class="col-12">
+              <div class="card bg-gradient-primary">
+                <div class="card-body p-3">
+                  <div class="row">
+                    <div class="col-8 my-auto">
+                      <div class="numbers">
+                        <h5 class="text-white font-weight-bolder mb-0">
+                          Statistics
+                        </h5>
+                        <p class="text-white text-sm mb-0 text-capitalize font-weight-bold opacity-7">Take a look at the Statistics we has already reached!</p>
+                      </div>
+                    </div>
+                    <div class="col-4 text-end" style="margin-top: auto;margin-bottom: auto;">
+                      <i class="fa-solid fa-chart-line text-white" style="font-size: 26px;"></i>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body text-center">
+                  <!-- <h1 class="text-gradient text-primary"><span id="status1" style="font-size: 34px;" countto="5430">54,30</span><span class="text-lg ms-n1"><i class="fa-solid fa-users"></i></span> </h1> -->
+                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" countto="5430">54,30</span> <span class="text-lg ms-n1"><i class="fa-solid fa-users"></i></span></h1>
+                  <h6 class="mb-0 font-weight-bolder">Users</h6>
+                  <p class="opacity-8 mb-0 text-sm">Registered</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-md-0 mt-4">
+              <div class="card">
+                <div class="card-body text-center">
+                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" countto="1126">1,126</span> <span class="text-lg ms-n1"><i class="fa-solid fa-list-check"></i></span></h1>
+                  <h6 class="mb-0 font-weight-bolder">Tasks</h6>
+                  <p class="opacity-8 mb-0 text-sm">Completed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body text-center">
+                  <h1 class="text-gradient text-primary"><span id="status3" style="font-size: 34px;" countto="67494">67,494</span> <span class="text-lg ms-n2"><i class="fa-solid fa-money-bill-wave"></i></span></h1>
+                  <h6 class="mb-0 font-weight-bolder">Withdrawals</h6>
+                  <p class="opacity-8 mb-0 text-sm">Total</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-md-0 mt-4">
+              <div class="card">
+                <div class="card-body text-center">
+                  <h1 class="text-gradient text-primary"><span id="status4" style="font-size: 34px;"countto="260">260</span> <span class="text-lg ms-n2"><i class="fa-regular fa-calendar-days"></i></span></h1>
+                  <h6 class="mb-0 font-weight-bolder">Days</h6>
+                  <p class="opacity-8 mb-0 text-sm">Online</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="card">
+          <div class="card-body text-center">
+           <h2 class="text-primary mt-4">WAYS OF EARNING</h2>
+           <p>List of the different types of tasks you can do to earn cryptocurrency using our website.</p>
+           <div class="row mt-4">
+            <div class="col-md-4 mt-4">
+                <h1 class="text-gradient text-primary"> <i class="fa fa-file-text-o "></i></h1>
+                <h5>Faucet</h5>
+                <p>Claim .0005 USD every 5 minutes.</p>
+            </div>
+            <div class="col-md-4 mt-4">
+              <h1 class="text-gradient text-primary"> <i class="fa-solid fa-ticket"></i></h1>
+              <h5>Lottery</h5>
+              <p>New round starts every 3 days. Buy a ticket for your chance to win big Banano!</p>
+            </div>
+            <div class="col-md-4 mt-4">
+              <h1 class="text-gradient text-primary"> <i class="fa-regular fa-chess-rook"></i></h1>
+              <h5>Challenges</h5>
+              <p>Get rewarded daily for claiming on the faucet, buying lottery tickets and completing offerwall tasks.</p>
+            </div>
+            <div class="col-md-4 mt-4">
+              <h1 class="text-gradient text-primary"> <i class="fa-regular fa-chess-rook"></i></h1>
+              <h5>Offerwalls</h5>
+              <p>Complete tasks and surveys to earn more.</p>
+            </div>
+            <div class="col-md-4 mt-4">
+              <h1 class="text-gradient text-primary"><i class="fa-solid fa-gears"></i></h1>
+              <h5>Level System</h5>
+              <p>Earn a faucet claim bonus for every level you reach.</p>
+            </div>
+            <div class="col-md-4 mt-4">
+              <h1 class="text-gradient text-primary"> <i class="fa-solid fa-trophy"></i></h1>
+              <h5>Weekly Contest</h5>
+              <p>Get in on the weekly Referral and Offerwall contest. Top 5 participants win a reward!</p>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>  
+      
+      <div class="row " style="margin-top: 40px;">
+        <h1 class="text-center">Our Partners</h1>
+        <hr class="horizontal dark my-2">
+        <div class="col-md-4 mt-4 mb-4">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/bitlabs.svg">
+        </div>
+        <div class="col-md-4 mt-4 mb-4">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/TheoremReach.png">
+        </div>
+        <div class="col-md-4 mt-4 mb-4">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/adscendmedia.svg">
+        </div>
+        <div class="col-md-4 mt-4 mb-4">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/cpxresearch-removebg-preview.png">
+        </div>
+        <div class="col-md-4 mt-4 mb-4">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/hideout.svg">
+        </div>
+        <div class="col-md-4 mt-4 mb-4">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/loot.svg">
+        </div>
+        <div class="col-md-4 mt-4 mb-4">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/loot.svg">
+        </div>
+        <div class="col-md-4 mt-4 mb-4">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/lootably.png">
+        </div>
+        <div class="col-md-4 mt-4 mb-4">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/monlix.svg">
+        </div>
+        <div class="col-md-2 ">
+
+        </div>
+        <div class="col-md-4 mt-4 mb-4">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/bitswall.png">
+        </div>
+        <div class="col-md-4 mt-4 mb-4">
+          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/timewall.png">
+        </div>
+      </div>
+      <footer class="footer pt-3  ">
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-lg-between">
+            <div class="col-lg-6 mb-lg-0 mb-4">
+              <div class="copyright text-center text-sm text-muted text-lg-start">
+                © <script>
+                  document.write(new Date().getFullYear())
+                </script>,
+                made with <i class="fa fa-heart"></i> by
+                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative Tim</a>
+                for a better web.
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <ul class="nav nav-footer justify-content-center justify-content-lg-end">
+                <li class="nav-item">
+                  <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Creative Tim</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://www.creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </main>
+
+
+	<!-- new code end -->
 	<!-- Start  scripts -->
 	<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 	<script src="assets/js/jquery-1.12.4.js"></script>
