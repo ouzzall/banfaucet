@@ -202,7 +202,7 @@
 							</div>
 						</div>
 						<h3 class="h1h2h3h4-color">Lottery</h3>
-						<p>New round starts every 3 days. Buy a ticket for your chance to win big Banano!</p>
+						<p>New round starts every 3 newAssets. Buy a ticket for your chance to win big Banano!</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12">
@@ -295,9 +295,9 @@
 				</div>
 				<div class="sngle-bx-1">
 					<div class="bx-inner-13 bx1-bg"></div>
-					<i class="fa fa-regular fa-calendar-days" aria-hidden="true"></i>
+					<i class="fa fa-regular fa-calendar-newAssets" aria-hidden="true"></i>
 					<h4 class="gradient-custom"><?= number_format($stat['dayOnline']) ?></h4>
-					<p>Days Online</p>
+					<p>newAssets Online</p>
 				</div>
 				<div class="sngle-bx-1">
 					<center>
@@ -501,7 +501,7 @@
               <div class="card">
                 <div class="card-body text-center">
                   <!-- <h1 class="text-gradient text-primary"><span id="status1" style="font-size: 34px;" countto="5430">54,30</span><span class="text-lg ms-n1"><i class="fa-solid fa-users"></i></span> </h1> -->
-                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" countto="5430">54,30</span> <span class="text-lg ms-n1"><i class="fa-solid fa-users"></i></span></h1>
+                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" ><?= number_format($stat['total_user']) ?></span> <span class="text-lg ms-n1"><i class="fa-solid fa-users"></i></span></h1>
                   <h6 class="mb-0 font-weight-bolder">Users</h6>
                   <p class="opacity-8 mb-0 text-sm">Registered</p>
                 </div>
@@ -510,7 +510,7 @@
             <div class="col-md-6 mt-md-0 mt-4">
               <div class="card">
                 <div class="card-body text-center">
-                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" countto="1126">1,126</span> <span class="text-lg ms-n1"><i class="fa-solid fa-list-check"></i></span></h1>
+                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" ><?= number_format($stat['tasks']) ?></span> <span class="text-lg ms-n1"><i class="fa-solid fa-list-check"></i></span></h1>
                   <h6 class="mb-0 font-weight-bolder">Tasks</h6>
                   <p class="opacity-8 mb-0 text-sm">Completed</p>
                 </div>
@@ -521,7 +521,7 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-body text-center">
-                  <h1 class="text-gradient text-primary"><span id="status3" style="font-size: 34px;" countto="67494">67,494</span> <span class="text-lg ms-n2"><i class="fa-solid fa-money-bill-wave"></i></span></h1>
+                  <h1 class="text-gradient text-primary"><span id="status3" style="font-size: 34px;" ><?= number_format($stat['withdrawals']) ?></span> <span class="text-lg ms-n2"><i class="fa-solid fa-money-bill-wave"></i></span></h1>
                   <h6 class="mb-0 font-weight-bolder">Withdrawals</h6>
                   <p class="opacity-8 mb-0 text-sm">Total</p>
                 </div>
@@ -530,8 +530,8 @@
             <div class="col-md-6 mt-md-0 mt-4">
               <div class="card">
                 <div class="card-body text-center">
-                  <h1 class="text-gradient text-primary"><span id="status4" style="font-size: 34px;"countto="260">260</span> <span class="text-lg ms-n2"><i class="fa-regular fa-calendar-days"></i></span></h1>
-                  <h6 class="mb-0 font-weight-bolder">Days</h6>
+                  <h1 class="text-gradient text-primary"><span id="status4" style="font-size: 34px;"><?= number_format($stat['dayOnline']) ?></span> <span class="text-lg ms-n2"><i class="fa-regular fa-calendar-newAssets"></i></span></h1>
+                  <h6 class="mb-0 font-weight-bolder">newAssets</h6>
                   <p class="opacity-8 mb-0 text-sm">Online</p>
                 </div>
               </div>
@@ -553,7 +553,7 @@
             <div class="col-md-4 mt-4">
               <h1 class="text-gradient text-primary"> <i class="fa-solid fa-ticket"></i></h1>
               <h5>Lottery</h5>
-              <p>New round starts every 3 days. Buy a ticket for your chance to win big Banano!</p>
+              <p>New round starts every 3 newAssets. Buy a ticket for your chance to win big Banano!</p>
             </div>
             <div class="col-md-4 mt-4">
               <h1 class="text-gradient text-primary"> <i class="fa-regular fa-chess-rook"></i></h1>
