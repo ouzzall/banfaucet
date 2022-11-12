@@ -321,7 +321,7 @@
       <div class="d-xl-block">
         <h6 class="mb-0">Light/Dark</h6>
       </div>
-      <div class="form-check form-switch ps-0 d-xl-block d-none">
+      <div class="form-check form-switch ps-0 d-xl-block">
         <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
       </div>
         <!-- Sidebar Backgrounds -->
