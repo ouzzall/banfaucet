@@ -411,6 +411,7 @@
 		</div>
 	</div>  -->
 	<!-- End footer -->
+  
 	<!-- new code start -->
 	<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
     <!-- Navbar -->
@@ -738,8 +739,8 @@
   </div>
   <script src="newAssets/js/core/popper.min.js"></script>
   <script src="newAssets/js/core/bootstrap.min.js"></script>
-  <!-- <script src="newAssets/js/plugins/perfect-scrollbar.min.js"></script> -->
-  <!-- <script src="newAssets/js/plugins/smooth-scrollbar.min.js"></script> -->
+  <script src="newAssets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="newAssets/js/plugins/smooth-scrollbar.min.js"></script>
   <script src="newAssets/js/soft-ui-dashboard.min.js?v=1.1.0"></script>
 	<!-- new code end -->
 	<!-- Start  scripts -->
@@ -747,13 +748,13 @@
 	<script src="assets/js/jquery-1.12.4.js"></script>
 	<script src="assets/js/circle-progress-1.2.2.min.js"></script>
 	<script src="assets/js/jquery.slicknav.min.js"></script>
-	<!-- <script src="assets/js/smooth-scroll.polyfills.min.js"></script> -->
+	<script src="assets/js/smooth-scroll.polyfills.min.js"></script>
 	<script src="assets/js/masonry.min.js"></script>
 	<script src="assets/js/jquery.slicknav.min.js"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<script src="assets/js/jquery.magnific-popup.min.js"></script>
 	<!-- <script src="assets/js/bootstrap.min.js"></script> -->
-	<!-- <script src="assets/js/scrolls.js"></script> -->
+	<script src="assets/js/scrolls.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="https://kit.fontawesome.com/3ffc819fd0.js" crossorigin="anonymous"></script>
 	<script type="text/javascript">
