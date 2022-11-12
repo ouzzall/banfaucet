@@ -446,12 +446,7 @@
                 <span class="d-sm-inline d-none">Sign In</span>
               </a>
             </li>
-			<li class="nav-item d-flex align-items-center">
-              <a href="https://banfaucet.com/new/register" class="nav-link text-body font-weight-bold px-0" target="_blank">
-                <i class="fa fa-user me-sm-1"></i>
-                <span class="d-sm-inline d-none">Register</span>
-              </a>
-            </li>
+
             <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
               <a href="" class="nav-link text-body p-0" id="iconNavbarSidenav">
                 <div class="sidenav-toggler-inner">
