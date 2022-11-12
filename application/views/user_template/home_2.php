@@ -51,7 +51,6 @@
 			width: 100%;
 			height: auto;
 		}
-		
   }
 
 	</style>
@@ -440,24 +439,15 @@
           </ol>
           <h6 class="font-weight-bolder mb-0">Smart Home</h6>
         </nav> -->
-        <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none mobile-topbar ">
-			<div>  
-				<a href="javascript:;" class="nav-link text-body p-0">
-					<div class="sidenav-toggler-inner">
-					<i class="sidenav-toggler-line"></i>
-					<i class="sidenav-toggler-line"></i>
-					<i class="sidenav-toggler-line"></i>
-					</div>
-				</a>
-			</div>
-			<div>
-				<a href="https://banfaucet.com/new/login" class="nav-link text-body font-weight-bold px-0" target="_blank">
-					<i class="fa fa-user me-sm-1"></i>
-					<span class="d-sm-inline d-none">Sign In</span>
-				</a>
-			</div>
+        <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
+          <a href="javascript:;" class="nav-link text-body p-0">
+            <div class="sidenav-toggler-inner">
+              <i class="sidenav-toggler-line"></i>
+              <i class="sidenav-toggler-line"></i>
+              <i class="sidenav-toggler-line"></i>
+            </div>
+          </a>
         </div>
-
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
             
@@ -466,7 +456,7 @@
             <li class="nav-item d-flex align-items-center">
               <a href="https://banfaucet.com/new/login" class="nav-link text-body font-weight-bold px-0" target="_blank">
                 <i class="fa fa-user me-sm-1"></i>
-                <span class="d-sm-inline d-none">Sign</span>
+                <span class="d-sm-inline d-none">Sign In</span>
               </a>
             </li>
 
