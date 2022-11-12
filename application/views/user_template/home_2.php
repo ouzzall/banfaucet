@@ -66,14 +66,14 @@
 							<li><a data-scroll href="#pricing">Pricing</a></li>
 							<li><a data-scroll href="#author">Author</a></li>
 							<li><a data-scroll href="#contact">Contact</a></li> -->
-							<li><a class="tp-btn" style="color:#" href="https://banfaucet.com/new/register">Register</a></li>
+							<!-- <li><a class="tp-btn" style="color:#" href="https://banfaucet.com/new/register">Register</a></li>
 							<li><a class="tp-btn lgn" href="https://banfaucet.com/new/login">Login</a></li>
 						</ul>
 					</div> 
 					End Header
 				</div>
 			</div>
-		</div> -->
+		</div>  -->
 	<!-- </div>  -->
 	<!-- End Header -->
 	
