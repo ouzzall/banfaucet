@@ -835,10 +835,7 @@
         console.error(countUp.error);
       }
     }
-
-    // Chart Doughnut Consumption by room
-    var ctx1 = document.getElementById("chart-consumption").getContext("2d");
-
+ 
     var gradientStroke1 = ctx1.createLinearGradient(0, 230, 0, 50);
 
     gradientStroke1.addColorStop(1, 'rgba(203,12,159,0.2)');
