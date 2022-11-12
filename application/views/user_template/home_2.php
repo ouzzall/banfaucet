@@ -454,7 +454,7 @@
           </div>
           <ul class="navbar-nav  justify-content-end">
             <li class="nav-item d-flex align-items-center">
-              <a href="../../pages/authentication/signin/illustration.html" class="nav-link text-body font-weight-bold px-0" target="_blank">
+              <a href="https://banfaucet.com/new/login" class="nav-link text-body font-weight-bold px-0" target="_blank">
                 <i class="fa fa-user me-sm-1"></i>
                 <span class="d-sm-inline d-none">Sign In</span>
               </a>
@@ -614,9 +614,6 @@
         <div class="col-md-4 mt-4 mb-4">
           <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/monlix.svg">
         </div>
-        <div class="col-md-2 ">
-
-        </div>
         <div class="col-md-4 mt-4 mb-4">
           <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/bitswall.png">
         </div>
@@ -744,19 +741,20 @@
   <script src="newAssets/js/plugins/perfect-scrollbar.min.js"></script>
   <script src="newAssets/js/plugins/smooth-scrollbar.min.js"></script>
   <script src="newAssets/js/soft-ui-dashboard.min.js?v=1.1.0"></script>
+  
 	<!-- new code end -->
 	<!-- Start  scripts -->
 	<!-- <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script> -->
-	<script src="assets/js/jquery-1.12.4.js"></script>
-	<script src="assets/js/circle-progress-1.2.2.min.js"></script>
-	<script src="assets/js/jquery.slicknav.min.js"></script>
-	<script src="assets/js/smooth-scroll.polyfills.min.js"></script>
-	<script src="assets/js/masonry.min.js"></script>
-	<script src="assets/js/jquery.slicknav.min.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- <script src="assets/js/jquery-1.12.4.js"></script> -->
+	<!-- <script src="assets/js/circle-progress-1.2.2.min.js"></script> -->
+	<!-- <script src="assets/js/jquery.slicknav.min.js"></script> -->
+	<!-- <script src="assets/js/smooth-scroll.polyfills.min.js"></script> -->
+	<!-- <script src="assets/js/masonry.min.js"></script> -->
+	<!-- <script src="assets/js/jquery.slicknav.min.js"></script> -->
+	<!-- <script src="assets/js/owl.carousel.min.js"></script> -->
+	<!-- <script src="assets/js/jquery.magnific-popup.min.js"></script> -->
 	<!-- <script src="assets/js/bootstrap.min.js"></script> -->
-	<script src="assets/js/scrolls.js"></script>
+	<!-- <script src="assets/js/scrolls.js"></script> -->
 	<script src="assets/js/main.js"></script>
 	<script src="https://kit.fontawesome.com/3ffc819fd0.js" crossorigin="anonymous"></script>
 	<script type="text/javascript">
@@ -811,10 +809,10 @@
             }
         }
         // INJECT CSS
-        var css = document.createElement("style");
-        css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-        document.body.appendChild(css);
+        // var css = document.createElement("style");
+        // css.type = "text/css";
+        // css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        // document.body.appendChild(css);
     };
 	</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
