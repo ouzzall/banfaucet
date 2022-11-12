@@ -52,7 +52,7 @@
 			height: auto;
 		}
   }
-}
+
 	</style>
     <body >
 	<!-- <div class="ebook-header absolute-header fixed-head design-color1 design-color2">  -->
