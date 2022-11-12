@@ -1,10 +1,10 @@
 (function ($) {
   "use strict";
   jQuery(document).ready(function($){
-    // $('#menu').slicknav({
-    //   prependTo:'.mainmenu'
-    // }
-    // );
+    $('#menu').slicknav({
+      prependTo:'.mainmenu'
+    }
+    );
     scroller.init({
       config: {
         // hover color
