@@ -736,21 +736,18 @@
       </div>
     </div>
   </div>
-
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-
   <!--   Core JS Files   -->
-  <script src="newAssets/js/core/popper.min.js"></script>
-  <script src="newAssets/js/core/bootstrap.min.js"></script>
-  <script src="newAssets/js/plugins/perfect-scrollbar.min.js"></script>
-  <script src="newAssets/js/plugins/smooth-scrollbar.min.js"></script>
-  <script src="newAssets/js/plugins/choices.min.js"></script>
+  <script src="../../newAssets/js/core/popper.min.js"></script>
+  <script src="../../newAssets/js/core/bootstrap.min.js"></script>
+  <script src="../../newAssets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="../../newAssets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="../../newAssets/js/plugins/choices.min.js"></script>
   <!-- Kanban scripts -->
-  <script src="newAssets/js/plugins/dragula/dragula.min.js"></script>
-  <script src="newAssets/js/plugins/jkanban/jkanban.js"></script>
-  <script src="newAssets/js/plugins/countup.min.js"></script>
-  <script src="newAssets/js/plugins/chartjs.min.js"></script>
-  <script src="newAssets/js/plugins/round-slider.min.js"></script>
+  <script src="../../newAssets/js/plugins/dragula/dragula.min.js"></script>
+  <script src="../../newAssets/js/plugins/jkanban/jkanban.js"></script>
+  <script src="../../newAssets/js/plugins/countup.min.js"></script>
+  <script src="../../newAssets/js/plugins/chartjs.min.js"></script>
+  <script src="../../newAssets/js/plugins/round-slider.min.js"></script>
   <script>
     // Rounded slider
     const setValue = function(value, active) {
@@ -835,7 +832,161 @@
         console.error(countUp.error);
       }
     }
- 
+
+    // Chart Doughnut Consumption by room
+    var ctx1 = document.getElementById("chart-consumption").getContext("2d");
+
+    var gradientStroke1 = ctx1.createLinearGradient(0, 230, 0, 50);
+
+    gradientStroke1.addColorStop(1, 'rgba(203,12,159,0.2)');
+    gradientStroke1.addColorStop(0.2, 'rgba(72,72,176,0.0)');
+    gradientStroke1.addColorStop(0, 'rgba(203,12,159,0)'); //purple colors
+
+    new Chart(ctx1, {
+      type: "doughnut",
+      data: {
+        labels: ['Living Room', 'Kitchen', 'Attic', 'Garage', 'Basement'],
+        datasets: [{
+          label: "Consumption",
+          weight: 9,
+          cutout: 90,
+          tension: 0.9,
+          pointRadius: 2,
+          borderWidth: 2,
+          backgroundColor: ['#FF0080', '#A8B8D8', '#21d4fd', '#98ec2d', '#ff667c'],
+          data: [15, 20, 13, 32, 20],
+          fill: false
+        }],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            display: false,
+          }
+        },
+        interaction: {
+          intersect: false,
+          mode: 'index',
+        },
+        scales: {
+          y: {
+            grid: {
+              drawBorder: false,
+              display: false,
+              drawOnChartArea: false,
+              drawTicks: false,
+            },
+            ticks: {
+              display: false
+            }
+          },
+          x: {
+            grid: {
+              drawBorder: false,
+              display: false,
+              drawOnChartArea: false,
+              drawTicks: false,
+            },
+            ticks: {
+              display: false,
+            }
+          },
+        },
+      },
+    });
+
+    // Chart Consumption by day
+    var ctx = document.getElementById("chart-cons-week").getContext("2d");
+
+    new Chart(ctx, {
+      type: "bar",
+      data: {
+        labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        datasets: [{
+          label: "Watts",
+          tension: 0.4,
+          borderWidth: 0,
+          borderRadius: 4,
+          borderSkipped: false,
+          backgroundColor: "#3A416F",
+          data: [150, 230, 380, 220, 420, 200, 70],
+          maxBarThickness: 6
+        }, ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            display: false,
+          }
+        },
+        interaction: {
+          intersect: false,
+          mode: 'index',
+        },
+        scales: {
+          y: {
+            grid: {
+              drawBorder: false,
+              display: false,
+              drawOnChartArea: false,
+              drawTicks: false,
+            },
+            ticks: {
+              display: false
+            },
+          },
+          x: {
+            grid: {
+              drawBorder: false,
+              display: false,
+              drawOnChartArea: false,
+              drawTicks: false
+            },
+            ticks: {
+              beginAtZero: true,
+              font: {
+                size: 12,
+                family: "Open Sans",
+                style: 'normal',
+              },
+              color: "#9ca2b7"
+            },
+          },
+          y: {
+            grid: {
+              drawBorder: false,
+              display: false,
+              drawOnChartArea: true,
+              drawTicks: false,
+              borderDash: [5, 5]
+            },
+            ticks: {
+              display: true,
+              padding: 10,
+              color: '#9ca2b7'
+            }
+          },
+          x: {
+            grid: {
+              drawBorder: false,
+              display: true,
+              drawOnChartArea: true,
+              drawTicks: false,
+              borderDash: [5, 5]
+            },
+            ticks: {
+              display: true,
+              padding: 10,
+              color: '#9ca2b7'
+            }
+          },
+        },
+      },
+    });
   </script>
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
@@ -849,7 +1000,7 @@
   <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="newAssets/js/soft-ui-dashboard.min.js?v=1.1.0"></script>
+  <script src="../../newAssets/js/soft-ui-dashboard.min.js?v=1.1.0"></script>
 	<!-- new code end -->
 	<!-- Start  scripts -->
 	<!-- <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script> -->
