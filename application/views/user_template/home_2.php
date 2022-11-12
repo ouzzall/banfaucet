@@ -41,6 +41,19 @@
 
 		<!-- new code end -->
     </head>
+	<style>
+		.main-image{
+			width: 600px;
+			height: 476px;
+		}
+		@media (max-width: 767.98px) {
+			.main-image{
+			width: 100%;
+			height: auto;
+		}
+  }
+}
+	</style>
     <body >
 	<!-- <div class="ebook-header absolute-header fixed-head design-color1 design-color2">  -->
 		<!-- Start Header -->
@@ -466,7 +479,7 @@
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col-xl-7">
-          <img src="newAssets/img/imgLanding.png" style="width: 600px;height: 476px;border-radius: 17px;">
+          <img class="main-image" src="newAssets/img/imgLanding.png" style="border-radius: 17px;">
         </div>
         <div class="col-xl-5 ms-auto mt-xl-0 mt-4">
           <div class="row">
