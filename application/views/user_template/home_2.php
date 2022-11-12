@@ -38,8 +38,12 @@
 </head>
 
 <body class="g-sidenav-show  bg-gray-100">
-  <div class="collapse navbar-collapse  w-auto h-auto" id="sidenav-collapse-main">
-  </div>
+  
+  <aside style="display:none" class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3 " id="sidenav-main">
+    <div class="collapse navbar-collapse  w-auto h-auto" id="sidenav-collapse-main">
+    </div>
+  </aside>
+
   <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
     <!-- Navbar -->
     <nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky" id="navbarBlur" data-scroll="true">
