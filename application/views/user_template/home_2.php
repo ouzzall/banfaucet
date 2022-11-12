@@ -44,18 +44,22 @@
     <body >
 	<!-- <div class="ebook-header absolute-header fixed-head design-color1 design-color2">  -->
 		<!-- Start Header -->
-		<div class="container">
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col-md-4 col-xs-12">
-					<div class="logo"> <!-- Logo -->
-						<a href="#"><h1 class="gradient-custom" style="color:#">Banano Faucet</h1><!-- <img src="assets/img/black-wite-logo.png" alt="" /> --></a>
-					</div>
+					<div class="logo">  -->
+						<!-- Logo -->
+						<!-- <a href="#"><h1 class="gradient-custom" style="color:#">Banano Faucet</h1>
+						<img src="assets/img/black-wite-logo.png" alt="" />
+					</a> -->
+					<!-- </div>
 				</div>
 				<div class="col-md-8 col-xs-12">
-					<div class="mainmenu"></div> <!-- Start Menu -->
+					<div class="mainmenu"></div> 
+					Start Menu
 					<div class="header-menu text-right">
 						<ul id="menu">
-							<!-- <li><a data-scroll href="#home">Home</a></li>
+							 <li><a data-scroll href="#home">Home</a></li> 
 							<li><a data-scroll href="#features">Features</a></li>
 							<li><a data-scroll href="#reviews">Reviews</a></li>
 							<li><a data-scroll href="#subscribe">Subscribe</a></li>
@@ -65,10 +69,11 @@
 							<li><a class="tp-btn" style="color:#" href="https://banfaucet.com/new/register">Register</a></li>
 							<li><a class="tp-btn lgn" href="https://banfaucet.com/new/login">Login</a></li>
 						</ul>
-					</div> <!-- End Header -->
+					</div> 
+					End Header
 				</div>
 			</div>
-		</div>
+		</div> -->
 	<!-- </div>  -->
 	<!-- End Header -->
 	
