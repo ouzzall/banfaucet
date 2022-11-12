@@ -414,7 +414,7 @@
 	<!-- new code start -->
 	<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
     <!-- Navbar -->
-    <nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky" id="navbarBlur" data-scroll="true">
+	<nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky" id="navbarBlur" data-scroll="true">
       <div class="container-fluid py-1 px-3">
         <!-- <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
@@ -454,14 +454,13 @@
           </div>
           <ul class="navbar-nav  justify-content-end">
             <li class="nav-item d-flex align-items-center">
-              <a href="https://banfaucet.com/new/login" class="nav-link text-body font-weight-bold px-0" target="_blank">
+              <a href="../../pages/authentication/signin/illustration.html" class="nav-link text-body font-weight-bold px-0" target="_blank">
                 <i class="fa fa-user me-sm-1"></i>
                 <span class="d-sm-inline d-none">Sign In</span>
               </a>
             </li>
-
             <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
-              <a href="" class="nav-link text-body p-0" id="iconNavbarSidenav">
+              <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
                 <div class="sidenav-toggler-inner">
                   <i class="sidenav-toggler-line"></i>
                   <i class="sidenav-toggler-line"></i>
@@ -605,9 +604,6 @@
         </div>
         <div class="col-md-4 mt-4 mb-4">
           <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/hideout.svg">
-        </div>
-        <div class="col-md-4 mt-4 mb-4">
-          <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/loot.svg">
         </div>
         <div class="col-md-4 mt-4 mb-4">
           <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/loot.svg">
