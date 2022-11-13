@@ -46,6 +46,13 @@
   img.cruncyIcon {
     width: 30px;
 }
+.sidenav-footer {
+    position: inherit;
+    padding: 10px 10px;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+}
 </style>
 <body class="g-sidenav-show  bg-gray-100">
 
@@ -839,7 +846,7 @@
       </ul>
     </div>
     <div class="sidenav-footer mx-3 mt-3 pt-3">
-  
+     <div class="card p-3">                           
           <div class="docs-info">
           <div class="row">
 	  <div class="col-auto mr-auto font-weight-bold">Level <?= $user['level'] ?> / <span class="text-success"> <?= $bonus ?>% </span> Bonus </div>
@@ -858,6 +865,7 @@
           </div>
         
       
+    </div>
     </div>
   </aside>
   <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
