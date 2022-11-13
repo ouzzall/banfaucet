@@ -40,7 +40,10 @@
         <!-- new code end -->
     </head>
    <style>
-    
+    .main-img{
+      width: 600px;
+      height: 476px;
+    }
     @media (max-width: 767.98px) {
       .main-img{
         width: 100%;
@@ -481,7 +484,7 @@
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col-xl-7">
-          <img class="main-img" src="newAssets/img/imgLanding.png" style="width: 600px;height: 476px;border-radius: 17px;">
+          <img class="main-img" src="newAssets/img/imgLanding.png" style="border-radius: 17px;">
         </div>
         <div class="col-xl-5 ms-auto mt-xl-0 mt-4">
           <div class="row">
