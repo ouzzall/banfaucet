@@ -1446,15 +1446,15 @@
     <script src="<?= base_url() ?>assets/libs/node-waves/waves.min.js"></script>
     <script src="<?= base_url() ?>assets/js/vie/faucet.js?v=<?= VIE_VERSION ?>"></script> -->
 
-<!--    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">-->
-    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
+   <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.m/in.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
     <script>
         $(document).ready( function () {
             $('#myTable').DataTable();
         } );
-    </script> -->
+    </script>
 
 
 
