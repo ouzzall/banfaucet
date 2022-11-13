@@ -180,18 +180,18 @@ Every donation made will be added to the chat rain pot. Chat rain will be done a
 <!-- const config = {
     general_config: {
         app_id: 9530,  -->
-        // replace your app_id
+        <!-- // replace your app_id -->
         <!-- ext_user_id: "' . $this->data['user']['id'] . '",  -->
-        // string
+        <!-- // string -->
         <!-- email: "' . $this->data['user']['email'] . '",  -->
-        // string
+        <!-- // string -->
         <!-- username: "' . $this->data['user']['username'] . '",  -->
-        // string
+        <!-- // string -->
         <!-- secure_hash: "' . md5($this->data['user']['id'] . '-' . $this->data['settings']['cpx_hash']) . '", -->
     <!-- }, -->
     <!-- style_config: {
         text_color: "#2b2b2b",  -->
-        // string // hex, rgba, colorcode
+        <!-- // string // hex, rgba, colorcode -->
          <!-- survey_box: {
             topbar_background_color: "#1DA05E", // string // hex, rgba, colorcode
             box_background_color: "white", // string // hex, rgba, colorcode
