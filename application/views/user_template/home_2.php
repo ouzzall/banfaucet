@@ -39,6 +39,15 @@
 
         <!-- new code end -->
     </head>
+   <style>
+    
+    @media (max-width: 767.98px) {
+      .main-img{
+        width: 100%;
+        height: auto;
+    }
+}
+   </style> 
     <body class="g-sidenav-show  bg-gray-100">
 	<!-- <div class="ebook-header absolute-header fixed-head design-color1 design-color2">  -->
     <!-- Start Header -->
@@ -454,16 +463,12 @@
             <li class="nav-item d-flex align-items-center">
               <a href="../../pages/authentication/signin/illustration.html" class="nav-link text-body font-weight-bold px-0" target="_blank">
                 <i class="fa fa-user me-sm-1"></i>
-                <span class="d-sm-inline d-none">Sign In</span>
+                <span class="d-sm-inline ">Sign In</span>
               </a>
             </li>
             <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
-              <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
-                <div class="sidenav-toggler-inner">
-                  <i class="sidenav-toggler-line"></i>
-                  <i class="sidenav-toggler-line"></i>
-                  <i class="sidenav-toggler-line"></i>
-                </div>
+              <a href="#" class="nav-link text-body p-0" id="iconNavbarSidenav">
+                <img src="assets/img/black-wite-logo.png" alt="" />
               </a>
             </li>
             
@@ -476,7 +481,7 @@
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col-xl-7">
-          <img src="newAssets/img/imgLanding.png" style="width: 600px;height: 476px;border-radius: 17px;">
+          <img class="main-img" src="newAssets/img/imgLanding.png" style="width: 600px;height: 476px;border-radius: 17px;">
         </div>
         <div class="col-xl-5 ms-auto mt-xl-0 mt-4">
           <div class="row">
