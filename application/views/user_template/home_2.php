@@ -613,17 +613,14 @@
         <div class="col-md-4 mt-4 mb-4">
           <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/loot.svg">
         </div>
-        <div class="col-md-4 mt-4 mb-4">
+        <!-- <div class="col-md-4 mt-4 mb-4">
           <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/loot.svg">
-        </div>
+        </div> -->
         <div class="col-md-4 mt-4 mb-4">
           <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/lootably.png">
         </div>
         <div class="col-md-4 mt-4 mb-4">
           <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/monlix.svg">
-        </div>
-        <div class="col-md-2 ">
-
         </div>
         <div class="col-md-4 mt-4 mb-4">
           <img style="width: 250px;display: block;margin: auto;" src="newAssets/img/bitswall.png">
