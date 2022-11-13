@@ -903,7 +903,7 @@
         <!-- End Toggle Button -->
       </div>
       <hr class="horizontal dark my-1">
-      <div class="card-body pt-0">
+      <div class="card-body pt-0 mt-4">
       <div class="d-xl-block">
         <h6 class="mb-0">Light/Dark</h6>
       </div>
