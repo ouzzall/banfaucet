@@ -476,18 +476,7 @@
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col-xl-7">
-          <!-- <img src="newAssets/img/imgLanding.png" style="width: 600px;height: 476px;border-radius: 17px;"> -->
-          <!-- Coinzilla Banner 300x250 -->
-<script async src="https://coinzillatag.com/lib/display.js"></script>
-<div class="coinzilla" data-zone="C-246623529710f792603"></div>
-<script>
-    window.coinzilla_display = window.coinzilla_display || [];
-    var c_display_preferences = {};
-    c_display_preferences.zone = "246623529710f792603";
-    c_display_preferences.width = "300";
-    c_display_preferences.height = "250";
-    coinzilla_display.push(c_display_preferences);
-</script>
+          <img src="newAssets/img/imgLanding.png" style="width: 600px;height: 476px;border-radius: 17px;">
         </div>
         <div class="col-xl-5 ms-auto mt-xl-0 mt-4">
           <div class="row">
@@ -517,7 +506,7 @@
               <div class="card">
                 <div class="card-body text-center">
                   <!-- <h1 class="text-gradient text-primary"><span id="status1" style="font-size: 34px;" >54,30</span><span class="text-lg ms-n1"><i class="fa-solid fa-users"></i></span> </h1> -->
-                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" >54,30</span> <span class="text-lg ms-n1"><i class="fa-solid fa-users"></i></span></h1>
+                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" ><?= number_format($stat['total_user']) ?></span> <span class="text-lg ms-n1"><i class="fa-solid fa-users"></i></span></h1>
                   <h6 class="mb-0 font-weight-bolder">Users</h6>
                   <p class="opacity-8 mb-0 text-sm">Registered</p>
                 </div>
@@ -526,7 +515,7 @@
             <div class="col-md-6 mt-md-0 mt-4">
               <div class="card">
                 <div class="card-body text-center">
-                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" >1,126</span> <span class="text-lg ms-n1"><i class="fa-solid fa-list-check"></i></span></h1>
+                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" ><?= number_format($stat['tasks']) ?></span> <span class="text-lg ms-n1"><i class="fa-solid fa-list-check"></i></span></h1>
                   <h6 class="mb-0 font-weight-bolder">Tasks</h6>
                   <p class="opacity-8 mb-0 text-sm">Completed</p>
                 </div>
@@ -537,7 +526,7 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-body text-center">
-                  <h1 class="text-gradient text-primary"><span id="status3" style="font-size: 34px;" >67,494</span> <span class="text-lg ms-n2"><i class="fa-solid fa-money-bill-wave"></i></span></h1>
+                  <h1 class="text-gradient text-primary"><span id="status3" style="font-size: 34px;" ><?= number_format($stat['withdrawals']) ?></span> <span class="text-lg ms-n2"><i class="fa-solid fa-money-bill-wave"></i></span></h1>
                   <h6 class="mb-0 font-weight-bolder">Withdrawals</h6>
                   <p class="opacity-8 mb-0 text-sm">Total</p>
                 </div>
@@ -546,7 +535,7 @@
             <div class="col-md-6 mt-md-0 mt-4">
               <div class="card">
                 <div class="card-body text-center">
-                  <h1 class="text-gradient text-primary"><span id="status4" style="font-size: 34px;">260</span> <span class="text-lg ms-n2"><i class="fa-regular fa-calendar-days"></i></span></h1>
+                  <h1 class="text-gradient text-primary"><span id="status4" style="font-size: 34px;"><?= number_format($stat['dayOnline']) ?></span> <span class="text-lg ms-n2"><i class="fa-regular fa-calendar-days"></i></span></h1>
                   <h6 class="mb-0 font-weight-bolder">Days</h6>
                   <p class="opacity-8 mb-0 text-sm">Online</p>
                 </div>
@@ -556,44 +545,46 @@
         </div>
       </div>
       <div class="row mt-4">
-        <div class="card">
-          <div class="card-body text-center">
-           <h2 class="text-primary mt-4">WAYS OF EARNING</h2>
-           <p>List of the different types of tasks you can do to earn cryptocurrency using our website.</p>
-           <div class="row mt-4">
-            <div class="col-md-4 mt-4">
-                <h1 class="text-gradient text-primary"> <i class="fa fa-file-text-o "></i></h1>
-                <h5>Faucet</h5>
-                <p>Claim .0005 USD every 5 minutes.</p>
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-body text-center">
+            <h2 class="text-primary mt-4">WAYS OF EARNING</h2>
+            <p>List of the different types of tasks you can do to earn cryptocurrency using our website.</p>
+            <div class="row mt-4">
+              <div class="col-md-4 mt-4">
+                  <h1 class="text-gradient text-primary"> <i class="fa fa-file-text-o "></i></h1>
+                  <h5>Faucet</h5>
+                  <p>Claim .0005 USD every 5 minutes.</p>
+              </div>
+              <div class="col-md-4 mt-4">
+                <h1 class="text-gradient text-primary"> <i class="fa-solid fa-ticket"></i></h1>
+                <h5>Lottery</h5>
+                <p>New round starts every 3 days. Buy a ticket for your chance to win big Banano!</p>
+              </div>
+              <div class="col-md-4 mt-4">
+                <h1 class="text-gradient text-primary"> <i class="fa-regular fa-chess-rook"></i></h1>
+                <h5>Challenges</h5>
+                <p>Get rewarded daily for claiming on the faucet, buying lottery tickets and completing offerwall tasks.</p>
+              </div>
+              <div class="col-md-4 mt-4">
+                <h1 class="text-gradient text-primary"> <i class="fa-regular fa-chess-rook"></i></h1>
+                <h5>Offerwalls</h5>
+                <p>Complete tasks and surveys to earn more.</p>
+              </div>
+              <div class="col-md-4 mt-4">
+                <h1 class="text-gradient text-primary"><i class="fa-solid fa-gears"></i></h1>
+                <h5>Level System</h5>
+                <p>Earn a faucet claim bonus for every level you reach.</p>
+              </div>
+              <div class="col-md-4 mt-4">
+                <h1 class="text-gradient text-primary"> <i class="fa-solid fa-trophy"></i></h1>
+                <h5>Weekly Contest</h5>
+                <p>Get in on the weekly Referral and Offerwall contest. Top 5 participants win a reward!</p>
+              </div>
             </div>
-            <div class="col-md-4 mt-4">
-              <h1 class="text-gradient text-primary"> <i class="fa-solid fa-ticket"></i></h1>
-              <h5>Lottery</h5>
-              <p>New round starts every 3 days. Buy a ticket for your chance to win big Banano!</p>
             </div>
-            <div class="col-md-4 mt-4">
-              <h1 class="text-gradient text-primary"> <i class="fa-regular fa-chess-rook"></i></h1>
-              <h5>Challenges</h5>
-              <p>Get rewarded daily for claiming on the faucet, buying lottery tickets and completing offerwall tasks.</p>
-            </div>
-            <div class="col-md-4 mt-4">
-              <h1 class="text-gradient text-primary"> <i class="fa-regular fa-chess-rook"></i></h1>
-              <h5>Offerwalls</h5>
-              <p>Complete tasks and surveys to earn more.</p>
-            </div>
-            <div class="col-md-4 mt-4">
-              <h1 class="text-gradient text-primary"><i class="fa-solid fa-gears"></i></h1>
-              <h5>Level System</h5>
-              <p>Earn a faucet claim bonus for every level you reach.</p>
-            </div>
-            <div class="col-md-4 mt-4">
-              <h1 class="text-gradient text-primary"> <i class="fa-solid fa-trophy"></i></h1>
-              <h5>Weekly Contest</h5>
-              <p>Get in on the weekly Referral and Offerwall contest. Top 5 participants win a reward!</p>
-            </div>
-           </div>
           </div>
-        </div>
+        </div>  
       </div>  
       
       <div class="row " style="margin-top: 40px;">
