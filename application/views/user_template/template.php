@@ -57,7 +57,8 @@
     position: fixed!important;
     right: -360px;
     bottom: 0 !important;
-    height: auto !important;
+    top: unset !important;
+    height: 200px !important;
     left: auto!important;
     transform: unset!important;
     width: 360px;
