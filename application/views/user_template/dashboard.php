@@ -1,4 +1,4 @@
-<div class="ads">
+<!-- <div class="ads">
   <?= $settings['dashboard_top_ad'] ?>
 </div>
             <div class="row justify-content-md-center">
@@ -69,9 +69,10 @@ Every donation made will be added to the chat rain pot. Chat rain will be done a
       </div>
     </div>
   </div>
-</div></center>
-<center><!-- Coinzilla Banner 728x90 -->
-<script async src="https://coinzillatag.com/lib/display.js"></script>
+</div></center> -->
+<!-- <center> -->
+  <!-- Coinzilla Banner 728x90 -->
+<!-- <script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-4766235297110347598"></div>
 <script>
     window.coinzilla_display = window.coinzilla_display || [];
@@ -174,19 +175,24 @@ Every donation made will be added to the chat rain pot. Chat rain will be done a
     display_mode: 3 ,
   limit_surveys:8
 };
+  -->
  
- 
-const config = {
+<!-- const config = {
     general_config: {
-        app_id: 9530, // replace your app_id
-        ext_user_id: "' . $this->data['user']['id'] . '", // string
-        email: "' . $this->data['user']['email'] . '", // string
-        username: "' . $this->data['user']['username'] . '", // string
-        secure_hash: "' . md5($this->data['user']['id'] . '-' . $this->data['settings']['cpx_hash']) . '",
-    },
-    style_config: {
-        text_color: "#2b2b2b", // string // hex, rgba, colorcode
-         survey_box: {
+        app_id: 9530,  -->
+        // replace your app_id
+        <!-- ext_user_id: "' . $this->data['user']['id'] . '",  -->
+        // string
+        <!-- email: "' . $this->data['user']['email'] . '",  -->
+        // string
+        <!-- username: "' . $this->data['user']['username'] . '",  -->
+        // string
+        <!-- secure_hash: "' . md5($this->data['user']['id'] . '-' . $this->data['settings']['cpx_hash']) . '", -->
+    <!-- }, -->
+    <!-- style_config: {
+        text_color: "#2b2b2b",  -->
+        // string // hex, rgba, colorcode
+         <!-- survey_box: {
             topbar_background_color: "#1DA05E", // string // hex, rgba, colorcode
             box_background_color: "white", // string // hex, rgba, colorcode
             rounded_borders: true, // boolean true || false
@@ -195,17 +201,17 @@ const config = {
             accent_color_small_box: "#1DA05E", // string, rgb, colorcode defines the accent color for the row box layout
             place_stars_bottom_small_box: true // default: false (stars are top)
         },  
-    },
-    script_config: [script1], // Object Array
+    }, -->
+    <!-- script_config: [script1], // Object Array
     debug: false, // boolean
      useIFrame: true, //boolean    
      iFramePosition: 3 // 1 right (default), 2 left // 3 = center
  
  
  
-};
+}; -->
  
-window.config = config;
+<!-- window.config = config;
  
  
     </script>
@@ -214,9 +220,9 @@ window.config = config;
 <script type="text/javascript" src="https://cdn.cpx-research.com/assets/js/script_tag_v2.0.js"></script>
 	</div>
   </div>
-<center>
+<center> -->
 <!-- Coinzilla Banner 300x250 -->
-<script async src="https://coinzillatag.com/lib/display.js"></script>
+<!-- <script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-246623529710f792603"></div>
 <script>
     window.coinzilla_display = window.coinzilla_display || [];
@@ -407,4 +413,581 @@ Compete with other users throughout the week for a chance to win big rewards! To
             <script type="text/javascript">
                 var wait = <?= $wait ?> - 1;
             </script>
-<script async src="https://appsha-pnd.ctengine.io/js/script.js?wkey=lgXFfbiPoT"></script>
+<script async src="https://appsha-pnd.ctengine.io/js/script.js?wkey=lgXFfbiPoT"></script> -->
+
+<!-- new code start -->
+<!-- Navbar -->
+<nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky" id="navbarBlur" data-scroll="true">
+      <div class="container-fluid py-1 px-3">
+        <!-- <nav aria-label="breadcrumb">
+          <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
+            <li class="breadcrumb-item text-sm">
+              <a class="opacity-3 text-dark" href="javascript:;">
+                <svg width="12px" height="12px" class="mb-1" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <title>shop </title>
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g transform="translate(-1716.000000, -439.000000)" fill="#252f40" fill-rule="nonzero">
+                      <g transform="translate(1716.000000, 291.000000)">
+                        <g transform="translate(0.000000, 148.000000)">
+                          <path d="M46.7199583,10.7414583 L40.8449583,0.949791667 C40.4909749,0.360605034 39.8540131,0 39.1666667,0 L7.83333333,0 C7.1459869,0 6.50902508,0.360605034 6.15504167,0.949791667 L0.280041667,10.7414583 C0.0969176761,11.0460037 -1.23209662e-05,11.3946378 -1.23209662e-05,11.75 C-0.00758042603,16.0663731 3.48367543,19.5725301 7.80004167,19.5833333 L7.81570833,19.5833333 C9.75003686,19.5882688 11.6168794,18.8726691 13.0522917,17.5760417 C16.0171492,20.2556967 20.5292675,20.2556967 23.494125,17.5760417 C26.4604562,20.2616016 30.9794188,20.2616016 33.94575,17.5760417 C36.2421905,19.6477597 39.5441143,20.1708521 42.3684437,18.9103691 C45.1927731,17.649886 47.0084685,14.8428276 47.0000295,11.75 C47.0000295,11.3946378 46.9030823,11.0460037 46.7199583,10.7414583 Z"></path>
+                          <path d="M39.198,22.4912623 C37.3776246,22.4928106 35.5817531,22.0149171 33.951625,21.0951667 L33.92225,21.1107282 C31.1430221,22.6838032 27.9255001,22.9318916 24.9844167,21.7998837 C24.4750389,21.605469 23.9777983,21.3722567 23.4960833,21.1018359 L23.4745417,21.1129513 C20.6961809,22.6871153 17.4786145,22.9344611 14.5386667,21.7998837 C14.029926,21.6054643 13.533337,21.3722507 13.0522917,21.1018359 C11.4250962,22.0190609 9.63246555,22.4947009 7.81570833,22.4912623 C7.16510551,22.4842162 6.51607673,22.4173045 5.875,22.2911849 L5.875,44.7220845 C5.875,45.9498589 6.7517757,46.9451667 7.83333333,46.9451667 L19.5833333,46.9451667 L19.5833333,33.6066734 L27.4166667,33.6066734 L27.4166667,46.9451667 L39.1666667,46.9451667 C40.2482243,46.9451667 41.125,45.9498589 41.125,44.7220845 L41.125,22.2822926 C40.4887822,22.4116582 39.8442868,22.4815492 39.198,22.4912623 Z"></path>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pages</a></li>
+            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Default</li>
+          </ol>
+          <h6 class="font-weight-bolder mb-0">Default</h6>
+        </nav> -->
+        <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
+          <a href="javascript:;" class="nav-link text-body p-0">
+            <div class="sidenav-toggler-inner">
+              <i class="sidenav-toggler-line"></i>
+              <i class="sidenav-toggler-line"></i>
+              <i class="sidenav-toggler-line"></i>
+            </div>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+          <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+            
+          </div>
+          <ul class="navbar-nav  justify-content-end">
+            <!-- <li class="nav-item d-flex align-items-center">
+              <a href="../../pages/authentication/signin/illustration.html" class="nav-link text-body font-weight-bold px-0" target="_blank">
+                <i class="fa fa-user me-sm-1"></i>
+                <span class="d-sm-inline d-none">Sign In</span>
+              </a>
+            </li> -->
+            <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+              <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
+                <div class="sidenav-toggler-inner">
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item px-3 d-flex align-items-center">
+              <a href="javascript:;" class="nav-link text-body p-0">
+                <i class="fa fa-cog fixed-plugin-button-nav cursor-pointer"></i>
+              </a>
+            </li>
+            <li class="nav-item dropdown pe-2 d-flex align-items-center">
+              <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-bell cursor-pointer"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
+                <li class="mb-2">
+                  <a class="dropdown-item border-radius-md" href="javascript:;">
+                    <div class="d-flex py-1">
+                      <div class="my-auto">
+                        <img src="newAssets/img/team-2.jpg" class="avatar avatar-sm  me-3 " alt="user image">
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="text-sm font-weight-normal mb-1">
+                          <span class="font-weight-bold">New message</span> from Laur
+                        </h6>
+                        <p class="text-xs text-secondary mb-0">
+                          <i class="fa fa-clock me-1"></i>
+                          13 minutes ago
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a class="dropdown-item border-radius-md" href="javascript:;">
+                    <div class="d-flex py-1">
+                      <div class="my-auto">
+                        <img src="newAssets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm bg-gradient-dark  me-3 " alt="logo spotify">
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="text-sm font-weight-normal mb-1">
+                          <span class="font-weight-bold">New album</span> by Travis Scott
+                        </h6>
+                        <p class="text-xs text-secondary mb-0">
+                          <i class="fa fa-clock me-1"></i>
+                          1 day
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item border-radius-md" href="javascript:;">
+                    <div class="d-flex py-1">
+                      <div class="avatar avatar-sm bg-gradient-secondary  me-3  my-auto">
+                        <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <title>credit-card</title>
+                          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                              <g transform="translate(1716.000000, 291.000000)">
+                                <g transform="translate(453.000000, 454.000000)">
+                                  <path class="color-background" d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z" opacity="0.593633743"></path>
+                                  <path class="color-background" d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z"></path>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="text-sm font-weight-normal mb-1">
+                          Payment successfully completed
+                        </h6>
+                        <p class="text-xs text-secondary mb-0">
+                          <i class="fa fa-clock me-1"></i>
+                          2 days
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <div class="container-fluid py-4" style="padding-top: 0 !important;">
+      <div class="row">
+        <div class="col-12">
+          <div class="alert alert-primary text-white alert-dismissible fade show text-center" role="alert">
+            <span class="alert-icon"><i class="fa-solid fa-truck-fast"></i></span>
+            <span class="alert-text"><strong> NEW! </strong>Fast Faucet is here, earn 1 energy for every offer you complete from offerwalls (includes PTC, Shortlinks, etc.)!.</span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="alert alert-primary text-white alert-dismissible fade show text-center" role="alert">
+            <span class="alert-icon"><i class="fa-solid fa-gift"></i>
+            <span class="alert-text">Don't miss out on coupon codes, rain and giveaways! Find them in our<a href="#" style="color: #fff !important;font-weight:bold"> Telegram Group.</a></span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="alert alert-warning alert-dismissible fade show text-center role="alert">
+            <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
+            <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="#" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        </div>
+      </div>
+      <div class="text-center" style="display: flex; align-content: center;justify-content: center;">
+        <div style="margin-top: 6px;margin-right: 10px;"><span class="badge bg-gradient-success text-center">Current Pot: $5.83</span></div>
+        <button type="button" class="btn bg-gradient-primary">Add to Chat Rain </button>
+      </div>
+      <div class="row">
+        <div class="col-xl-7">
+          <div class="card ">
+            <div class="card-header pb-0 p-3">
+              <div class="d-flex justify-content-between">
+                <h6 class="mb-2 mt-2">Currencies Status </h6>
+              </div>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-items-center ">
+                <tbody>
+                  <tr>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img class="cruncyIcon" src="newAssets/img/icons/ban.png" >
+                        </div>
+                        <div class="ms-4">
+                          <h6 class="text-sm mb-0">Ban </h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <h6 class="text-sm mb-0">4.7328</h6>
+                        <p class="text-xs font-weight-bold mb-0">tokens</p>
+                      </div>
+                    </td>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img class="cruncyIcon" src="newAssets/img/icons/doge.png" >
+                        </div>
+                        <div class="ms-4">
+                          <h6 class="text-sm mb-0">Doge</h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <h6 class="text-sm mb-0">95.446</h6>
+                        <p class="text-xs font-weight-bold mb-0">tokens</p>
+                      </div>
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img class="cruncyIcon" src="newAssets/img/icons/matic.png" >
+                        </div>
+                        <div class="ms-4">
+                          <h6 class="text-sm mb-0">Matic</h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <h6 class="text-sm mb-0">1064</h6>
+                        <p class="text-xs font-weight-bold mb-0">tokens</p>
+                      </div>
+                    </td>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img class="cruncyIcon" src="newAssets/img/icons/trx.png" >
+                        </div>
+                        <div class="ms-4">
+                          <h6 class="text-sm mb-0">Trx</h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <h6 class="text-sm mb-0">60.133</h6>
+                        <p class="text-xs font-weight-bold mb-0">tokens</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img class="cruncyIcon" src="newAssets/img/icons/paw.png" >
+                        </div>
+                        <div class="ms-4">
+                          <h6 class="text-sm mb-0">Paw</h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <h6 class="text-sm mb-0">0.00123</h6>
+                        <p class="text-xs font-weight-bold mb-0">tokens</p>
+                      </div>
+                    </td>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img class="cruncyIcon" src="newAssets/img/icons/bnb.png" >
+                        </div>
+                        <div class="ms-4">
+                          <h6 class="text-sm mb-0">Bnb</h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <h6 class="text-sm mb-0">338340</h6>
+                        <p class="text-xs font-weight-bold mb-0">tokens</p>
+                      </div>
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img class="cruncyIcon" src="newAssets/img/icons/shib.png" >
+                        </div>
+                        <div class="ms-4">
+                          <h6 class="text-sm mb-0">Shib</h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <h6 class="text-sm mb-0">0.01045</h6>
+                        <p class="text-xs font-weight-bold mb-0">tokens</p>
+                      </div>
+                    </td>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img class="cruncyIcon" src="newAssets/img/icons/dgb.png" >
+                        </div>
+                        <div class="ms-4">
+                          <h6 class="text-sm mb-0">Dgb</h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <h6 class="text-sm mb-0">8.19308</h6>
+                        <p class="text-xs font-weight-bold mb-0">tokens</p>
+                      </div>
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img class="cruncyIcon" src="newAssets/img/icons/sol.png" >
+                        </div>
+                        <div class="ms-4">
+                          <h6 class="text-sm mb-0">Sol</h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <h6 class="text-sm mb-0">24830</h6>
+                        <p class="text-xs font-weight-bold mb-0">tokens</p>
+                      </div>
+                    </td>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img class="cruncyIcon" src="newAssets/img/icons/lunc.png" >
+                        </div>
+                        <div class="ms-4">
+                          <h6 class="text-sm mb-0">Lunc</h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <h6 class="text-sm mb-0">0.20186</h6>
+                        <p class="text-xs font-weight-bold mb-0">tokens</p>
+                      </div>
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img class="cruncyIcon" src="newAssets/img/icons/hbar.png" >
+                        </div>
+                        <div class="ms-4">
+                          <h6 class="text-sm mb-0">Hbar</h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <h6 class="text-sm mb-0">53.132</h6>
+                        <p class="text-xs font-weight-bold mb-0">tokens</p>
+                      </div>
+                    </td>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img class="cruncyIcon" src="newAssets/img/icons/xno.png" >
+                        </div>
+                        <div class="ms-4">
+                          <h6 class="text-sm mb-0">Xno</h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <h6 class="text-sm mb-0">683.685</h6>
+                        <p class="text-xs font-weight-bold mb-0">tokens</p>
+                      </div>
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img class="cruncyIcon" src="newAssets/img/icons/btc.png" >
+                        </div>
+                        <div class="ms-4">
+                          <h6 class="text-sm mb-0">Btc</h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <h6 class="text-sm mb-0">18887650</h6>
+                        <p class="text-xs font-weight-bold mb-0">tokens</p>
+                      </div>
+                    </td>
+                    
+                    
+                    
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-5 ms-auto mt-xl-0 mt-4">
+          <div class="row">
+            <div class="col-12">
+              <div class="card bg-gradient-primary">
+                <div class="card-body p-3">
+                  <div class="row">
+                    <div class="col-8 my-auto">
+                      <div class="numbers">
+                        <h5 class="text-white font-weight-bolder mb-0">
+                          Statistics
+                        </h5>
+                        <p class="text-white text-sm mb-0 text-capitalize font-weight-bold opacity-7">Take a look at the Statistics you already reached!</p>
+                      </div>
+                    </div>
+                    <div class="col-4 text-end" style="margin-top: auto;margin-bottom: auto;">
+                      <i class="fa-solid fa-chart-line text-white" style="font-size: 26px;"></i>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body text-center">
+                  <!-- <h1 class="text-gradient text-primary"><span id="status1" style="font-size: 34px;" >54,30</span><span class="text-lg ms-n1"><i class="fa-solid fa-users"></i></span> </h1> -->
+                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" >7:11</span> <span class="text-lg ms-n1"><i class="fa-solid fa-stopwatch"></i></span></h1>
+                  <h6 class="mb-0 font-weight-bolder">Claim</h6>
+                  <p class="opacity-8 mb-0 text-sm">Timer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-md-0 mt-4">
+              <div class="card">
+                <div class="card-body text-center">
+                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" >1</span> <span class="text-lg ms-n1"><i class="fa-solid fa-bolt"></i></span></h1>
+                  <h6 class="mb-0 font-weight-bolder">Energy</h6>
+                  <p class="opacity-8 mb-0 text-sm">Total</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body text-center">
+                  <h1 class="text-gradient text-primary"><span id="status3" style="font-size: 34px;" >67,494</span> <span class="text-lg ms-n2"><i class="fa-solid fa-wallet" ></i></span></h1>
+                  <h6 class="mb-0 font-weight-bolder">Main</h6>
+                  <p class="opacity-8 mb-0 text-sm">Balance</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-md-0 mt-4">
+              <div class="card">
+                <div class="card-body text-center">
+                  <h1 class="text-gradient text-primary"><span id="status4" style="font-size: 34px;">260</span> <span class="text-lg ms-n2"><i class="fa-solid fa-money-check"></i></span></h1>
+                  <h6 class="mb-0 font-weight-bolder">Advertising</h6>
+                  <p class="opacity-8 mb-0 text-sm">Balance</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-md-4 mt-4 col-12">
+          <div class="card p-3">
+            
+            <h5 class="mb-0 font-weight-bolder mb-4">Offerwalls</h5>
+            <img style="display: block;margin: auto;" src="newAssets/img/offer-icon.jpg" height="150" width="150">
+            <p class="text-center mt-2" style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Complete tasks such as <strong>watch videos</strong>, <strong>complete surveys</strong>,<strong>view PTC ads</strong> and <strong>complete Shortlinks</strong>.</p>
+            <hr class="horizontal dark mt-1 mb-3">
+            <div class="text-center">
+              <button type="button" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
+              <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View Shortlinks</button>
+              <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View All</button>
+            </div>  
+          </div>
+        </div>
+        <div class="col-md-4 mt-4 col-12">
+          <div class="card p-3">
+            
+            <h5 class="mb-0 font-weight-bolder mb-4">Daily Bonus</h5>
+            <img style="display: block;margin: auto;" src="newAssets/img/gift-icon.png" height="150" width="150">
+            <p class="text-center mt-2 " style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Login every day to receive <strong>tokens</strong>, <strong>exp</strong> and <strong>earning bonus</strong>.</p>
+            <hr class="horizontal dark mt-2 mb-3">
+            <div class="text-center">
+              <button type="button" class="btn bg-gradient-info">Claim Bonus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4 col-12">
+          <div class="card p-3">
+            
+            <h5 class="mb-0 font-weight-bolder ">Weekly Contest</h5>
+            <img style="display: block;margin: auto;" src="newAssets/img/contest-icon.png" height="150" width="150">
+            <p class="text-center mt-2 " style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Compete with other users throughout the week for a chance to win big rewards! Top 10 users will receive rewards in <strong>referral contest</strong> and <strong>offerwall contest</strong>.</p>
+            <hr class="horizontal dark mt-1 mb-3">
+            <div class="text-center">
+              <button type="button" style="margin-bottom: 8px;" class="btn bg-gradient-info">View Contest</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4 mt-4 col-12">
+          <div class="card p-3">
+            
+            <h5 class="mb-0 font-weight-bolder mb-4">Challenges</h5>
+            <img style="display: block;margin: auto;" src="newAssets/img/challenge-icon.png" height="150" width="150">
+            <p class="text-center mt-2" style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Complete tasks throughout the day such as <strong>claim from the faucet</strong>, <strong>view PTC ads</strong> and <strong>earn from offerwall</strong>.</p>
+            <hr class="horizontal dark mt-1 mb-3">
+            <div class="text-center">
+              <button type="button" class="btn bg-gradient-info" >View Challenges</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+     
+      <footer class="footer pt-3  ">
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-lg-between">
+            <div class="col-lg-6 mb-lg-0 mb-4">
+              <div class="copyright text-center text-sm text-muted text-lg-start">
+                © <script>
+                  document.write(new Date().getFullYear())
+                </script>,
+                made with <i class="fa fa-heart"></i> by
+                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative Tim</a>
+                for a better web.
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <ul class="nav nav-footer justify-content-center justify-content-lg-end">
+                <li class="nav-item">
+                  <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Creative Tim</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://www.creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+<!-- new code end -->
