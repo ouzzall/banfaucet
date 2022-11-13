@@ -1424,6 +1424,7 @@
       </div>
     </div>
   </div>
+  <!--   Core JS Files   -->
   <script src="newAssets/js/core/popper.min.js"></script>
   <script src="newAssets/js/core/bootstrap.min.js"></script>
   <script src="newAssets/js/plugins/perfect-scrollbar.min.js"></script>
@@ -1435,6 +1436,58 @@
   <script src="newAssets/js/plugins/countup.min.js"></script>
   <script src="newAssets/js/plugins/chartjs.min.js"></script>
   <script src="newAssets/js/plugins/round-slider.min.js"></script>
+  <script>
+    // Rounded slider
+    const setValue = function(value, active) {
+      document.querySelectorAll("round-slider").forEach(function(el) {
+        if (el.value === undefined) return;
+        el.value = value;
+      });
+      const span = document.querySelector("#value");
+      span.innerHTML = value;
+      if (active)
+        span.style.color = 'red';
+      else
+        span.style.color = 'black';
+    }
+
+    document.querySelectorAll("round-slider").forEach(function(el) {
+      el.addEventListener('value-changed', function(ev) {
+        if (ev.detail.value !== undefined)
+          setValue(ev.detail.value, false);
+        else if (ev.detail.low !== undefined)
+          setLow(ev.detail.low, false);
+        else if (ev.detail.high !== undefined)
+          setHigh(ev.detail.high, false);
+      });
+
+      el.addEventListener('value-changing', function(ev) {
+        if (ev.detail.value !== undefined)
+          setValue(ev.detail.value, true);
+        else if (ev.detail.low !== undefined)
+          setLow(ev.detail.low, true);
+        else if (ev.detail.high !== undefined)
+          setHigh(ev.detail.high, true);
+      });
+    });
+
+    
+
+  </script>
+  <script>
+    var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+      var options = {
+        damping: '0.5'
+      }
+      Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
+  </script>
+  <!-- Github buttons -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="newAssets/js/soft-ui-dashboard.min.js?v=1.1.0"></script>
+  <!-- new code End -->
 <!-- new code end -->
 
 
@@ -1446,15 +1499,15 @@
     <script src="<?= base_url() ?>assets/libs/node-waves/waves.min.js"></script>
     <script src="<?= base_url() ?>assets/js/vie/faucet.js?v=<?= VIE_VERSION ?>"></script> -->
 
-   <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.m/in.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
+<!--    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.m/in.css">-->
+    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
     <script>
         $(document).ready( function () {
             $('#myTable').DataTable();
         } );
-    </script>
+    </script> -->
 
 
 
