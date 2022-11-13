@@ -687,7 +687,7 @@
                 <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
                   <i class="fa-solid fa-pencil text-dark"></i>
                 </div>
-                <span class="nav-link-text ms-1">Offerwalls<span class="badge badge-primary">8</span></span>
+                <span class="nav-link-text ms-1">Offerwalls <span class="badge badge-primary">8</span></span>
               </a>
             </li>
             <?php }
@@ -730,7 +730,7 @@
                       <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
                         <i class="fa-solid fa-helmet-safety text-dark"></i>
                       </div>
-                      <span class="nav-link-text ms-1">Mining<span class="badge bg-gradient-success">New</span></span>
+                      <span class="nav-link-text ms-1">Mining <span class="badge bg-gradient-success">New</span></span>
                     </a>
                   </li><?php } ?>
                   <?php if ($settings['shortlink_status'] == 'on') { ?>
@@ -748,7 +748,7 @@
                           <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
                             <i class="fa-solid fa-eye text-dark"></i>
                           </div>
-                          <span class="nav-link-text ms-1">PTC<span class="badge bg-gradient-info"><?= $countAvailableAds ?></span></span>
+                          <span class="nav-link-text ms-1">PTC <span class="badge bg-gradient-info"><?= $countAvailableAds ?></span></span>
                         </a>
                       </li><?php } ?>
                       <?php if ($settings['lottery_status'] == 'on') { ?>
