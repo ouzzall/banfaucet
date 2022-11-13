@@ -890,7 +890,7 @@
       <div class="card-header pb-0 pt-3  bg-transparent ">
         <div class="float-start">
             <a class="navbar-brand m-0" href="#" target="_blank">
-                <img src="https://banfaucet.com/assets/images/logo-min.png" class="navbar-brand-img h-100" alt="main_logo">
+                <img src="https://banfaucet.com/assets/images/logo-min.png " height="50px" class="navbar-brand-img " alt="main_logo">
                 <span class="ms-1 font-weight-bold">BANFAUCET</span>
             </a>
         </div>
