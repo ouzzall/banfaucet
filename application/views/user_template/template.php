@@ -894,7 +894,7 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="copyright text-center text-sm text-muted text-lg-start">
+              <div class="copyright text-center text-sm text-muted text-lg-end">
               Powered by <a href="https://faucetscript.net/faucet/vie-faucet-script">Vie Faucet Script</a>
               </div>
             </div>
