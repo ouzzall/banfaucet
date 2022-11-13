@@ -878,8 +878,10 @@
     <div class="card shadow-lg blur">
       <div class="card-header pb-0 pt-3  bg-transparent ">
         <div class="float-start">
-          <h5 class="mt-3 mb-0">Soft UI Configurator</h5>
-          <p>See our dashboard options.</p>
+            <a class="navbar-brand m-0" href="#" target="_blank">
+                <img src="https://banfaucet.com/assets/images/logo-min.png" class="navbar-brand-img h-100" alt="main_logo">
+                <span class="ms-1 font-weight-bold">BANFAUCET</span>
+            </a>
         </div>
         <div class="float-end mt-4">
           <button class="btn btn-link text-dark p-0 fixed-plugin-close-button">
