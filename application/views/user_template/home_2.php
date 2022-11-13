@@ -476,7 +476,18 @@
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col-xl-7">
-          <img src="newAssets/img/imgLanding.png" style="width: 600px;height: 476px;border-radius: 17px;">
+          <!-- <img src="newAssets/img/imgLanding.png" style="width: 600px;height: 476px;border-radius: 17px;"> -->
+          <!-- Coinzilla Banner 300x250 -->
+<script async src="https://coinzillatag.com/lib/display.js"></script>
+<div class="coinzilla" data-zone="C-246623529710f792603"></div>
+<script>
+    window.coinzilla_display = window.coinzilla_display || [];
+    var c_display_preferences = {};
+    c_display_preferences.zone = "246623529710f792603";
+    c_display_preferences.width = "300";
+    c_display_preferences.height = "250";
+    coinzilla_display.push(c_display_preferences);
+</script>
         </div>
         <div class="col-xl-5 ms-auto mt-xl-0 mt-4">
           <div class="row">
