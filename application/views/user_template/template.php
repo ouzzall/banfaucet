@@ -494,7 +494,6 @@
                     </div> -->
                     <!-- end page title -->
 
-                    <!-- <?= $contents ?> -->
                     <!-- end row -->
                 <!-- </div> -->
                 <!-- container-fluid -->
