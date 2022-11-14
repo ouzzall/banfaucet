@@ -865,10 +865,11 @@ Compete with other users throughout the week for a chance to win big rewards! To
                   <!-- <h1 class="text-gradient text-primary"><span id="status1" style="font-size: 34px;" >54,30</span><span class="text-lg ms-n1"><i class="fa-solid fa-users"></i></span> </h1> -->
                   <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" ><?php
                         if ($wait) { ?>
-                            <h4 class="mb-0"><b id="minute"><?= floor($wait / 60) ?></b>:<b id="second"><?= $wait % 60 ?></b></h4>
+                            <b id="minute"><?= floor($wait / 60) ?></b>:<b id="second"><?= $wait % 60 ?></b>
                         <?php } else { ?>
-                            <h4 class="mb-0"><a class="text-success" href="https://banfaucet.com/new/faucet">READY</a></h4>
-                        <?php } ?></span> <span class="text-lg ms-n1"><i class="fa-solid fa-stopwatch"></i></span></h1>
+                            <a class="text-success" href="https://banfaucet.com/new/faucet">READY</a>
+                        <?php } ?></span> <span class="text-lg ms-n1"><i class="fa-solid fa-stopwatch"></i></span>
+                      </h1>
                   <h6 class="mb-0 font-weight-bolder">Claim</h6>
                   <p class="opacity-8 mb-0 text-sm">Timer</p>
                 </div>
@@ -877,7 +878,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
             <div class="col-md-6 mt-md-0 mt-4">
               <div class="card">
                 <div class="card-body text-center">
-                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" >1</span> <span class="text-lg ms-n1"><i class="fa-solid fa-bolt"></i></span></h1>
+                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" ><?= $user['energy'] ?></span> <span class="text-lg ms-n1"><i class="fa-solid fa-bolt"></i></span></h1>
                   <h6 class="mb-0 font-weight-bolder">Energy</h6>
                   <p class="opacity-8 mb-0 text-sm">Total</p>
                 </div>
@@ -888,7 +889,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
             <div class="col-md-6">
               <div class="card">
                 <div class="card-body text-center">
-                  <h1 class="text-gradient text-primary"><span id="status3" style="font-size: 34px;" >67,494</span> <span class="text-lg ms-n2"><i class="fa-solid fa-wallet" ></i></span></h1>
+                  <h1 class="text-gradient text-primary"><span id="status3" style="font-size: 34px;" ><?= currencyDisplay($user['balance'], $settings) ?></span> <span class="text-lg ms-n2"><i class="fa-solid fa-wallet" ></i></span></h1>
                   <h6 class="mb-0 font-weight-bolder">Main</h6>
                   <p class="opacity-8 mb-0 text-sm">Balance</p>
                 </div>
@@ -897,7 +898,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
             <div class="col-md-6 mt-md-0 mt-4">
               <div class="card">
                 <div class="card-body text-center">
-                  <h1 class="text-gradient text-primary"><span id="status4" style="font-size: 34px;">260</span> <span class="text-lg ms-n2"><i class="fa-solid fa-money-check"></i></span></h1>
+                  <h1 class="text-gradient text-primary"><span id="status4" style="font-size: 34px;"><?= currencyDisplay($user['dep_balance'], $settings) ?></span> <span class="text-lg ms-n2"><i class="fa-solid fa-money-check"></i></span></h1>
                   <h6 class="mb-0 font-weight-bolder">Advertising</h6>
                   <p class="opacity-8 mb-0 text-sm">Balance</p>
                 </div>
