@@ -49,6 +49,18 @@
         width: 100%;
         height: auto;
     }
+    .fixed-plugin .card {
+    position: fixed!important;
+    right: -360px;
+    bottom: 0 !important;
+    top: unset !important;
+    height: 200px !important;
+    left: auto!important;
+    transform: unset!important;
+    width: 360px;
+    border-radius: 22px !important;
+    
+}
 }
    </style> 
     <body class="g-sidenav-show  bg-gray-100">
