@@ -863,7 +863,12 @@ Compete with other users throughout the week for a chance to win big rewards! To
               <div class="card">
                 <div class="card-body text-center">
                   <!-- <h1 class="text-gradient text-primary"><span id="status1" style="font-size: 34px;" >54,30</span><span class="text-lg ms-n1"><i class="fa-solid fa-users"></i></span> </h1> -->
-                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" >7:11</span> <span class="text-lg ms-n1"><i class="fa-solid fa-stopwatch"></i></span></h1>
+                  <h1 class="text-gradient text-primary"> <span id="status2"style="font-size: 34px;" ><?php
+                        if ($wait) { ?>
+                            <h4 class="mb-0"><b id="minute"><?= floor($wait / 60) ?></b>:<b id="second"><?= $wait % 60 ?></b></h4>
+                        <?php } else { ?>
+                            <h4 class="mb-0"><a class="text-success" href="https://banfaucet.com/new/faucet">READY</a></h4>
+                        <?php } ?></span> <span class="text-lg ms-n1"><i class="fa-solid fa-stopwatch"></i></span></h1>
                   <h6 class="mb-0 font-weight-bolder">Claim</h6>
                   <p class="opacity-8 mb-0 text-sm">Timer</p>
                 </div>
