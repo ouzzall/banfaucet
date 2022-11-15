@@ -598,12 +598,13 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 <h6 class="mb-2 mt-2">Currencies Status </h6>
               </div>
             </div>
-            <div class="row">
+            
               <script>
                 var currencies = [];
                 var minimumWithdrawals = [];
                 var rate = <?= $settings['currency_rate'] ?>;
               </script>
+              <div class="row">
               <?php foreach ($methods as $method) { ?>
               <div class="col-md-6">
                 <div class="d-flex" style="    align-items: center;justify-content: space-between;">
