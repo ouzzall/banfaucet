@@ -605,22 +605,12 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 var rate = <?= $settings['currency_rate'] ?>;
               </script>
               <div class="row">
-              <?php foreach ($methods as $method) { ?>
-              <div class="col-md-6">
-                <div class="d-flex" style="    align-items: center;justify-content: space-between;">
-                  <div class="d-flex px-2 py-1 align-items-center">
-                        <div>
-                          <img class="cruncyIcon" src="<?= site_url('assets/images/currencies/' . strtolower($method['code']) . '.png') ?>" >
-                        </div>
-                        <div class="ms-4">
-                          <h6 class="text-sm mb-0"><?= $method['name'] ?></h6>
-                        </div>
-                  </div> 
-                  <h6 class="text-sm mb-0"><?= currencyDisplay($method['price'], $settings)?></h6>
-                </div> 
-                <hr style="border-top: 1px solid #e9ecef !important;margin-top: 0;">  
-                
-                <?php } ?>
+                <div class="col-md-6">
+                  <h1>hello</h1>
+                </div>
+                <div class="col-md-6">
+                  <h1>hello</h1>
+                </div>
               </div>
             </div>
           </div>
