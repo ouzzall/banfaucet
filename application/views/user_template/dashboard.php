@@ -496,7 +496,46 @@ Compete with other users throughout the week for a chance to win big rewards! To
                             </div>
                   
                 </li>
-                
+                <li class="mb-2">
+                <?php
+                                                    foreach ($notifications as $notification) {
+                                                        $icon = [];
+                                                        switch ($notification['type']) {
+                                                            case 0:
+                                                                $icon['content'] = '<i class="fas fa-bullhorn"></i>';
+                                                                $icon['color'] = 'bg-primary';
+                                                                break;
+                                                            case 1:
+                                                                $icon['content'] = '<i class="far fa-money-bill-alt"></i>';
+                                                                $icon['color'] = 'bg-success';
+                                                                break;
+                                                            case 2:
+                                                                $icon['content'] = '<i class="fas fa-exclamation-triangle"></i>';
+                                                                $icon['color'] = 'bg-danger';
+                                                                break;
+                                                            default:
+                                                                $icon['content'] = '<i class="far fa-comment-dots"></i>';
+                                                                $icon['color'] = 'bg-info';
+                                                                break;
+                                                        }
+                                                    ?>
+                                                        <a href="" class="text-reset notification-item">
+                                                            <div class="media">
+                                                                <div class="avatar-xs mr-3">
+                                                                    <span class="avatar-title <?= $icon['color'] ?> rounded-circle font-size-16">
+                                                                        <?= $icon['content'] ?>
+                                                                    </span>
+                                                                </div>
+                                                                <div class="media-body">
+                                                                    <div class="font-size-12 text-muted">
+                                                                        <p class="mb-1" key="t-grammer" style="word-break: keep-all;"><?= $notification['content'] ?></p>
+                                                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-min-ago"><?= timespan($notification["create_time"], time(), 2) ?> ago</span></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    <?php } ?>
+                </li>
                 <li>
                     <a href="https://banfaucet.com/new/history" class="text-dark" style="">
                       <div style="width: 100%;background: #f9f9f9;border-radius: 6px;padding-top: 10px;padding-bottom: 10px;" class="text-center">
