@@ -557,6 +557,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
     <!-- End Navbar -->
     <div class="container-fluid py-4" style="padding-top: 0 !important;">
       <div class="row">
+       <?= $settings['dashboard_top_ad'] ?>
         <div class="col-12">
           <div class="alert alert-primary text-white alert-dismissible fade show text-center" role="alert">
             <span class="alert-icon"><i class="fa-solid fa-truck-fast"></i></span>
@@ -598,19 +599,33 @@ Compete with other users throughout the week for a chance to win big rewards! To
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6">
+              <script>
+                var currencies = [];
+                var minimumWithdrawals = [];
+                var rate = <?= $settings['currency_rate'] ?>;
+              </script>
+              <?php foreach ($methods as $method) { ?>
+              <div class="col-6">
                 <div class="d-flex" style="    align-items: center;justify-content: space-between;">
                   <div class="d-flex px-2 py-1 align-items-center">
                         <div>
-                          <img class="cruncyIcon" src="newAssets/img/icons/doge.png" >
+                          <img class="cruncyIcon" src="<?= site_url('assets/images/currencies/' . strtolower($method['code']) . '.png') ?>" >
                         </div>
                         <div class="ms-4">
                           <h6 class="text-sm mb-0">Doge</h6>
                         </div>
                   </div> 
-                  <h6 class="text-sm mb-0">95.446</h6>
+                  <h6 class="text-sm mb-0"><?= currencyDisplay($method['price'], $settings)?></h6>
                 </div> 
-                <hr>  
+                <hr style="border-top: 1px solid #e9ecef !important;margin-top: 0;">  
+                <script>
+                      currencies['<?= $method['id'] ?>'] = {
+                        price: <?= $method['price'] ?>,
+                        code: '<?= $method['code'] ?>',
+                        minimumWithdrawal: <?= $method['minimum_withdrawal'] ?>
+                      };
+                    </script>
+                <?php } ?>
               </div>
             </div>
           </div>
