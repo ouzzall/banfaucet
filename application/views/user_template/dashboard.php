@@ -483,14 +483,13 @@ Compete with other users throughout the week for a chance to win big rewards! To
                                 <i class="fa fa-bell cursor-pointer"></i>
                                 <span class="badge badge-md badge-circle badge-floating badge-danger border-white"><?= $countUnreadNotification ?></span>
                             <?php } else { ?>
-                              <i class="fa fa-bell cursor-pointer"></i>
+                              <i class="fa fa-bell cursor-pointer"></i><span class="badge badge-md badge-circle badge-floating badge-danger border-white">2</span>
                             <?php } ?>
                 
               </a>
               <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
                 <li class="mb-2">
-                  <a class="dropdown-item border-radius-md" href="javascript:;">
-                  <div class="p-3">
+                  <div class="p-3 d-flex">
                                 <div class="row align-items-center">
                                     <div class="col">
                                         <h6 class="m-0" key="t-notifications"> Notifications
@@ -498,7 +497,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
                                     </div>
                                 </div>
                             </div>
-                  </a>
+                  
                 </li>
                 <li class="mb-2">
                   <a class="dropdown-item border-radius-md" href="javascript:;">
