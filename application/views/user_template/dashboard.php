@@ -599,7 +599,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
             </div>
             <div class="row">
               <div class="col-md-6">
-                <div class="d-flex">
+                <div class="d-flex" style="    align-items: center;justify-content: space-between;">
                   <div class="d-flex px-2 py-1 align-items-center">
                         <div>
                           <img class="cruncyIcon" src="newAssets/img/icons/doge.png" >
@@ -609,7 +609,8 @@ Compete with other users throughout the week for a chance to win big rewards! To
                         </div>
                   </div> 
                   <h6 class="text-sm mb-0">95.446</h6>
-                </div>   
+                </div> 
+                <hr>  
               </div>
             </div>
           </div>
