@@ -480,10 +480,10 @@ Compete with other users throughout the week for a chance to win big rewards! To
             <li class="nav-item dropdown pe-2 d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
               <?php if ($countUnreadNotification > 0) { ?>
-                                <i class="fa-solid fa-bell-on"></i>
+                                <i class="fa fa-bell cursor-pointer"></i>
                                 <span class="badge badge-md badge-circle badge-floating badge-danger border-white"><?= $countUnreadNotification ?></span>
                             <?php } else { ?>
-                              <i class="fa-solid fa-bell-on"></i>
+                              <i class="fa fa-bell cursor-pointer"></i>
                             <?php } ?>
                 
               </a>
