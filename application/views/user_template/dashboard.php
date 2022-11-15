@@ -478,14 +478,16 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 <button type="button" class="btn "><i class="fa-solid fa-wallet">&nbsp&nbsp</i><?= currencyDisplay($user['balance'], $settings) ?></button>
               </a>
               <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" >
-                <li class="mb-2">
-                  <div>
-                    <i class="fa-solid fa-bolt"></i>&nbsp&nbsp<?= $user['energy'] ?> energy<hr>
+                <li class="mb-2 ">
+                  <div style="text-align: center;">
+                    <i class="fa-solid fa-bolt"></i>&nbsp&nbsp<?= $user['energy'] ?> energy
+                    <hr class="horizontal dark">
                   </div>
                 </li>
                 <li class="mb-2">
-                  <i class="fa-solid fa-rectangle-ad"></i>&nbsp&nbsp<?= currencyDisplay($user['dep_balance'], $settings) ?>
-                  
+                  <div style="text-align: center;">
+                    <i class="fa-solid fa-rectangle-ad"></i>&nbsp&nbsp<?= currencyDisplay($user['dep_balance'], $settings) ?>
+                  </div>
                 </li>
                 
                 
