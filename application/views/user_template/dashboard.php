@@ -472,9 +472,17 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 </div>
               </a>
             </li>
-            <li class="nav-item px-3 d-flex align-items-center">
+            <li class="nav-item dropdown px-3 d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body p-0">
-                <i class="fa fa-cog fixed-plugin-button-nav cursor-pointer"></i>
+              <button type="button" class="btn "><i class="fa-solid fa-wallet">&nbsp&nbsp</i><?= currencyDisplay($user['balance'], $settings) ?></button>
+              <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" style="">
+                <li class="mb-2">
+                  <h2>hello</h2>
+                </li>
+                <li class="mb-2">
+                  <h2>hello</h2>
+                </li>
+              </ul>
               </a>
             </li>
             <li class="nav-item dropdown pe-2 d-flex align-items-center">
