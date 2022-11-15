@@ -490,8 +490,8 @@ Compete with other users throughout the week for a chance to win big rewards! To
               <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" style="width: 320px;">
                 <li class="mb-2">
                   <div class="p-3 d-flex" style="    justify-content: space-between;">
-                                        <h6 class="m-0" key="t-notifications"> Notifications
-						                             <a href="" class="float-right text-reset notification-item">Mark as read</a></h6>
+                                        <h6 class="m-0" key="t-notifications"> Notifications</h6>
+						                             <a href="" class="float-right text-reset notification-item"><h6>Mark as read</h6></a>
                                     
                             </div>
                   
@@ -499,7 +499,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 
                 <li>
                     <a href="https://banfaucet.com/new/history" class="text-dark" style="">
-                      <div style="width: 100%;" class="text-center">
+                      <div style="width: 100%;background: #f9f9f9;border-radius: 6px;padding-top: 10px;padding-bottom: 10px;" class="text-center">
                               View all
                       </div>
                     </a>
