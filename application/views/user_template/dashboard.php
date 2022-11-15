@@ -483,89 +483,26 @@ Compete with other users throughout the week for a chance to win big rewards! To
                                 <i class="fa fa-bell cursor-pointer"></i>
                                 <span class="badge badge-md badge-circle badge-floating badge-danger border-white"><?= $countUnreadNotification ?></span>
                             <?php } else { ?>
-                              <i class="fa fa-bell cursor-pointer"></i><span class="badge badge-md badge-circle badge-floating badge-danger border-white">2</span>
+                              <i class="fa fa-bell cursor-pointer"></i>
                             <?php } ?>
                 
               </a>
-              <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
+              <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" style="width: 320px;">
                 <li class="mb-2">
-                  <div class="p-3 d-flex">
-                                <div class="row align-items-center">
-                                    <div class="col">
+                  <div class="p-3 d-flex" style="    justify-content: space-between;">
                                         <h6 class="m-0" key="t-notifications"> Notifications
-						    <a href="" class="float-right text-reset notification-item">Mark as read</a></h6>
-                                    </div>
-                                </div>
+						                             <a href="" class="float-right text-reset notification-item">Mark as read</a></h6>
+                                    
                             </div>
                   
                 </li>
-                <li class="mb-2">
-                  <a class="dropdown-item border-radius-md" href="javascript:;">
-                  <div data-simplebar="init" style="max-height: 230px;">
-                                <div class="simplebar-wrapper" style="margin: 0px;">
-                                    <div class="simplebar-height-auto-observer-wrapper">
-                                        <div class="simplebar-height-auto-observer"></div>
-                                    </div>
-                                    <div class="simplebar-mask">
-                                        <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
-                                            <div class="simplebar-content-wrapper" style="height: auto; overflow: hidden;">
-                                                <div class="simplebar-content" style="padding: 0px;">
-                                                    <?php
-                                                    foreach ($notifications as $notification) {
-                                                        $icon = [];
-                                                        switch ($notification['type']) {
-                                                            case 0:
-                                                                $icon['content'] = '<i class="fas fa-bullhorn"></i>';
-                                                                $icon['color'] = 'bg-primary';
-                                                                break;
-                                                            case 1:
-                                                                $icon['content'] = '<i class="far fa-money-bill-alt"></i>';
-                                                                $icon['color'] = 'bg-success';
-                                                                break;
-                                                            case 2:
-                                                                $icon['content'] = '<i class="fas fa-exclamation-triangle"></i>';
-                                                                $icon['color'] = 'bg-danger';
-                                                                break;
-                                                            default:
-                                                                $icon['content'] = '<i class="far fa-comment-dots"></i>';
-                                                                $icon['color'] = 'bg-info';
-                                                                break;
-                                                        }
-                                                    ?>
-                                                        <a href="" class="text-reset notification-item">
-                                                            <div class="media">
-                                                                <div class="avatar-xs mr-3">
-                                                                    <span class="avatar-title <?= $icon['color'] ?> rounded-circle font-size-16">
-                                                                        <?= $icon['content'] ?>
-                                                                    </span>
-                                                                </div>
-                                                                <div class="media-body">
-                                                                    <div class="font-size-12 text-muted">
-                                                                        <p class="mb-1" key="t-grammer" style="word-break: keep-all;"><?= $notification['content'] ?></p>
-                                                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-min-ago"><?= timespan($notification["create_time"], time(), 2) ?> ago</span></p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    <?php } ?>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="simplebar-placeholder" style="width: 0px; height: 0px;"></div>
-                                </div>
-                                <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
-                                    <div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); display: none;"></div>
-                                </div>
-                                <div class="simplebar-track simplebar-vertical" style="visibility: hidden;">
-                                    <div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); display: none;"></div>
-                                </div>
-                            </div>
-                  </a>
-                </li>
+                
                 <li>
-                  <a class="dropdown-item border-radius-md" href="javascript:;">
-                    <a href="https://banfaucet.com/new/history" class="text-dark">View All</a>
+                    <a href="https://banfaucet.com/new/history" class="text-dark" style="">
+                      <div style="width: 100%;" class="text-center">
+                              View all
+                      </div>
+                    </a>
                   </a>
                 </li>
               </ul>
