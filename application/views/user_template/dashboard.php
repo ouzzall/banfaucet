@@ -477,13 +477,14 @@ Compete with other users throughout the week for a chance to win big rewards! To
               <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                 <button type="button" class="btn "><i class="fa-solid fa-wallet">&nbsp&nbsp</i><?= currencyDisplay($user['balance'], $settings) ?></button>
               </a>
-              <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" style="width: 320px;">
+              <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" >
                 <li class="mb-2">
-                  <h5>hello</h5>
-                  
+                  <div>
+                    <i class="fa-solid fa-bolt"></i>&nbsp&nbsp<?= $user['energy'] ?> energy<hr>
+                  </div>
                 </li>
                 <li class="mb-2">
-                  <h5>hello</h5>
+                  <i class="fa-solid fa-rectangle-ad"></i>&nbsp&nbsp<?= currencyDisplay($user['dep_balance'], $settings) ?>
                   
                 </li>
                 
