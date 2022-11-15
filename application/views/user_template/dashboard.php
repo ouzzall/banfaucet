@@ -606,7 +606,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
               </script>
               <div class="row">
               <?php foreach ($methods as $method) { ?>
-                <div class="col-md-6">
+                <div class="col-md-5">
                   <h1>hello</h1>
                 </div>
                 <?php } ?>
