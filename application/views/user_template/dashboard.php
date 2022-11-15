@@ -472,86 +472,22 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 </div>
               </a>
             </li>
-            <li class="nav-item dropdown px-3 d-flex align-items-center">
-              <a href="javascript:;" class="nav-link text-body p-0">
-              <button type="button" class="btn "><i class="fa-solid fa-wallet">&nbsp&nbsp</i><?= currencyDisplay($user['balance'], $settings) ?></button>
-              <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" style="">
-                <li class="mb-2">
-                  <h2>hello</h2>
-                </li>
-                <li class="mb-2">
-                  <h2>hello</h2>
-                </li>
-              </ul>
-              </a>
-            </li>
+            
             <li class="nav-item dropdown pe-2 d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-              <?php if ($countUnreadNotification > 0) { ?>
-                                <i class="fa fa-bell cursor-pointer"></i>
-                                <span class="badge badge-md badge-circle badge-floating badge-danger border-white"><?= $countUnreadNotification ?></span>
-                            <?php } else { ?>
-                              <i class="fa fa-bell cursor-pointer"></i>
-                            <?php } ?>
-                
+                <button type="button" class="btn "><i class="fa-solid fa-wallet">&nbsp&nbsp</i><?= currencyDisplay($user['balance'], $settings) ?></button>
               </a>
               <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" style="width: 320px;">
                 <li class="mb-2">
-                  <div class="p-3 d-flex" style="    justify-content: space-between;">
-                                        <h6 class="m-0" key="t-notifications"> Notifications</h6>
-						                             <a href="" class="float-right text-reset notification-item"><h6>Mark as read</h6></a>
-                                    
-                            </div>
+                  <h5>hello</h5>
                   
                 </li>
                 <li class="mb-2">
-                <?php
-                                                    foreach ($notifications as $notification) {
-                                                        $icon = [];
-                                                        switch ($notification['type']) {
-                                                            case 0:
-                                                                $icon['content'] = '<i class="fas fa-bullhorn"></i>';
-                                                                $icon['color'] = 'bg-primary';
-                                                                break;
-                                                            case 1:
-                                                                $icon['content'] = '<i class="far fa-money-bill-alt"></i>';
-                                                                $icon['color'] = 'bg-success';
-                                                                break;
-                                                            case 2:
-                                                                $icon['content'] = '<i class="fas fa-exclamation-triangle"></i>';
-                                                                $icon['color'] = 'bg-danger';
-                                                                break;
-                                                            default:
-                                                                $icon['content'] = '<i class="far fa-comment-dots"></i>';
-                                                                $icon['color'] = 'bg-info';
-                                                                break;
-                                                        }
-                                                    ?>
-                                                        <a href="" class="text-reset notification-item">
-                                                            <div class="media">
-                                                                <div class="avatar-xs mr-3">
-                                                                    <span class="avatar-title <?= $icon['color'] ?> rounded-circle font-size-16">
-                                                                        <?= $icon['content'] ?>
-                                                                    </span>
-                                                                </div>
-                                                                <div class="media-body">
-                                                                    <div class="font-size-12 text-muted">
-                                                                        <p class="mb-1" key="t-grammer" style="word-break: keep-all;"><?= $notification['content'] ?></p>
-                                                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-min-ago"><?= timespan($notification["create_time"], time(), 2) ?> ago</span></p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    <?php } ?>
+                  <h5>hello</h5>
+                  
                 </li>
-                <li>
-                    <a href="https://banfaucet.com/new/history" class="text-dark" style="">
-                      <div style="width: 100%;background: #f9f9f9;border-radius: 6px;padding-top: 10px;padding-bottom: 10px;" class="text-center">
-                              View all
-                      </div>
-                    </a>
-                  </a>
-                </li>
+                
+                
               </ul>
             </li>
             <li class="nav-item dropdown pe-2 d-flex align-items-center">
