@@ -160,7 +160,69 @@
       </div>
 <center><div class="d2ZaZGtjS2tRd289" style="display:inline-block;width:300px;height:250px;"></div><script>!function(l,i,j,e,k,c){!function l(f,h,d,n,a,b,g){b=h.getElementsByTagName(d)[0],(g=h.createElement(d)).async=!0,g.src="https://"+a+"/js/"+n+".js",b.parentNode.insertBefore(g,b)}(window,document,"script","d2ZaZGtjS2tRd289","cdn.adsfcdn.com")}();</script>
 <iframe data-aa='1960488' src='//ad.a-ads.com/1960488?size=300x250' style='width:300px; height:250px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe></center><p>
-<div class="row">
+<div class="row gx-4 mt-4">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header p-3 pb-0">
+              <h6 class="mb-1">Change password</h6>
+              <p class="text-sm mb-0">
+                We will send you an email with the verification code.
+              </p>
+            </div>
+            <div class="card-body p-3">
+            <?php
+                if (isset($_SESSION['message'])) {
+                    echo $_SESSION['message'];
+                }
+                ?>
+                <form action="<?= site_url('account/update_password') ?>" method="POST">
+              <label class="form-label">Current password</label>
+              <div class="form-group">
+                <input class="form-control" type="password" placeholder="Current password">
+              </div>
+              <label class="form-label">New password</label>
+              <div class="form-group">
+                <input class="form-control" type="password" placeholder="New password">
+              </div>
+              <label class="form-label">Confirm new password</label>
+              <div class="form-group">
+                <input class="form-control" type="password" placeholder="Confirm password">
+              </div>
+              <button type="submit" class="btn bg-gradient-dark w-100 mb-0">Update password</button>
+            </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6 mt-md-0 mt-4">
+          <div class="card">
+            <div class="card-header p-3 pb-0">
+              <h6 class="mb-1">
+                Password requirements
+              </h6>
+              <p class="text-sm mb-0">
+                Please follow this guide for a strong password:
+              </p>
+            </div>
+            <div class="card-body p-3">
+              <ul class="text-muted ps-4 mb-0">
+                <li>
+                  <span class="text-sm">One special characters</span>
+                </li>
+                <li>
+                  <span class="text-sm">Min 6 characters</span>
+                </li>
+                <li>
+                  <span class="text-sm">One number (2 are recommended)</span>
+                </li>
+                <li>
+                  <span class="text-sm">Change it often</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- <div class="row">
     <div class="col-lg-12">
         <div class="card">
             <div class="card-body">
@@ -202,6 +264,6 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <script async src="https://appsha-lon2.cointraffic.io/js/?wkey=lgXFfbiPoT"></script>
 <script async src="https://appsha-lon2.cointraffic.io/js/?wkey=ps4vT6tvE4"></script>
