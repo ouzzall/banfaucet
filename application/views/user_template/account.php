@@ -2,6 +2,7 @@
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div> -->
+  <div class="row">
   <div class="col-12">
           <div class="alert alert-warning alert-dismissible fade show text-center role="alert">
             <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
@@ -11,6 +12,7 @@
             </button>
         </div>
         </div>
+  </div>   
   <p>
 <center><span id="ct_c1c1RkyZBbe"></span></center><p>
 <center><span id="ct_cJd95UwrCma"></span></center><p>
