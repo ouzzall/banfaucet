@@ -4,7 +4,7 @@
   </button></div><p>
 <center><span id="ct_c1c1RkyZBbe"></span></center><p>
 <center><span id="ct_cJd95UwrCma"></span></center><p>
-<div class="row">
+<!-- <div class="row">
     <div class="col-lg-12">
         <div class="card">
             <div class="card-body">
@@ -52,7 +52,99 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
+<div class="container-fluid">
+      <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('../../newAssets/img/curved-images/curved0.jpg'); background-position-y: 50%;">
+        <span class="mask bg-gradient-primary opacity-6"></span>
+      </div>
+      <div class="card card-body blur shadow-blur mx-4 mt-n6 overflow-hidden">
+        <div class="row gx-4">
+          <div class="col-auto">
+            <div class="avatar avatar-xl position-relative">
+              <img src="<?= base_url() ?>assets/images/users/user.png" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
+            </div>
+          </div>
+          <div class="col-auto my-auto">
+            <div class="h-100">
+              <h5 class="mb-1">
+                Alec Thompson
+              </h5>
+              <p class="mb-0 font-weight-bold text-sm">
+                CEO / Co-Founder
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 my-sm-auto ms-sm-auto me-sm-0 mx-auto mt-3">
+            <div class="nav-wrapper position-relative end-0" style="text-align: end;">
+              <button type="button" style="margin-bottom: 0;" class="btn bg-gradient-primary">Edit Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-4">
+      <div class="row mt-3">
+        <div class="col-12 col-md-6 col-xl-3 mt-md-0 mt-4">
+          <div class="card  mb-4">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-8">
+                  <div class="numbers">
+                    <p class="text-sm mb-0 text-capitalize font-weight-bold">Total Earning</p>
+                    <h5 class="font-weight-bolder mb-0">
+                      15548
+                    </h5>
+                  </div>
+                </div>
+                <div class="col-4 text-end">
+                  <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
+                    <i class="fa-solid fa-money-bill-1-wave"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-6 mt-md-0 mt-4">
+          <div class="card h-100">
+            
+            <div class="card-body p-3">
+              
+              <h5 class="mb-3">Profile Information</h5>
+              <ul class="list-group">
+                
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Mobile:</strong> &nbsp; (44) 123 1234 123</li>
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Email:</strong> &nbsp; alecthompson@mail.com</li>
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Location:</strong> &nbsp; USA</li>
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Joined:</strong> &nbsp; 5 Days, 12 Hours ago</li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 mt-md-0 mt-4">
+          <div class="card  mb-4">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-8">
+                  <div class="numbers">
+                    <p class="text-sm mb-0 text-capitalize font-weight-bold">Referrals</p>
+                    <h5 class="font-weight-bolder mb-0">
+                      15
+                    </h5>
+                  </div>
+                </div>
+                <div class="col-4 text-end">
+                  <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
+                    <i class="fa-solid fa-user-plus"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
 <center><div class="d2ZaZGtjS2tRd289" style="display:inline-block;width:300px;height:250px;"></div><script>!function(l,i,j,e,k,c){!function l(f,h,d,n,a,b,g){b=h.getElementsByTagName(d)[0],(g=h.createElement(d)).async=!0,g.src="https://"+a+"/js/"+n+".js",b.parentNode.insertBefore(g,b)}(window,document,"script","d2ZaZGtjS2tRd289","cdn.adsfcdn.com")}();</script>
 <iframe data-aa='1960488' src='//ad.a-ads.com/1960488?size=300x250' style='width:300px; height:250px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe></center><p>
 <div class="row">
