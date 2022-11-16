@@ -65,6 +65,11 @@
     border-radius: 22px !important;
     
 }
+.header-profile-user {
+    height: 36px;
+    width: 36px;
+    padding: 3px;
+}
 </style>
 <body class="g-sidenav-show  bg-gray-100">
 
@@ -1085,7 +1090,7 @@
                 © <script>
                   document.write(new Date().getFullYear())
                 </script>,
-                <a href="https://banfaucet.com/">Banano Faucet</a> | <a href="https://banfaucet.com/page/terms-of-service">Terms of Service</a> | <i class="fa-solid fa-clock " style="margin-right: 5px;"></i>Server Time: 10:49
+                <a href="https://banfaucet.com/">Banano Faucet</a> | <a href="https://banfaucet.com/page/terms-of-service">Terms of Service</a> | <i class="fa-solid fa-clock " style="margin-right: 5px;"></i>Server Time: <?= date('H:i') ?>
               </div>
             </div>
             <div class="col-lg-6">

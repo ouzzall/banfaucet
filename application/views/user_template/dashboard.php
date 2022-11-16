@@ -418,11 +418,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
 <!-- new code start -->
 <!-- Navbar -->
 <style>
-  .header-profile-user {
-    height: 36px;
-    width: 36px;
-    padding: 3px;
-}
+
 </style>
     <div class="container-fluid py-4" style="padding-top: 0 !important;">
       <div class="row">
