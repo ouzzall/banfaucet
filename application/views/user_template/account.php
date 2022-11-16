@@ -129,6 +129,7 @@
                 <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Email:</strong> &nbsp; <?= $user['email'] ?></li>
                 <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Country:</strong> &nbsp; <?= ($user['isocode'] != 'N/A') ? '<img src="' . base_url() . 'assets/images/flags/' . $user['isocode'] . '.png" title="' . $user['country'] . '">' : 'N/A' ?></li>
                 <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Verified:</strong> &nbsp; <?= ($user['verified'] == '1') ? '<span style="color:green"><i class="fa-solid fa-check"></i></span>' : '<span style="color:red"><i class="fa-solid fa-xmark"></i></span>' ?></li>
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Wallet Address:</strong> &nbsp; <input class="form-control form-control-sm" type="text" name="wallet" value="<?= $user['wallet'] ?>" readonly></li>
                 <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Faucet Claims</strong> &nbsp; <?= $user['faucet_count'] ?></li>
                 <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Offerwall Claims</strong> &nbsp; <?= $user['offerwall_count'] ?></li>
                 <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Joined</strong> &nbsp; <?= timespan($user['joined'], time(), 2) ?></li>
