@@ -148,7 +148,7 @@
                   <div class="numbers">
                     <p class="text-sm mb-0 text-capitalize font-weight-bold">Referrals</p>
                     <h5 class="font-weight-bolder mb-0">
-                    <?= $referralCount ?>
+                    
                     </h5>
                   </div>
                 </div>
