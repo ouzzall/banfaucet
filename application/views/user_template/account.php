@@ -2,6 +2,7 @@
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div> -->
+  <div class="container-fluid py-4">
   <div class="row">
   <div class="col-12">
           <div class="alert alert-warning alert-dismissible fade show text-center role="alert">
@@ -12,7 +13,8 @@
             </button>
         </div>
         </div>
-  </div>   
+  </div> 
+  </div>  
   <p>
 <center><span id="ct_c1c1RkyZBbe"></span></center><p>
 <center><span id="ct_cJd95UwrCma"></span></center><p>
@@ -66,7 +68,7 @@
     </div>
 </div> -->
 <div class="container-fluid">
-      <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('../../newAssets/img/curved-images/curved0.jpg'); background-position-y: 50%;">
+      <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('newAssets/img/curved-images/curved0.jpg'); background-position-y: 50%;">
         <span class="mask bg-gradient-primary opacity-6"></span>
       </div>
       <div class="card card-body blur shadow-blur mx-4 mt-n6 overflow-hidden">
