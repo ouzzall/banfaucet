@@ -417,6 +417,13 @@ Compete with other users throughout the week for a chance to win big rewards! To
 
 <!-- new code start -->
 <!-- Navbar -->
+<style>
+  .header-profile-user {
+    height: 36px;
+    width: 36px;
+    padding: 3px;
+}
+</style>
 <nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky" id="navbarBlur" data-scroll="true">
       <div class="container-fluid py-1 px-3">
         <!-- <nav aria-label="breadcrumb">
@@ -475,7 +482,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
             
             <li class="nav-item dropdown pe-2 d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                <button type="button" class="btn "><i class="fa-solid fa-wallet">&nbsp&nbsp</i><?= currencyDisplay($user['balance'], $settings) ?><i class="fa-solid fa-caret-down"></i></button>
+                <button type="button" class="btn " style="padding: 10px;"><i class="fa-solid fa-wallet">&nbsp&nbsp</i><?= currencyDisplay($user['balance'], $settings) ?><i class="fa-solid fa-caret-down" style="margin-left: 10px;"></i></button>
               </a>
               <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" >
                 <li class="mb-2 ">
@@ -493,40 +500,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 
               </ul>
             </li>
-            <li class="nav-item dropdown pe-2 d-flex align-items-center">
-              <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                <button type="button" class="btn "> <img class="rounded-circle header-profile-user" src="<?= base_url() ?>assets/images/users/user.png" alt="Header Avatar">
-                            <span class="d-none d-xl-inline-block ml-1" key="t-henry"><?= $user['username'] ?></span>
-                            <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i></button>
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" >
-                <li class="mb-2 ">
-                  <a href="<?= site_url('history') ?>">
-                  <div style="text-align: center;">
-                    <i class="fas fa-history"></i> <span key="t-history">History</span>
-                    <hr class="horizontal dark">
-                  </div>
-                  </a>
-                </li>
-                <li class="mb-2 ">
-                  <a href="<?= site_url('withdraw') ?>">
-                  <div style="text-align: center;">
-                  <i class="fa-solid fa-wallet"></i> <span key="t-withdraw">Withdraw</span>
-                    <hr class="horizontal dark">
-                  </div>
-                  </a>
-                </li>
-                <li class="mb-2 ">
-                  <a href="<?= site_url('auth/logout') ?>">
-                  <div style="text-align: center;">
-                  <i class="bx bx-power-off font-size-16 align-middle mr-1 text-danger"></i> <span key="t-logout">Logout</span>
-                    <hr class="horizontal dark">
-                  </div>
-                  </a>
-                </li>
-                
-              </ul>
-            </li>
+            
             <li class="nav-item dropdown pe-2 d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
               <?php if ($countUnreadNotification > 0) { ?>
@@ -594,6 +568,41 @@ Compete with other users throughout the week for a chance to win big rewards! To
                     </a>
                   </a>
                 </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown pe-2 d-flex align-items-center">
+              <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <button type="button" class="btn " style="padding: 0;"> <img class="rounded-circle header-profile-user" src="<?= base_url() ?>assets/images/users/user.png" alt="Header Avatar">
+                            <span class="d-none d-xl-inline-block ml-1" key="t-henry"><?= $user['username'] ?></span>
+                            <i class="fa-solid fa-caret-down" style="margin-left: 10px;"></i>
+                            <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i></button>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" >
+                <li class="mb-2 ">
+                  <a href="<?= site_url('history') ?>">
+                  <div style="text-align: center;">
+                    <i class="fas fa-history"></i> <span key="t-history">History</span>
+                    <hr class="horizontal dark">
+                  </div>
+                  </a>
+                </li>
+                <li class="mb-2 ">
+                  <a href="<?= site_url('withdraw') ?>">
+                  <div style="text-align: center;">
+                  <i class="fa-solid fa-wallet"></i> <span key="t-withdraw">Withdraw</span>
+                    <hr class="horizontal dark">
+                  </div>
+                  </a>
+                </li>
+                <li class="mb-2 ">
+                  <a href="<?= site_url('auth/logout') ?>">
+                  <div style="text-align: center;">
+                  <i class="bx bx-power-off font-size-16 align-middle mr-1 text-danger"></i> <span key="t-logout">Logout</span>
+                    <hr class="horizontal dark">
+                  </div>
+                  </a>
+                </li>
+                
               </ul>
             </li>
           </ul>
