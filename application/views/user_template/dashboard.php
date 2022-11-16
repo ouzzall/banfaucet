@@ -502,7 +502,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
             </li>
             
             <li class="nav-item dropdown pe-2 d-flex align-items-center">
-              <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+              <a href="javascript:;" style="margin-top: -12px;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
               <?php if ($countUnreadNotification > 0) { ?>
                                 <i class="fa fa-bell cursor-pointer"></i>
                                 <span class="badge badge-md badge-circle badge-floating badge-danger border-white"><?= $countUnreadNotification ?></span>
@@ -572,7 +572,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
             </li>
             <li class="nav-item dropdown pe-2 d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                <button type="button" class="btn " style="padding: 0;"> <img class="rounded-circle header-profile-user" src="<?= base_url() ?>assets/images/users/user.png" alt="Header Avatar">
+                <button type="button" class="btn " style="    padding: 0 10px 0 0;"> <img class="rounded-circle header-profile-user" src="<?= base_url() ?>assets/images/users/user.png" alt="Header Avatar">
                             <span class="d-none d-xl-inline-block ml-1" key="t-henry"><?= $user['username'] ?></span>
                             <i class="fa-solid fa-caret-down" style="margin-left: 10px;"></i>
                             <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i></button>
@@ -597,7 +597,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 <li class="mb-2 ">
                   <a href="<?= site_url('auth/logout') ?>">
                   <div style="text-align: center;">
-                  <i class="bx bx-power-off font-size-16 align-middle mr-1 text-danger"></i> <span key="t-logout">Logout</span>
+                  <i class="fa-solid fa-right-to-bracket font-size-16 align-middle mr-1 text-danger"></i> <span key="t-logout">Logout</span>
                     <hr class="horizontal dark">
                   </div>
                   </a>
