@@ -1,7 +1,17 @@
-<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
+<!-- <div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
-  </button></div><p>
+  </button></div> -->
+  <div class="col-12">
+          <div class="alert alert-warning alert-dismissible fade show text-center role="alert">
+            <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
+            <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        </div>
+  <p>
 <center><span id="ct_c1c1RkyZBbe"></span></center><p>
 <center><span id="ct_cJd95UwrCma"></span></center><p>
 <!-- <div class="row">
@@ -67,16 +77,16 @@
           <div class="col-auto my-auto">
             <div class="h-100">
               <h5 class="mb-1">
-                Alec Thompson
+              <?= $user['username'] ?>
               </h5>
-              <p class="mb-0 font-weight-bold text-sm">
+              <!-- <p class="mb-0 font-weight-bold text-sm">
                 CEO / Co-Founder
-              </p>
+              </p> -->
             </div>
           </div>
           <div class="col-lg-4 col-md-6 my-sm-auto ms-sm-auto me-sm-0 mx-auto mt-3">
             <div class="nav-wrapper position-relative end-0" style="text-align: end;">
-              <button type="button" style="margin-bottom: 0;" class="btn bg-gradient-primary">Edit Profile</button>
+              <!-- <button type="button" style="margin-bottom: 0;" class="btn bg-gradient-primary">Edit Profile</button> -->
             </div>
           </div>
         </div>
@@ -92,7 +102,7 @@
                   <div class="numbers">
                     <p class="text-sm mb-0 text-capitalize font-weight-bold">Total Earning</p>
                     <h5 class="font-weight-bolder mb-0">
-                      15548
+                      <?= $user['total_earned'] ?>
                     </h5>
                   </div>
                 </div>
@@ -113,11 +123,14 @@
               <h5 class="mb-3">Profile Information</h5>
               <ul class="list-group">
                 
-                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Mobile:</strong> &nbsp; (44) 123 1234 123</li>
-                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Email:</strong> &nbsp; alecthompson@mail.com</li>
-                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Location:</strong> &nbsp; USA</li>
-                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Joined:</strong> &nbsp; 5 Days, 12 Hours ago</li>
                 
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Email:</strong> &nbsp; <?= $user['email'] ?></li>
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Country:</strong> &nbsp; <?= ($user['isocode'] != 'N/A') ? '<img src="' . base_url() . 'assets/images/flags/' . $user['isocode'] . '.png" title="' . $user['country'] . '">' : 'N/A' ?></li>
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Verified:</strong> &nbsp; <?= ($user['verified'] == '1') ? '<span style="color:green"><i class="fa-solid fa-check"></i></span>' : '<span style="color:red"><i class="fa-solid fa-xmark"></i></span>' ?></li>
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Faucet Claims</strong> &nbsp; <?= $user['faucet_count'] ?></li>
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Offerwall Claims</strong> &nbsp; <?= $user['offerwall_count'] ?></li>
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Joined</strong> &nbsp; <?= timespan($user['joined'], time(), 2) ?></li>
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Last Active</strong> &nbsp; <?= timespan($user['last_active'], time(), 2) ?> ago</li>
               </ul>
             </div>
           </div>
@@ -130,7 +143,7 @@
                   <div class="numbers">
                     <p class="text-sm mb-0 text-capitalize font-weight-bold">Referrals</p>
                     <h5 class="font-weight-bolder mb-0">
-                      15
+                    <?= $referralCount ?>
                     </h5>
                   </div>
                 </div>
