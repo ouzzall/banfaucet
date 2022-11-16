@@ -160,14 +160,12 @@
       </div>
 <center><div class="d2ZaZGtjS2tRd289" style="display:inline-block;width:300px;height:250px;"></div><script>!function(l,i,j,e,k,c){!function l(f,h,d,n,a,b,g){b=h.getElementsByTagName(d)[0],(g=h.createElement(d)).async=!0,g.src="https://"+a+"/js/"+n+".js",b.parentNode.insertBefore(g,b)}(window,document,"script","d2ZaZGtjS2tRd289","cdn.adsfcdn.com")}();</script>
 <iframe data-aa='1960488' src='//ad.a-ads.com/1960488?size=300x250' style='width:300px; height:250px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe></center><p>
-<div class="row gx-4 mt-4">
+<div class="row gx-4 mb-4">
         <div class="col-md-6">
           <div class="card">
             <div class="card-header p-3 pb-0">
               <h6 class="mb-1">Change password</h6>
-              <p class="text-sm mb-0">
-                We will send you an email with the verification code.
-              </p>
+              
             </div>
             <div class="card-body p-3">
             <?php
