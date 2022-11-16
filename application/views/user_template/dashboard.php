@@ -579,6 +579,14 @@ Compete with other users throughout the week for a chance to win big rewards! To
               </a>
               <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" >
                 <li class="mb-2 ">
+                  <a href="<?= site_url('profile') ?>">
+                  <div style="text-align: center;">
+                  <i class="far fa-user-circle"></i> <span key="t-profile">Profile</span>
+                    <hr class="horizontal dark">
+                  </div>
+                  </a>
+                </li>
+                <li class="mb-2 ">
                   <a href="<?= site_url('history') ?>">
                   <div style="text-align: center;">
                     <i class="fas fa-history"></i> <span key="t-history">History</span>
@@ -673,9 +681,8 @@ Compete with other users throughout the week for a chance to win big rewards! To
                   <h6 class="text-sm mb-0"><?= currencyDisplay($method['price'], $settings)?></h6>
                 </div> 
                 <hr style="border-top: 1px solid #e9ecef !important;margin-top: 0;">  
-                
+                </div>
                 <?php } ?>
-              </div>
             </div>
           </div>
         </div>
