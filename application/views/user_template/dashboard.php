@@ -501,7 +501,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
               </ul>
             </li>
             
-            <li class="nav-item dropdown pe-2 d-flex align-items-center">
+            <li class="nav-item dropdown pe-2 d-flex align-items-center" style="margin-left: 10px;margin-right: 10px;">
               <a href="javascript:;" style="margin-top: -12px;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
               <?php if ($countUnreadNotification > 0) { ?>
                                 <i class="fa fa-bell cursor-pointer"></i>
@@ -596,8 +596,8 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 </li>
                 <li class="mb-2 ">
                   <a href="<?= site_url('auth/logout') ?>">
-                  <div style="text-align: center;">
-                  <i class="fa-solid fa-right-to-bracket font-size-16 align-middle mr-1 text-danger"></i> <span key="t-logout">Logout</span>
+                  <div style="text-align: center;text-danger">
+                  <i class="fa-solid fa-right-to-bracket font-size-16 align-middle mr-1 "></i> <span key="t-logout">Logout</span>
                     <hr class="horizontal dark">
                   </div>
                   </a>
