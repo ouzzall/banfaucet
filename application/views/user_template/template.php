@@ -1153,6 +1153,7 @@
   <script src="newAssets/js/plugins/countup.min.js"></script>
   <script src="newAssets/js/plugins/chartjs.min.js"></script>
   <script src="newAssets/js/plugins/round-slider.min.js"></script>
+  <script src="newAssets/js/plugins/multistep-form.js"></script>
   <script>
     // Rounded slider
     const setValue = function(value, active) {
