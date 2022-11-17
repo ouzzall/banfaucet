@@ -12,23 +12,33 @@
     <link rel="shortcut icon" href="<?= base_url() ?>assets/images/favicon.ico">
 
     <!-- Bootstrap Css -->
-    <?php if ($settings['theme'] == 'light') {
+    <!-- <?php if ($settings['theme'] == 'light') {
         echo '<link href="' . base_url() . 'assets/css/bootstrap.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
         echo '<link href="' . base_url() . 'assets/css/app.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
     } else {
         echo '<link href="' . base_url() . 'assets/css/bootstrap-dark.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
         echo '<link href="' . base_url() . 'assets/css/app-dark.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
     }
-    ?>
+    ?> -->
     <!-- Icons Css -->
     <link href="<?= base_url() ?>assets/css/icons.min.css?v=<?= VIE_VERSION ?>" rel="stylesheet" type="text/css" />
-    <link href="<?= base_url() ?>assets/css/styles.css?v=<?= VIE_VERSION ?>" rel="stylesheet" type="text/css" />
+    <!-- <link href="<?= base_url() ?>assets/css/styles.css?v=<?= VIE_VERSION ?>" rel="stylesheet" type="text/css" />
     <link href="stylelr.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet"> -->
+    <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="newAssets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="newAssets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="newAssets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link id="pagestyle" href="newAssets/css/soft-ui-dashboard.css?v=1.1.0" rel="stylesheet" />
 
 </head>
 
-<body style="visibility: hidden !important;">
+<body class="bg-gray-100" style="visibility: hidden !important;">
 <style>
 @-webkit-keyframes nvvfu {0% {opacity: 0;}80% {opacity: 0;}100% {opacity: 1;}}
 @keyframes nvvfu {0% {opacity: 0;}80% {opacity: 0;}100% {opacity: 1;}}
@@ -36,27 +46,33 @@
 <div id="babasbmsgx" style="visibility: visible; -webkit-animation-name: nvvfu;-webkit-animation-duration: 5s; animation-name: nvvfu;animation-duration: 5s;">
 Please disable your adblock and script blockers to view this page.
 </div>
-	<div class="ebook-header absolute-header fixed-head design-color1 design-color2"> <!-- Start Header -->
-		<div class="container">
+	<!-- <div class="ebook-header absolute-header fixed-head design-color1 design-color2">  -->
+        <!-- Start Header -->
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col-md-4 col-xs-12">
-					<div class="logo"> <!-- Logo -->
-						<a href="https://banfaucet.com/new"><h1 class="gradient-custom">Banano Faucet</h1><!-- <img src="assets/img/black-wite-logo.png" alt="" /> --></a>
+					<div class="logo">  -->
+                        <!-- Logo -->
+						<!-- <a href="https://banfaucet.com/new"><h1 class="gradient-custom">Banano Faucet</h1> -->
+                        <!-- <img src="assets/img/black-wite-logo.png" alt="" /> -->
+                    <!-- </a>
 					</div>
 				</div>
 				<div class="col-md-8 col-xs-12">
-					<div class="mainmenu"></div> <!-- Start Menu -->
-					<div class="header-menu text-right">
-						<ul id="menu">
+					<div class="mainmenu"></div>  -->
+                    <!-- Start Menu -->
+					<!-- <div class="header-menu text-right">
+						<ul id="menu"> -->
 							<!-- <li><a class="tp-btn" style="color:#45545E" href="https://banfaucet.com/new/register">Register</a></li>
 							<li><a class="tp-btn" href="https://banfaucet.com/new/login">Login</a></li> -->
-						</ul>
-					</div> <!-- End Header -->
-				</div>
+						<!-- </ul>
+					</div>  -->
+                    <!-- End Header -->
+				<!-- </div>
 			</div>
 		</div>
-	</div>
-<div class="ebook-slider-1 ebook-slider-bg-1 padding-section design-color1 design-color2" id="home">
+	</div> -->
+<!-- <div class="ebook-slider-1 ebook-slider-bg-1 padding-section design-color1 design-color2" id="home">
 <h2 class="text-center text-3xl font-extrabold">Login to your account</h2>
 <p class="text-center text-sm">Or <a href="https://banfaucet.com/new/register">create an account</a></p>
         <div class="container">
@@ -115,9 +131,9 @@ Please disable your adblock and script blockers to view this page.
                                     <div class="mt-3">
                                         <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Log In</button>
                                     </div><p>
-						<center>
+						<center> -->
 						<!-- Coinzilla Banner 300x250 -->
-<script async src="https://coinzillatag.com/lib/display.js"></script>
+<!-- <script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-246623529710f792603"></div>
 <script>
     window.coinzilla_display = window.coinzilla_display || [];
@@ -132,9 +148,9 @@ Please disable your adblock and script blockers to view this page.
                             </div>
 
                         </div>
-                    </div>
+                    </div> -->
 
-		<div class="container">
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="author-links margin-top">
@@ -149,10 +165,111 @@ Please disable your adblock and script blockers to view this page.
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
+        <main class="main-content  mt-0">
+    <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg" style="background-image: url('newAssets/img/curved-images/curved9.jpg');">
+      <span class="mask bg-gradient-dark opacity-6"></span>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5 text-center mx-auto">
+            <h1 class="text-white mb-2 mt-5">Welcome!</h1>
+            <p class="text-lead text-white">Using a VPN or Proxy is against the rules Creating multiple accounts will result in being banned Using a temp e-mail address is not allowed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-lg-n10 mt-md-n11 mt-n10 justify-content-center">
+        <div class="col-xl-4 col-lg-5 col-md-7 mx-auto">
+          <div class="card z-index-0">
+            <div class="card-header text-center pt-4">
+              <h5>Sign in</h5>
+            </div>
+            <div class="card-body">
+            <form class="needs-validation" action="<?= site_url('auth/login') ?>" method="POST" novalidate>
+                    <input type="hidden" name="<?= $csrf_name ?>" value="<?= $csrf_hash ?>">
 
+                <div class="mb-3">
+                  <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email" aria-label="Email" required>
+                  <div class="invalid-feedback">Please enter your email address.</div>
+                </div>
+                <div class="mb-3">
+                  <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" aria-label="Password" required>
+                  <div class="invalid-feedback">Please enter your password.</div>
+                </div>
+                <div class="form-check form-switch">
+                  <input class="form-check-input" name="remember" value="1" type="checkbox" id="rememberMe">
+                  <label class="form-check-label" for="rememberMe">Remember me</label>
+                </div>
+                <div class="flex items-center">
+							<a href="<?= site_url('forgot-password') ?>" class="text-muted"><i class="mdi mdi-lock mr-1"></i> Forgot your password?</a>
+						</div>
+                <div>
+                                <div class="ads">
+                                        <?= $settings['login_ad'] ?>
+                                    </div>
+
+                                    <center>
+                                        <?= $captcha_display ?>
+                                    </center>
+						<center>
+						    <ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins><script>!function(e,n,c,t,o,r){!function e(n,c,t,o,r,m,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js",a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","6295f53eb2e2b443b6100720",["cdn.bmcdn3.com"],0)}();</script>
+						</center>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn bg-gradient-info w-100 my-4 mb-2">Sign in</button>
+                </div>
+                <div class="mb-2 position-relative text-center">
+                  <p class="text-sm font-weight-bold mb-2 text-secondary text-border d-inline z-index-2 bg-white px-3">
+                    or
+                  </p>
+                </div>
+                <div class="text-center">
+                    <a href="https://banfaucet.com/new/register">
+                        <button type="button" class="btn bg-gradient-dark w-100 mt-2 mb-4">Register</button>
+                    </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+        <footer class="footer py-5">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-8 mx-auto text-center mb-4 mt-2">
+          <a href="https://t.me/banfaucet" target="_blank" class="text-secondary me-xl-4 me-4">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+          <a href="https://discord.gg/EcUfn9MtV3" target="_blank" class="text-secondary me-xl-4 me-4">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+          <a href="https://reddit.com/r/banfaucet/" target="_blank" class="text-secondary me-xl-4 me-4">
+            <i class="fa-brands fa-reddit"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-8 mx-auto text-center mt-1">
+          <p class="mb-0 text-secondary">
+            &copy; 2022 Banano Faucet. | <i class="fas fa-clock"></i> Server Time: <?= date('H:i') ?>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 		<div cl$settings['footer_code'] ?>
     <!-- JAVASCRIPT -->
+    <script src="newAssets/js/core/popper.min.js"></script>
+  <script src="newAssets/js/core/bootstrap.min.js"></script>
+  <script src="newAssets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="newAssets/js/plugins/smooth-scrollbar.min.js"></script>
+  <!-- Kanban scripts -->
+  <script src="newAssets/js/plugins/dragula/dragula.min.js"></script>
+  <script src="newAssets/js/plugins/jkanban/jkanban.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="<?= base_url() ?>assets/libs/jquery/jquery.min.js"></script>
     <script src="<?= base_url() ?>assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
