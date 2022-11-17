@@ -1,5 +1,5 @@
 <!-- <div class="alert alert-success text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> LUNC withdrawals have returned! There will now be a <b>1.5% fee</b> for every withdrawal. If you have any questions please join our <a href="https://t.me/banfaucet" class="alert-link" target=_blank">Telegram Group</a>.</div>
-<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
+<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="offerwall/timewall" class="alert-link">Timewall</a>!
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div><p><center> -->
@@ -220,8 +220,8 @@ If you are withdrawing <b>LUNC</b> or <b>HBAR</b> to an exchange you must includ
             <ul>
               <li style="list-style-type: none;">
             <ul>
-              <li>Minimum withdrawal for <img src="newAssets/images/currencies/doge.png" alt="Dogecoin" width="16" height="16" /> <b>Dogecoin</b>, <img src="https://banfaucet.com/new/newAssets/images/currencies/trx.png" alt="Tron" width="16" height="16" /> <b>Tron</b>, <img src="https://banfaucet.com/new/newAssets/images/currencies/bnb.png" alt="Binance" width="16" height="16" /> <b>BNB</b> and <img src="https://banfaucet.com/new/newAssets/images/currencies/sol.png" alt="Solana" width="16" height="16" /> <b>SOL</b> is <b>100 tokens</b></li>
-              <li>Minimum withdrawal for <img src="newAssets/images/currencies/ban.png" alt="Banano" width="16" height="16" /> <b>Banano</b> and <img src="https://banfaucet.com/new/newAssets/images/currencies/paw.png" alt="PAW" width="16" height="16" /> <b>PAW</b> is <b>100 tokens</b> due to them being manually sent to your direct wallet</li>
+              <li>Minimum withdrawal for <img src="newAssets/img/icons//doge.png" alt="Dogecoin" width="16" height="16" /> <b>Dogecoin</b>, <img src="newAssets/img/icons//trx.png" alt="Tron" width="16" height="16" /> <b>Tron</b>, <img src="newAssets/img/icons//bnb.png" alt="Binance" width="16" height="16" /> <b>BNB</b> and <img src="newAssets/img/icons//sol.png" alt="Solana" width="16" height="16" /> <b>SOL</b> is <b>100 tokens</b></li>
+              <li>Minimum withdrawal for <img src="newAssets/img/icons//ban.png" alt="Banano" width="16" height="16" /> <b>Banano</b> and <img src="newAssets/img/icons//paw.png" alt="PAW" width="16" height="16" /> <b>PAW</b> is <b>100 tokens</b> due to them being manually sent to your direct wallet</li>
               <li>Maximum you can withdraw per day is <b>2,500 tokens</b></li>
               <li>Currency rate is updated every 5 minutes and data is provided by CoinGecko</li>
             </ul>
@@ -231,7 +231,7 @@ If you are withdrawing <b>LUNC</b> or <b>HBAR</b> to an exchange you must includ
             <ul>
               <li style="list-style-type: none;">
             <ul>
-              <li>To withdraw <img src="https://banfaucet.com/new/newAssets/images/currencies/ban.png" alt="Banano" width="16" height="16" /> <b>Banano</b> get a free wallet address from <a href="https://kalium.banano.cc/" target="_blank" rel="noopener">Kalium</a> or <a href="https://vault.banano.cc/" target="_blank" rel="noopener">Vault</a>
+              <li>To withdraw <img src="newAssets/img/icons//ban.png" alt="Banano" width="16" height="16" /> <b>Banano</b> get a free wallet address from <a href="https://kalium.banano.cc/" target="_blank" rel="noopener">Kalium</a> or <a href="https://vault.banano.cc/" target="_blank" rel="noopener">Vault</a>
             <ul>
               <li>Minimum withdraw will be <b>100</b> tokens or <b>$0.10 USD</b></li>
               <li>A proper Banano wallet addres will look something like <code>ban_36aw66z9cnoraud94i7f77sfxahym6ks5ehf85pw495rrysm3cmy51xt54xs</code></li>
@@ -244,7 +244,7 @@ If you are withdrawing <b>LUNC</b> or <b>HBAR</b> to an exchange you must includ
             <ul>
               <li style="list-style-type: none;">
             <ul>
-              <li>To withdraw <img src="https://banfaucet.com/new/newAssets/images/currencies/paw.png" alt="PAW" width="16" height="16" /> <b>PAW</b> you must have a valid wallet from <a href="https://wallet.paw.digital/" target="_blank" rel="noopener">Biome</a> or <a href="https://play.google.com/store/apps/details?id=co.pawdigital.wallet&amp;hl=en_US&amp;gl=US" target="_blank" rel="noopener">Biota</a>
+              <li>To withdraw <img src="newAssets/img/icons//paw.png" alt="PAW" width="16" height="16" /> <b>PAW</b> you must have a valid wallet from <a href="https://wallet.paw.digital/" target="_blank" rel="noopener">Biome</a> or <a href="https://play.google.com/store/apps/details?id=co.pawdigital.wallet&amp;hl=en_US&amp;gl=US" target="_blank" rel="noopener">Biota</a>
             <ul>
               <li>Minimum withdraw will be <b>100</b> tokens or <b>$0.10 USD</b></li>
               <li>Your PAW wallet address will look something like <code>paw_1std8u5xdic7wb5k6a9mxe18dkpiefx9pqqw8dwiz786jeghd1ghjwduhgte</code></li>
@@ -257,7 +257,7 @@ If you are withdrawing <b>LUNC</b> or <b>HBAR</b> to an exchange you must includ
             <ul>
               <li style="list-style-type: none;">
             <ul>
-              <li>To withdraw <img src="https://banfaucet.com/new/newAssets/images/currencies/matic.png" alt="Matic" width="16" height="16" /> <b>Matic</b> you must have a valid wallet that supports the Polygon Network such as <a href="https://metamask.io/download/" target="_blank" rel="noopener">MetaMask</a> or <a href="https://trustwallet.com/deeplink/" target="_blank" rel="noopener">Trust Wallet</a>
+              <li>To withdraw <img src="newAssets/img/icons//matic.png" alt="Matic" width="16" height="16" /> <b>Matic</b> you must have a valid wallet that supports the Polygon Network such as <a href="https://metamask.io/download/" target="_blank" rel="noopener">MetaMask</a> or <a href="https://trustwallet.com/deeplink/" target="_blank" rel="noopener">Trust Wallet</a>
             <ul>
               <li>Minimum withdraw will be <b>259</b> tokens or <b>$0.25 USD</b> due to network fees</li>
               <li>NOTICE: If you try using a Coinbase wallet address to withdraw Matic your funds will be lost forever due to Coinbase using ERC-20 network for Matic transactions.</li>
@@ -271,7 +271,7 @@ If you are withdrawing <b>LUNC</b> or <b>HBAR</b> to an exchange you must includ
             <ul>
               <li style="list-style-type: none;">
             <ul>
-              <li>To withdraw <img src="https://banfaucet.com/new/newAssets/images/currencies/doge.png" alt="Dogecoin" width="16" height="16" /> <b>Dogecoin</b>, <img src="https://banfaucet.com/new/newAssets/images/currencies/trx.png" alt="Tron" width="16" height="16" /> <b>Tron</b>, <img src="https://banfaucet.com/new/newAssets/images/currencies/bnb.png" alt="Binance" width="16" height="16" /> <b>BNB</b> or <img src="https://banfaucet.com/new/newAssets/images/currencies/sol.png" alt="Solana" width="16" height="16" /> <b>SOL</b> you must have a <a href="https://faucetpay.io/?r=84373" target="_blank" rel="noopener">FaucetPay</a> account. If you do not have one, get one for free <a href="https://faucetpay.io/?r=84373" target="_blank" rel="noopener">here</a>
+              <li>To withdraw <img src="newAssets/img/icons//doge.png" alt="Dogecoin" width="16" height="16" /> <b>Dogecoin</b>, <img src="newAssets/img/icons//trx.png" alt="Tron" width="16" height="16" /> <b>Tron</b>, <img src="newAssets/img/icons//bnb.png" alt="Binance" width="16" height="16" /> <b>BNB</b> or <img src="newAssets/img/icons//sol.png" alt="Solana" width="16" height="16" /> <b>SOL</b> you must have a <a href="https://faucetpay.io/?r=84373" target="_blank" rel="noopener">FaucetPay</a> account. If you do not have one, get one for free <a href="https://faucetpay.io/?r=84373" target="_blank" rel="noopener">here</a>
             <ul>
               <li>FaucetPay withdrawals are now sent manually</li>
               <li>You may enter your FaucetPay email address in the Wallet Address form</li>
@@ -284,7 +284,7 @@ If you are withdrawing <b>LUNC</b> or <b>HBAR</b> to an exchange you must includ
             <ul>
               <li style="list-style-type: none;">
             <ul>
-              <li>To withdraw <img src="https://banfaucet.com/new/newAssets/images/currencies/shib.png" alt="Shiba Inu" width="16" height="16" /> <b>SHIB</b> you must provide your <b>Coinbase E-Mail Address</b>. If you do not have a Coinbase account, register one for free <a href="https://coinbase.com/join/walton_hrl" target="_blank" rel="noopener">here</a>
+              <li>To withdraw <img src="newAssets/img/icons//shib.png" alt="Shiba Inu" width="16" height="16" /> <b>SHIB</b> you must provide your <b>Coinbase E-Mail Address</b>. If you do not have a Coinbase account, register one for free <a href="https://coinbase.com/join/walton_hrl" target="_blank" rel="noopener">here</a>
             <ul>
               <li>Minimum withdraw will be <b>200</b> tokens or <b>$0.20 USD</b> due to payments being sent manually</li>
               <li>If you do not provide your Coinbase E-Mail address when withdrawing your request will be denied</li>
@@ -295,7 +295,7 @@ If you are withdrawing <b>LUNC</b> or <b>HBAR</b> to an exchange you must includ
             </ul>
             &nbsp;
             <ul>
-              <li>To withdraw <img src="https://banfaucet.com/new/newAssets/images/currencies/lunc.png" alt="Luna Classic" width="16" height="16" /> <b>LUNC</b> you must have a wallet that supports Terra Network such as <a href="https://trustwallet.com/deeplink/" target="_blank" rel="noopener">Trust Wallet</a> or <a href="https://terra.money/" target="_blank" rel="noopener">Terra</a>
+              <li>To withdraw <img src="newAssets/images/currencies/lunc.png" alt="Luna Classic" width="16" height="16" /> <b>LUNC</b> you must have a wallet that supports Terra Network such as <a href="https://trustwallet.com/deeplink/" target="_blank" rel="noopener">Trust Wallet</a> or <a href="https://terra.money/" target="_blank" rel="noopener">Terra</a>
             <ul>
               <li>Minimum withdraw will be <b>250</b> tokens or <b>$0.25 USD</b> due to network fees and payments being manually sent</li>
               <li>Here is an example of a valid LUNC wallet address <code>terra1jtkvazagum6t2emxk09un7yuv7k5hrdgtefndh</code></li>
