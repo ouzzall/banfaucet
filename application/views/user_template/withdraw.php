@@ -322,91 +322,91 @@ If you are withdrawing <b>LUNC</b> or <b>HBAR</b> to an exchange you must includ
                         <div class="col-sm-2  ">
                           <input type="checkbox" >
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck1">
-                            <img class="cruncyIcon" src="../../newAssets/img/icons/ban.png" height="25px" >
+                            <img class="cruncyIcon" src="newAssets/img/icons/ban.png" height="25px" >
                           </label>
                           <p class="currenyRate">1 BAN = 4.139 tokens</p>
                         </div>
                         <div class="col-sm-2">
                           <input type="checkbox" >
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck2">
-                            <img class="cruncyIcon" src="../../newAssets/img/icons/doge.png" height="25px" >
+                            <img class="cruncyIcon" src="newAssets/img/icons/doge.png" height="25px" >
                           </label>
                           <p class="currenyRate">1 DOGE = 83.045 tokens</p>
                         </div>
                         <div class="col-sm-2">
                           <input type="checkbox" >
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
-                            <img class="cruncyIcon" src="../../newAssets/img/icons/matic.png"  height="25px">
+                            <img class="cruncyIcon" src="newAssets/img/icons/matic.png"  height="25px">
                           </label>
                           <p class="currenyRate">1 MATIC = 1017 tokens</p>
                         </div>
                         <div class="col-sm-2">
                           <input type="checkbox" class="btn-check" id="btncheck4">
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
-                            <img class="cruncyIcon" src="../../newAssets/img/icons/trx.png"  height="25px">
+                            <img class="cruncyIcon" src="newAssets/img/icons/trx.png"  height="25px">
                           </label>
                           <p class="currenyRate">1 TRX = 55.848 tokens</p>
                         </div>
                         <div class="col-sm-2">
                           <input type="checkbox" class="btn-check" id="btncheck5">
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
-                            <img class="cruncyIcon" src="../../newAssets/img/icons/paw.png"  height="25px">
+                            <img class="cruncyIcon" src="newAssets/img/icons/paw.png"  height="25px">
                           </label>
                           <p class="currenyRate">1 PAW = 0.00096 token</p>
                         </div>
                         <div class="col-sm-2">
                           <input type="checkbox" class="btn-check" id="btncheck6">
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
-                            <img class="cruncyIcon" src="../../newAssets/img/icons/bnb.png"  height="25px">
+                            <img class="cruncyIcon" src="newAssets/img/icons/bnb.png"  height="25px">
                           </label>
                           <p class="currenyRate">1 BNB = 285050 tokens</p>
                         </div>
                         <div class="col-sm-2">
                           <input type="checkbox" class="btn-check" id="btncheck7">
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
-                            <img class="cruncyIcon" src="../../newAssets/img/icons/shib.png"  height="25px">
+                            <img class="cruncyIcon" src="newAssets/img/icons/shib.png"  height="25px">
                           </label>
                           <p class="currenyRate">1 SHIB = 0.00967 token</p>
                         </div>  
                         <div class="col-sm-2">
                           <input type="checkbox" class="btn-check" id="btncheck7">
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
-                            <img class="cruncyIcon" src="../../newAssets/img/icons/dgb.png"  height="25px">
+                            <img class="cruncyIcon" src="newAssets/img/icons/dgb.png"  height="25px">
                           </label>
                           <p class="currenyRate">1 DGB = 6.99473 tokens</p>
                         </div>
                         <div class="col-sm-2">
                           <input type="checkbox" class="btn-check" id="btncheck7">
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
-                            <img class="cruncyIcon" src="../../newAssets/img/icons/sol.png"  height="25px">
+                            <img class="cruncyIcon" src="newAssets/img/icons/sol.png"  height="25px">
                           </label>
                           <p class="currenyRate">1 SOL = 16570 tokens</p>
                         </div>
                         <div class="col-sm-2">
                           <input type="checkbox" class="btn-check" id="btncheck7">
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
-                            <img class="cruncyIcon" src="../../newAssets/img/icons/lunc.png"  height="25px">
+                            <img class="cruncyIcon" src="newAssets/img/icons/lunc.png"  height="25px">
                           </label>
                           <p class="currenyRate">1 LUNC = 0.18619 token</p>
                         </div>
                         <div class="col-sm-2">
                           <input type="checkbox" class="btn-check" id="btncheck7">
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
-                            <img class="cruncyIcon" src="../../newAssets/img/icons/hbar.png"  height="25px">
+                            <img class="cruncyIcon" src="newAssets/img/icons/hbar.png"  height="25px">
                           </label>
                           <p class="currenyRate">1 HBAR = 47.19268 tokens</p>
                         </div>
                         <div class="col-sm-2">
                           <input type="checkbox" class="btn-check" id="btncheck7">
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
-                            <img class="cruncyIcon" src="../../newAssets/img/icons/xno.png"  height="25px">
+                            <img class="cruncyIcon" src="newAssets/img/icons/xno.png"  height="25px">
                           </label>
                           <p class="currenyRate">1 XNO = 616.875 tokens</p>
                         </div>
                         <div class="col-sm-2">
                           <input type="checkbox" class="btn-check" id="btncheck7">
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
-                            <img class="cruncyIcon" src="../../newAssets/img/icons/btc.png"  height="25px">
+                            <img class="cruncyIcon" src="newAssets/img/icons/btc.png"  height="25px">
                           </label>
                           <p class="currenyRate">1 BTC = 16834790 tokens</p>
                         </div>
