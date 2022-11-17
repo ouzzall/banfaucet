@@ -188,6 +188,29 @@ If you are withdrawing <b>LUNC</b> or <b>HBAR</b> to an exchange you must includ
   </div>
 </div>
 </div> -->
+<style>
+  .currenyRate{
+    font-size: .7rem;
+    font-weight: bolder;
+  }
+  span.input-group-text-right {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #344767;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 1px solid #d2d6da;
+    border-radius: 0.5rem;
+}
+</style>
+
 <div class="container-fluid py-4">
       <div class="row">
         <div class="col-md-12">
@@ -197,8 +220,8 @@ If you are withdrawing <b>LUNC</b> or <b>HBAR</b> to an exchange you must includ
             <ul>
               <li style="list-style-type: none;">
             <ul>
-              <li>Minimum withdrawal for <img src="https://banfaucet.com/new/newAssets/images/currencies/doge.png" alt="Dogecoin" width="16" height="16" /> <b>Dogecoin</b>, <img src="https://banfaucet.com/new/newAssets/images/currencies/trx.png" alt="Tron" width="16" height="16" /> <b>Tron</b>, <img src="https://banfaucet.com/new/newAssets/images/currencies/bnb.png" alt="Binance" width="16" height="16" /> <b>BNB</b> and <img src="https://banfaucet.com/new/newAssets/images/currencies/sol.png" alt="Solana" width="16" height="16" /> <b>SOL</b> is <b>100 tokens</b></li>
-              <li>Minimum withdrawal for <img src="https://banfaucet.com/new/newAssets/images/currencies/ban.png" alt="Banano" width="16" height="16" /> <b>Banano</b> and <img src="https://banfaucet.com/new/newAssets/images/currencies/paw.png" alt="PAW" width="16" height="16" /> <b>PAW</b> is <b>100 tokens</b> due to them being manually sent to your direct wallet</li>
+              <li>Minimum withdrawal for <img src="newAssets/images/currencies/doge.png" alt="Dogecoin" width="16" height="16" /> <b>Dogecoin</b>, <img src="https://banfaucet.com/new/newAssets/images/currencies/trx.png" alt="Tron" width="16" height="16" /> <b>Tron</b>, <img src="https://banfaucet.com/new/newAssets/images/currencies/bnb.png" alt="Binance" width="16" height="16" /> <b>BNB</b> and <img src="https://banfaucet.com/new/newAssets/images/currencies/sol.png" alt="Solana" width="16" height="16" /> <b>SOL</b> is <b>100 tokens</b></li>
+              <li>Minimum withdrawal for <img src="newAssets/images/currencies/ban.png" alt="Banano" width="16" height="16" /> <b>Banano</b> and <img src="https://banfaucet.com/new/newAssets/images/currencies/paw.png" alt="PAW" width="16" height="16" /> <b>PAW</b> is <b>100 tokens</b> due to them being manually sent to your direct wallet</li>
               <li>Maximum you can withdraw per day is <b>2,500 tokens</b></li>
               <li>Currency rate is updated every 5 minutes and data is provided by CoinGecko</li>
             </ul>
@@ -466,8 +489,8 @@ If you are withdrawing <b>LUNC</b> or <b>HBAR</b> to an exchange you must includ
                         
                       </div>
                     </div>
-                    <div class="row">
-                    <div class="col-12 col-md-8 ms-auto mt-3">
+                    <div class="row" style="text-align: left;">
+                    <div class="col-12  mt-3">
                       <label>Wallet Address</label>
                       <input class="multisteps-form__input form-control" type="text" placeholder="" />
                       <p>If you are withdrawing <strong>LUNC</strong> or <strong>HBAR</strong> to an exchange you must include the MEMO provided by them. Separate your LUNC address and MEMO with a - or _.</p>
