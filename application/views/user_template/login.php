@@ -225,7 +225,7 @@ Please disable your adblock and script blockers to view this page.
                   </p>
                 </div>
                 <div class="text-center">
-                    <a href="https://banfaucet.com/new/register">
+                    <a href="<?= site_url('register') ?>">
                         <button type="button" class="btn bg-gradient-dark w-100 mt-2 mb-4">Register</button>
                     </a>
                 </div>

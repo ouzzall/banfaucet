@@ -478,7 +478,7 @@
               </a>
             </li>
             <li class="nav-item d-flex align-items-center">
-              <a href="<?= site_url('login') ?>" class="nav-link text-body font-weight-bold px-0" target="_blank">
+              <a href="<?= site_url('login') ?>" class="nav-link text-body font-weight-bold px-0" >
                 <i class="fa fa-user me-sm-1"></i>
                 <span class="d-sm-inline ">Sign In</span>
               </a>

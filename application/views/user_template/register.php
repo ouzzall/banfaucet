@@ -238,7 +238,7 @@
                   </p>
                 </div>
                 <div class="text-center">
-                    <a href="https://banfaucet.com/new/login">
+                    <a href="<?= site_url('login') ?>">
                         <button type="button" class="btn bg-gradient-dark w-100 mt-2 mb-4">Sign in</button>
                     </a>
                 </div>
