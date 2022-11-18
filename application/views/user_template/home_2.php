@@ -493,9 +493,49 @@
     <!-- End Navbar -->
     <div class="container-fluid py-4">
       <div class="row">
-        <div class="col-xl-7">
-          <img class="main-img" src="newAssets/img/imgLanding.png" style="border-radius: 17px;">
-        </div>
+      <div class="col-md-7">
+					<div class="ebook-slider-txt-1">
+						<h1 class="h1h2h3h4-color in2"> <span style="color:#000">Earn </span>  <a href="" class="typewrite gradient-custom" data-period="2000" data-type='[ "BAN", "DOGE", "MATIC", "TRX", "PAW", "BNB", "SHIB", "SOL", "LUNC", "DGB", "HBAR", "XNO", "BTC" ]'>
+							<span class="wrap"></span>
+						  </a></h1>
+						
+						<p>Are you looking for the best paying crypto faucet? You found it! Register today to start earning!</p>
+						
+						<div class="icon_rnd">
+							<ul>
+								
+								<li><img src="assets/img/ban.png" alt="Banano" /></li>
+								<li><img src="assets/img/doge.png" alt="Dogecoin" /></li>
+								<li><img src="assets/img/matic.png" alt="MATIC" /></li>
+								<li><img src="assets/img/trx.png" alt="Tron" /></li>
+								<li><img src="assets/img/paw.png" alt="PAW" /></li>
+								<li><img src="assets/img/bnb.png" alt="BNB" /></li>
+								<li><img src="assets/img/shib.png" alt="Shiba Inu" /></li>
+								<li><img src="assets/img/solana.png" alt="Solana" /></li>
+								<li><img src="assets/img/lunc.png" alt="Luna Classic" /></li>
+								<li><img src="assets/img/dgb.png" alt="DigiByte" /></li>
+								<li><img src="assets/img/hbar.png" alt="Hedera" /></li>
+								<li><img src="assets/img/xno.png" alt="Nano" /></li>
+								<li><img src="assets/img/btc.png" alt="Bitcoin" /></li>
+							</ul>
+						</div>
+						
+						
+						<a href="https://banfaucet.com/register" class="boxed-btn-1 read-btn btn-bg-1color ">Register Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a><br>
+<!-- Coinzilla Banner 300x250 -->
+<script async src="https://coinzillatag.com/lib/display.js"></script>
+<div class="coinzilla" data-zone="C-246623529710f792603"></div>
+<script>
+    window.coinzilla_display = window.coinzilla_display || [];
+    var c_display_preferences = {};
+    c_display_preferences.zone = "246623529710f792603";
+    c_display_preferences.width = "300";
+    c_display_preferences.height = "250";
+    coinzilla_display.push(c_display_preferences);
+</script>
+						<!-- <a href="" class="boxed-btn-1 buy-btn btn-bg-1color">Hire Developers <i class="fa fa-shopping-cart" aria-hidden="true"></i></a> -->
+					</div>
+				</div>
         <div class="col-xl-5 ms-auto mt-xl-0 mt-4">
           <div class="row">
             <div class="col-12">
