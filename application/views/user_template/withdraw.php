@@ -138,18 +138,6 @@
                 </div>
               </div>
             </div>
-            <?php
-            if (isset($_SESSION['message'])) {
-              echo $_SESSION['message'];
-            }
-            ?>
-             <form action="<?= site_url('withdraw/withdraw') ?>" method="POST" autocomplete="off">
-              <?php
-              if (isset($_SESSION['withdraw_message'])) {
-                echo $_SESSION['withdraw_message'];
-              }
-              ?>
-              <input type="hidden" name="<?= $csrf_name ?>" value="<?= $csrf_hash ?>">
             <!--form panels-->
             <div class="row">
               <div class="col-12 col-lg-8 m-auto">
@@ -169,12 +157,11 @@
                         var minimumWithdrawals = [];
                         var rate = <?= $settings['currency_rate'] ?>;
                       </script>
-
                       <?php foreach ($methods as $method) {
                         $percent = number_format(min(100, $method['balance'] * $method['price'] / 30 * 100)); ?>
                         
                         <div class="col-sm-2">
-                          <input type="checkbox" class="btn-check "value="<?= $method['id'] ?>" id="btncheck4"> 
+                          <input type="checkbox" class="btn-check "value="<?= $method['id'] ?>" id="btncheck4">
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
                             <img class="cruncyIcon" src="<?= site_url('assets/images/currencies/' . strtolower($method['code']) . '.png') ?>"  height="25px">
                           </label>
@@ -188,7 +175,6 @@
                           <p class="currenyRate"><?= $method['code'] ?> = <?= currencyDisplay($method['price'], $settings) ?></p>
                         </div>
                         <?php } ?>
-
                       </div>
                       <div class="button-row d-flex mt-4">
                         <button class="btn bg-gradient-dark ms-auto mb-0 js-btn-next" type="button" title="Next">Next</button>
@@ -214,17 +200,10 @@
                           <div class="form-group">
                             <div class="input-group input-group-alternative mb-4">
                               <span class="input-group-text" style="background: #dfdfdf;">Token Balance</span>
-                              <input style="padding-left: 10px;" class="form-control form-control-alternative" type="number" 
-                                name="amount" 
-                                id="tokenBalance" 
-                                value="<?= $user['balance'] / $settings['currency_rate'] ?>"
-                                min="0.000001"
-                                max="<?= $user['balance'] / $settings['currency_rate'] ?>" 
-                                step="0.000001"
-                              >
+                              <input style="padding-left: 10px;" class="form-control form-control-alternative" placeholder="10" type="number">
                             </div>
                           </div>
-                          <small style="font-size: 12px;margin-top: -20px;" id="minimumWithdrawal">Minimum withdrawal is 100 tokens</small>
+                          <p style="font-size: 12px;margin-top: -20px;">Minimum withdrawal is 100 tokens</p>
                         </div>
                         <div class="" style="width: 5%;padding: 0;">
                           <span style="background: #9999;padding: 15px;border-radius: 50%;"><i class="fa-solid fa-right-left text-white" style="margin-top: 10px;"></i></span>
@@ -232,8 +211,8 @@
                         <div class="" style="width: 45%;">
                           <div class="form-group">
                             <div class="input-group input-group-alternative mb-4">
-                              <input class="form-control" style="text-align: end;padding-right: 10px;border-top-right-radius: 0 !important;border-bottom-right-radius: 0 !important;background: #fff;" id="converted" disabled type="number">
-                              <span style="background: #dfdfdf;" id="targetCurrency" class="input-group-text-right">BAN</span>
+                              <input class="form-control" style="text-align: end;padding-right: 10px;border-top-right-radius: 0 !important;border-bottom-right-radius: 0 !important;background: #fff;" placeholder="" value="12.00" disabled type="text">
+                              <span style="background: #dfdfdf;" class="input-group-text-right">BAN</span>
                             </div>
                           </div>
                         </div>
