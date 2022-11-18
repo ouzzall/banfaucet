@@ -1,8 +1,23 @@
-<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
+<!-- <div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
-  </button></div><p><div class="ads">
+  </button>
+</div>
+<p> -->
+   
+<div class="row">
+    <div class="col-12">
+          <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+            <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
+            <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+  <div class="ads">
     <?= $settings['dashboard_top_ad'] ?>
+</div>
 </div>
 <center><!-- Coinzilla Banner 728x90 -->
 <script async src="https://coinzillatag.com/lib/display.js"></script>
@@ -15,7 +30,7 @@
     c_display_preferences.height = "90";
     coinzilla_display.push(c_display_preferences);
 </script></center>
-<div class="row">
+<!-- <div class="row">
     <div class="col-md-6 col-xl-6 mb-1 mb-xl-6">
         <div class="card mini-stats-wid">
             <div class="card-body">
@@ -52,7 +67,44 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
+
+<div class="row">
+        <div class="col-md-6 mt-2">
+          <div class="card p-3">
+          <div style="display: flex;align-items: center;justify-content: space-between;">
+            <div>
+              <h6 class="mb-0 font-weight-bolder">Contest Ends</h6>
+              <h3 class="text-gradient text-primary" ><?= timespan(time(), $leaderboardSettings["leaderboard_date"], 2) ?></h3>
+            </div>
+            
+              <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
+                <i class="fa-solid fa-stopwatch text-lg opacity-10"></i>
+              </div>
+            
+          </div>  
+          </div>
+        </div>
+        <div class="col-md-6 mt-2">
+          <div class="card p-3">
+          <div style="display: flex;align-items: center;justify-content: space-between;">
+            <div>
+              <h6 class="mb-0 font-weight-bolder">Rankings Updated</h6>
+              <h3 class="text-gradient text-primary" style="font-size: 34px;">10 minutes</h3>
+            </div>
+            
+              <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
+                <!-- <i class="fa-solid fa-stopwatch text-lg opacity-10"></i> -->
+                <i class="fa-solid fa-ranking-star text-lg opacity-10"></i>
+              </div>
+            
+          </div>  
+          </div>
+        </div>
+      </div>
+
+
+
 <center><span id="ct_cJd95UwrCma"></span></center><p>
 <center><span id="ct_c1c1RkyZBbe"></span></center><p>
     <?php if ($settings['referral_contest_reward'] != "") {
