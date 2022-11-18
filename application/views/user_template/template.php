@@ -10,8 +10,9 @@
     <meta content="<?= $settings['description'] ?>" name="description" />
     <meta content="Vie Faucet Script" name="author" />
     <!-- App favicon -->
-    <!-- <link rel="shortcut icon" href="<?= base_url() ?>assets/images/favicon.ico"> -->
-    <script src="<?= base_url() ?>assets/libs/jquery/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- <link rel="shortcut icon" href="<?= base_url() ?>assets/images/favicon.ico">
+    <script src="<?= base_url() ?>assets/libs/jquery/jquery.min.js"></script> -->
     <!-- Bootstrap Css -->
     <!-- <?php if ($settings['theme'] == 'light') {
         echo '<link href="' . base_url() . 'assets/css/bootstrap.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
