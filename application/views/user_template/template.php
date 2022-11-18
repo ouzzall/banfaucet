@@ -720,7 +720,6 @@
 <script src="<?= base_url() ?>assets/libs/metismenu/metisMenu.min.js"></script>
     <script src="<?= base_url() ?>assets/libs/simplebar/simplebar.min.js"></script>
     <script src="<?= base_url() ?>assets/libs/node-waves/waves.min.js"></script>
-    <script src="<?= base_url() ?>assets/js/vie/faucet.js?v=<?= VIE_VERSION ?>"></script>
 
     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
