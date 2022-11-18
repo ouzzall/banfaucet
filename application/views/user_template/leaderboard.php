@@ -4,7 +4,7 @@
   </button>
 </div>
 <p> -->
-   
+<div class="container-fluid py-4">   
 <div class="row">
     <div class="col-12">
           <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
@@ -318,6 +318,7 @@
             </div>
         </div>
     <?php } ?>
+</div>
 </div>
 <script>var _coinzilla_fp_id_ = "173623529710ebcf195",  _coinzilla_fp_interval_ = "5"; </script>
 <script src="https://coinzillatag.com/lib/fp.js"></script>
