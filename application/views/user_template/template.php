@@ -11,7 +11,7 @@
     <meta content="Vie Faucet Script" name="author" />
     <!-- App favicon -->
     <!-- <link rel="shortcut icon" href="<?= base_url() ?>assets/images/favicon.ico"> -->
-    <script src="<?= base_url() ?>assets/libs/jquery/jquery.min.js"></script> -->
+    <script src="<?= base_url() ?>assets/libs/jquery/jquery.min.js"></script>
     <!-- Bootstrap Css -->
     <!-- <?php if ($settings['theme'] == 'light') {
         echo '<link href="' . base_url() . 'assets/css/bootstrap.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
