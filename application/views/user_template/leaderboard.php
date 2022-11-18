@@ -115,7 +115,7 @@
             <div class="card">
                 <div class="card-body text-center">
                     <h4 class="card-title mb-4">Referral Contest</h4>
-                    <div class="alert alert-info" role="alert">Your referrals this week: <?= $user['ref_count'] ?></div>
+                    <div class="alert alert-info text-white" role="alert">Your referrals this week: <?= $user['ref_count'] ?></div>
 				<center><!-- Coinzilla Banner 300x250 -->
 <script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-246623529710f792603"></div>
@@ -160,7 +160,7 @@
             <div class="card">
                 <div class="card-body text-center">
                     <h4 class="card-title mb-4">Offerwall Contest</h4>
-                    <div class="alert alert-info" role="alert">Your offerwall claims this week: <?= $user['offerwall_count_tmp'] ?></div>
+                    <div class="alert text-white alert-info" role="alert">Your offerwall claims this week: <?= $user['offerwall_count_tmp'] ?></div>
 				<center><ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins><script>!function(e,n,c,t,o,r){!function e(n,c,t,o,r,m,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js",a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","6295f53eb2e2b443b6100720",["cdn.bmcdn3.com"],0)}();</script></center>
                     <div class="table-responsive">
                         <table class="table table-striped text-center">
