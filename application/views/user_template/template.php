@@ -3,32 +3,32 @@
 
 <head>
 
-    <meta charset="utf-8" />
-    <title><?= $page ?> | <?= $settings['name'] ?></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="origin">
-    <meta content="<?= $settings['description'] ?>" name="description" />
-    <meta content="Vie Faucet Script" name="author" />
-    <!-- App favicon -->
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <!-- <link rel="shortcut icon" href="<?= base_url() ?>assets/images/favicon.ico">
-    <script src="<?= base_url() ?>assets/libs/jquery/jquery.min.js"></script> -->
-    <!-- Bootstrap Css -->
-    <!-- <?php if ($settings['theme'] == 'light') {
-        echo '<link href="' . base_url() . 'assets/css/bootstrap.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
-        echo '<link href="' . base_url() . 'assets/css/app.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
-    } else {
-        echo '<link href="' . base_url() . 'assets/css/bootstrap-dark.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
-        echo '<link href="' . base_url() . 'assets/css/app-dark.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
-        echo '<style>.antibotlinks {background-color: #ffffff}</style>';
-    }
-    ?> -->
-    <!-- Icons Css -->
-    <!-- <link href="<?= base_url() ?>assets/css/icons.min.css?v=<?= VIE_VERSION ?>" rel="stylesheet" type="text/css" /> -->
-    <!-- App Css-->
-    <!-- <link href="<?= base_url() ?>assets/css/styles.css?v=<?= VIE_VERSION ?>" rel="stylesheet" type="text/css" /> -->
-    <!-- new code start -->
-          <!--     Fonts and icons     -->
+  <meta charset="utf-8" />
+  <title><?= $page ?> | <?= $settings['name'] ?></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="origin">
+  <meta content="<?= $settings['description'] ?>" name="description" />
+  <meta content="Vie Faucet Script" name="author" />
+  <!-- App favicon -->
+
+  <!-- <link rel="shortcut icon" href="<?= base_url() ?>assets/images/favicon.ico"> -->
+  <script src="<?= base_url() ?>assets/libs/jquery/jquery.min.js"></script>
+  <!-- Bootstrap Css -->
+  <!-- <?php if ($settings['theme'] == 'light') {
+          echo '<link href="' . base_url() . 'assets/css/bootstrap.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
+          echo '<link href="' . base_url() . 'assets/css/app.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
+        } else {
+          echo '<link href="' . base_url() . 'assets/css/bootstrap-dark.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
+          echo '<link href="' . base_url() . 'assets/css/app-dark.min.css?v=' . VIE_VERSION . '" id="bootstrap-style" rel="stylesheet" type="text/css" />';
+          echo '<style>.antibotlinks {background-color: #ffffff}</style>';
+        }
+        ?> -->
+  <!-- Icons Css -->
+  <!-- <link href="<?= base_url() ?>assets/css/icons.min.css?v=<?= VIE_VERSION ?>" rel="stylesheet" type="text/css" /> -->
+  <!-- App Css-->
+  <!-- <link href="<?= base_url() ?>assets/css/styles.css?v=<?= VIE_VERSION ?>" rel="stylesheet" type="text/css" /> -->
+  <!-- new code start -->
+  <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
   <!-- Nucleo Icons -->
   <link href="newAssets/css/nucleo-icons.css" rel="stylesheet" />
@@ -41,43 +41,47 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css" integrity="sha512-aNH2ILn88yXgp/1dcFPt2/EkSNc03f9HBFX0rqX3Kw37+vjipi1pK3L9W08TZLhMg4Slk810sPLdJlNIjwygFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css" integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- new code end -->
+  <!-- new code end -->
 </head>
 <style>
   img.cruncyIcon {
     width: 30px;
-}
-.sidenav-footer {
+  }
+
+  .sidenav-footer {
     position: inherit;
     padding: 10px 10px;
     left: 0;
     bottom: 0;
     width: 250px;
-}
-.fixed-plugin .card {
-    position: fixed!important;
+  }
+
+  .fixed-plugin .card {
+    position: fixed !important;
     right: -360px;
     bottom: 0 !important;
     top: unset !important;
     height: 200px !important;
-    left: auto!important;
-    transform: unset!important;
+    left: auto !important;
+    transform: unset !important;
     width: 360px;
     border-radius: 22px !important;
-    
-}
-.header-profile-user {
+
+  }
+
+  .header-profile-user {
     height: 36px;
     width: 36px;
     padding: 3px;
-}
+  }
 </style>
+
 <body class="g-sidenav-show  bg-gray-100">
 
-    <!-- <body data-layout="horizontal" data-topbar="dark"> -->
+  <!-- <body data-layout="horizontal" data-topbar="dark"> -->
 
-    <!-- Begin page -->
-    <!-- <div id="layout-wrapper">
+  <!-- Begin page -->
+  <!-- <div id="layout-wrapper">
 
 
         <header id="page-topbar">
@@ -139,25 +143,25 @@
                                                 <div class="simplebar-content" style="padding: 0px;">
                                                     <?php
                                                     foreach ($notifications as $notification) {
-                                                        $icon = [];
-                                                        switch ($notification['type']) {
-                                                            case 0:
-                                                                $icon['content'] = '<i class="fas fa-bullhorn"></i>';
-                                                                $icon['color'] = 'bg-primary';
-                                                                break;
-                                                            case 1:
-                                                                $icon['content'] = '<i class="far fa-money-bill-alt"></i>';
-                                                                $icon['color'] = 'bg-success';
-                                                                break;
-                                                            case 2:
-                                                                $icon['content'] = '<i class="fas fa-exclamation-triangle"></i>';
-                                                                $icon['color'] = 'bg-danger';
-                                                                break;
-                                                            default:
-                                                                $icon['content'] = '<i class="far fa-comment-dots"></i>';
-                                                                $icon['color'] = 'bg-info';
-                                                                break;
-                                                        }
+                                                      $icon = [];
+                                                      switch ($notification['type']) {
+                                                        case 0:
+                                                          $icon['content'] = '<i class="fas fa-bullhorn"></i>';
+                                                          $icon['color'] = 'bg-primary';
+                                                          break;
+                                                        case 1:
+                                                          $icon['content'] = '<i class="far fa-money-bill-alt"></i>';
+                                                          $icon['color'] = 'bg-success';
+                                                          break;
+                                                        case 2:
+                                                          $icon['content'] = '<i class="fas fa-exclamation-triangle"></i>';
+                                                          $icon['color'] = 'bg-danger';
+                                                          break;
+                                                        default:
+                                                          $icon['content'] = '<i class="far fa-comment-dots"></i>';
+                                                          $icon['color'] = 'bg-info';
+                                                          break;
+                                                      }
                                                     ?>
                                                         <a href="" class="text-reset notification-item">
                                                             <div class="media">
@@ -216,15 +220,15 @@
             </div>
         </header> -->
 
-        <!-- ========== Left Sidebar Start ========== -->
-        <!-- <div class="vertical-menu"> -->
+  <!-- ========== Left Sidebar Start ========== -->
+  <!-- <div class="vertical-menu"> -->
 
-            <!-- <div data-simplebar class="h-100"> -->
+  <!-- <div data-simplebar class="h-100"> -->
 
-                <!--- Sidemenu -->
-                <!-- <div id="sidebar-menu"> -->
-                    <!-- Left Menu Start -->
-                    <!-- <ul class="metismenu list-unstyled" id="side-menu">
+  <!--- Sidemenu -->
+  <!-- <div id="sidebar-menu"> -->
+  <!-- Left Menu Start -->
+  <!-- <ul class="metismenu list-unstyled" id="side-menu">
                         <li class="menu-title" key="t-menu">Menu</li>
 
                         <li>
@@ -321,7 +325,7 @@
                                     </a>
                                 </li>
                         <?php }
-                        } ?>
+                          } ?>
 
                         <?php if ($settings['faucet_status'] == 'on') { ?>
                             <li>
@@ -329,9 +333,9 @@
                                     <i class="fas fa-stopwatch"></i>
                                     <span key="t-faucet">Claim <span>&nbsp
                                             <?= $faucetWait > 0 ?
-                                                '<span class="badge bg-primary counter" wait="' . ($faucetWait - 1) . '"></span>'
-                                                :
-                                                "<i class='fa fa-check'></i>" ?>
+                                              '<span class="badge bg-primary counter" wait="' . ($faucetWait - 1) . '"></span>'
+                                              :
+                                              "<i class='fa fa-check'></i>" ?>
                                         </span></span>
 					</a>
                             </li>
@@ -464,7 +468,7 @@
                         </li>
 
                     </ul> -->
-                <!-- </div>
+  <!-- </div>
 		</div>
 			<div class="sidebar-footer">
 			<div class="row">
@@ -489,17 +493,17 @@
 }
 
 </style> -->
-                <!-- Sidebar -->
-            <!-- </div> -->
-        <!-- </div> -->
-        <!-- Left Sidebar End -->
+  <!-- Sidebar -->
+  <!-- </div> -->
+  <!-- </div> -->
+  <!-- Left Sidebar End -->
 
 
 
-        <!-- ============================================================== -->
-        <!-- Start right Content here -->
-        <!-- ============================================================== -->
-        <!-- <div class="main-content">
+  <!-- ============================================================== -->
+  <!-- Start right Content here -->
+  <!-- ============================================================== -->
+  <!-- <div class="main-content">
 
             <div class="page-content">
 
@@ -509,8 +513,8 @@
                     </div>
                 <?php } ?>
                 <div class="container-fluid"> -->
-                    <!-- start page title -->
-                    <!-- <div class="row">
+  <!-- start page title -->
+  <!-- <div class="row">
                         <div class="col-12">
 
 
@@ -518,15 +522,15 @@
                             </div>
                         </div>
                     </div> -->
-                    <!-- end page title -->
+  <!-- end page title -->
 
-                    <!-- end row -->
-                <!-- </div> -->
-                <!-- container-fluid -->
-            <!-- </div> -->
-            <!-- End Page-content -->
+  <!-- end row -->
+  <!-- </div> -->
+  <!-- container-fluid -->
+  <!-- </div> -->
+  <!-- End Page-content -->
 
-            <!-- <footer class="footer">
+  <!-- <footer class="footer">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-6">
@@ -541,23 +545,23 @@
                 </div>
             </footer>
         </div> -->
-        <!-- end main content-->
+  <!-- end main content-->
 
-    <!-- </div> -->
-    <!-- END layout-wrapper -->
-    <!-- Right bar overlay-->
-    <!-- <div class="rightbar-overlay">
+  <!-- </div> -->
+  <!-- END layout-wrapper -->
+  <!-- Right bar overlay-->
+  <!-- <div class="rightbar-overlay">
         <div>
             <a></a>
         </div>
     </div> -->
-    <!-- <?= $settings['footer_code'] ?> -->
-<!-- new code start -->
-<aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3 " id="sidenav-main">
+  <!-- <?= $settings['footer_code'] ?> -->
+  <!-- new code start -->
+  <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3 " id="sidenav-main">
     <div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
       <a class="navbar-brand m-0" href="#" ">
-        <img src="https://banfaucet.com/assets/images/logo-min.png" class="navbar-brand-img h-100" alt="main_logo">
+        <img src=" https://banfaucet.com/assets/images/logo-min.png" class="navbar-brand-img h-100" alt="main_logo">
         <span class="ms-1 font-weight-bold">BANFAUCET</span>
       </a>
     </div>
@@ -565,7 +569,7 @@
     <div class="collapse navbar-collapse  w-auto h-auto" id="sidenav-collapse-main">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" href="<?= site_url('dashboard') ?>" >
+          <a class="nav-link active" href="<?= site_url('dashboard') ?>">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>shop </title>
@@ -585,7 +589,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= site_url('withdraw') ?>" >
+          <a class="nav-link" href="<?= site_url('withdraw') ?>">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-wallet text-dark"></i>
             </div>
@@ -623,16 +627,16 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= site_url('referrals') ?>" >
+          <a class="nav-link" href="<?= site_url('referrals') ?>">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-users text-dark"></i>
             </div>
             <span class="nav-link-text ms-1">Referrals <span class="badge badge-primary">20%</span>
-          </span>
+            </span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= site_url('leaderboard') ?>" >
+          <a class="nav-link" href="<?= site_url('leaderboard') ?>">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-trophy text-dark"></i>
             </div>
@@ -643,7 +647,7 @@
           <h6 class="ps-4  ms-2 text-uppercase text-xs font-weight-bolder opacity-6">EARN</h6>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= site_url('daily-bonus') ?>" >
+          <a class="nav-link" href="<?= site_url('daily-bonus') ?>">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-fire text-dark"></i>
             </div>
@@ -651,243 +655,243 @@
           </a>
         </li>
         <?php if ($settings['achievement_status'] == 'on') { ?>
-        <li class="nav-item">
-          <a class="nav-link" href="<?= site_url('achievements') ?>" >
-            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-              <i class="fa-solid fa-fire text-dark"></i>
-            </div>
-            <span class="nav-link-text ms-1">Challenges <span class="badge badge-primary"><?= $totalAchievements ?></span></span>
-          </a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('achievements') ?>">
+              <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-fire text-dark"></i>
+              </div>
+              <span class="nav-link-text ms-1">Challenges <span class="badge badge-primary"><?= $totalAchievements ?></span></span>
+            </a>
+          </li>
         <?php } ?>
         <?php if ($settings['dice_status'] == 'on') { ?>
-        <li class="nav-item">
-          <a class="nav-link" href="<?= site_url('dice') ?>" >
-            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-              <i class="fa-solid fa-dice-three text-dark"></i>
-            </div>
-            <span class="nav-link-text ms-1">Dice</span>
-          </a>
-        </li><?php } ?>
-        <?php if ($settings['coinflip_status'] == 'on') { ?>
-        <li class="nav-item">
-          <a class="nav-link" href="<?= site_url('coinflip') ?>" >
-            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-              <i class="fa-solid fa-coin text-dark"></i>
-            </div>
-            <span class="nav-link-text ms-1">Coin Flip</span>
-          </a>
-        </li><?php } ?>
-        <?php if ($settings['offerwall_status'] == 'on') { ?>
-          <?php if ($user['level'] < $settings['offerwall_min_level']) { ?>
           <li class="nav-item">
-            <a class="nav-link" href="#" >
+            <a class="nav-link" href="<?= site_url('dice') ?>">
+              <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-dice-three text-dark"></i>
+              </div>
+              <span class="nav-link-text ms-1">Dice</span>
+            </a>
+          </li><?php } ?>
+        <?php if ($settings['coinflip_status'] == 'on') { ?>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('coinflip') ?>">
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
                 <i class="fa-solid fa-coin text-dark"></i>
               </div>
-              <span class="nav-link-text ms-1">Offerwall Unlock at Level <?= $settings['offerwall_min_level'] ?></span>
+              <span class="nav-link-text ms-1">Coin Flip</span>
             </a>
-          </li><?php } else { ?>
+          </li><?php } ?>
+        <?php if ($settings['offerwall_status'] == 'on') { ?>
+          <?php if ($user['level'] < $settings['offerwall_min_level']) { ?>
             <li class="nav-item">
-              <a class="nav-link" href="<?= site_url('offerwalls') ?>" >
+              <a class="nav-link" href="#">
+                <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+                  <i class="fa-solid fa-coin text-dark"></i>
+                </div>
+                <span class="nav-link-text ms-1">Offerwall Unlock at Level <?= $settings['offerwall_min_level'] ?></span>
+              </a>
+            </li><?php } else { ?>
+            <li class="nav-item">
+              <a class="nav-link" href="<?= site_url('offerwalls') ?>">
                 <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
                   <i class="fa-solid fa-pencil text-dark"></i>
                 </div>
                 <span class="nav-link-text ms-1">Offerwalls <span class="badge badge-primary">8</span></span>
               </a>
             </li>
-            <?php }
-          } ?>
-          <?php if ($settings['faucet_status'] == 'on') { ?>
-            <li class="nav-item">
-              <a class="nav-link" href="<?= site_url('faucet') ?>" >
-                <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                  <i class="fa-solid fa-stopwatch text-dark"></i>
-                </div>
-                <span class="nav-link-text ms-1">Claim  <span>&nbsp
+        <?php }
+              } ?>
+        <?php if ($settings['faucet_status'] == 'on') { ?>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('faucet') ?>">
+              <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-stopwatch text-dark"></i>
+              </div>
+              <span class="nav-link-text ms-1">Claim <span>&nbsp
                   <?= $faucetWait > 0 ?
-                      '<span class="badge bg-primary counter" wait="' . ($faucetWait - 1) . '"></span>'
-                      :
-                      "<i class='fa fa-check'></i>" ?>
-              </span></span>
-              </a>
-            </li><?php } ?>
-            <?php if ($settings['autofaucet_status'] == 'on') { ?>
-              <li class="nav-item">
-                <a class="nav-link" href="<?= site_url('auto') ?>" >
-                  <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                    <i class="fa-solid fa-truck-fast text-dark"></i>
-                  </div>
-                  <span class="nav-link-text ms-1">Fast Faucet <span class="badge bg-gradient-warning"><?= $user['energy'] / 10 ?></span></span>
+                    '<span class="badge bg-primary counter" wait="' . ($faucetWait - 1) . '"></span>'
+                    :
+                    "<i class='fa fa-check'></i>" ?>
+                </span></span>
+            </a>
+          </li><?php } ?>
+        <?php if ($settings['autofaucet_status'] == 'on') { ?>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('auto') ?>">
+              <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-truck-fast text-dark"></i>
+              </div>
+              <span class="nav-link-text ms-1">Fast Faucet <span class="badge bg-gradient-warning"><?= $user['energy'] / 10 ?></span></span>
+            </a>
+          </li><?php } ?>
+        <?php if ($settings['wheel_status'] == 'on') { ?>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('wheel') ?>">
+              <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-dharmachakra text-dark"></i>
+              </div>
+              <span class="nav-link-text ms-1">Wheel Of Fortune</span>
+            </a>
+          </li><?php } ?>
+        <?php if ($settings['mining_status'] == 'on') { ?>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('mining') ?>">
+              <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-helmet-safety text-dark"></i>
+              </div>
+              <span class="nav-link-text ms-1">Mining <span class="badge bg-gradient-success">New</span></span>
+            </a>
+          </li><?php } ?>
+        <?php if ($settings['shortlink_status'] == 'on') { ?>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('links') ?>">
+              <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-link text-dark"></i>
+              </div>
+              <span class="nav-link-text ms-1">Shortlinks<span class="badge bg-gradient-success"><?= $countAvailableLinks ?></span></span>
+            </a>
+          </li><?php } ?>
+        <?php if ($settings['ptc_status'] == 'on') { ?>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('ptc') ?>">
+              <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-eye text-dark"></i>
+              </div>
+              <span class="nav-link-text ms-1">PTC <span class="badge bg-gradient-info"><?= $countAvailableAds ?></span></span>
+            </a>
+          </li><?php } ?>
+        <?php if ($settings['lottery_status'] == 'on') { ?>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('lottery') ?>">
+              <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-ticket text-dark"></i>
+              </div>
+              <span class="nav-link-text ms-1">Lottery</span>
+            </a>
+          </li><?php } ?>
+        <?php if ($settings['coupon_status'] == 'on') { ?>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('coupon') ?>">
+              <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-gift text-dark"></i>
+              </div>
+              <span class="nav-link-text ms-1">Redeem Code</span>
+            </a>
+          </li><?php } ?>
+        <?php if ($settings['tasks_status'] == 'on') { ?>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('tasks') ?>">
+              <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-tasks text-dark"></i>
+              </div>
+              <span class="nav-link-text ms-1">Tasks<span class="badge bg-gradient-warning"><?= $countAvailableTasks ?></span></span>
+            </a>
+          </li><?php } ?>
+        <li class="nav-item mt-3">
+          <h6 class="ps-4  ms-2 text-uppercase text-xs font-weight-bolder opacity-6">ADVERTISE</h6>
+        </li>
+        <li class="nav-item">
+          <a data-bs-toggle="collapse" href="#vrExamples" class="nav-link " aria-controls="#vrExamples" role="button" aria-expanded="false">
+            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
+              <i class="fa-solid fa-user-tie text-dark"></i>
+            </div>
+            <span class="nav-link-text ms-1">Advertiser</span>
+          </a>
+          <div class="collapse " id="vrExamples">
+            <ul class="nav ms-4 ps-3">
+              <li class="nav-item ">
+                <a class="nav-link " href="<?= site_url('advertise') ?>">
+
+                  <span class="sidenav-normal">Create campaign</span>
                 </a>
-              </li><?php } ?>
-              <?php if ($settings['wheel_status'] == 'on') { ?>
-                <li class="nav-item">
-                  <a class="nav-link" href="<?= site_url('wheel') ?>" >
-                    <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                      <i class="fa-solid fa-dharmachakra text-dark"></i>
-                    </div>
-                    <span class="nav-link-text ms-1">Wheel Of Fortune</span>
-                  </a>
-                </li><?php } ?>
-                <?php if ($settings['mining_status'] == 'on') { ?>
-                  <li class="nav-item">
-                    <a class="nav-link" href="<?= site_url('mining') ?>" >
-                      <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                        <i class="fa-solid fa-helmet-safety text-dark"></i>
-                      </div>
-                      <span class="nav-link-text ms-1">Mining <span class="badge bg-gradient-success">New</span></span>
-                    </a>
-                  </li><?php } ?>
-                  <?php if ($settings['shortlink_status'] == 'on') { ?>
-                    <li class="nav-item">
-                      <a class="nav-link" href="<?= site_url('links') ?>" >
-                        <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                          <i class="fa-solid fa-link text-dark"></i>
-                        </div>
-                        <span class="nav-link-text ms-1">Shortlinks<span class="badge bg-gradient-success"><?= $countAvailableLinks ?></span></span>
-                      </a>
-                    </li><?php } ?>
-                    <?php if ($settings['ptc_status'] == 'on') { ?>
-                      <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('ptc') ?>" >
-                          <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                            <i class="fa-solid fa-eye text-dark"></i>
-                          </div>
-                          <span class="nav-link-text ms-1">PTC <span class="badge bg-gradient-info"><?= $countAvailableAds ?></span></span>
-                        </a>
-                      </li><?php } ?>
-                      <?php if ($settings['lottery_status'] == 'on') { ?>
-                        <li class="nav-item">
-                          <a class="nav-link" href="<?= site_url('lottery') ?>" >
-                            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                              <i class="fa-solid fa-ticket text-dark"></i>
-                            </div>
-                            <span class="nav-link-text ms-1">Lottery</span>
-                          </a>
-                        </li><?php } ?>
-                        <?php if ($settings['coupon_status'] == 'on') { ?>
-                          <li class="nav-item">
-                            <a class="nav-link" href="<?= site_url('coupon') ?>" >
-                              <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                                <i class="fa-solid fa-gift text-dark"></i>
-                              </div>
-                              <span class="nav-link-text ms-1">Redeem Code</span>
-                            </a>
-                          </li><?php } ?>
-                          <?php if ($settings['tasks_status'] == 'on') { ?>
-                            <li class="nav-item">
-                              <a class="nav-link" href="<?= site_url('tasks') ?>" >
-                                <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                                  <i class="fa-solid fa-tasks text-dark"></i>
-                                </div>
-                                <span class="nav-link-text ms-1">Tasks<span class="badge bg-gradient-warning"><?= $countAvailableTasks ?></span></span>
-                              </a>
-                            </li><?php } ?>
-                            <li class="nav-item mt-3">
-                              <h6 class="ps-4  ms-2 text-uppercase text-xs font-weight-bolder opacity-6">ADVERTISE</h6>
-                            </li>
-                            <li class="nav-item">
-                              <a data-bs-toggle="collapse" href="#vrExamples" class="nav-link " aria-controls="#vrExamples" role="button" aria-expanded="false">
-                                <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
-                                  <i class="fa-solid fa-user-tie text-dark"></i>
-                                </div>
-                                <span class="nav-link-text ms-1">Advertiser</span>
-                              </a>
-                              <div class="collapse " id="vrExamples">
-                                <ul class="nav ms-4 ps-3">
-                                  <li class="nav-item ">
-                                    <a class="nav-link " href="<?= site_url('advertise') ?>">
-                                      
-                                      <span class="sidenav-normal">Create campaign</span>
-                                    </a>
-                                  </li>
-                                  <li class="nav-item ">
-                                    <a class="nav-link " href="<?= site_url('advertise/manage') ?>">
-                                      
-                                      <span class="sidenav-normal">Manage campaigns</span>
-                                    </a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="<?= site_url('deposit') ?>" >
-                                  <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                                    <i class="fa-solid fa-donate text-dark"></i>
-                                  </div>
-                                  <span class="nav-link-text ms-1">Deposit</span>
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="<?= site_url('transfer') ?>" >
-                                  <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                                    <i class="fa-solid fa-exchange-alt text-dark"></i>
-                                  </div>
-                                  <span class="nav-link-text ms-1">Exchange</span>
-                                </a>
-                              </li>
-                              <?php if (count($pages) > 0) { ?>
-                              <li class="nav-item mt-3">
-                                <h6 class="ps-4  ms-2 text-uppercase text-xs font-weight-bolder opacity-6">ADVERTISE</h6>
-                              </li>
-                              <?php } ?>
-                              <?php foreach ($pages as $p) { ?>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="<?= site_url('page/' . $p['slug']) ?>" >
-                                    <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                                      
-                                    </div>
-                                    <span class="nav-link-text ms-1"><?= $p['title'] ?></span>
-                                  </a>
-                                </li>
-                              <?php } ?>
-                            <li class="nav-item mt-3">
-                              <h6 class="ps-4  ms-2 text-uppercase text-xs font-weight-bolder opacity-6">ACCOUNT</h6>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="<?= site_url('profile') ?>" >
-                                <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                                  <i class="fa-solid fa-user-circle text-dark"></i>
-                                </div>
-                                <span class="nav-link-text ms-1">Profile</span>
-                              </a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="<?= site_url('history') ?>" >
-                                <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                                  <i class="fa-solid fa-history text-dark"></i>
-                                </div>
-                                <span class="nav-link-text ms-1">History</span>
-                              </a>
-                            </li>     
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="<?= site_url('advertise/manage') ?>">
+
+                  <span class="sidenav-normal">Manage campaigns</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?= site_url('deposit') ?>">
+            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+              <i class="fa-solid fa-donate text-dark"></i>
+            </div>
+            <span class="nav-link-text ms-1">Deposit</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?= site_url('transfer') ?>">
+            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+              <i class="fa-solid fa-exchange-alt text-dark"></i>
+            </div>
+            <span class="nav-link-text ms-1">Exchange</span>
+          </a>
+        </li>
+        <?php if (count($pages) > 0) { ?>
+          <li class="nav-item mt-3">
+            <h6 class="ps-4  ms-2 text-uppercase text-xs font-weight-bolder opacity-6">ADVERTISE</h6>
+          </li>
+        <?php } ?>
+        <?php foreach ($pages as $p) { ?>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('page/' . $p['slug']) ?>">
+              <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+
+              </div>
+              <span class="nav-link-text ms-1"><?= $p['title'] ?></span>
+            </a>
+          </li>
+        <?php } ?>
+        <li class="nav-item mt-3">
+          <h6 class="ps-4  ms-2 text-uppercase text-xs font-weight-bolder opacity-6">ACCOUNT</h6>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?= site_url('profile') ?>">
+            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+              <i class="fa-solid fa-user-circle text-dark"></i>
+            </div>
+            <span class="nav-link-text ms-1">Profile</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?= site_url('history') ?>">
+            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+              <i class="fa-solid fa-history text-dark"></i>
+            </div>
+            <span class="nav-link-text ms-1">History</span>
+          </a>
+        </li>
       </ul>
     </div>
     <div class="sidenav-footer mx-3 mt-3 pt-3">
-     <div class="card p-3">                           
-          <div class="docs-info">
+      <div class="card p-3">
+        <div class="docs-info">
           <div class="row">
-	  <div class="col-auto mr-auto font-weight-bold">Level <?= $user['level'] ?> / <span class="text-success"> <?= $bonus ?>% </span> Bonus </div>
-	  <div class="col-auto font-weight-bold"> <?= ($user['exp'] % 100) ?>% </div>
-	</div>
-	<p>
-	<div class="progress" style="height: 5px;">
-	  <div class="progress-bar bg-info" role="progressbar" style="width: 
+            <div class="col-auto mr-auto font-weight-bold">Level <?= $user['level'] ?> / <span class="text-success"> <?= $bonus ?>% </span> Bonus </div>
+            <div class="col-auto font-weight-bold"> <?= ($user['exp'] % 100) ?>% </div>
+          </div>
+          <p>
+          <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 
 			<?= ($user['exp'] % 100) ?>%;" aria-valuenow="
 			<?= ($user['exp'] % 100) ?>" aria-valuemin="0" aria-valuemax="100">
-	  </div>
-	</div>
-	<hr>
-	<span class="text-success"> <?= ($user['level'] + 1) * 100 - $user['exp'] ?> </span> exp needed for Level <?= $user['level'] + 1 ?>                      
-
+            </div>
           </div>
-        
-      
-    </div>
+          <hr>
+          <span class="text-success"> <?= ($user['level'] + 1) * 100 - $user['exp'] ?> </span> exp needed for Level <?= $user['level'] + 1 ?>
+
+        </div>
+
+
+      </div>
     </div>
   </aside>
   <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
-  <nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky" id="navbarBlur" data-scroll="true">
+    <nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky" id="navbarBlur" data-scroll="true">
       <div class="container-fluid py-1 px-3">
         <!-- <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
@@ -924,7 +928,7 @@
         </div>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-            
+
           </div>
           <ul class="navbar-nav  justify-content-end">
             <!-- <li class="nav-item d-flex align-items-center">
@@ -942,12 +946,12 @@
                 </div>
               </a>
             </li>
-            
+
             <li class="nav-item dropdown pe-2 d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                 <button type="button" class="btn " style="padding: 10px;margin-left: 10px;"><i class="fa-solid fa-wallet">&nbsp&nbsp</i><?= currencyDisplay($user['balance'], $settings) ?><i class="fa-solid fa-caret-down" style="margin-left: 10px;"></i></button>
               </a>
-              <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" >
+              <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
                 <li class="mb-2 ">
                   <div style="text-align: center;">
                     <i class="fa-solid fa-bolt"></i>&nbsp&nbsp<?= $user['energy'] ?> energy
@@ -959,76 +963,78 @@
                     <i class="fa-solid fa-rectangle-ad"></i>&nbsp&nbsp<?= currencyDisplay($user['dep_balance'], $settings) ?>
                   </div>
                 </li>
-                
-                
+
+
               </ul>
             </li>
-            
+
             <li class="nav-item dropdown pe-2 d-flex align-items-center" style="margin-left: 10px;margin-right: 10px;">
               <a href="javascript:;" style="margin-top: -12px;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-              <?php if ($countUnreadNotification > 0) { ?>
-                                <i class="fa fa-bell cursor-pointer"></i>
-                                <span class="badge badge-md badge-circle badge-floating badge-danger border-white"><?= $countUnreadNotification ?></span>
-                            <?php } else { ?>
-                              <i class="fa fa-bell cursor-pointer"></i>
-                            <?php } ?>
-                
+                <?php if ($countUnreadNotification > 0) { ?>
+                  <i class="fa fa-bell cursor-pointer"></i>
+                  <span class="badge badge-md badge-circle badge-floating badge-danger border-white"><?= $countUnreadNotification ?></span>
+                <?php } else { ?>
+                  <i class="fa fa-bell cursor-pointer"></i>
+                <?php } ?>
+
               </a>
               <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" style="width: 320px;">
                 <li class="mb-2">
                   <div class="p-3 d-flex" style="    justify-content: space-between;">
-                                        <h6 class="m-0" key="t-notifications"> Notifications</h6>
-						                             <a href="" class="float-right text-reset notification-item"><h6>Mark as read</h6></a>
-                                    
-                            </div>
-                  
+                    <h6 class="m-0" key="t-notifications"> Notifications</h6>
+                    <a href="" class="float-right text-reset notification-item">
+                      <h6>Mark as read</h6>
+                    </a>
+
+                  </div>
+
                 </li>
                 <li class="mb-2">
-                <?php
-                                                    foreach ($notifications as $notification) {
-                                                        $icon = [];
-                                                        switch ($notification['type']) {
-                                                            case 0:
-                                                                $icon['content'] = '<i class="fas fa-bullhorn"></i>';
-                                                                $icon['color'] = 'bg-primary';
-                                                                break;
-                                                            case 1:
-                                                                $icon['content'] = '<i class="far fa-money-bill-alt"></i>';
-                                                                $icon['color'] = 'bg-success';
-                                                                break;
-                                                            case 2:
-                                                                $icon['content'] = '<i class="fas fa-exclamation-triangle"></i>';
-                                                                $icon['color'] = 'bg-danger';
-                                                                break;
-                                                            default:
-                                                                $icon['content'] = '<i class="far fa-comment-dots"></i>';
-                                                                $icon['color'] = 'bg-info';
-                                                                break;
-                                                        }
-                                                    ?>
-                                                        <a href="" class="text-reset notification-item">
-                                                            <div class="media">
-                                                                <div class="avatar-xs mr-3">
-                                                                    <span class="avatar-title <?= $icon['color'] ?> rounded-circle font-size-16">
-                                                                        <?= $icon['content'] ?>
-                                                                    </span>
-                                                                </div>
-                                                                <div class="media-body">
-                                                                    <div class="font-size-12 text-muted">
-                                                                        <p class="mb-1" key="t-grammer" style="word-break: keep-all;"><?= $notification['content'] ?></p>
-                                                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-min-ago"><?= timespan($notification["create_time"], time(), 2) ?> ago</span></p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    <?php } ?>
-                </li>
-                <li>
-                    <a href="https://banfaucet.com/new/history" class="text-dark" style="">
-                      <div style="width: 100%;background: #f9f9f9;border-radius: 6px;padding-top: 10px;padding-bottom: 10px;" class="text-center">
-                              View all
+                  <?php
+                  foreach ($notifications as $notification) {
+                    $icon = [];
+                    switch ($notification['type']) {
+                      case 0:
+                        $icon['content'] = '<i class="fas fa-bullhorn"></i>';
+                        $icon['color'] = 'bg-primary';
+                        break;
+                      case 1:
+                        $icon['content'] = '<i class="far fa-money-bill-alt"></i>';
+                        $icon['color'] = 'bg-success';
+                        break;
+                      case 2:
+                        $icon['content'] = '<i class="fas fa-exclamation-triangle"></i>';
+                        $icon['color'] = 'bg-danger';
+                        break;
+                      default:
+                        $icon['content'] = '<i class="far fa-comment-dots"></i>';
+                        $icon['color'] = 'bg-info';
+                        break;
+                    }
+                  ?>
+                    <a href="" class="text-reset notification-item">
+                      <div class="media">
+                        <div class="avatar-xs mr-3">
+                          <span class="avatar-title <?= $icon['color'] ?> rounded-circle font-size-16">
+                            <?= $icon['content'] ?>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          <div class="font-size-12 text-muted">
+                            <p class="mb-1" key="t-grammer" style="word-break: keep-all;"><?= $notification['content'] ?></p>
+                            <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-min-ago"><?= timespan($notification["create_time"], time(), 2) ?> ago</span></p>
+                          </div>
+                        </div>
                       </div>
                     </a>
+                  <?php } ?>
+                </li>
+                <li>
+                  <a href="https://banfaucet.com/new/history" class="text-dark">
+                    <div style="width: 100%;background: #f9f9f9;border-radius: 6px;padding-top: 10px;padding-bottom: 10px;" class="text-center">
+                      View all
+                    </div>
+                  </a>
                   </a>
                 </li>
               </ul>
@@ -1036,44 +1042,44 @@
             <li class="nav-item dropdown pe-2 d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                 <button type="button" class="btn " style="    padding: 0 10px 0 0;"> <img class="rounded-circle header-profile-user" src="<?= base_url() ?>assets/images/users/user.png" alt="Header Avatar">
-                            <span class="d-none d-xl-inline-block ml-1" key="t-henry"><?= $user['username'] ?></span>
-                            <i class="fa-solid fa-caret-down" style="margin-left: 10px;"></i>
-                            <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i></button>
+                  <span class="d-none d-xl-inline-block ml-1" key="t-henry"><?= $user['username'] ?></span>
+                  <i class="fa-solid fa-caret-down" style="margin-left: 10px;"></i>
+                  <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i></button>
               </a>
-              <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" >
+              <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
                 <li class="mb-2 ">
                   <a href="<?= site_url('profile') ?>">
-                  <div style="text-align: center;">
-                  <i class="far fa-user-circle"></i> <span key="t-profile">Profile</span>
-                    <hr class="horizontal dark">
-                  </div>
+                    <div style="text-align: center;">
+                      <i class="far fa-user-circle"></i> <span key="t-profile">Profile</span>
+                      <hr class="horizontal dark">
+                    </div>
                   </a>
                 </li>
                 <li class="mb-2 ">
                   <a href="<?= site_url('history') ?>">
-                  <div style="text-align: center;">
-                    <i class="fas fa-history"></i> <span key="t-history">History</span>
-                    <hr class="horizontal dark">
-                  </div>
+                    <div style="text-align: center;">
+                      <i class="fas fa-history"></i> <span key="t-history">History</span>
+                      <hr class="horizontal dark">
+                    </div>
                   </a>
                 </li>
                 <li class="mb-2 ">
                   <a href="<?= site_url('withdraw') ?>">
-                  <div style="text-align: center;">
-                  <i class="fa-solid fa-wallet"></i> <span key="t-withdraw">Withdraw</span>
-                    <hr class="horizontal dark">
-                  </div>
+                    <div style="text-align: center;">
+                      <i class="fa-solid fa-wallet"></i> <span key="t-withdraw">Withdraw</span>
+                      <hr class="horizontal dark">
+                    </div>
                   </a>
                 </li>
                 <li class="mb-2 ">
                   <a href="<?= site_url('auth/logout') ?>">
-                  <div style="text-align: center;text-danger">
-                  <i class="fa-solid fa-right-to-bracket font-size-16 align-middle mr-1 "></i> <span key="t-logout">Logout</span>
-                    <hr class="horizontal dark">
-                  </div>
+                    <div style="text-align: center;" class="text-danger">
+                      <i class="fa-solid fa-right-to-bracket font-size-16 align-middle mr-1 "></i> <span key="t-logout">Logout</span>
+                      <hr class="horizontal dark">
+                    </div>
                   </a>
                 </li>
-                
+
               </ul>
             </li>
           </ul>
@@ -1084,24 +1090,24 @@
 
     <?= $contents ?>
     <footer class="footer pt-3  ">
-        <div class="container-fluid">
-          <div class="row align-items-center justify-content-lg-between">
-            <div class="col-lg-6 mb-lg-0 mb-4">
-              <div class="copyright text-center text-sm text-muted text-lg-start">
-                © <script>
-                  document.write(new Date().getFullYear())
-                </script>,
-                <a href="https://banfaucet.com/">Banano Faucet</a> | <a href="https://banfaucet.com/page/terms-of-service">Terms of Service</a> | <i class="fa-solid fa-clock " style="margin-right: 5px;"></i>Server Time: <?= date('H:i') ?>
-              </div>
+      <div class="container-fluid">
+        <div class="row align-items-center justify-content-lg-between">
+          <div class="col-lg-6 mb-lg-0 mb-4">
+            <div class="copyright text-center text-sm text-muted text-lg-start">
+              © <script>
+                document.write(new Date().getFullYear())
+              </script>,
+              <a href="https://banfaucet.com/">Banano Faucet</a> | <a href="https://banfaucet.com/page/terms-of-service">Terms of Service</a> | <i class="fa-solid fa-clock " style="margin-right: 5px;"></i>Server Time: <?= date('H:i') ?>
             </div>
-            <div class="col-lg-6">
-              <div class="copyright text-center text-sm text-muted text-lg-end">
+          </div>
+          <div class="col-lg-6">
+            <div class="copyright text-center text-sm text-muted text-lg-end">
               Powered by <a href="https://faucetscript.net/faucet/vie-faucet-script">Vie Faucet Script</a>
-              </div>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
     </div>
   </main>
   <div class="fixed-plugin">
@@ -1111,10 +1117,10 @@
     <div class="card shadow-lg blur">
       <div class="card-header pb-0 pt-3  bg-transparent ">
         <div class="float-start">
-            <a class="navbar-brand m-0" href="#" >
-                <img src="https://banfaucet.com/assets/images/logo-min.png " height="50px" class="navbar-brand-img " alt="main_logo">
-                <span class="ms-1 font-weight-bold">BANFAUCET</span>
-            </a>
+          <a class="navbar-brand m-0" href="#">
+            <img src="https://banfaucet.com/assets/images/logo-min.png " height="50px" class="navbar-brand-img " alt="main_logo">
+            <span class="ms-1 font-weight-bold">BANFAUCET</span>
+          </a>
         </div>
         <div class="float-end mt-4">
           <button class="btn btn-link text-dark p-0 fixed-plugin-close-button">
@@ -1125,12 +1131,12 @@
       </div>
       <hr class="horizontal dark my-1">
       <div class="card-body pt-0 mt-4">
-      <div class="d-xl-block">
-        <h6 class="mb-0">Light/Dark</h6>
-      </div>
-      <div class="form-check form-switch ps-0 d-xl-block">
-        <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
-      </div>
+        <div class="d-xl-block">
+          <h6 class="mb-0">Light/Dark</h6>
+        </div>
+        <div class="form-check form-switch ps-0 d-xl-block">
+          <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
+        </div>
         <!-- Sidebar Backgrounds -->
         <!-- <hr class="horizontal dark mb-1 d-xl-block d-none">
         <div class="mt-2 d-xl-block d-none">
@@ -1189,9 +1195,6 @@
           setHigh(ev.detail.high, true);
       });
     });
-
-    
-
   </script>
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
@@ -1207,19 +1210,19 @@
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="newAssets/js/soft-ui-dashboard.min.js?v=1.1.0"></script>
   <!-- new code End -->
-<!-- new code end -->
+  <!-- new code end -->
 
 
-    <!-- JAVASCRIPT -->
+  <!-- JAVASCRIPT -->
 
-    <!-- <script src="<?= base_url() ?>assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="<?= base_url() ?>assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="<?= base_url() ?>assets/libs/metismenu/metisMenu.min.js"></script>
     <script src="<?= base_url() ?>assets/libs/simplebar/simplebar.min.js"></script>
     <script src="<?= base_url() ?>assets/libs/node-waves/waves.min.js"></script>
     <script src="<?= base_url() ?>assets/js/vie/faucet.js?v=<?= VIE_VERSION ?>"></script> -->
 
-<!--    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.m/in.css">-->
-    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
+  <!--    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.m/in.css">-->
+  <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
     <script>
@@ -1230,177 +1233,186 @@
 
 
 
-    <?php if ($page == 'Dashboard') { ?>
-        <script src="<?= base_url() ?>assets/libs/apexcharts/apexcharts.min.js"></script>
-	  <script src="<?= base_url() ?>assets/js/vie/bclaim.js"></script>
+  <?php if ($page == 'Dashboard') { ?>
+    <script src="<?= base_url() ?>assets/libs/apexcharts/apexcharts.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/vie/bclaim.js"></script>
 
-        <script>
-            var options = {
-                chart: {
-                    height: 180,
-                    type: 'radialBar',
-                    offsetY: -10
-                },
-                plotOptions: {
-                    radialBar: {
-                        startAngle: -135,
-                        endAngle: 135,
-                        dataLabels: {
-                            name: {
-                                fontSize: '13px',
-                                color: undefined,
-                                offsetY: 60
-                            },
-                            value: {
-                                offsetY: 22,
-                                fontSize: '16px',
-                                color: undefined,
-                                formatter: function(val) {
-                                    return val + "%";
-                                }
-                            }
-                        }
-                    }
-                },
-                colors: ['#556ee6'],
-                fill: {
-                    type: 'gradient',
-                    gradient: {
-                        shade: 'dark',
-                        shadeIntensity: 0.15,
-                        inverseColors: false,
-                        opacityFrom: 1,
-                        opacityTo: 1,
-                        stops: [0, 50, 65, 91]
-                    },
-                },
-                stroke: {
-                    dashArray: 4,
-                },
-                series: [<?= ($user['exp'] % 100) ?>],
-                labels: ['Level <?= $user['level'] + 1 ?>'],
-
+    <script>
+      var options = {
+        chart: {
+          height: 180,
+          type: 'radialBar',
+          offsetY: -10
+        },
+        plotOptions: {
+          radialBar: {
+            startAngle: -135,
+            endAngle: 135,
+            dataLabels: {
+              name: {
+                fontSize: '13px',
+                color: undefined,
+                offsetY: 60
+              },
+              value: {
+                offsetY: 22,
+                fontSize: '16px',
+                color: undefined,
+                formatter: function(val) {
+                  return val + "%";
+                }
+              }
             }
+          }
+        },
+        colors: ['#556ee6'],
+        fill: {
+          type: 'gradient',
+          gradient: {
+            shade: 'dark',
+            shadeIntensity: 0.15,
+            inverseColors: false,
+            opacityFrom: 1,
+            opacityTo: 1,
+            stops: [0, 50, 65, 91]
+          },
+        },
+        stroke: {
+          dashArray: 4,
+        },
+        series: [<?= ($user['exp'] % 100) ?>],
+        labels: ['Level <?= $user['level'] + 1 ?>'],
 
-            var chart = new ApexCharts(
-                document.querySelector("#radialBar-chart"),
-                options
-            );
+      }
 
-            chart.render();
-        </script>
-    <?php } ?>
-    <script type="text/javascript">
-        var site_url = "<?= base_url() ?>";
+      var chart = new ApexCharts(
+        document.querySelector("#radialBar-chart"),
+        options
+      );
+
+      chart.render();
     </script>
-    <!-- App js -->
-    <script src="<?= base_url() ?>assets/js/app.js?v=<?= VIE_VERSION ?>"></script>
-    <script src="<?= base_url() ?>assets/js/vie/captcha.js?v=<?= VIE_VERSION ?>"></script>
-    <?php if ($page == 'Advertise') { ?>
-        <script src="<?= base_url() ?>assets/js/vie/advertise.js?v=<?= VIE_VERSION ?>"></script>
-    <?php } ?>
-    <?php if ($page == 'Deposit') { ?>
-        <script src="<?= base_url() ?>assets/js/vie/deposit.js?v=<?= VIE_VERSION ?>"></script>
-    <?php } ?>
-    <?php if ($page == 'Dice') { ?>
-        <script src="<?= base_url() ?>assets/js/vie/dice.js?v=<?= VIE_VERSION ?>"></script>
-    <?php } ?>
-    <?php if ($page == 'Coin Flip') { ?>
-        <script src="<?= site_url('assets/js/vie/coinflip.js?v=' . VIE_VERSION) ?>"></script>
-    <?php } ?>
-    <script type="text/javascript">
-        $("a[href='<?= current_url() ?>']").attr('data-active', 'true');
+  <?php } ?>
+  <script type="text/javascript">
+    var site_url = "<?= base_url() ?>";
+  </script>
+  <!-- App js -->
+  <script src="<?= base_url() ?>assets/js/app.js?v=<?= VIE_VERSION ?>"></script>
+  <script src="<?= base_url() ?>assets/js/vie/captcha.js?v=<?= VIE_VERSION ?>"></script>
+  <?php if ($page == 'Advertise') { ?>
+    <script src="<?= base_url() ?>assets/js/vie/advertise.js?v=<?= VIE_VERSION ?>"></script>
+  <?php } ?>
+  <?php if ($page == 'Deposit') { ?>
+    <script src="<?= base_url() ?>assets/js/vie/deposit.js?v=<?= VIE_VERSION ?>"></script>
+  <?php } ?>
+  <?php if ($page == 'Dice') { ?>
+    <script src="<?= base_url() ?>assets/js/vie/dice.js?v=<?= VIE_VERSION ?>"></script>
+  <?php } ?>
+  <?php if ($page == 'Coin Flip') { ?>
+    <script src="<?= site_url('assets/js/vie/coinflip.js?v=' . VIE_VERSION) ?>"></script>
+  <?php } ?>
+  <script type="text/javascript">
+    $("a[href='<?= current_url() ?>']").attr('data-active', 'true');
+  </script>
+  <?php if (isset($antibot_js)) { ?>
+    <?= $antibot_js ?>
+    <script src="<?= base_url() ?>assets/js/vie/antibotlinks.js?v=<?= VIE_VERSION ?>"></script>
+  <?php } ?>
+  <?php if ($page == 'Faucet') { ?>
+    <script src="<?= base_url() ?>assets/js/vie/faucet.js?v=<?= VIE_VERSION ?>"></script>
+  <?php } ?>
+  <?php if ($page == 'Wheel of fortunes') { ?>
+    <script src="<?= base_url() ?>assets/js/wheel/Winwheel.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/wheel/TweenMax.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/wheel/wheel.js"></script>
+  <?php } ?>
+  <?php if (isset($_COOKIE['captcha'])) { ?>
+    <script>
+      $('option[value=<?= $_COOKIE['captcha'] ?>]').attr('selected', 'selected');
     </script>
-    <?php if (isset($antibot_js)) { ?>
-        <?= $antibot_js ?>
-        <script src="<?= base_url() ?>assets/js/vie/antibotlinks.js?v=<?= VIE_VERSION ?>"></script>
-    <?php } ?>
-    <?php if ($page == 'Faucet') { ?>
-        <script src="<?= base_url() ?>assets/js/vie/faucet.js?v=<?= VIE_VERSION ?>"></script>
-    <?php } ?>
-    <?php if ($page == 'Wheel of fortunes') { ?>
-        <script src="<?= base_url() ?>assets/js/wheel/Winwheel.min.js"></script>
-        <script src="<?= base_url() ?>assets/js/wheel/TweenMax.min.js"></script>
-        <script src="<?= base_url() ?>assets/js/wheel/wheel.js"></script>
-    <?php } ?>
-    <?php if (isset($_COOKIE['captcha'])) { ?>
-        <script>
-            $('option[value=<?= $_COOKIE['captcha'] ?>]').attr('selected', 'selected');
-        </script>
-    <?php } ?>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <?php
-    if (isset($_SESSION['sweet_message'])) {
-        echo $_SESSION['sweet_message'];
+  <?php } ?>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <?php
+  if (isset($_SESSION['sweet_message'])) {
+    echo $_SESSION['sweet_message'];
+  }
+  ?>
+  <?php include 'adblock.php'; ?>
+  <style>
+    .sticky-ads {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 98%;
+      min-height: 70px;
+      max-height: 200px;
+      padding: 5px 0;
+      /* box-shadow: 0 -6px 18px 0 rgba(9,32,76,.1);  */
+      -webkit-transition: all .1s ease-in;
+      transition: all .1s ease-in;
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      z-index: 10;
     }
-    ?>
-    <?php include 'adblock.php'; ?>
-<style>.sticky-ads{ 
-position: fixed; 
-bottom: 0; left: 0; 
-width: 98%; min-height: 70px; max-height: 200px; 
-padding: 5px 0; 
-/* box-shadow: 0 -6px 18px 0 rgba(9,32,76,.1);  */
--webkit-transition: all .1s ease-in; transition: all .1s ease-in; 
-display: flex; 
-align-items: center; 
-justify-content: right; 
-z-index: 10; } 
-</style>
+  </style>
 
-<div class='sticky-ads' id='sticky-ads'>
-<div class='sticky-ads-content'>
+  <div class='sticky-ads' id='sticky-ads'>
+    <div class='sticky-ads-content'>
 
-<div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="Join our Telegram Group">
-<a href="https://t.me/banfaucet" target="_blank"><img src="https://banfaucet.com/new/assets/images/telegram.png" style="width:50px;height:50px;"></a>
-</div>
-</div>
-</div>
-<script>
-document.addEventListener("DOMContentLoaded", function(){
-    // Placement of tooltip on top
-    var tipTop = document.getElementById("tipTop");
-    var tooltipTop = new bootstrap.Tooltip(tipTop, { 
-        placement : "top" 
+      <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="Join our Telegram Group">
+        <a href="https://t.me/banfaucet" target="_blank"><img src="https://banfaucet.com/new/assets/images/telegram.png" style="width:50px;height:50px;"></a>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Placement of tooltip on top
+      var tipTop = document.getElementById("tipTop");
+      var tooltipTop = new bootstrap.Tooltip(tipTop, {
+        placement: "top"
+      });
+
+      // Placement of tooltip on right
+      var tipRight = document.getElementById("tipRight");
+      var tooltipRight = new bootstrap.Tooltip(tipRight, {
+        placement: "right"
+      });
+
+      // Placement of tooltip on bottom
+      var tipBottom = document.getElementById("tipBottom");
+      var tooltipBottom = new bootstrap.Tooltip(tipBottom, {
+        placement: "bottom"
+      });
+
+      // Placement of tooltip on left
+      var tipLeft = document.getElementById("tipLeft");
+      var tooltipLeft = new bootstrap.Tooltip(tipLeft, {
+        placement: "left"
+      });
     });
 
-    // Placement of tooltip on right
-    var tipRight = document.getElementById("tipRight");
-    var tooltipRight = new bootstrap.Tooltip(tipRight, { 
-        placement : "right" 
-    });
-    
-    // Placement of tooltip on bottom
-    var tipBottom = document.getElementById("tipBottom");
-    var tooltipBottom = new bootstrap.Tooltip(tipBottom, { 
-        placement : "bottom" 
-    });
-
-    // Placement of tooltip on left
-    var tipLeft = document.getElementById("tipLeft");
-    var tooltipLeft = new bootstrap.Tooltip(tipLeft, { 
-        placement : "left" 
-    });
-});
-
-document.addEventListener("DOMContentLoaded", function(){
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-    var tooltipList = tooltipTriggerList.map(function(element){
+    document.addEventListener("DOMContentLoaded", function() {
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+      var tooltipList = tooltipTriggerList.map(function(element) {
         return new bootstrap.Tooltip(element);
+      });
     });
-});
-</script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="https://kit.fontawesome.com/affd6d170a.js" crossorigin="anonymous"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-40X8JY6KVR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://kit.fontawesome.com/affd6d170a.js" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-40X8JY6KVR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-40X8JY6KVR');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-40X8JY6KVR');
+  </script>
 
 </body>
 
