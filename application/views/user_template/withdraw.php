@@ -224,7 +224,7 @@
                               >
                             </div>
                           </div>
-                          <p style="font-size: 12px;margin-top: -20px;">Minimum withdrawal is 100 tokens</p>
+                          <small style="font-size: 12px;margin-top: -20px;" id="minimumWithdrawal">Minimum withdrawal is 100 tokens</small>
                         </div>
                         <div class="" style="width: 5%;padding: 0;">
                           <span style="background: #9999;padding: 15px;border-radius: 50%;"><i class="fa-solid fa-right-left text-white" style="margin-top: 10px;"></i></span>
