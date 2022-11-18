@@ -137,7 +137,7 @@
                   </button>
                 </div>
               </div>
-            </div>
+            </div> 
             <!--form panels-->
             <div class="row">
               <div class="col-12 col-lg-8 m-auto">
