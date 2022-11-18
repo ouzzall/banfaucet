@@ -591,7 +591,8 @@
             </div>
           </div>
           <!-- Coinzilla Banner 300x250 -->
-<script async src="https://coinzillatag.com/lib/display.js"></script>
+          <div style="padding-top:20px; display:flex; justify-content:center">
+          <script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-246623529710f792603"></div>
 <script>
     window.coinzilla_display = window.coinzilla_display || [];
@@ -601,6 +602,7 @@
     c_display_preferences.height = "250";
     coinzilla_display.push(c_display_preferences);
 </script>
+          </div>
         </div>
       </div>
       <div class="row mt-4">
