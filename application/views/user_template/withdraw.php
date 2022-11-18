@@ -170,24 +170,32 @@
                         var rate = <?= $settings['currency_rate'] ?>;
                       </script>
 
-                      <?php foreach ($methods as $method) {
-                        $percent = number_format(min(100, $method['balance'] * $method['price'] / 30 * 100)); ?>
-                        
-                        <div class="col-sm-2">
-                        <input type="radio" name="method" value="<?= $method['id'] ?>" class="card-radio-input" required>
-                          <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
-                            <img class="cruncyIcon" src="<?= site_url('assets/images/currencies/' . strtolower($method['code']) . '.png') ?>"  height="25px">
-                          </label>
-                          <script>
-                            currencies['<?= $method['id'] ?>'] = {
-                              price: <?= $method['price'] ?>,
-                              code: '<?= $method['code'] ?>',
-                              minimumWithdrawal: <?= $method['minimum_withdrawal'] ?>
-                            };
-                          </script>
-                          <p class="currenyRate"><?= $method['code'] ?> = <?= currencyDisplay($method['price'], $settings) ?></p>
+<?php foreach ($methods as $method) {
+                $percent = number_format(min(100, $method['balance'] * $method['price'] / 30 * 100)); ?>
+                <div class="col-xl-4 col-sm-6">
+                  <div class="mb-3">
+                    <label class="card-radio-label mb-2">
+                      <input type="radio" name="method" value="<?= $method['id'] ?>" class="card-radio-input" required>
+                      <div class="card-radio">
+                        <div>
+                          <img class="currency-dashboard" src="<?= site_url('assets/images/currencies/' . strtolower($method['code']) . '.png') ?>" />
+                          <span><?= $method['name'] ?></span>
                         </div>
-                        <?php } ?>
+                      </div>
+                    </label>
+                    <script>
+                      currencies['<?= $method['id'] ?>'] = {
+                        price: <?= $method['price'] ?>,
+                        code: '<?= $method['code'] ?>',
+                        minimumWithdrawal: <?= $method['minimum_withdrawal'] ?>
+                      };
+                    </script>
+                    <div>
+				<h5 class="font-size-14">1 <?= $method['code'] ?> = <?= currencyDisplay($method['price'], $settings) ?></h5>
+                    </div>
+                  </div>
+                </div>
+              <?php } ?>
 
                       </div>
                       <div class="button-row d-flex mt-4">
