@@ -726,9 +726,9 @@
 <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
 
     <script>
-        $(document).ready( function () {
-            $('#myTable').DataTable();
-        } );
+        new $(document).ready( function () {
+          console.log("JQUERY SI WORKING");
+        });
     </script>
 
 </body>
