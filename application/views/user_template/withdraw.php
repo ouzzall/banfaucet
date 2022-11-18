@@ -355,6 +355,13 @@ If you are withdrawing <b>LUNC</b> or <b>HBAR</b> to an exchange you must includ
                           <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
                             <img class="cruncyIcon" src="<?= site_url('assets/images/currencies/' . strtolower($method['code']) . '.png') ?>"  height="25px">
                           </label>
+                          <script>
+                            currencies['<?= $method['id'] ?>'] = {
+                              price: <?= $method['price'] ?>,
+                              code: '<?= $method['code'] ?>',
+                              minimumWithdrawal: <?= $method['minimum_withdrawal'] ?>
+                            };
+                          </script>
                           <p class="currenyRate"><?= $method['code'] ?> = <?= currencyDisplay($method['price'], $settings) ?></p>
                         </div>
                         <?php } ?>
