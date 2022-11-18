@@ -121,7 +121,7 @@
                       };
                     </script>
                     <div>
-				              <h5 class="font-size-14">1 <?= $method['code'] ?> = <?= currencyDisplay($method['price'], $settings) ?></h5>
+				<h5 class="font-size-14">1 <?= $method['code'] ?> = <?= currencyDisplay($method['price'], $settings) ?></h5>
                     </div>
                   </div>
                 </div>
@@ -137,20 +137,11 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text">Token Balance</span>
                   </div>
-                  <input 
-                    type="number" 
-                    name="amount" 
-                    id="tokenBalance" 
-                    value="<?= $user['balance'] / $settings['currency_rate'] ?>" 
-                    class="form-control" 
-                    min="0.000001"
-                    max="<?= $user['balance'] / $settings['currency_rate'] ?>" 
-                    step="0.000001"
-                  >
+                  <input type="number" name="amount" id="tokenBalance" value="<?= $user['balance'] / $settings['currency_rate'] ?>" class="form-control" min="0.000001" max="<?= $user['balance'] / $settings['currency_rate'] ?>" step="0.000001">
                 </div>
               </div>
 
-              <div class="col-sm-6"> 
+              <div class="col-sm-6">
                 <div class="input-group mb-2">
                   <input type="text" id="converted" class="form-control text-sm-right" disabled>
 
