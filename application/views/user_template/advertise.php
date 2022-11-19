@@ -1,8 +1,29 @@
-<div class="ads">
+<div class="container-fluid py-4">
+<!-- <div class="ads">
     <?= $settings['ptc_top_ad'] ?>
-</div>
+</div> -->
 <div class="row">
-    <div class="col-lg-12">
+<div class="col-12">
+          <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+            <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
+            <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+    <div class="col-12">
+          <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+            <i class="fa-solid fa-gift fa-xl"></i> Redeem coupon code <b>25OFF</b> to get 25% advertising discount!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-8 mx-auto">
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title mb-4 text-center">Create a campaign</h4>
@@ -11,7 +32,7 @@
                     echo $_SESSION['message'];
                 } ?>
 
-                <h5 style="color:#1B654A"><?= currencyDisplay($user['dep_balance'], $settings) ?> in your Advertising Balance</h5><p>
+                <h5 style="color:#1B654A" class="text-center"><?= currencyDisplay($user['dep_balance'], $settings) ?> in your Advertising Balance</h5><p>
                 <form action="<?= site_url('/advertise/add') ?>" method="POST">
 
                     <label>Name</label>
@@ -80,4 +101,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
