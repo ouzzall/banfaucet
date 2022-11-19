@@ -73,7 +73,7 @@
                             <td>50 tokens</td>
                             <td>
                                 <div class="progress" style="height: 20px;">
-                                    <div style="height: 20px !important;" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: <?= $total >= 1 ? 100:0 ?>%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><?= $total >= 1 ? 100 :0 ?></div>
+                                    <div  class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: <?= $total >= 1 ? 100:0 ?>%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><?= $total >= 1 ? 100 :0 ?></div>
                                 </div>
                             </td>
                             <td>
@@ -102,6 +102,9 @@
 <style>
     .table td {
   vertical-align: middle;
+}
+.progress-bar {
+  height: 20px !important;
 }
 </style>
 <script>var _coinzilla_fp_id_ = "173623529710ebcf195",  _coinzilla_fp_interval_ = "5"; </script>
