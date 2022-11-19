@@ -1,4 +1,8 @@
 <div class="container-fluid py-4" style="padding-top: 0 !important;">
+<div class="alert alert-warning alert-dismissible fade show text-center" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button></div>
 <!-- <div class="ads">
     <?= $settings['achievements_top_ad'] ?>
 </div> -->
@@ -26,17 +30,18 @@
                 }
                 ?>
                 <div class="table-responsive">
-                    <table class="table table-centered table-nowrap mb-0">
-                        <thead class="thead-light">
-                            <tr>
-                                <th>Challenges</th>
+                <table class="table table-flush" id="products-list">
+                  <thead class="thead-light">
+                    <tr>
+                    <th>Challenges</th>
                                 <th>Reward</th>
                                 <th>Progress</th>
                                 <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php foreach ($achievements as $achievement) { ?>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                  <?php foreach ($achievements as $achievement) { ?>
                                 <tr>
                                     <td><?= $achievement['description'] ?></td>
                                     <td>
@@ -80,9 +85,11 @@
                             </td>
                         </tr>
                         <?php endif;?>
-                        </tbody>
-                    </table>
-                </div>
+                    
+                  </tbody>
+                 
+                </table>
+              </div>
                 <!-- end table-responsive -->
             </div>
         </div>
