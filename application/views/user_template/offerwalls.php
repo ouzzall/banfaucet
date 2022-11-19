@@ -286,7 +286,33 @@
 <a href="https://partner.hideout.tv/click.php?aff=115924&camp=2992522&from=18688&prod=4&prod_channel=5&sub1=<?= $user['id'] ?>" target="_blank" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
 </div> -->
-<div class="col-md-6 col-xl-3" data-cat="video">
+<div class="col-md-6 col-xl-3 mt-3" data-cat="video">
+  <div class="card">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+      <a href="javascript:;" class="d-block">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/loot.svg" alt="Adscend Media">
+      </a>
+    </div>
+
+    <div class="card-body pt-2">
+      <div style="min-height: 100px;margin-top: 20px;" >
+      <span class="badge bg-gradient-secondary">Videos</span>
+      <span class="badge bg-gradient-secondary">Passive</span>
+      <span class="badge bg-gradient-secondary">Earnings</span>
+      </div>
+      <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="5 / 5 Rating">
+        <p style="text-align:center;color:#FAAD13">
+        <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-solid fa-star fa-xl"></i></p>
+        </div>
+        <a href="https://api.lootably.com/api/offerwall/redirect/offer/101-999?placementID=cl3suhdqb006e01vg98osd3m3&rawPublisherUserID=<?= $user['id'] ?>" _blank><button class="btn btn-primary w-100 " type="button">View</button></a>  
+    </div>
+  </div>
+</div>
+<!-- <div class="col-md-6 col-xl-3" data-cat="video">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
 <center><img style="max-width:350px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/loot.svg" alt="LootTV"></center>
@@ -304,7 +330,7 @@
 </div>
 <a href="https://api.lootably.com/api/offerwall/redirect/offer/101-999?placementID=cl3suhdqb006e01vg98osd3m3&rawPublisherUserID=<?= $user['id'] ?>" target="_blank" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
-</div>
+</div> -->
 
 <div class="col-md-6 col-xl-3" data-cat="survey,tasks">
 <div class="card">
