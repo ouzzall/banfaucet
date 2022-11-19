@@ -1343,7 +1343,7 @@ width: 98%;
 min-height: 70px;
 max-height: 200px;
 padding: 5px 0;
-box-shadow: 0 -6px 18px 0 rgba(9,32,76,.1);
+/* box-shadow: 0 -6px 18px 0 rgba(9,32,76,.1); */
 -webkit-transition: all .1s ease-in;
 transition: all .1s ease-in;
 display: flex;
