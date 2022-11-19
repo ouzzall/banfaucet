@@ -103,7 +103,7 @@
     .table td {
   vertical-align: middle;
 }
-.progress-bar {
+#products-list.progress-bar {
   height: 20px !important;
 }
 </style>
