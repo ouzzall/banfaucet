@@ -136,7 +136,7 @@ if ($dailyStatus){
 <script src="https://banfaucet.com/new/assets/js/clipboard.min.js"></script>
 <script src="<?= base_url() ?>assets/js/vie/captcha.js"></script>
 <script async src="https://appsha-lon2.cointraffic.io/js/?wkey=lgXFfbiPoT"></script>
-<style>
+<!-- <style>
     table td,th{
         color: #fff;
         text-align: center;
@@ -156,7 +156,7 @@ if ($dailyStatus){
     }
 
 
-</style>
+</style> -->
 <script>
     $(document).ready(function() {
 
