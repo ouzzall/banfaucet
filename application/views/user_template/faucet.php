@@ -81,7 +81,7 @@
 						<div class="numbers">
 							<p class="text-sm mb-0 text-capitalize font-weight-bold">Reward</p>
 							<h5 class="font-weight-bolder mb-0">
-                            <?= currencyDisplay($settings['reward'], $settings) ?> <sup><span class="text-success me-2">+<?= $bonus ?>% bonus</span></sup>
+                            <?= currencyDisplay($settings['reward'], $settings) ?> <sup><span class="text-success me-2">+<?= $bonus ?>%</span></sup>
                         </h5> </div>
 					</div>
 					<div class="col-4 text-end">
@@ -97,13 +97,13 @@
 				<div class="row">
 					<div class="col-8">
 						<div class="numbers">
-							<p class="text-sm mb-0 text-capitalize font-weight-bold">Claim Timer</p>
+							<p class="text-sm mb-0 text-capitalize font-weight-bold">Claims</p>
 							<h5 class="font-weight-bolder mb-0">
-                          7:11
+                            <?= $countHistory ?>/<?= $settings['daily_limit'] ?>
                         </h5> </div>
 					</div>
 					<div class="col-4 text-end">
-						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-solid fa-stopwatch text-lg opacity-10"></i> </div>
+						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-solid fa-fire text-lg opacity-10"></i> </div>
 					</div>
 				</div>
 			</div>
