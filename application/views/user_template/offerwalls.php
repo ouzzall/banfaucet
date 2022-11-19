@@ -101,6 +101,7 @@
         <i class="fa-solid fa-star fa-xl"></i>
         <i class="fa-solid fa-star fa-xl"></i></p>
       </div>
+      <a href="https://banfaucet.com/new/offerwall/adscendmedia"><button class="btn btn-primary w-100 btn-lg" type="button">View</button></a>  
   </div>
 </div>
 </div>
