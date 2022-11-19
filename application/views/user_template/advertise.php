@@ -36,21 +36,32 @@
                 <form action="<?= site_url('/advertise/add') ?>" method="POST">
 
                     <label>Name</label>
-                    <div class="input-group mb-4">
+                    <!-- <div class="input-group mb-4">
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-globe"></i></span>
                         </div>
                         <input type="text" class="form-control form-control-icon-img" name="name" minlength="1" maxlength="75" autocomplete="off" required>
+                    </div> -->
+                    <div class="form-group">
+                        <div class="input-group mb-4">
+                        <span class="input-group-text"><i class="fas fa-globe"></i></span>
+                        <input type="text" class="form-control form-control-icon-img" name="name" minlength="1" maxlength="75" autocomplete="off" required>
+                        </div>
                     </div>
-
                     <label>Description</label>
-                    <div class="input-group mb-4">
+                    <!-- <div class="input-group mb-4">
                         <div class="input-group-prepend">
                             <span class="input-group-text">
                                 <i class="far fa-comment-alt"></i>
                             </span>
                         </div>
                         <input type="text" class="form-control form-control-icon-img" name="description" minlength="1" maxlength="200" autocomplete="off" required>
+                    </div> -->
+                    <div class="form-group">
+                        <div class="input-group mb-4">
+                            <span class="input-group-text"><i class="far fa-comment-alt"></i></span>
+                            <input type="text" class="form-control form-control-icon-img" name="description" minlength="1" maxlength="200" autocomplete="off" required>
+                        </div>
                     </div>
 
                     <label>Url</label>
@@ -96,7 +107,7 @@
                         <div id="coupon-result"></div>
                     <?php } ?>
                     <input type="hidden" name="<?= $csrf_name ?>" id="token" value="<?= $csrf_hash ?>">
-                    <button type="submit" class="btn btn-success btn-block">Create Campaign</button>
+                    <button type="submit" class="btn btn-success btn-block" style="width: 100%;">Create Campaign</button>
                 </form>
             </div>
         </div>
