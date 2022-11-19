@@ -1,3 +1,4 @@
+<div class="container-fluid py-4">
 <center><!-- Coinzilla Banner 728x90 -->
     <script async src="https://coinzillatag.com/lib/display.js"></script>
     <div class="coinzilla" data-zone="C-4766235297110347598"></div>
@@ -10,12 +11,12 @@
         coinzilla_display.push(c_display_preferences);
     </script></center><p>
 <div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+  <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div>
 <div class="alert alert-primary text-center alert-dismissible fade show" role="alert">
   <strong>Earn $1 USD (1,000 tokens) per day from Offerwalls and redeem the <a href="https://banfaucet.com/new/achievements" class="alert-link">challenge</a> worth 50 tokens!</strong>
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+  <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
@@ -282,7 +283,7 @@
 </script>
 </div>
 </div><p>
-
+</div>
 <center><iframe data-aa='2051224' src='//ad.a-ads.com/2051224?size=728x90' style='width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe></center>
 <script>var _coinzilla_fp_id_ = "173623529710ebcf195",  _coinzilla_fp_interval_ = "5"; </script>
 <script src="https://coinzillatag.com/lib/fp.js"></script>
