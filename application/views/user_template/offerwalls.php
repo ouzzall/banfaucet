@@ -446,7 +446,7 @@
     </div>
   </div>
 </div>
-<div class="col-md-6 col-xl-3" data-cat="survey,tasks">
+<!-- <div class="col-md-6 col-xl-3" data-cat="survey,tasks">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
 <center><img style="max-width:350px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/monlix.svg" alt="Monlix"></center>
@@ -464,7 +464,7 @@
 </div>
 <a href="https://banfaucet.com/new/offerwall/monlix" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
-</div>
+</div> -->
 
 <div class="col-md-6 col-xl-3" data-cat="tasks,ptc,shortlinks">
 <div class="card">
