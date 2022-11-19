@@ -466,7 +466,35 @@
 </div>
 </div> -->
 
-<div class="col-md-6 col-xl-3" data-cat="tasks,ptc,shortlinks">
+<div class="col-md-6 col-xl-3 mt-3" data-cat="tasks,ptc,shortlinks">
+  <div class="card">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+      <a href="javascript:;" class="d-block">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/offeroc.svg" alt="Adscend Media">
+      </a>
+    </div>
+
+    <div class="card-body pt-2">
+      <div style="min-height: 100px;margin-top: 20px;" >
+      <span class="badge bg-gradient-secondary">Games</span>
+      <span class="badge bg-gradient-secondary">Offers</span>
+      <span class="badge bg-gradient-secondary">Ptc</span>
+      <span class="badge bg-gradient-secondary">Shortlinks</span>
+      </div>
+      <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="4 / 5 Rating">
+        <p style="text-align:center;color:#FAAD13">
+        <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-regular fa-star fa-xl"></i></p>
+        </div>
+        <a href="https://banfaucet.com/new/offerwall/offeroc" ><button class="btn btn-primary w-100 " type="button">View</button></a>  
+    </div>
+  </div>
+</div>
+
+<!-- <div class="col-md-6 col-xl-3" data-cat="tasks,ptc,shortlinks">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
 <center><img style="max-width:350px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/offeroc.svg" alt="Offeroc"></center>
@@ -484,8 +512,35 @@
 </div>
 <a href="https://banfaucet.com/new/offerwall/offeroc" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
-</div>
+</div> -->
 
+<div class="col-md-6 col-xl-3 mt-3" data-cat="tasks,ptc,shortlinks">
+  <div class="card">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+      <a href="javascript:;" class="d-block">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/bitswall.png" alt="Adscend Media">
+      </a>
+    </div>
+
+    <div class="card-body pt-2">
+      <div style="min-height: 100px;margin-top: 20px;" >
+      <span class="badge bg-gradient-secondary">Surveys</span>
+      <span class="badge bg-gradient-secondary">Offers</span>
+      <span class="badge bg-gradient-secondary">Ptc</span>
+      <span class="badge bg-gradient-secondary">Shortlinks</span>
+      </div>
+      <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="3.5 / 5 Rating">
+        <p style="text-align:center;color:#FAAD13">
+        <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-regular fa-star-half-stroke fa-xl"></i>
+    <i class="fa-regular fa-star fa-xl"></i></p>
+        </div>
+        <a href="https://banfaucet.com/new/offerwall/bitswall" ><button class="btn btn-primary w-100 " type="button">View</button></a>  
+    </div>
+  </div>
+</div>
 <div class="col-md-6 col-xl-3" data-cat="survey,tasks,ptc,shortlinks">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
