@@ -642,7 +642,6 @@ Compete with other users throughout the week for a chance to win big rewards! To
             </div>
           </div>
         </div>
-        <div class="col-md-4"></div>
         <div class="col-md-4 mt-4 col-12">
           <div class="card p-3">
             
