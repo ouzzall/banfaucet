@@ -1,5 +1,5 @@
 .ebook-slider-txt-1 {
-  background-image: url(https://banfaucet.com/assets/img/12232.jpg);
+  background: linear-gradient(0deg, rgba(67, 56, 202, 0.3), rgba(12, 22, 50, 0.3)), url(https://banfaucet.com/assets/img/12232.jpg);
   background-size: cover;
   background-position: center left;
   position: relative;

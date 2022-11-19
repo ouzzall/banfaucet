@@ -422,7 +422,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
 </style>
     <div class="container-fluid py-4" style="padding-top: 0 !important;">
       <div class="row">
-       <?= $settings['dashboard_top_ad'] ?>
+       
         <div class="col-12">
           <div class="alert alert-primary text-white alert-dismissible fade show text-center" role="alert">
             <span class="alert-icon"><i class="fa-solid fa-truck-fast"></i></span>
@@ -449,6 +449,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 <span aria-hidden="true">&times;</span>
             </button>
         </div>
+        <?= $settings['dashboard_top_ad'] ?>
         </div>
       </div>
       <div class="text-center" style="display: flex; align-content: center;justify-content: center;">
@@ -556,6 +557,19 @@ Compete with other users throughout the week for a chance to win big rewards! To
                   <p class="opacity-8 mb-0 text-sm">Balance</p>
                 </div>
               </div>
+              <center>
+  <!-- Coinzilla Banner 728x90 -->
+<script async src="https://coinzillatag.com/lib/display.js"></script>
+<div class="coinzilla" data-zone="C-4766235297110347598"></div>
+<script>
+    window.coinzilla_display = window.coinzilla_display || [];
+    var c_display_preferences = {};
+    c_display_preferences.zone = "4766235297110347598";
+    c_display_preferences.width = "728";
+    c_display_preferences.height = "90";
+    coinzilla_display.push(c_display_preferences);
+</script></center>
+
             </div>
           </div>
         </div>
