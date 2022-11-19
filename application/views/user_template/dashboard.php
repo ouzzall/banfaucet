@@ -579,11 +579,19 @@ Compete with other users throughout the week for a chance to win big rewards! To
 
 </center>
       <div class="row ">
-      <div class="col-md-4 mt-4 col-12">
-          <div class="card p-3">
-            
-            <h5 class="mb-0 font-weight-bolder mb-4">Earn More</h5>
-            <!-- Coinzilla Banner 300x250 -->
+        <div class="col-md-4 mt-4 col-12">
+            <div class="card p-3">
+              
+              <h5 class="mb-0 font-weight-bolder mb-4">Earn More</h5>
+              <!-- <img style="display: block;margin: auto;" src="newAssets/img/offer-icon.jpg" height="150" width="150">
+              <p class="text-center mt-2" style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Complete tasks such as <strong>watch videos</strong>, <strong>complete surveys</strong>,<strong>view PTC ads</strong> and <strong>complete Shortlinks</strong>.</p>
+              <hr class="horizontal dark mt-1 mb-3">
+              <div class="text-center">
+                <button type="button" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
+                <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View Shortlinks</button>
+                <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View All</button>
+              </div>   -->
+              <!-- Coinzilla Banner 300x250 -->
  <script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-246623529710f792603"></div>
 <script>
@@ -594,16 +602,8 @@ Compete with other users throughout the week for a chance to win big rewards! To
     c_display_preferences.height = "250";
     coinzilla_display.push(c_display_preferences);
 </script>
-            <!-- <img style="display: block;margin: auto;" src="newAssets/img/offer-icon.jpg" height="150" width="150">
-            <p class="text-center mt-2" style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Complete tasks such as <strong>watch videos</strong>, <strong>complete surveys</strong>,<strong>view PTC ads</strong> and <strong>complete Shortlinks</strong>.</p>
-            <hr class="horizontal dark mt-1 mb-3">
-            <div class="text-center">
-              <button type="button" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
-              <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View Shortlinks</button>
-              <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View All</button> -->
-            </div>  
+            </div>
           </div>
-        </div>
         <div class="col-md-4 mt-4 col-12">
           <div class="card p-3">
             
