@@ -83,7 +83,7 @@
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
-      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/cpxresearch.png" alt="Adscend Media">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/cpxresearch-removebg-preview.png" alt="Adscend Media">
       </a>
     </div>
 
