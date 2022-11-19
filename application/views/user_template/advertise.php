@@ -45,7 +45,7 @@
                     <div class="form-group">
                         <div class="input-group mb-4">
                         <span class="input-group-text"><i class="fas fa-globe"></i></span>
-                        <input type="text" class="form-control form-control-icon-img" name="name" minlength="1" maxlength="75" autocomplete="off" required>
+                        <input type="text" style="padding-left: 10px;" class="form-control form-control-icon-img" name="name" minlength="1" maxlength="75" autocomplete="off" required>
                         </div>
                     </div>
                     <label>Description</label>
@@ -60,28 +60,40 @@
                     <div class="form-group">
                         <div class="input-group mb-4">
                             <span class="input-group-text"><i class="far fa-comment-alt"></i></span>
-                            <input type="text" class="form-control form-control-icon-img" name="description" minlength="1" maxlength="200" autocomplete="off" required>
+                            <input type="text" style="padding-left: 10px;" class="form-control form-control-icon-img" name="description" minlength="1" maxlength="200" autocomplete="off" required>
                         </div>
                     </div>
 
                     <label>Url</label>
-                    <div class="input-group mb-4">
+                    <!-- <div class="input-group mb-4">
                         <div class="input-group-prepend">
                             <span class="input-group-text">
                                 <i class="fas fa-link"></i>
                             </span>
                         </div>
                         <input type="text" class="form-control form-control-icon-img" name="url" autocomplete="off" required>
+                    </div> -->
+                    <div class="form-group">
+                        <div class="input-group mb-4">
+                        <span class="input-group-text"><i class="fas fa-link"></i></span>
+                        <input type="text" style="padding-left: 10px;" class="form-control form-control-icon-img" name="url" autocomplete="off" required>
+                        </div>
                     </div>
 
                     <label>View</label>
-                    <div class="input-group mb-4">
+                    <!-- <div class="input-group mb-4">
                         <div class="input-group-prepend">
                             <span class="input-group-text">
                                 <i class="fas fa-eye"></i>
                             </span>
                         </div>
                         <input type="number" class="form-control form-control-icon-img" name="view" min="1" autocomplete="off" required>
+                    </div> -->
+                    <div class="form-group">
+                        <div class="input-group mb-4">
+                        <span class="input-group-text"><i class="fas fa-eye"></i></span>
+                        <input type="number"style="padding-left: 10px;" class="form-control form-control-icon-img" name="view" min="1" autocomplete="off" required>
+                        </div>
                     </div>
 
                     <div class="form-group">
@@ -95,7 +107,7 @@
                     <?php
                     if ($settings['coupon_status'] == 'on') { ?>
                         <label>Coupon Code</label>
-                        <div class="input-group mb-4">
+                        <!-- <div class="input-group mb-4">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
                                     <i class="fas fa-file"></i>
@@ -103,6 +115,13 @@
                             </div>
                             <input type="text" id="coupon-code" class="form-control" name="code" placeholder="Enter your coupon code" aria-label="Coupon code" aria-describedby="coupon-icon" autocomplete="off">
                             <button class="btn btn-outline-primary waves-effect" id="coupon-check" type="button">Check</button>
+                        </div> -->
+                        <div class="form-group">
+                            <div class="input-group mb-4">
+                            <span class="input-group-text"><i class="fas fa-file"></i></span>
+                            <input type="text" id="coupon-code" class="form-control" name="code" placeholder="Enter your coupon code" aria-label="Coupon code" aria-describedby="coupon-icon" autocomplete="off">
+                            <button class="btn btn-outline-primary waves-effect" id="coupon-check" type="button">Check</button>
+                            </div>
                         </div>
                         <div id="coupon-result"></div>
                     <?php } ?>
