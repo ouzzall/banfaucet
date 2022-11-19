@@ -1,6 +1,25 @@
-<div class="ads">
+<!-- <div class="ads">
     <?= $settings['faucet_top_ad'] ?>
-</div>
+</div> -->
+<div class="container-fluid py-4">
+<div class="row">
+
+  <div class="col-12">
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+  <i class="fa-solid fa-cloud-rain fa-xl"></i> <b>HOT!</b> Join our <a href="https://t.me/banfaucet" class="alert-link" target="_blank">Telegram Group</a> to be a part of a massive Rain, Airdrop crypto giveaway going on right now!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+          <div class="alert alert-warning alert-dismissible fade show text-center role="alert">
+            <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
+            <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        </div>
+  </div>
 <center><!-- Coinzilla Banner 728x90 -->
 <script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-4766235297110347598"></div>
