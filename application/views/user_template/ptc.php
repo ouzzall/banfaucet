@@ -45,7 +45,7 @@
                         </h5> </div>
 					</div>
 					<div class="col-4 text-end">
-						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-regular fa-computer-mouse text-lg opacity-10"></i> </div>
+						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-solid fa-film text-lg opacity-10"></i> </div>
 					</div>
 				</div>
 			</div>
@@ -59,11 +59,11 @@
 						<div class="numbers">
 							<p class="text-sm mb-0 text-capitalize font-weight-bold">Reward</p>
 							<h5 class="font-weight-bolder mb-0">
-                            <?= $totalAds ?>
+                            <?= currencyDisplay($totalReward, $settings) ?>
                         </h5> </div>
 					</div>
 					<div class="col-4 text-end">
-						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-regular fa-computer-mouse text-lg opacity-10"></i> </div>
+						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-solid fa-ticket text-lg opacity-10"></i> </div>
 					</div>
 				</div>
 			</div>
@@ -81,13 +81,13 @@
                         </h5> </div>
 					</div>
 					<div class="col-4 text-end">
-						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-regular fa-computer-mouse text-lg opacity-10"></i> </div>
+						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-solid fa-timer text-lg opacity-10"></i> </div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-    <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
+    <!-- <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
         <div class="card mini-stats-wid">
             <div class="card-body">
                 <div class="media">
@@ -140,7 +140,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 <center><span id="ct_cJd95UwrCma"></span></center><p>
 <center><span id="ct_c1c1RkyZBbe"></span></center><p>
