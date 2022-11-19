@@ -20,7 +20,7 @@
 <center><span id="ct_cJd95UwrCma"></span></center><p>
 <center><span id="ct_c1c1RkyZBbe"></span></center><p>
 <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-8 mx-auto">
         <div class="card">
             <div class="card-body text-center">
                 <h4 class="card-title mb-4">Challenges</h4>
@@ -49,7 +49,7 @@
                                     </td>
                                     <td>
                                         <div class="progress" style="height: 20px;">
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: <?= $achievement['progress'] ?>%;" aria-valuenow="<?= $achievement['progress'] ?>" aria-valuemin="0" aria-valuemax="100"><?= $achievement['completed'] ?>/ <?= $achievement['condition'] ?></div>
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="height: 20px;"role="progressbar" style="width: <?= $achievement['progress'] ?>%;" aria-valuenow="<?= $achievement['progress'] ?>" aria-valuemin="0" aria-valuemax="100"><?= $achievement['completed'] ?>/ <?= $achievement['condition'] ?></div>
                                         </div>
                                     </td>
                                     <td>
@@ -100,6 +100,11 @@
     <?= $settings['achievements_footer_ad'] ?>
 </div>
 </div>
+<style>
+    .table td {
+  vertical-align: middle;
+}
+</style>
 <script>var _coinzilla_fp_id_ = "173623529710ebcf195",  _coinzilla_fp_interval_ = "5"; </script>
 <script src="https://coinzillatag.com/lib/fp.js"></script>
 <center><ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins><script>!function(e,n,c,t,o,r){!function e(n,c,t,o,r,m,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js",a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","6295f53eb2e2b443b6100720",["cdn.bmcdn3.com"],0)}();</script>
