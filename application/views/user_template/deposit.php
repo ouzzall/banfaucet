@@ -1,7 +1,5 @@
 <div class="container-fluid py-4">
-<!-- <div class="ads">
-    <?= $settings['dashboard_top_ad'] ?>
-</div> -->
+
 <div class="row">
 <div class="col-12">
           <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
