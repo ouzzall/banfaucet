@@ -555,7 +555,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
             <div class="col-md-6">
               <div class="card">
                 <div class="card-body text-center">
-                  <h1 class="text-gradient text-primary"><span id="status3" style="font-size: 34px;" ><?= currencyDisplay($user['balance'], $settings) ?></span> <span class="text-lg ms-n2"><i class="fa-solid fa-wallet" ></i></span></h1>
+                  <h1 class="text-gradient text-primary" style="line-height: .5;" ><span id="status3" style="font-size: 25px;" ><?= currencyDisplay($user['balance'], $settings) ?></span> <span class="text-lg ms-n2"></span></h1>
                   <h6 class="mb-0 font-weight-bolder">Main</h6>
                   <p class="opacity-8 mb-0 text-sm">Balance</p>
                 </div>
@@ -564,7 +564,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
             <div class="col-md-6 mt-md-0 mt-4">
               <div class="card">
                 <div class="card-body text-center">
-                  <h1 class="text-gradient text-primary"><span id="status4" style="font-size: 34px;"><?= currencyDisplay($user['dep_balance'], $settings) ?></span> <span class="text-lg ms-n2"><i class="fa-solid fa-money-check"></i></span></h1>
+                  <h1 class="text-gradient text-primary" style="line-height: .5;"><span id="status4" style="font-size: 25px;"><?= currencyDisplay($user['dep_balance'], $settings) ?></span> <span class="text-lg ms-n2"><i class="fa-solid fa-money-check"></i></span></h1>
                   <h6 class="mb-0 font-weight-bolder">Advertising</h6>
                   <p class="opacity-8 mb-0 text-sm">Balance</p>
                 </div>
