@@ -57,15 +57,15 @@ if (isset($message)) {
                                         <div class="input-group-prepend">
                                             <span class="input-group-text">USD</span>
                                         </div>
-                                        <input type="number" name="amount" id="usd" class="form-control" min="<?= $settings['coinbase_min_deposit'] ?>" step="0.000001">
+                                        <input type="number" style="border-top-right-radius: 0 !important;border-bottom-right-radius: 0 !important;" name="amount" id="usd" class="form-control" min="<?= $settings['coinbase_min_deposit'] ?>" step="0.000001">
                                     </div>
                                 </div>
 
                                 <div class="col-sm-6">
                                     <div class="input-group mb-2">
-                                        <input type="text" id="token" class="form-control text-sm-right" onchange="">
-                                        <div class="input-group-append">
-                                            <span class="input-group-text" id="targetCurrency">Token</span>
+                                        <input style="border-top-right-radius: 0 !important;border-bottom-right-radius: 0 !important;" type="text" id="token" class="form-control text-sm-right" onchange="">
+                                        <div class="input-group-append" style="border-right: 1px solid #d2d6da;border-radius: 9px;">
+                                            <span class="input-group-text" id="targetCurrency" style="border-top-left-radius: 0 !important;border-bottom-left-radius: 0 !important;">Token</span>
                                         </div>
                                     </div>
                                 </div>
