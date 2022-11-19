@@ -575,6 +575,19 @@ Compete with other users throughout the week for a chance to win big rewards! To
           </div>
         </div>
       </div>
+      <center> 
+<!-- Coinzilla Banner 300x250 -->
+ <script async src="https://coinzillatag.com/lib/display.js"></script>
+<div class="coinzilla" data-zone="C-246623529710f792603"></div>
+<script>
+    window.coinzilla_display = window.coinzilla_display || [];
+    var c_display_preferences = {};
+    c_display_preferences.zone = "246623529710f792603";
+    c_display_preferences.width = "300";
+    c_display_preferences.height = "250";
+    coinzilla_display.push(c_display_preferences);
+</script>
+</center>
       <div class="row ">
         <div class="col-md-4 mt-4 col-12">
           <div class="card p-3">
