@@ -1,5 +1,7 @@
 <div class="container-fluid py-4">
-
+<!-- <div class="ads">
+<?= $settings['dashboard_top_ad'] ?>
+</div> -->
 <div class="row">
 <div class="col-12">
           <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
@@ -19,12 +21,19 @@
     </div>
 </div>
 
-
-<div class="alert alert-danger text-center"><b>Advertising Balance</b> is used for advertising in the PTC section!<br> You cannot transfer Advertising Balance to Main Balance.</div>
+<?php
+if (isset($_SESSION['message'])) {
+    echo $_SESSION['message'];
+} ?>
+<?php
+if (isset($message)) {
+    echo $message;
+} ?>
+<!-- <div class="alert alert-danger text-center"><b>Advertising Balance</b> is used for advertising in the PTC section!<br> You cannot transfer Advertising Balance to Main Balance.</div>
 <div class="alert alert-success text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-gift fa-xl"></i> Redeem coupon code <b>25OFF</b> to get 25% advertising discount!
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
-  </button></div>
+  </button></div> -->
 <div class="row">
     <?php if ($settings['coinbase_deposit_status'] == 'on' || $settings['payeer_status'] == 'on' || $settings['faucetpay_deposit_status'] == 'on') { ?>
         <div class="col-lg-8 mx-auto">
