@@ -541,7 +541,7 @@
     </div>
   </div>
 </div>
-<div class="col-md-6 col-xl-3" data-cat="survey,tasks,ptc,shortlinks">
+<!-- <div class="col-md-6 col-xl-3" data-cat="survey,tasks,ptc,shortlinks">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
 <center><img style="max-width:350px;max-height:60px;filter:brightness(0) invert(1)" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/bitswall.png" alt="Bitswall"></center>
@@ -559,7 +559,7 @@
 </div>
 <a href="https://banfaucet.com/new/offerwall/bitswall" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
-</div>
+</div> -->
 
 <div class="col-md-6 col-xl-3">
 <!-- Coinzilla Banner 300x250 -->
