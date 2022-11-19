@@ -49,7 +49,7 @@
                                     </td>
                                     <td>
                                         <div class="progress" style="height: 20px;">
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: <?= $total >= 1 ? 100:0 ?>%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><?= $total >= 1 ? 100 :0 ?></div>
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: <?= $achievement['progress'] ?>%;" aria-valuenow="<?= $achievement['progress'] ?>" aria-valuemin="0" aria-valuemax="100"><?= $achievement['completed'] ?>/ <?= $achievement['condition'] ?></div>
                                         </div>
                                     </td>
                                     <td>
@@ -85,8 +85,7 @@
                             </td>
                         </tr>
                         <?php endif;?>
-                    
-                  </tbody>
+                        </tbody>
                  
                 </table>
               </div>
