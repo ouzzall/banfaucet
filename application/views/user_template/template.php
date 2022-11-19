@@ -1336,16 +1336,22 @@
     ?>
     <?php include 'adblock.php'; ?>
 <style>.sticky-ads{ 
-position: fixed; 
-bottom: 0; left: 0; 
-width: 98%; min-height: 70px; max-height: 200px; 
-padding: 5px 0; 
-/* box-shadow: 0 -6px 18px 0 rgba(9,32,76,.1);  */
--webkit-transition: all .1s ease-in; transition: all .1s ease-in; 
-display: flex; 
-align-items: center; 
-justify-content: right; 
-z-index: 10; } 
+position: fixed;
+bottom: 18px;
+left: -89px;
+width: 98%;
+min-height: 70px;
+max-height: 200px;
+padding: 5px 0;
+box-shadow: 0 -6px 18px 0 rgba(9,32,76,.1);
+-webkit-transition: all .1s ease-in;
+transition: all .1s ease-in;
+display: flex;
+align-items: center;
+justify-content: right;
+z-index: 10;
+right: 93px;
+} 
 </style>
 
 <div class='sticky-ads' id='sticky-ads'>

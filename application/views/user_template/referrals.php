@@ -31,7 +31,7 @@
 <input type="text" readonly class="form-control" value="<?= site_url('/?r=' . $user['id']) ?>" id="copyreflink">
 </div>
 
-<button class="btn btn-primary btn-sm" style="margin-left: 10px;" type="button" onclick="myFunction()"><i class="fa-solid fa-copy"></i> Copy</button>
+<button class="btn btn-primary btn-sm" style="margin-left: 10px;margin-top: 12px;" type="button" onclick="myFunction()"><i class="fa-solid fa-copy"></i> Copy</button>
 
 <script>
                   function myFunction() {
