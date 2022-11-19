@@ -1,5 +1,6 @@
+<div class="container-fluid py-4">
 <div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+  <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div><p><center><span id="ct_cJd95UwrCma"></span></center><p>
 <center><span id="ct_c1c1RkyZBbe"></span></center><p>
@@ -7,7 +8,7 @@
 <script src="https://coinzillatag.com/lib/fp.js"></script>
 <div class="alert alert-primary text-center alert-dismissible fade show" role="alert">
   <strong>Earn $1 USD (1,000 tokens) per day from Offerwalls and redeem the <a href="https://banfaucet.com/new/achievements" class="alert-link">challenge</a> worth 50 tokens!</strong>
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+  <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
@@ -52,4 +53,5 @@
     c_display_preferences.height = "250";
     coinzilla_display.push(c_display_preferences);
 </script></center>
+</div>
 <script async src="https://appsha-lon2.cointraffic.io/js/?wkey=lgXFfbiPoT"></script>
