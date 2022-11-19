@@ -3,9 +3,8 @@
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div> -->
-  <div class="alert alert-warning alert-dismissible fade show text-center role="alert">
-            <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
-            <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="#" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
+  <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+            <span class="alert-icon"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -28,11 +27,11 @@
                 <h4 class="card-title mb-4 text-center">Your Referral Link</h4>
                 <div class="alert alert-success text-center">You get <?= $settings['referral'] ?>% of your referrals earnings.</div>
   <div class="form-row">
-	<div class="col-8">
+	<div class="col-6">
 <input type="text" readonly class="form-control" value="<?= site_url('/?r=' . $user['id']) ?>" id="copyreflink">
 </div>
-<div class="col">
-<button class="btn btn-primary btn-sm" type="button" onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M19 8.268a2 2 0 0 1 1 1.732v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h3" /><path d="M5.003 15.734a2 2 0 0 1 -1.003 -1.734v-8a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-3" /></svg> Copy</button>
+<div class="col-2">
+<button class="btn btn-primary btn-sm" type="button" onclick="myFunction()"><i class="fa-solid fa-copy"></i> Copy</button>
 </div>
 <script>
                   function myFunction() {
