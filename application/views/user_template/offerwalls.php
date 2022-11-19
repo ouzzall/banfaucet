@@ -32,22 +32,22 @@
 <div class="btn-group-toggle" data-toggle="buttons">
 <span class="text-secondary font-size-15">Filter : </span>
 <label class="btn btn-info btn-sm">
-<input type="radio" name="options" id="option1" checked="" data-filter="all" href="#"> All
+<input type="radio" style="display: none;" name="options" id="option1" checked="" data-filter="all" href="#"> All
 </label>
 <label class="btn btn-info btn-sm">
-<input type="radio" name="options" id="option2" data-filter="ptc" href="#"> PTC
+<input type="radio"style="display: none;" name="options" id="option2" data-filter="ptc" href="#"> PTC
 </label>
 <label class="btn btn-info btn-sm">
- <input type="radio" name="options" id="option3" data-filter="shortlinks" href="#"> Shortlinks
+ <input type="radio" style="display: none;" name="options" id="option3" data-filter="shortlinks" href="#"> Shortlinks
 </label>
 <label class="btn btn-info btn-sm">
-<input type="radio" name="options" id="option4" data-filter="survey" href="#"> Survey
+<input type="radio" style="display: none;" name="options" id="option4" data-filter="survey" href="#"> Survey
 </label>
 <label class="btn btn-info btn-sm">
- <input type="radio" name="options" id="option5" data-filter="tasks" href="#"> Tasks
+ <input type="radio" style="display: none;" name="options" id="option5" data-filter="tasks" href="#"> Tasks
 </label>
 <label class="btn btn-info btn-sm">
-<input type="radio" name="options" id="option6" data-filter="video" href="#"> Video
+<input type="radio" style="display: none;" name="options" id="option6" data-filter="video" href="#"> Video
 </label>
 </div><br></center>
 <div class="row boxes mt-1">
