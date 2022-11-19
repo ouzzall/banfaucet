@@ -464,10 +464,10 @@ Compete with other users throughout the week for a chance to win big rewards! To
         <?= $settings['dashboard_top_ad'] ?>
         </div>
       </div>
-      <div class="text-center" style="display: flex; align-content: center;justify-content: center;">
+      <!-- <div class="text-center" style="display: flex; align-content: center;justify-content: center;">
         <div style="margin-top: 6px;margin-right: 10px;"><span class="badge bg-gradient-success text-center">Current Pot: $5.83</span></div>
         <button type="button" class="btn bg-gradient-primary">Add to Chat Rain </button>
-      </div>
+      </div> -->
       <div class="row">
         <div class="col-xl-7">
           <div class="card " style="padding:0 1rem;">
