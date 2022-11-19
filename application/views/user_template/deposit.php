@@ -1,6 +1,26 @@
-<div class="ads">
+<div class="container-fluid py-4">
+<!-- <div class="ads">
     <?= $settings['dashboard_top_ad'] ?>
+</div> -->
+<div class="row">
+<div class="col-12">
+          <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
+          <b>Advertising Balance</b> is used for advertising in the PTC section!<br> You cannot transfer Advertising Balance to Main Balance.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+    <div class="col-12">
+          <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+            <i class="fa-solid fa-gift fa-xl"></i> Redeem coupon code <b>25OFF</b> to get 25% advertising discount!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
 </div>
+
 <?php
 if (isset($_SESSION['message'])) {
     echo $_SESSION['message'];
@@ -16,7 +36,7 @@ if (isset($message)) {
   </button></div>
 <div class="row">
     <?php if ($settings['coinbase_deposit_status'] == 'on' || $settings['payeer_status'] == 'on' || $settings['faucetpay_deposit_status'] == 'on') { ?>
-        <div class="col-lg-12">
+        <div class="col-lg-8 mx-auto">
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title mb-4 text-center">Deposit</h4>
@@ -91,7 +111,7 @@ if (isset($message)) {
                 </div>
             </div>
         </div>
-        <div class="col-lg-12">
+        <div class="col-lg-8 mx-auto mt-4">
             <div class="card">
                 <div class="card-body text-center">
                     <h4 class="card-title mb-4">Deposit history</h4>
@@ -128,6 +148,7 @@ if (isset($message)) {
             </div>
         </div>
 </div>
+<div>
 <script>
     var rate = <?= $settings['currency_rate'] ?>;
     var methods = {
