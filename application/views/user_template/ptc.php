@@ -87,7 +87,7 @@
 			</div>
 		</div>
 	</div>
-    <!-- <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
+    <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
         <div class="card mini-stats-wid">
             <div class="card-body">
                 <div class="media">
@@ -104,8 +104,8 @@
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
+    </div>
+    <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
         <div class="card mini-stats-wid">
             <div class="card-body">
                 <div class="media">
@@ -122,8 +122,8 @@
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
+    </div>
+    <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
         <div class="card mini-stats-wid">
             <div class="card-body">
                 <div class="media">
@@ -140,7 +140,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 </div>
 <center><span id="ct_cJd95UwrCma"></span></center><p>
 <center><span id="ct_c1c1RkyZBbe"></span></center><p>
