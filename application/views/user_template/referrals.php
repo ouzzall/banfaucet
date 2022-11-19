@@ -54,27 +54,30 @@
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title mb-4 text-center">Your Referrals</h4>
-                <div class="table-hover table-responsive">
-                    <table class="table  text-center" id="myTable">
-                        <thead>
-                            <tr>
-                                <th scope="col">Username</th>
-                                <th scope="col">Last Active</th>
-                                <th scope="col">Total Earned</th>
-                                <th scope="col">Joined</th>
-                                <th scope="col">Faucet Claims</th>
-                                <th scope="col">Offerwall Claims</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php
-                            foreach ($referrals as $referral) {
-                                echo '<tr><th scope="row">' . $referral["username"] . '</th><td>' . timespan($referral["last_active"], time(), 2) . ' ago</td><td>' . format_money($referral["total_earned"]) . '</td><td>' . timespan($referral["joined"], time(), 2) . ' ago</td><td>' . $referral["faucet_count"] . '</td><td>' . $referral["offerwall_count"] . '</td></tr>';
-                            }
-                            ?>
-                        </tbody>
-                    </table>
-                </div>
+                <div class="table-responsive">
+                <table class="table table-flush" id="products-list">
+                  <thead class="thead-light">
+                    <tr>
+                      <th>User Name</th>
+                      <th>Last Active</th>
+                      <th>Total Earned</th>
+                      <th>Joined</th>
+                      <th>Faucet Claims</th>
+                      <th>Offerwall Claims</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <?php
+                    foreach ($referrals as $referral) {
+                        echo '<tr><th scope="row">' . $referral["username"] . '</th><td>' . timespan($referral["last_active"], time(), 2) . ' ago</td><td>' . format_money($referral["total_earned"]) . '</td><td>' . timespan($referral["joined"], time(), 2) . ' ago</td><td>' . $referral["faucet_count"] . '</td><td>' . $referral["offerwall_count"] . '</td></tr>';
+                    }
+                    ?>
+                    
+                  </tbody>
+                 
+                </table>
+              </div>
             </div>
         </div>
     </div>
@@ -96,30 +99,4 @@
 <script src="https://coinzillatag.com/lib/fp.js"></script>
 <script src="https://banfaucet.com/new/assets/js/clipboard.min.js"></script>
 <script async src="https://appsha-lon2.cointraffic.io/js/?wkey=lgXFfbiPoT"></script>
-<!-- <style>
-  #myTable_wrapper label{
-      color: #fff!important;
-  }
-  #myTable_wrapper select{
-      color: #fff!important;
-  }
-  #myTable_info{
-      color: #fff!important;
-  }
-  #myTable_filter label input{
-      color: #fff!important;
-  }
-  #myTable_paginate span{
-      color: #fff!important;
-  }
-  #myTable_paginate a{
-      color: #fff!important;
-  }
-  #myTable tr th{
-      color: #fff!important;
-  } -->
-  /*#myTable_wrapper select option{*/
-  /*    color: #000!important;*/
-  /*}*/
 
-<!-- </style> -->
