@@ -575,9 +575,9 @@ Compete with other users throughout the week for a chance to win big rewards! To
           </div>
         </div>
       </div>
-      <center> 
-
-</center>
+      <center><div class="pb-3">
+    <ins class="629f268f8f94281b2205d139" style="display:inline-block;width:728px;height:90px;"></ins><script>!function(e,n,c,t,o,r,d){!function e(n,c,t,o,r,m,d,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js?v="+d,a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","629f268f8f94281b2205d139",["cdn.bmcdn4.com"], 0, new Date().getTime())}();</script>
+</div></center>
       <div class="row ">
         <div class="col-md-4 mt-4 col-12">
             <div class="card p-3">
