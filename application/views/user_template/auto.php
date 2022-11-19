@@ -1,3 +1,4 @@
+<div class="container-fluid py-4">
 <center><script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-4766235297110347598"></div>
 <script>
@@ -86,6 +87,7 @@
   </div>
 </div>
 </div>
+            </div>
 <script>var _coinzilla_fp_id_ = "173623529710ebcf195",  _coinzilla_fp_interval_ = "5"; </script>
 <script src="https://coinzillatag.com/lib/fp.js"></script>
 <script async src="https://appsha-lon2.cointraffic.io/js/?wkey=lgXFfbiPoT"></script>
