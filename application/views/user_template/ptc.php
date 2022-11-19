@@ -99,21 +99,23 @@
     <div class="row">
         <?php
         foreach ($ptcAds as $ads) { ?>
-            <div class="col-sm-4" style="margin-bottom: 5px;">
+            <div class="col-sm-4 mx-auto" style="margin-bottom: 5px;">
                 <div class="card">
                     <div class="card-body">
                         <h3 class="card-title text-center"><?= $ads['name'] ?></h3>
-                        <p class="card-text text-center"><?= $ads['description'] ?></p>
+                            <div class="desc">
+                                <p class="card-text text-center"><?= $ads['description'] ?></p>
+                            </div>    
                         <div class="row text-center">
-                            <div class="col">
+                            <div class="col-6">
                                 <h5><span class="badge badge-warning"><i class="fas fa-gift fa-xl"></i> <?= currencyDisplay($ads['reward'], $settings) ?></span></h5>
                             </div>
-                            <div class="col">
+                            <div class="col-6">
                                 <h5 style="color:grey"><span class="badge badge-success"><i class="fas fa-stopwatch fa-xl"></i> <?= $ads['timer'] ?> seconds</span></h5>
                             </div>
                         </div>
 				<hr>
-                        <button onclick="window.location = '<?= site_url('ptc/view/' . $ads['id']) ?>'" class="btn btn-primary btn-block">View</button>
+                        <button style="display: block;" onclick="window.location = '<?= site_url('ptc/view/' . $ads['id']) ?>'" class="btn btn-primary btn-block mx-auto">View</button>
                     </div>
                 </div>
             </div>
