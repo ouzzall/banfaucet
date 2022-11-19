@@ -49,7 +49,7 @@
                                     </td>
                                     <td>
                                         <div class="progress" style="height: 20px;">
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: <?= $achievement['progress'] ?>%;" aria-valuenow="<?= $achievement['progress'] ?>" aria-valuemin="0" aria-valuemax="100"><?= $achievement['completed'] ?>/ <?= $achievement['condition'] ?></div>
+                                            <div class="chalanges progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: <?= $achievement['progress'] ?>%;" aria-valuenow="<?= $achievement['progress'] ?>" aria-valuemin="0" aria-valuemax="100"><?= $achievement['completed'] ?>/ <?= $achievement['condition'] ?></div>
                                         </div>
                                     </td>
                                     <td>
