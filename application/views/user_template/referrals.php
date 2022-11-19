@@ -1,7 +1,16 @@
-<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
+<div class="container-fluid py-4" style="padding-top: 0 !important;">
+<!-- <div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
-  </button></div><p><center><!-- Coinzilla Banner 728x90 -->
+  </button></div> -->
+  <div class="alert alert-warning alert-dismissible fade show text-center role="alert">
+            <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
+            <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="#" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+  <p><center><!-- Coinzilla Banner 728x90 -->
 <script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-4766235297110347598"></div>
 <script>
@@ -70,6 +79,7 @@
         </div>
     </div>
 </div>
+                        </div>
 <center><ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins><script>!function(e,n,c,t,o,r){!function e(n,c,t,o,r,m,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js",a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","6295f53eb2e2b443b6100720",["cdn.bmcdn3.com"],0)}();</script>
 <!-- Coinzilla Banner 300x250 -->
 <script async src="https://coinzillatag.com/lib/display.js"></script>
@@ -86,7 +96,7 @@
 <script src="https://coinzillatag.com/lib/fp.js"></script>
 <script src="https://banfaucet.com/new/assets/js/clipboard.min.js"></script>
 <script async src="https://appsha-lon2.cointraffic.io/js/?wkey=lgXFfbiPoT"></script>
-<style>
+<!-- <style>
   #myTable_wrapper label{
       color: #fff!important;
   }
@@ -107,9 +117,9 @@
   }
   #myTable tr th{
       color: #fff!important;
-  }
+  } -->
   /*#myTable_wrapper select option{*/
   /*    color: #000!important;*/
   /*}*/
 
-</style>
+<!-- </style> -->
