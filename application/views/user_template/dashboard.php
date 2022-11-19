@@ -449,6 +449,18 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 <span aria-hidden="true">&times;</span>
             </button>
         </div>
+        <center>
+  <!-- Coinzilla Banner 728x90 -->
+<script async src="https://coinzillatag.com/lib/display.js"></script>
+<div class="coinzilla" data-zone="C-4766235297110347598"></div>
+<script>
+    window.coinzilla_display = window.coinzilla_display || [];
+    var c_display_preferences = {};
+    c_display_preferences.zone = "4766235297110347598";
+    c_display_preferences.width = "728";
+    c_display_preferences.height = "90";
+    coinzilla_display.push(c_display_preferences);
+</script></center>
         <?= $settings['dashboard_top_ad'] ?>
         </div>
       </div>
@@ -557,18 +569,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
                   <p class="opacity-8 mb-0 text-sm">Balance</p>
                 </div>
               </div>
-              <center>
-  <!-- Coinzilla Banner 728x90 -->
-<script async src="https://coinzillatag.com/lib/display.js"></script>
-<div class="coinzilla" data-zone="C-4766235297110347598"></div>
-<script>
-    window.coinzilla_display = window.coinzilla_display || [];
-    var c_display_preferences = {};
-    c_display_preferences.zone = "4766235297110347598";
-    c_display_preferences.width = "728";
-    c_display_preferences.height = "90";
-    coinzilla_display.push(c_display_preferences);
-</script></center>
+            
 
             </div>
           </div>
