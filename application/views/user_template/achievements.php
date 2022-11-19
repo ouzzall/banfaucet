@@ -103,7 +103,7 @@
     .table td {
   vertical-align: middle;
 }
-#products-list.progress-bar {
+.chalanges.progress-bar.progress-bar-striped.progress-bar-animated {
   height: 20px !important;
 }
 </style>
