@@ -50,10 +50,13 @@
 <input type="radio" style="display: none;" name="options" id="option6" data-filter="video" href="#"> Video
 </label>
 </div><br></center>
-<div class="row boxes mt-1">
-<div class="col-md-6 col-xl-3">
+<div class="row">
+<div class="col-md-6 mx-auto">
 <ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins><script>!function(e,n,c,t,o,r,d){!function e(n,c,t,o,r,m,d,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js?v="+d,a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","6295f53eb2e2b443b6100720",["cdn.bmcdn4.com"], 0, new Date().getTime())}();</script>
 </div>
+</div>
+<div class="row boxes mt-1">
+
 <div class="col-md-6 col-xl-3" data-cat="survey">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
