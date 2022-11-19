@@ -110,7 +110,7 @@
 		</div>
 	</div>
 </div>
-<div class="row">
+<!-- <div class="row">
     <div class="col-md-6 col-xl-3 mb-3 mb-xl-3">
         <div class="card mini-stats-wid">
             <div class="card-body">
@@ -188,7 +188,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <center><span id="ct_c1c1RkyZBbe"></span></center>
 <center><span id="ct_cJd95UwrCma"></span></center><p>
 <div class="row">
