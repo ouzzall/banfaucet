@@ -34,7 +34,7 @@ if (isset($_SESSION['message'])) {
 <center><span id="ct_c1c1RkyZBbe"></span></center><p>
 <div class="row">
     <?php foreach ($availableTasks as $task) { ?>
-        <div class="col-md-6" style="margin-bottom: 5px;">
+        <div class="col-md-6 mb-4" >
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title"><?= $task['name'] ?></h5>
