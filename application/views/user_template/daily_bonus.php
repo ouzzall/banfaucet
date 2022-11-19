@@ -43,18 +43,18 @@ if ($dailyStatus){
             <div class="card-body">
                 <h4 class="card-title mb-4 text-center">Daily Bonus</h4>
                 <div class="table-responsive">
-                    <table class="table table-hover  text-center" >
+                    <table class="table table-striped text-center">
                         <thead>
-                        <tr>
+                            <tr>
                             <th scope="col">Streak</th>
                             <th scope="col">Token Reward</th>
                             <th scope="col">Exp Reward</th>
                             <th scope="col">Earning Bonus</th>
                             <th scope="col">Action</th>
-                        </tr>
+                            </tr>
                         </thead>
                         <tbody>
-                            <?php foreach ($offers as $offer): ?>
+                        <?php foreach ($offers as $offer): ?>
                             <tr>
                                 <td><div class="streak"><?= $offer['streak']?></div></td>
                                 <td><?= $offer['token'] ?> tokens</td>
