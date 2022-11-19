@@ -21,7 +21,7 @@
     </div>
 </div>
 
-<div class="card">
+<div class="card mb-3">
     <div class="card-header">
         <h4 class="card-title">Redeem Coupon Code</h4>
     </div>
@@ -45,7 +45,7 @@
         <div class="form-group">
         <div class="input-group mb-4">
           <span class="input-group-text"><i class="fas fa-file"></i></span>
-          <input type="text" class="form-control" name="code" placeholder="Enter your coupon code" aria-label="Coupon code" aria-describedby="coupon-icon" autocomplete="off">
+          <input style="padding-left: 10px;" type="text" class="form-control" name="code" placeholder="Enter your coupon code" aria-label="Coupon code" aria-describedby="coupon-icon" autocomplete="off">
         </div>
       </div>
             Please note, coupon codes may have a fixed number of redemptions available or may be limited to one use only.
