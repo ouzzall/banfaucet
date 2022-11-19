@@ -295,11 +295,11 @@
 </div><p>
 </div>
 <center><iframe data-aa='2051224' src='//ad.a-ads.com/2051224?size=728x90' style='width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe></center>
-<style>
+<!-- <style>
   .btn.btn-info.btn-sm {
   margin-bottom: 0;
 }
-</style>
+</style> -->
 <script>var _coinzilla_fp_id_ = "173623529710ebcf195",  _coinzilla_fp_interval_ = "5"; </script>
 <script src="https://coinzillatag.com/lib/fp.js"></script>
 <script src="https://banfaucet.com/new/assets/js/clipboard.min.js"></script>
