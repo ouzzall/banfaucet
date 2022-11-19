@@ -580,7 +580,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
 </div></center>
       <div class="row ">
         <div class="col-md-4 mt-2 col-12">
-            <div class="card p-3">
+            
               
               <h5 class="mb-0 font-weight-bolder mb-4">Earn More</h5>
               <!-- <img style="display: block;margin: auto;" src="newAssets/img/offer-icon.jpg" height="150" width="150">
@@ -602,7 +602,6 @@ Compete with other users throughout the week for a chance to win big rewards! To
     c_display_preferences.height = "250";
     coinzilla_display.push(c_display_preferences);
 </script>
-            </div>
           </div>
         <div class="col-md-4 mt-4 col-12">
           <div class="card p-3">
