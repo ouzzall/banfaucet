@@ -26,13 +26,13 @@
 		<div class="card-body">
                 <h4 class="card-title mb-4 text-center">Your Referral Link</h4>
                 <div class="alert alert-success text-center">You get <?= $settings['referral'] ?>% of your referrals earnings.</div>
-  <div class="form-row">
+  <div class="form-row" style="display: flex;align-items: center;">
 	<div class="col-6">
 <input type="text" readonly class="form-control" value="<?= site_url('/?r=' . $user['id']) ?>" id="copyreflink">
 </div>
-<div class="col-2">
-<button class="btn btn-primary btn-sm" type="button" onclick="myFunction()"><i class="fa-solid fa-copy"></i> Copy</button>
-</div>
+
+<button class="btn btn-primary btn-sm" style="margin-left: 10px;" type="button" onclick="myFunction()"><i class="fa-solid fa-copy"></i> Copy</button>
+
 <script>
                   function myFunction() {
                     var copyText = document.getElementById('copyreflink');
