@@ -1,3 +1,5 @@
+<div class="container-fluid py-4">
+
 <center><script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-4766235297110347598"></div>
 <script>
@@ -8,10 +10,17 @@
     c_display_preferences.height = "90";
     coinzilla_display.push(c_display_preferences);
 </script></center>
-<div class="alert alert-info text-center alert-dismissable fade show" role="alert">You can find coupon codes in our <a href="https://t.me/banfaucet" target="_blank" class="alert-link">Telegram Group</a>. Don't miss out, join today!
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button></div>
+<div class="row">
+<div class="col-12">
+          <div class="alert alert-info alert-dismissible fade show text-center" role="alert">
+          You can find coupon codes in our <a href="https://t.me/banfaucet" target="_blank" class="alert-link">Telegram Group</a>. Don't miss out, join today!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+</div>
+
 <div class="card">
     <div class="card-header">
         <h4 class="card-title">Redeem Coupon Code</h4>
@@ -25,14 +34,20 @@
             ?>
             <input type="hidden" name="<?= $csrf_name ?>" id="token" value="<?= $csrf_hash ?>">
             <label>Coupon Code</label>
-            <div class="input-group mb-4">
+            <!-- <div class="input-group mb-4">
                 <div class="input-group-prepend">
                     <span class="input-group-text">
                         <i class="fas fa-file"></i>
                     </span>
                 </div>
                 <input type="text" class="form-control" name="code" placeholder="Enter your coupon code" aria-label="Coupon code" aria-describedby="coupon-icon" autocomplete="off">
-		</div>
+		</div> -->
+        <div class="form-group">
+        <div class="input-group mb-4">
+          <span class="input-group-text"><i class="fas fa-file"></i></span>
+          <input type="text" class="form-control" name="code" placeholder="Enter your coupon code" aria-label="Coupon code" aria-describedby="coupon-icon" autocomplete="off">
+        </div>
+      </div>
             Please note, coupon codes may have a fixed number of redemptions available or may be limited to one use only.
             <div class="mb-2">
                 <center><?= $captchaDisplay ?>
@@ -49,7 +64,7 @@
 </script></center></center>
 
             </div>
-            <button type="submit" class="btn btn-success btn-block">Redeem</button>
+            <button style="width: 100%;" type="submit" class="btn btn-success btn-block">Redeem</button>
         </form>
 <center><span id="ct_c1c1RkyZBbe"></span></center><p>
 <center><span id="ct_cJd95UwrCma"></span></center><p>
