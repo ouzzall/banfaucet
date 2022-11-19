@@ -81,7 +81,7 @@
                         </h5> </div>
 					</div>
 					<div class="col-4 text-end">
-						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-solid fa-timer text-lg opacity-10"></i> </div>
+						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-solid fa-clock text-lg opacity-10"></i> </div>
 					</div>
 				</div>
 			</div>
