@@ -1,4 +1,9 @@
 <div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-md-12">
+             <div class="alert alert-warning text-center">You can only transfer from Main Balance to Advertising Balance. <b>This process cannot be reversed!</b></div>
+        </div>
+    </div>
 <div class="ads">
     <?= $settings['dashboard_top_ad'] ?>
 </div>
@@ -11,7 +16,7 @@
                 if (isset($_SESSION['message'])) {
                     echo $_SESSION['message'];
                 } ?>
-                <div class="alert alert-warning text-center">You can only transfer from Main Balance to Advertising Balance. <b>This process cannot be reversed!</b></div>
+                
                 <form action="<?= site_url('/account/transfer_balance') ?>" method="POST">
                     <label>Amount</label>
                     <!-- <div class="input-group mb-4">
