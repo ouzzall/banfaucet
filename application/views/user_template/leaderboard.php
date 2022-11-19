@@ -188,7 +188,7 @@
             </div>
         </div>
     <?php } ?>
-    <div class="col-12 col-md-6 col-lg-6 order-md-1 mb-4 text-center">
+    <div class="col-12 col-md-6 col-lg-6 mx-auto order-md-1 mb-4 text-center">
         <div class="card">
             <div class="card-body text-center">
                 <h4 class="card-title mb-4">Level Leaderboard</h4>
