@@ -1,5 +1,18 @@
-<div class="ads">
+<div class="container-fluid py-4">
+<!-- <div class="ads">
     <?= $settings['tasks_top_ad'] ?>
+</div> -->
+
+<div class="row">
+<div class="col-12">
+          <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+            <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
+            <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
 </div>
 <?php
 if (isset($_SESSION['message'])) {
@@ -48,7 +61,7 @@ if (isset($_SESSION['message'])) {
         </div>
     <?php } ?>
     <?php foreach ($pendingTasks as $task) { ?>
-        <div class="col-md-6" style="margin-bottom: 5px;">
+        <div class="col-md-6 mb-4" >
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title"><?= $task['name'] ?></h5>
@@ -78,6 +91,7 @@ if (isset($_SESSION['message'])) {
 <div class="ads">
     <?= $settings['tasks_footer_ad'] ?>
 </div>
+    </div>
 <center><ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins><script>!function(e,n,c,t,o,r){!function e(n,c,t,o,r,m,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js",a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","6295f53eb2e2b443b6100720",["cdn.bmcdn3.com"],0)}();</script>
 <!-- Coinzilla Banner 300x250 -->
 <script async src="https://coinzillatag.com/lib/display.js"></script>
