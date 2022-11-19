@@ -55,9 +55,9 @@ if (isset($message)) {
                                 <div class="col-sm-6">
                                     <div class="input-group mb-2 currency-value">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text">USD</span>
+                                            <span class="input-group-text" style="border-top-right-radius: 0 !important;border-bottom-right-radius: 0 !important;">USD</span>
                                         </div>
-                                        <input type="number" style="border-top-right-radius: 0 !important;border-bottom-right-radius: 0 !important;" name="amount" id="usd" class="form-control" min="<?= $settings['coinbase_min_deposit'] ?>" step="0.000001">
+                                        <input type="number" style="" name="amount" id="usd" class="form-control" min="<?= $settings['coinbase_min_deposit'] ?>" step="0.000001">
                                     </div>
                                 </div>
 
