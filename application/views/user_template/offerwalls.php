@@ -81,16 +81,18 @@
 </div>
 <div class="col-md-6 col-xl-3" data-cat="survey">
 <div class="card">
-  <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+  <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
     <a href="javascript:;" class="d-block">
-    <img style="max-width:350px;max-height:60px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/adscend.png" alt="Adscend Media">
+    <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/adscend.png" alt="Adscend Media">
     </a>
   </div>
 
   <div class="card-body pt-2">
+    <div >
     <span class="badge bg-gradient-secondary">Secondary</span>
     <span class="badge bg-gradient-secondary">Secondary</span>
     <span class="badge bg-gradient-secondary">Secondary</span>
+    </div>
     <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="5 / 5 Rating">
       <p style="text-align:center;color:#FAAD13">
       <i class="fa-solid fa-star fa-xl"></i>
@@ -116,9 +118,10 @@
     <i class="fa-solid fa-star fa-xl"></i>
     <i class="fa-solid fa-star fa-xl"></i>
     <i class="fa-solid fa-star fa-xl"></i></p>
+
 </div>
+<a href="https://banfaucet.com/new/offerwall/adscendmedia"><button class="btn btn-primary" type="button">View</button></a>
 </div>
-<a href="https://banfaucet.com/new/offerwall/adscendmedia" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
 </div>
 
