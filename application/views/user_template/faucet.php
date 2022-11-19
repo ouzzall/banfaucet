@@ -32,91 +32,83 @@
     coinzilla_display.push(c_display_preferences);
 </script></center>
 <div class="row">
-
-<div class="col-lg-3 col-sm-6">
-              <div class="card  mb-4">
-                <div class="card-body p-3">
-                  <div class="row">
-                    <div class="col-8">
-                      <div class="numbers">
-                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Claim Timer</p>
-                        <h5 class="font-weight-bolder mb-0">
+	<div class="col-lg-3 col-sm-6 mt-3">
+		<div class="card  mb-4">
+			<div class="card-body p-3">
+				<div class="row">
+					<div class="col-8">
+						<div class="numbers">
+							<p class="text-sm mb-0 text-capitalize font-weight-bold">Claim Timer</p>
+							
+                            <?php
+                        if ($wait) { ?>
+                            <h5 class="font-weight-bolder mb-0"><b id="minute"><?= floor($wait / 60) ?></b>:<b id="second"><?= $wait % 60 ?></b></h5>
+                        <?php } else { ?>
+                            <h5 class="font-weight-bolder mb-0">READY</h5>
+                        <?php } ?>
+                         </div>
+					</div>
+					<div class="col-4 text-end">
+						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-solid fa-stopwatch text-lg opacity-10"></i> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-3 col-sm-6 mt-3">
+		<div class="card  mb-4">
+			<div class="card-body p-3">
+				<div class="row">
+					<div class="col-8">
+						<div class="numbers">
+							<p class="text-sm mb-0 text-capitalize font-weight-bold">Collect Every</p>
+							<h5 class="font-weight-bolder mb-0">
+                            <?= floor($settings['timer'] / 60) ?> minutes
+                        </h5> </div>
+					</div>
+					<div class="col-4 text-end">
+						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-regular fa-clock text-lg opacity-10"></i> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-3 col-sm-6 mt-3">
+		<div class="card  mb-4">
+			<div class="card-body p-3">
+				<div class="row">
+					<div class="col-8">
+						<div class="numbers">
+							<p class="text-sm mb-0 text-capitalize font-weight-bold">Reward</p>
+							<h5 class="font-weight-bolder mb-0">
+                            <?= currencyDisplay($settings['reward'], $settings) ?> <sup><span class="text-success me-2">+<?= $bonus ?>% bonus</span></sup>
+                        </h5> </div>
+					</div>
+					<div class="col-4 text-end">
+						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-solid fa-stopwatch text-lg opacity-10"></i> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-3 col-sm-6 mt-3">
+		<div class="card  mb-4">
+			<div class="card-body p-3">
+				<div class="row">
+					<div class="col-8">
+						<div class="numbers">
+							<p class="text-sm mb-0 text-capitalize font-weight-bold">Claim Timer</p>
+							<h5 class="font-weight-bolder mb-0">
                           7:11
-                        </h5>
-                      </div>
-                    </div>
-                    <div class="col-4 text-end">
-                      <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i class="fa-solid fa-stopwatch text-lg opacity-10"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt-3">
-              <div class="card  mb-4">
-                <div class="card-body p-3">
-                  <div class="row">
-                    <div class="col-8">
-                      <div class="numbers">
-                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Claim Timer</p>
-                        <h5 class="font-weight-bolder mb-0">
-                          7:11
-                        </h5>
-                      </div>
-                    </div>
-                    <div class="col-4 text-end">
-                      <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i class="fa-solid fa-stopwatch text-lg opacity-10"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> 
-            <div class="col-lg-3 col-sm-6 mt-3">
-              <div class="card  mb-4">
-                <div class="card-body p-3">
-                  <div class="row">
-                    <div class="col-8">
-                      <div class="numbers">
-                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Claim Timer</p>
-                        <h5 class="font-weight-bolder mb-0">
-                          7:11
-                        </h5>
-                      </div>
-                    </div>
-                    <div class="col-4 text-end">
-                      <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i class="fa-solid fa-stopwatch text-lg opacity-10"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> 
-            <div class="col-lg-3 col-sm-6 mt-3">
-              <div class="card  mb-4">
-                <div class="card-body p-3">
-                  <div class="row">
-                    <div class="col-8">
-                      <div class="numbers">
-                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Claim Timer</p>
-                        <h5 class="font-weight-bolder mb-0">
-                          7:11
-                        </h5>
-                      </div>
-                    </div>
-                    <div class="col-4 text-end">
-                      <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i class="fa-solid fa-stopwatch text-lg opacity-10"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>            
+                        </h5> </div>
+					</div>
+					<div class="col-4 text-end">
+						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-solid fa-stopwatch text-lg opacity-10"></i> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <div class="row">
     <div class="col-md-6 col-xl-3 mb-3 mb-xl-3">
