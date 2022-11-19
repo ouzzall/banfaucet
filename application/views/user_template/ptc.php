@@ -33,7 +33,61 @@
     coinzilla_display.push(c_display_preferences);
 </script></center>
 <div class="row">
-    <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
+<div class="col-lg-4 col-sm-6 mt-3">
+		<div class="card  mb-4">
+			<div class="card-body p-3">
+				<div class="row">
+					<div class="col-8">
+						<div class="numbers">
+							<p class="text-sm mb-0 text-capitalize font-weight-bold">Ads Available</p>
+							<h5 class="font-weight-bolder mb-0">
+                            <?= $totalAds ?>
+                        </h5> </div>
+					</div>
+					<div class="col-4 text-end">
+						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-regular fa-computer-mouse text-lg opacity-10"></i> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="col-lg-4 col-sm-6 mt-3">
+		<div class="card  mb-4">
+			<div class="card-body p-3">
+				<div class="row">
+					<div class="col-8">
+						<div class="numbers">
+							<p class="text-sm mb-0 text-capitalize font-weight-bold">Reward</p>
+							<h5 class="font-weight-bolder mb-0">
+                            <?= $totalAds ?>
+                        </h5> </div>
+					</div>
+					<div class="col-4 text-end">
+						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-regular fa-computer-mouse text-lg opacity-10"></i> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="col-lg-4 col-sm-6 mt-3">
+		<div class="card  mb-4">
+			<div class="card-body p-3">
+				<div class="row">
+					<div class="col-8">
+						<div class="numbers">
+							<p class="text-sm mb-0 text-capitalize font-weight-bold">Total Time</p>
+							<h5 class="font-weight-bolder mb-0">
+                            <?= $totalTime ?>
+                        </h5> </div>
+					</div>
+					<div class="col-4 text-end">
+						<div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md"> <i class="fa-regular fa-computer-mouse text-lg opacity-10"></i> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
         <div class="card mini-stats-wid">
             <div class="card-body">
                 <div class="media">
@@ -50,8 +104,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
+    </div> -->
+    <!-- <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
         <div class="card mini-stats-wid">
             <div class="card-body">
                 <div class="media">
@@ -68,8 +122,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
+    </div> -->
+    <!-- <div class="col-md-6 col-xl-4 mb-3 mb-xl-4">
         <div class="card mini-stats-wid">
             <div class="card-body">
                 <div class="media">
@@ -86,7 +140,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 <center><span id="ct_cJd95UwrCma"></span></center><p>
 <center><span id="ct_c1c1RkyZBbe"></span></center><p>
@@ -99,11 +153,11 @@
     <div class="row">
         <?php
         foreach ($ptcAds as $ads) { ?>
-            <div class="col-sm-4 mx-auto" style="margin-bottom: 5px;">
+            <div class="col-sm-4 mt-3 mx-auto" style="margin-bottom: 5px;">
                 <div class="card">
                     <div class="card-body">
                         <h3 class="card-title text-center"><?= $ads['name'] ?></h3>
-                            <div class="desc">
+                            <div class="desc" style="min-height: 126px;">
                                 <p class="card-text text-center"><?= $ads['description'] ?></p>
                             </div>    
                         <div class="row text-center">
