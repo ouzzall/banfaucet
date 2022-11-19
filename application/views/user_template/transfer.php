@@ -3,7 +3,7 @@
     <?= $settings['dashboard_top_ad'] ?>
 </div>
 <div class="row mb-4">
-    <div class="col-lg-12">
+    <div class="col-lg-8 mx-auto">
         <div class="card mb-4">
             <div class="card-body">
                 <h4 class="card-title mb-4 text-center">Transfer</h4>
@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <input type="hidden" name="<?= $csrf_name ?>" id="token" value="<?= $csrf_hash ?>">
-                    <button type="submit" class="btn btn-success btn-block">Transfer</button>
+                    <button type="submit" style="display: block;margin: auto;" class="btn btn-success btn-block">Transfer</button>
                 </form>
             </div>
         </div>
