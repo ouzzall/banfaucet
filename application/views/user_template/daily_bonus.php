@@ -38,7 +38,7 @@ if ($dailyStatus){
 
 ?>
 <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-10 mx-auto">
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title mb-4 text-center">Daily Bonus</h4>
