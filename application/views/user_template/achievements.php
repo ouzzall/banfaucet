@@ -1,6 +1,7 @@
-<div class="ads">
+<div class="container-fluid py-4" style="padding-top: 0 !important;">
+<!-- <div class="ads">
     <?= $settings['achievements_top_ad'] ?>
-</div>
+</div> -->
 <center><!-- Coinzilla Banner 728x90 -->
 <script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-4766235297110347598"></div>
@@ -90,6 +91,7 @@
 
 <div class="ads">
     <?= $settings['achievements_footer_ad'] ?>
+</div>
 </div>
 <script>var _coinzilla_fp_id_ = "173623529710ebcf195",  _coinzilla_fp_interval_ = "5"; </script>
 <script src="https://coinzillatag.com/lib/fp.js"></script>
