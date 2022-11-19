@@ -1,5 +1,6 @@
+<div class="container-fluid py-4">
 <div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+  <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div>
 <div class="row">
@@ -31,4 +32,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
