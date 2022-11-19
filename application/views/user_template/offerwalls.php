@@ -79,7 +79,7 @@
 <a href="https://banfaucet.com/new/offerwall/cpx" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
 </div> -->
-<div class="col-md-6 col-xl-3" data-cat="survey">
+<div class="col-md-6 col-xl-3 mt-3" data-cat="survey">
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
@@ -103,7 +103,7 @@
     </div>
   </div>
 </div>
-<div class="col-md-6 col-xl-3" data-cat="survey">
+<div class="col-md-6 col-xl-3 mt-3" data-cat="survey">
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
@@ -150,7 +150,7 @@
 </div>
 </div> -->
 
-<div class="col-md-6 col-xl-3" data-cat="ptc,tasks,survey">
+<div class="col-md-6 col-xl-3 mt-3" data-cat="ptc,tasks,survey">
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
@@ -195,7 +195,7 @@
 <a href="https://banfaucet.com/new/offerwall/timewall" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
 </div> -->
-<div class="col-md-6 col-xl-3" data-cat="survey,ptc,tasks,shortlinks">
+<div class="col-md-6 col-xl-3 mt-3" data-cat="survey,ptc,tasks,shortlinks">
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
@@ -241,7 +241,7 @@
 <a href="https://banfaucet.com/new/offerwall/bitcotasks" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
 </div> -->
-<div class="col-md-6 col-xl-3" data-cat="video">
+<div class="col-md-6 col-xl-3 mt-3" data-cat="video">
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
@@ -267,7 +267,7 @@
     </div>
   </div>
 </div>
-<div class="col-md-6 col-xl-3" data-cat="video">
+<!-- <div class="col-md-6 col-xl-3" data-cat="video">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
 <center><img style="max-width:350px;max-height:60px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/hideout.svg" alt="HideoutTV"></center>
@@ -285,7 +285,7 @@
 </div>
 <a href="https://partner.hideout.tv/click.php?aff=115924&camp=2992522&from=18688&prod=4&prod_channel=5&sub1=<?= $user['id'] ?>" target="_blank" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
-</div>
+</div> -->
 <div class="col-md-6 col-xl-3" data-cat="video">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
