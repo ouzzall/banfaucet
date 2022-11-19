@@ -30,7 +30,9 @@
 <center><p>
 <div class="cta filter">
 <div class="btn-group-toggle" data-toggle="buttons">
-<span class="text-secondary font-size-15">Filter : </span>
+
+<p class="text-secondary font-size-15">Filter : </p>
+<div>
 <label class="btn btn-info btn-sm">
 <input type="radio" style="display: none;" name="options" id="option1" checked="" data-filter="all" href="#"> All
 </label>
@@ -49,6 +51,7 @@
 <label class="btn btn-info btn-sm">
 <input type="radio" style="display: none;" name="options" id="option6" data-filter="video" href="#"> Video
 </label>
+</div>
 </div><br></center>
 <div class="row">
 <div class="col-md-6 mx-auto">
