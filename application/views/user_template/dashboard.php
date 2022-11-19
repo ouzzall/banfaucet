@@ -638,7 +638,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
         <div class="col-md-4 mt-4 col-12">
             <div class="card p-3">
               <center>
-                <span id="ct_c1c1RkyZBbe"></span>
+              <iframe data-aa='1960488' src='//ad.a-ads.com/1960488?size=300x250' style='width:300px; height:250px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
               </center>          
             </div>              
         </div> 
