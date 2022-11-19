@@ -81,7 +81,7 @@
 </div> -->
 <div class="col-md-6 col-xl-3 mt-3" data-cat="survey">
   <div class="card">
-    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
       <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/cpxresearch-removebg-preview.png" alt="Adscend Media">
       </a>
@@ -105,7 +105,7 @@
 </div>
 <div class="col-md-6 col-xl-3 mt-3" data-cat="survey">
   <div class="card">
-    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
       <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/adscendmedia.svg" alt="Adscend Media">
       </a>
@@ -152,7 +152,7 @@
 
 <div class="col-md-6 col-xl-3 mt-3" data-cat="ptc,tasks,survey">
   <div class="card">
-    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
       <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/timewall.png" alt="Adscend Media">
       </a>
@@ -197,7 +197,7 @@
 </div> -->
 <div class="col-md-6 col-xl-3 mt-3" data-cat="survey,ptc,tasks,shortlinks">
   <div class="card">
-    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
       <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/bitcotasks.png" alt="Adscend Media">
       </a>
@@ -243,7 +243,7 @@
 </div> -->
 <div class="col-md-6 col-xl-3 mt-3" data-cat="video">
   <div class="card">
-    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
       <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/hideout.svg" alt="Adscend Media">
       </a>
@@ -288,7 +288,7 @@
 </div> -->
 <div class="col-md-6 col-xl-3 mt-3" data-cat="video">
   <div class="card">
-    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
       <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/loot.svg" alt="Adscend Media">
       </a>
@@ -333,7 +333,7 @@
 </div> -->
 <div class="col-md-6 col-xl-3 mt-3" data-cat="survey,tasks">
   <div class="card">
-    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
       <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/lootably.png" alt="Adscend Media">
       </a>
@@ -378,7 +378,7 @@
 </div> -->
 <div class="col-md-6 col-xl-3 mt-3" data-cat="survey,tasks">
   <div class="card">
-    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
       <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/bitlabs.svg" alt="Adscend Media">
       </a>
@@ -422,7 +422,7 @@
 </div> -->
 <div class="col-md-6 col-xl-3 mt-3" data-cat="survey,tasks">
   <div class="card">
-    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
       <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/monlix.svg" alt="Adscend Media">
       </a>
@@ -468,7 +468,7 @@
 
 <div class="col-md-6 col-xl-3 mt-3" data-cat="tasks,ptc,shortlinks">
   <div class="card">
-    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
       <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/offeroc.svg" alt="Adscend Media">
       </a>
@@ -516,7 +516,7 @@
 
 <div class="col-md-6 col-xl-3 mt-3" data-cat="tasks,ptc,shortlinks">
   <div class="card">
-    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #f9f9f9;margin: 0 !important;padding: 20px !important;">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
       <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/bitswall.png" alt="Adscend Media">
       </a>
@@ -577,11 +577,11 @@
 </div><p>
 </div>
 <center><iframe data-aa='2051224' src='//ad.a-ads.com/2051224?size=728x90' style='width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe></center>
-<!-- <style>
-  .btn.btn-info.btn-sm {
-  margin-bottom: 0;
-}
-</style> -->
+<style>
+  .card .card-header{
+    height: 86px;
+  }
+</style>
 <script>var _coinzilla_fp_id_ = "173623529710ebcf195",  _coinzilla_fp_interval_ = "5"; </script>
 <script src="https://coinzillatag.com/lib/fp.js"></script>
 <script src="https://banfaucet.com/new/assets/js/clipboard.min.js"></script>
