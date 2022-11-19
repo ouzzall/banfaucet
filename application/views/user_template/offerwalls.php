@@ -31,7 +31,7 @@
 <div class="cta filter">
 <div class="btn-group-toggle" data-toggle="buttons">
 
-<p class="text-secondary font-size-15">Filter : </p>
+<h3 class="text-secondary ">Filters : </h3>
 <div>
 <label class="btn btn-info btn-sm">
 <input type="radio" style="display: none;" name="options" id="option1" checked="" data-filter="all" href="#"> All
