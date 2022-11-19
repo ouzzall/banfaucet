@@ -117,9 +117,9 @@
                             <button class="btn btn-outline-primary waves-effect" id="coupon-check" type="button">Check</button>
                         </div> -->
                         <div class="form-group">
-                            <div class="input-group mb-4" style="height: 45px;">
-                            <span style="height: 45px;" class="input-group-text"><i class="fas fa-file"></i></span>
-                            <input style="height: 45px;padding-left: 10px;" type="text" id="coupon-code" class="form-control" name="code" placeholder="Enter your coupon code" aria-label="Coupon code" aria-describedby="coupon-icon" autocomplete="off">
+                            <div class="input-group mb-4" style="height: 43px;">
+                            <span style="height: 43px;" class="input-group-text"><i class="fas fa-file"></i></span>
+                            <input style="height: 43px;padding-left: 10px;border-top-right-radius: 0 !important;border-bottom-right-radius: 0 !important;" type="text" id="coupon-code" class="form-control" name="code" placeholder="Enter your coupon code" aria-label="Coupon code" aria-describedby="coupon-icon" autocomplete="off">
                             <button class="btn btn-outline-primary waves-effect" id="coupon-check" type="button">Check</button>
                             </div>
                         </div>
