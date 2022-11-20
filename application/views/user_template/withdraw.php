@@ -234,7 +234,7 @@
                       <div class="form-group">
                         <div class="input-group input-group-alternative mb-4">
                           <input class="form-control" style="text-align: end;padding-right: 10px;border-top-right-radius: 0 !important;border-bottom-right-radius: 0 !important;background: #fff;" placeholder="" type="text" id="converted" disabled>
-                          <span style="background: #dfdfdf;" class="input-group-text-right">BAN</span>
+                          <span style="background: #dfdfdf;" id="targetCurrency" class="input-group-text-right">You will recieve</span>
                         </div>
                       </div>
                     </div>
