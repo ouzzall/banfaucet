@@ -20,6 +20,40 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css" integrity="sha512-aNH2ILn88yXgp/1dcFPt2/EkSNc03f9HBFX0rqX3Kw37+vjipi1pK3L9W08TZLhMg4Slk810sPLdJlNIjwygFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css" integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    img.cruncyIcon {
+      width: 30px;
+    }
+
+    .sidenav-footer {
+      position: inherit;
+      padding: 10px 10px;
+      left: 0;
+      bottom: 0;
+      width: 250px;
+    }
+
+    .fixed-plugin .card {
+      position: fixed !important;
+      right: -360px;
+      bottom: 0 !important;
+      top: unset !important;
+      height: 200px !important;
+      left: auto !important;
+      transform: unset !important;
+      width: 360px;
+      border-radius: 22px !important;
+
+    }
+
+    .header-profile-user {
+      height: 36px;
+      width: 36px;
+      padding: 3px;
+    }
+  </style>
+
 </head>
 
 <body>
