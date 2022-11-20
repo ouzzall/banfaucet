@@ -279,7 +279,7 @@
       document.querySelectorAll(".my_special_link").forEach(p => {
         if(current_ == p.value)
         {
-          console.log(p);
+          p.click();
         }
       });
     })
