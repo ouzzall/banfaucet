@@ -46,15 +46,33 @@
             </div>
             <div class="card-body p-3 mt-2">
               <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show position-relative active height-400 border-radius-lg" id="tasks" role="tabpanel" aria-labelledby="tasks" style="background-image: url('newAssets/img/bg-smart-home-1.jpg'); background-size:cover;">
-                  <div class="position-absolute d-flex top-0 w-100">
-                    <p class="text-white p-3 mb-0">17.05.2021 4:34PM</p>
-                    <div class="ms-auto p-3">
-                      <span class="badge badge-secondary">
-                        <i class="fas fa-dot-circle text-danger"></i>
-                        Recording</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade show position-relative active height-400 border-radius-lg" id="tasks" role="tabpanel" aria-labelledby="tasks" style="">
+                <div class="table-responsive">
+                            <table class="table table-striped text-center">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Task</th>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col">Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                <tr>
+                                        <td>test</td>
+                                        <td>test</td>
+                                        <td>test</td>
+                                        <td>test</td>
+                                    </tr>
+                                    <?php
+                                    foreach ($task_history as $value) {
+                                        echo '<tr><th scope="row">' . $value["id"] . '</th><td>' . $value['name'] . '</td><td>' . currencyDisplay($value["usd_reward"], $settings) . '</td><td>' . timespan($value["claim_time"], time(), 2) . ' ago</td></tr>';
+                                    }
+                                    ?>
+                                </tbody>
+                            </table>
+                        </div>
                 </div>
                 <div class="tab-pane fade position-relative height-400 border-radius-lg" id="lottery" role="tabpanel" aria-labelledby="lottery" style="background-image: url('newAssets/img/bg-smart-home-2.jpg'); background-size:cover;">
                   <div class="position-absolute d-flex top-0 w-100">
