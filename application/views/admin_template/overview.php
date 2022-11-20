@@ -90,7 +90,7 @@
                 <div class="media" style="display: flex;justify-content: space-between !important;width: 100%;">
                     <div class="media-body">
                         <p class="lh-1 mb-1 font-weight-bold"><?= $pendingWithdrawal ?></p>
-                        <p class="mb-0">pending withdrawals </p>
+                        <p class="mb-0" style="height: 70px;padding-right: 10px;">pending withdrawals </p>
                         <a target="_blank" class="btn btn-info btn-sm" href="<?= site_url('admin/withdraw/pending') ?>">Check</a>
                     </div>
 
@@ -112,7 +112,7 @@
                 <div class="media" style="display: flex;justify-content: space-between !important;width: 100%;">
                     <div class="media-body">
                         <p class="lh-1 mb-1 font-weight-bold"><?= $pendingSubmissions ?></p>
-                        <p class="mb-0">pending task submissions </p>
+                        <p class="mb-0" style="height: 70px;padding-right: 10px;">pending task submissions </p>
                         <a target="_blank" class="btn btn-info btn-sm" href="<?= site_url('admin/tasks/submissions') ?>">Check</a>
                     </div>
 
@@ -135,7 +135,7 @@
                 <div class="media" style="display: flex;justify-content: space-between !important;width: 100%;">
                     <div class="media-body">
                         <p class="lh-1 mb-1 font-weight-bold"><?= $pendingOfferwall ?></p>
-                        <p class="mb-0">pending offerwalls </p>
+                        <p class="mb-0" style="height: 70px;padding-right: 10px;">pending offerwalls </p>
                         <a target="_blank" class="btn btn-info btn-sm" href="<?= site_url('admin/offerwalls/pending') ?>">Check</a>
                     </div>
 
@@ -157,7 +157,7 @@
                 <div class="media" style="display: flex;justify-content: space-between !important;width: 100%;">
                     <div class="media-body">
                         <p class="lh-1 mb-1 font-weight-bold"><?= $pendingCampaigns ?></p>
-                        <p class="mb-0">pending campaigns </p>
+                        <p class="mb-0" style="height: 70px;padding-right: 10px;">pending campaigns </p>
                         <a target="_blank" class="btn btn-info btn-sm" href="<?= site_url('admin/advertise/pending') ?>">Check</a>
                     </div>
 
