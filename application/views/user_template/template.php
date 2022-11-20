@@ -624,12 +624,9 @@
 
   <script src="newAssets/js/core/popper.min.js"></script>
   <script src="newAssets/js/core/bootstrap.min.js"></script>
-  
-  <script src="newAssets/js/plugins/dragula/dragula.min.js"></script>
-  <script src="newAssets/js/plugins/jkanban/jkanban.js"></script>
-  <script src="newAssets/js/plugins/countup.min.js"></script>
-  <script src="newAssets/js/plugins/chartjs.min.js"></script>
-  <script src="newAssets/js/plugins/round-slider.min.js"></script>
+  <script src="newAssets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="newAssets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="newAssets/js/plugins/choices.min.js"></script>
 
   <script>
     $(document).ready(function() {
