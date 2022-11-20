@@ -631,6 +631,7 @@
   <script src="newAssets/js/plugins/jkanban/jkanban.js"></script>
   <script src="newAssets/js/plugins/countup.min.js"></script>
   <script src="newAssets/js/plugins/chartjs.min.js"></script>
+  <script src="newAssets/js/plugins/round-slider.min.js"></script>
 
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
