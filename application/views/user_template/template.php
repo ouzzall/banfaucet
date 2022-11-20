@@ -621,7 +621,7 @@
       </div>
     </div>
   </div>
-
+ 
   <script src="https://banfaucet.com/new/newAssets/js/core/popper.min.js"></script>
   <script src="https://banfaucet.com/new/newAssets/js/core/bootstrap.min.js"></script>
   <script src="https://banfaucet.com/new/newAssets/js/plugins/perfect-scrollbar.min.js"></script>
