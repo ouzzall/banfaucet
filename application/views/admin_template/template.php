@@ -567,7 +567,7 @@
         <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/overview') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-tachometer-alt"></i>
+                <i class="fas fa-tachometer-alt text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Overview</span>
             </a>
@@ -583,7 +583,7 @@
         <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/currencies') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-hand-holding-usd"></i>
+                <i class="fas fa-hand-holding-usd text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Payment Methods</span>
             </a>
@@ -591,7 +591,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/settings') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-cogs"></i>
+                <i class="fas fa-cogs text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">General Settings</span>
             </a>
@@ -599,7 +599,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/pages') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="far fa-edit"></i>
+                <i class="far fa-edit text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Pages</span>
             </a>
@@ -607,7 +607,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/notifications') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-bullhorn"></i>
+                <i class="fas fa-bullhorn text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Recent Notifications</span>
             </a>
@@ -615,7 +615,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/leaderboard') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-list-ol"></i>
+                <i class="fas fa-list-ol text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Leaderboard</span>
             </a>
@@ -623,7 +623,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/coupon') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-file"></i>
+                <i class="fas fa-file text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Coupon</span>
             </a>
@@ -663,7 +663,7 @@
         <li class="nav-item">
             <a data-bs-toggle="collapse" href="#manageusers" class="nav-link " aria-controls="manageusers" role="button" aria-expanded="false">
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
-                <i class="fas fa-users"></i>
+                <i class="fas fa-users text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Manage users</span>
             </a>
@@ -710,7 +710,7 @@
           <li class="nav-item">
             <a data-bs-toggle="collapse" href="#offerwall" class="nav-link " aria-controls="offerwall" role="button" aria-expanded="false">
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
-                <i class="far fa-newspaper"></i>
+                <i class="far fa-newspaper text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Offerwall</span>
             </a>
@@ -737,7 +737,7 @@
           <li class="nav-item">
             <a data-bs-toggle="collapse" href="#tasks" class="nav-link " aria-controls="tasks" role="button" aria-expanded="false">
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
-                <i class="fas fa-tasks"></i>
+                <i class="fas fa-tasks text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Tasks</span>
             </a>
@@ -754,7 +754,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/reward') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-gift"></i>
+                <i class="fas fa-gift text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Reward User</span>
             </a>
@@ -765,7 +765,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/achievements') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-trophy"></i>
+                <i class="fas fa-trophy text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Achievements</span>
             </a>
@@ -773,7 +773,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/bonus') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-gift"></i>
+                <i class="fas fa-gift text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Bonus</span>
             </a>
@@ -781,7 +781,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/dice') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-dice"></i>
+                <i class="fas fa-dice text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Dice</span>
             </a>
@@ -789,7 +789,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/coinflip') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-coins"></i>
+                <i class="fas fa-coins text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Coin Flip</span>
             </a>
@@ -797,7 +797,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/auto') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-robot"></i>
+                <i class="fas fa-robot text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Auto Faucet</span>
             </a>
@@ -805,7 +805,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/faucet') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-faucet"></i>
+                <i class="fas fa-faucet text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Manual Faucet</span>
             </a>
@@ -813,7 +813,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/wheel') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-dharmachakra"></i>
+                <i class="fas fa-dharmachakra text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Wheel Of Fortune</span>
             </a>
@@ -821,7 +821,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/mining') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="far fa-gem"></i>
+                <i class="far fa-gem text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Mining</span>
             </a>
@@ -829,7 +829,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/links') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-link"></i>
+                <i class="fas fa-link text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Shortlinks</span>
             </a>
@@ -837,7 +837,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/ptc') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-mouse"></i>
+                <i class="fas fa-mouse text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">PTC</span>
             </a>
@@ -845,7 +845,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/lottery') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-ticket-alt"></i>
+                <i class="fas fa-ticket-alt text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Lottery</span>
             </a>
@@ -853,7 +853,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/offerwalls') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="far fa-newspaper"></i>
+                <i class="far fa-newspaper text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Offerwalls</span>
             </a>
@@ -861,7 +861,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/tasks') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-tasks"></i>
+                <i class="fas fa-tasks text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Tasks</span>
             </a>
@@ -872,7 +872,7 @@
           <li class="nav-item">
             <a data-bs-toggle="collapse" href="#adver" class="nav-link " aria-controls="adver" role="button" aria-expanded="false">
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
-                <i class="fas fa-user-tie"></i>
+                <i class="fas fa-user-tie text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Advertiser</span>
             </a>
@@ -914,7 +914,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('admin/tasks') ?>" >
               <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-                <i class="fas fa-tasks"></i>
+                <i class="fas fa-tasks text-dark"></i>
               </div>
               <span class="nav-link-text ms-1">Tasks</span>
             </a>
