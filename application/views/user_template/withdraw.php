@@ -271,7 +271,7 @@
   $(document).ready(function(){
 
     $(".custom_work_click").on("click",function(){
-      console.log($(this).attr(value));
+      console.log($(this).attr("value"));
     })
 
   });
