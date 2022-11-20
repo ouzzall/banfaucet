@@ -632,6 +632,10 @@
   <script src="https://banfaucet.com/new/newAssets/js/plugins/countup.min.js"></script>
   <script src="https://banfaucet.com/new/newAssets/js/plugins/chartjs.min.js"></script>
 
+  <?php if ($page == 'Withdraw') { ?>
+    <script src="https://banfaucet.com/new/newAssets/js/plugins/multistep-form.js"></script>
+  <?php } ?>
+
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
