@@ -657,7 +657,7 @@
   </script>
 
   <!-- PREVIOUS CODES ######################################################################################################## -->
-  
+
   <script src="<?= base_url() ?>assets/libs/metismenu/metisMenu.min.js"></script>
   <script src="<?= base_url() ?>assets/libs/simplebar/simplebar.min.js"></script>
   <script src="<?= base_url() ?>assets/libs/node-waves/waves.min.js"></script>
@@ -789,6 +789,17 @@
   <script src="https://kit.fontawesome.com/affd6d170a.js" crossorigin="anonymous"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-40X8JY6KVR"></script>
+  
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-40X8JY6KVR');
+  </script>
 
 </body>
 
