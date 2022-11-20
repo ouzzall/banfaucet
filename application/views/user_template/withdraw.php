@@ -22,6 +22,27 @@
   }
 </style>
 
+<div class="alert alert-success text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> LUNC withdrawals have returned! There will now be a <b>1.5% fee</b> for every withdrawal. If you have any questions please join our <a href="https://t.me/banfaucet" class="alert-link" target=_blank">Telegram Group</a>.</div>
+<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" class="alert-link">Timewall</a>!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<p>
+  <center>
+    <!-- Coinzilla Banner 728x90 -->
+    <script async src="https://coinzillatag.com/lib/display.js"></script>
+    <div class="coinzilla" data-zone="C-4766235297110347598"></div>
+    <script>
+      window.coinzilla_display = window.coinzilla_display || [];
+      var c_display_preferences = {};
+      c_display_preferences.zone = "4766235297110347598";
+      c_display_preferences.width = "728";
+      c_display_preferences.height = "90";
+      coinzilla_display.push(c_display_preferences);
+    </script>
+  </center>
+
 <div class="container-fluid py-4">
   <div class="row">
     <div class="col-md-12">
@@ -173,7 +194,7 @@
                       $percent = number_format(min(100, $method['balance'] * $method['price'] / 30 * 100)); ?>
 
                       <div class="col-sm-2">
-                        <input style="display:none" type="radio"  name="method" value="<?= $method['id'] ?>" class="card-radio-input my_special_link" required>
+                        <input style="display:none" type="radio" name="method" value="<?= $method['id'] ?>" class="card-radio-input my_special_link" required>
                         <label class="custom_work_click btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3" value="<?= $method['id'] ?>">
                           <img class="cruncyIcon" src="<?= site_url('assets/images/currencies/' . strtolower($method['code']) . '.png') ?>" style="height:30px;width:30px">
                         </label>
@@ -267,29 +288,26 @@
 </div>
 
 <script>
+  $(document).ready(function() {
 
-  $(document).ready(function(){
-
-    $(".custom_work_click").on("click",function(){
+    $(".custom_work_click").on("click", function() {
       // console.log($(this).attr("value"));
 
       document.querySelectorAll(".custom_work_click").forEach(p => {
-          p.style.background = "white";
+        p.style.background = "white";
       });
 
       $(this).css("background", "#bfc6cc");
-      
-      var current_ = $(this).attr("value");      
+
+      var current_ = $(this).attr("value");
       document.querySelectorAll(".my_special_link").forEach(p => {
-        if(current_ == p.value)
-        {
+        if (current_ == p.value) {
           p.click();
         }
       });
     })
 
   });
-
 </script>
 
 <script>
