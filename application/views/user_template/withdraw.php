@@ -142,111 +142,134 @@
         <!--form panels-->
         <div class="row">
           <div class="col-12 col-lg-8 m-auto">
-            <!--single form panel-->
-            <div class="card multisteps-form__panel p-3 border-radius-xl bg-white js-active" data-animation="FadeIn">
-              <div class="row text-center">
-                <div class="col-10 mx-auto">
-                  <h5 class="">Select Currency</h5>
-                  <!-- <p>Let us know your name and email address. Use an address you don't mind other users contacting you at</p> -->
+            <?php
+            if (isset($_SESSION['message'])) {
+              echo $_SESSION['message'];
+            }
+            ?>
+            <form action="<?= site_url('withdraw/withdraw') ?>" class="multisteps-form__form" method="POST" autocomplete="off">
+              <?php
+              if (isset($_SESSION['withdraw_message'])) {
+                echo $_SESSION['withdraw_message'];
+              }
+              ?>
+              <input type="hidden" name="<?= $csrf_name ?>" value="<?= $csrf_hash ?>">
+              <!--single form panel-->
+              <div class="card multisteps-form__panel p-3 border-radius-xl bg-white js-active" data-animation="FadeIn">
+                <div class="row text-center">
+                  <div class="col-10 mx-auto">
+                    <h5 class="">Select Currency</h5>
+                    <!-- <p>Let us know your name and email address. Use an address you don't mind other users contacting you at</p> -->
+                  </div>
                 </div>
-              </div>
-              <div class="multisteps-form__content">
-                <div class="row mt-3">
-                  <script>
-                    var currencies = [];
-                    var minimumWithdrawals = [];
-                    var rate = <?= $settings['currency_rate'] ?>;
-                  </script>
-                  <?php foreach ($methods as $method) {
-                    $percent = number_format(min(100, $method['balance'] * $method['price'] / 30 * 100)); ?>
+                <div class="multisteps-form__content">
+                  <div class="row mt-3">
+                    <script>
+                      var currencies = [];
+                      var minimumWithdrawals = [];
+                      var rate = <?= $settings['currency_rate'] ?>;
+                    </script>
+                    <?php foreach ($methods as $method) {
+                      $percent = number_format(min(100, $method['balance'] * $method['price'] / 30 * 100)); ?>
 
-                    <div class="col-sm-2">
-                      <input type="checkbox" class="btn-check " value="<?= $method['id'] ?>" id="btncheck4">
-                      <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
-                        <img class="cruncyIcon" src="<?= site_url('assets/images/currencies/' . strtolower($method['code']) . '.png') ?>" height="25px">
-                      </label>
-                      <script>
-                        currencies['<?= $method['id'] ?>'] = {
-                          price: <?= $method['price'] ?>,
-                          code: '<?= $method['code'] ?>',
-                          minimumWithdrawal: <?= $method['minimum_withdrawal'] ?>
-                        };
-                      </script>
-                      <p class="currenyRate"><?= $method['code'] ?> = <?= currencyDisplay($method['price'], $settings) ?></p>
+                      <div class="col-sm-2">
+                        <input type="checkbox" class="btn-check " value="<?= $method['id'] ?>" id="btncheck4">
+                        <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
+                          <img class="cruncyIcon" src="<?= site_url('assets/images/currencies/' . strtolower($method['code']) . '.png') ?>" height="25px">
+                        </label>
+                        <script>
+                          currencies['<?= $method['id'] ?>'] = {
+                            price: <?= $method['price'] ?>,
+                            code: '<?= $method['code'] ?>',
+                            minimumWithdrawal: <?= $method['minimum_withdrawal'] ?>
+                          };
+                        </script>
+                        <p class="currenyRate"><?= $method['code'] ?> = <?= currencyDisplay($method['price'], $settings) ?></p>
+                      </div>
+                    <?php } ?>
+                  </div>
+                  <div class="button-row d-flex mt-4">
+                    <button class="btn bg-gradient-dark ms-auto mb-0 js-btn-next" type="button" title="Next">Next</button>
+                  </div>
+                </div>
+              </div>
+              <!--single form panel-->
+              <div class="card multisteps-form__panel p-3 border-radius-xl bg-white" data-animation="FadeIn">
+                <div class="row text-center">
+                  <div class="col-10 mx-auto">
+                    <h5 class="">Amount To Withdraw</h5>
+                    <!-- <p>Give us more details about you. What do you enjoy doing in your spare time?</p> -->
+                  </div>
+                </div>
+                <div class="multisteps-form__content">
+                  <div class="row mt-4 ">
+                    <div class="co">
+
                     </div>
-                  <?php } ?>
-                </div>
-                <div class="button-row d-flex mt-4">
-                  <button class="btn bg-gradient-dark ms-auto mb-0 js-btn-next" type="button" title="Next">Next</button>
+                  </div>
+                  <div class="row">
+                    <div class="" style="width: 50%;padding-right: 0;">
+                      <div class="form-group">
+                        <div class="input-group input-group-alternative mb-4">
+                          <span class="input-group-text" style="background: #dfdfdf;">Token Balance</span>
+                          <input 
+                            style="padding-left: 10px;"
+                            type="number" 
+                            name="amount" 
+                            id="tokenBalance" 
+                            value="<?= $user['balance'] / $settings['currency_rate'] ?>" 
+                            class="form-control form-control-alternative" 
+                            min="0.000001" 
+                            max="<?= $user['balance'] / $settings['currency_rate'] ?>" 
+                            step="0.000001"
+                          >
+                        </div>
+                      </div>
+                      <small id="minimumWithdrawal" style="font-size: 12px;margin-top: -20px;"></small>
+                    </div>
+                    <div class="" style="width: 5%;padding: 0;">
+                      <span style="background: #9999;padding: 15px;border-radius: 50%;"><i class="fa-solid fa-right-left text-white" style="margin-top: 10px;"></i></span>
+                    </div>
+                    <div class="" style="width: 45%;">
+                      <div class="form-group">
+                        <div class="input-group input-group-alternative mb-4">
+                          <input class="form-control" style="text-align: end;padding-right: 10px;border-top-right-radius: 0 !important;border-bottom-right-radius: 0 !important;background: #fff;" placeholder="" type="text" id="converted" disabled>
+                          <span style="background: #dfdfdf;" class="input-group-text-right">BAN</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-row d-flex mt-4">
+                    <button class="btn bg-gradient-light mb-0 js-btn-prev" type="button" title="Prev">Prev</button>
+                    <button class="btn bg-gradient-dark ms-auto mb-0 js-btn-next" type="button" title="Next">Next</button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!--single form panel-->
-            <div class="card multisteps-form__panel p-3 border-radius-xl bg-white" data-animation="FadeIn">
-              <div class="row text-center">
-                <div class="col-10 mx-auto">
-                  <h5 class="">Amount To Withdraw</h5>
-                  <!-- <p>Give us more details about you. What do you enjoy doing in your spare time?</p> -->
+              <!--single form panel-->
+              <div class="card multisteps-form__panel p-3 border-radius-xl bg-white" data-animation="FadeIn">
+                <div class="row text-center">
+                  <div class="col-10 mx-auto">
+                    <h5 class="">Enter Wallet Address</h5>
+
+                  </div>
                 </div>
-              </div>
-              <div class="multisteps-form__content">
-                <div class="row mt-4 ">
-                  <div class="co">
+                <div class="row" style="text-align: left;">
+                  <div class="col-12  mt-3">
+                    <label>Wallet Address</label>
+                    <input type="text" name="wallet" class="multisteps-form__input form-control" value="<?= $user['wallet'] ?>">
+                    <p>If you are withdrawing <strong>LUNC</strong> or <strong>HBAR</strong> to an exchange you must include the MEMO provided by them. Separate your LUNC address and MEMO with a - or _.</p>
 
                   </div>
                 </div>
                 <div class="row">
-                  <div class="" style="width: 50%;padding-right: 0;">
-                    <div class="form-group">
-                      <div class="input-group input-group-alternative mb-4">
-                        <span class="input-group-text" style="background: #dfdfdf;">Token Balance</span>
-                        <input style="padding-left: 10px;" class="form-control form-control-alternative" placeholder="10" type="number">
-                      </div>
-                    </div>
-                    <p style="font-size: 12px;margin-top: -20px;">Minimum withdrawal is 100 tokens</p>
-                  </div>
-                  <div class="" style="width: 5%;padding: 0;">
-                    <span style="background: #9999;padding: 15px;border-radius: 50%;"><i class="fa-solid fa-right-left text-white" style="margin-top: 10px;"></i></span>
-                  </div>
-                  <div class="" style="width: 45%;">
-                    <div class="form-group">
-                      <div class="input-group input-group-alternative mb-4">
-                        <input class="form-control" style="text-align: end;padding-right: 10px;border-top-right-radius: 0 !important;border-bottom-right-radius: 0 !important;background: #fff;" placeholder="" value="12.00" disabled type="text">
-                        <span style="background: #dfdfdf;" class="input-group-text-right">BAN</span>
-                      </div>
-                    </div>
+                  <div class="button-row d-flex mt-4 col-12">
+                    <button class="btn bg-gradient-light mb-0 js-btn-prev" type="button" title="Prev">Prev</button>
+                    <button class="btn bg-gradient-dark ms-auto mb-0" type="submit" title="Send">Withdraw</button>
                   </div>
                 </div>
-                <div class="button-row d-flex mt-4">
-                  <button class="btn bg-gradient-light mb-0 js-btn-prev" type="button" title="Prev">Prev</button>
-                  <button class="btn bg-gradient-dark ms-auto mb-0 js-btn-next" type="button" title="Next">Next</button>
-                </div>
               </div>
-            </div>
-            <!--single form panel-->
-            <div class="card multisteps-form__panel p-3 border-radius-xl bg-white" data-animation="FadeIn">
-              <div class="row text-center">
-                <div class="col-10 mx-auto">
-                  <h5 class="">Enter Wallet Address</h5>
-
-                </div>
-              </div>
-              <div class="row" style="text-align: left;">
-                <div class="col-12  mt-3">
-                  <label>Wallet Address</label>
-                  <input class="multisteps-form__input form-control" type="text" placeholder="" />
-                  <p>If you are withdrawing <strong>LUNC</strong> or <strong>HBAR</strong> to an exchange you must include the MEMO provided by them. Separate your LUNC address and MEMO with a - or _.</p>
-
-                </div>
-              </div>
-              <div class="row">
-                <div class="button-row d-flex mt-4 col-12">
-                  <button class="btn bg-gradient-light mb-0 js-btn-prev" type="button" title="Prev">Prev</button>
-                  <button class="btn bg-gradient-dark ms-auto mb-0" type="button" title="Send">Withdraw</button>
-                </div>
-              </div>
-            </div>
           </div>
+          </form>
         </div>
       </div>
     </div>
