@@ -611,9 +611,9 @@ Compete with other users throughout the week for a chance to win big rewards! To
             <p class="text-center mt-2" style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Complete tasks such as <strong>watch videos</strong>, <strong>complete surveys</strong>,<strong>view PTC ads</strong> and <strong>complete Shortlinks</strong>.</p>
             <hr class="horizontal dark mt-1 mb-3">
             <div class="text-center">
-              <button type="button" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
-              <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View Shortlinks</button>
-              <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View All</button>
+              <button type="button" data-toggle="modal" data-target="#offptc" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
+              <button type="button" data-toggle="modal" data-target="#offshort" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View Shortlinks</button>
+              <a href="https://banfaucet.com/offerwalls"><button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View All</button></a>
             </div>  
           </div>
         </div>
@@ -625,7 +625,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
             <p class="text-center mt-2 " style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Login every day to receive <strong>tokens</strong>, <strong>exp</strong> and <strong>earning bonus</strong>.</p>
             <hr class="horizontal dark mt-2 mb-3">
             <div class="text-center">
-              <button type="button" class="btn bg-gradient-info">Claim Bonus</button>
+            <a href="https://banfaucet.com/daily-bonus"><button type="button" class="btn bg-gradient-info">Claim Bonus</button></a>
             </div>
           </div>
         </div>
@@ -649,7 +649,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
             <p class="text-center mt-2 " style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Compete with other users throughout the week for a chance to win big rewards! Top 10 users will receive rewards in <strong>referral contest</strong> and <strong>offerwall contest</strong>.</p>
             <hr class="horizontal dark mt-1 mb-3">
             <div class="text-center">
-              <button type="button" style="margin-bottom: 8px;" class="btn bg-gradient-info">View Contest</button>
+            <a href="https://banfaucet.com/leaderboard"><button type="button" style="margin-bottom: 8px;" class="btn bg-gradient-info">View Contest</button></a>
             </div>
           </div>
         </div>
@@ -661,7 +661,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
             <p class="text-center mt-2" style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Complete tasks throughout the day such as <strong>claim from the faucet</strong>, <strong>view PTC ads</strong> and <strong>earn from offerwall</strong>.</p>
             <hr class="horizontal dark mt-1 mb-3">
             <div class="text-center">
-              <button type="button" class="btn bg-gradient-info" >View Challenges</button>
+            <a href="https://banfaucet.com/achievements"><button type="button" class="btn bg-gradient-info" >View Challenges</button></a>
             </div>  
           </div>
         </div>
