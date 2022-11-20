@@ -272,6 +272,11 @@
 
     $(".custom_work_click").on("click",function(){
       console.log($(this).attr("value"));
+
+      
+      document.querySelectorAll(".my_special_link").forEach(value => function(){
+        console.log(value.value);
+      });
     })
 
   });
