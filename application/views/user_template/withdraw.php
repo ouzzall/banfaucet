@@ -271,8 +271,8 @@
                       </div>
                       <small id="minimumWithdrawal" style="font-size: 12px;margin-top: -20px;"></small>
                     </div>
-                    <span style="background: #9999;padding: 15px;border-radius: 50%;"><i class="fa-solid fa-right-left text-white" style="margin-top: 10px;"></i></span>
-                    <div class="" style="width: 45%;">
+                    <span style="background: #9999; padding: 15px; border-radius: 50%; width: 38px; height: 38px; margin-left: 6px;"><i class="fa-solid fa-right-left text-white" style="margin-top: 10px;"></i></span>
+                    <div class="" style="width: 43%;">
                       <div class="form-group">
                         <div class="input-group input-group-alternative mb-4">
                           <input class="form-control" style="text-align: end;padding-right: 10px;border-top-right-radius: 0 !important;border-bottom-right-radius: 0 !important;background: #fff;" placeholder="" type="text" id="converted" disabled>
