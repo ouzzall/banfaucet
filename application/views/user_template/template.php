@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+
+    <meta charset="utf-8" />
+    <title><?= $page ?> | <?= $settings['name'] ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="origin">
+    <meta content="<?= $settings['description'] ?>" name="description" />
+    <meta content="Vie Faucet Script" name="author" />
+
+    <!-- new code start -->
           <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
   <!-- Nucleo Icons -->
@@ -674,12 +683,6 @@
 
   <script>
     console.log("SCRIPT WORKING");
-  </script>
-
-  <script>
-    $( document ).ready(function() {
-      console.log( "ready!" );
-    });
   </script>
 
 </body>
