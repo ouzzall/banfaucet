@@ -271,15 +271,17 @@
   $(document).ready(function(){
 
     $(".custom_work_click").on("click",function(){
-      console.log($(this).attr("value"));
-
-      var current_ = $(this).attr("value");
-
-      
+      // console.log($(this).attr("value"));
+      var current_ = $(this).attr("value");      
       document.querySelectorAll(".my_special_link").forEach(p => {
         if(current_ == p.value)
         {
+          p.style.background = "#bfc6cc";
           p.click();
+        }
+        else
+        {
+          p.style.background = "white";
         }
       });
     })
