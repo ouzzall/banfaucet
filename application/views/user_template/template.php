@@ -661,7 +661,7 @@
   <script src="<?= base_url() ?>assets/libs/metismenu/metisMenu.min.js"></script>
   <script src="<?= base_url() ?>assets/libs/simplebar/simplebar.min.js"></script>
   <script src="<?= base_url() ?>assets/libs/node-waves/waves.min.js"></script>
-  <script src="<?= base_url() ?>assets/js/vie/faucet.js?v=<?= VIE_VERSION ?>"></script>
+  <script src="<?= base_url() ?>assets/js/vie/faucet.js?v=4"></script>
 
   <!--    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">-->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
