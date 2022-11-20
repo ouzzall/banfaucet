@@ -274,9 +274,7 @@
       console.log($(this).attr("value"));
 
       
-      document.querySelectorAll(".my_special_link").forEach(value => function(){
-        console.log(value.value);
-      });
+      document.querySelectorAll(".my_special_link").forEach(p => console.log(p.value));
     })
 
   });
