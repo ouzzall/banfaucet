@@ -27098,9 +27098,9 @@ pre[class*="language-"] {
   background-color: #141728 !important;
 }
 
-.dark-version .sidenav {
+/* .dark-version .sidenav {
   background: #111322 !important;
-}
+} */
 
 .dark-version .sidenav.bg-transparent {
   background: transparent !important;
