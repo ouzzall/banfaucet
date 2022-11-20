@@ -177,6 +177,14 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <tr>
+                                        <td>test</td>
+                                        <td>test</td>
+                                        <td>test</td>
+                                        <td>test</td>
+                                        <td>test</td>
+                                        <td>test</td>
+                                    </tr>
                                     <?php
                                     foreach ($offerwall_history as $value) {
                                         $release =  timespan(time(), $value["available_at"], 2);
