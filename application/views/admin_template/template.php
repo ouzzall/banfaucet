@@ -990,7 +990,9 @@
     </nav>
     <!-- End Navbar -->
 
+    <div class="container-fluid py-4">
     <?= $contents ?>
+    </div>
     <footer class="footer pt-3  ">
         <div class="container-fluid">
           <div class="row align-items-center justify-content-lg-between">
@@ -1012,7 +1014,6 @@
       </footer>
     </div>
   </main>
-  <div class="container-fluid py-4">
   <div class="fixed-plugin">
     <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
       <i class="fa fa-cog py-2"> </i>
@@ -1050,7 +1051,6 @@
         </div> -->
       </div>
     </div>
-  </div>
   </div>
   <!--   Core JS Files   -->
   <script src="https://banfaucet.com/new/newAssets/js/core/popper.min.js"></script>
