@@ -657,6 +657,7 @@
   </script>
 
   <!-- PREVIOUS CODES ######################################################################################################## -->
+  
   <script src="<?= base_url() ?>assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="<?= base_url() ?>assets/libs/metismenu/metisMenu.min.js"></script>
   <script src="<?= base_url() ?>assets/libs/simplebar/simplebar.min.js"></script>
@@ -678,61 +679,6 @@
     <script src="<?= base_url() ?>assets/libs/apexcharts/apexcharts.min.js"></script>
     <script src="<?= base_url() ?>assets/js/vie/bclaim.js"></script>
 
-    <script>
-      var options = {
-        chart: {
-          height: 180,
-          type: 'radialBar',
-          offsetY: -10
-        },
-        plotOptions: {
-          radialBar: {
-            startAngle: -135,
-            endAngle: 135,
-            dataLabels: {
-              name: {
-                fontSize: '13px',
-                color: undefined,
-                offsetY: 60
-              },
-              value: {
-                offsetY: 22,
-                fontSize: '16px',
-                color: undefined,
-                formatter: function(val) {
-                  return val + "%";
-                }
-              }
-            }
-          }
-        },
-        colors: ['#556ee6'],
-        fill: {
-          type: 'gradient',
-          gradient: {
-            shade: 'dark',
-            shadeIntensity: 0.15,
-            inverseColors: false,
-            opacityFrom: 1,
-            opacityTo: 1,
-            stops: [0, 50, 65, 91]
-          },
-        },
-        stroke: {
-          dashArray: 4,
-        },
-        series: [<?= ($user['exp'] % 100) ?>],
-        labels: ['Level <?= $user['level'] + 1 ?>'],
-
-      }
-
-      var chart = new ApexCharts(
-        document.querySelector("#radialBar-chart"),
-        options
-      );
-
-      chart.render();
-    </script>
   <?php } ?>
   <script type="text/javascript">
     var site_url = "<?= base_url() ?>";
