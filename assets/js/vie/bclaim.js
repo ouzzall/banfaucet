@@ -1,7 +1,7 @@
-const countDown = setInterval(() => {
+const countDown2 = setInterval(() => {
   if (typeof wait !== 'undefined') {
     if (wait == 0) {
-      clearInterval(countDown);
+      clearInterval(countDown2);
       location.href = "";
     }
     let minutes = Math.floor(wait / 60);
