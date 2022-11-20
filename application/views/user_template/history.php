@@ -126,21 +126,44 @@
                             </table>
                         </div>
                 </div>
-                <div class="tab-pane fade position-relative height-400 border-radius-lg" id="withdrawls" role="tabpanel" aria-labelledby="withdrawls" style="background-image: url('newAssets/img/home-decor-3.jpg'); background-size:cover;">
-                  <div class="position-absolute d-flex top-0 w-100">
-                    <p class="text-white p-3 mb-0">17.05.2021 4:57PM</p>
-                    <div class="ms-auto p-3">
-                      <span class="badge badge-secondary">
-                        <i class="fas fa-dot-circle text-danger"></i>
-                        Recording</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade position-relative height-400 border-radius-lg" id="withdrawls" role="tabpanel" aria-labelledby="withdrawls" style="">
+                <div class="table-responsive">
+                            <table class="table table-striped text-center">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Status</th>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col">Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php
+                                    foreach ($withdrawals_history as $value) {
+                                        switch ($value['type']) {
+                                            case 0:
+                                                $value['type'] = '<span class="badge badge-pill badge-info">Pending</span>';
+                                                break;
+                                            case 1:
+                                                $value['type'] = '<span class="badge badge-pill badge-success">Approved</span>';
+                                                break;
+                                            case 2:
+                                                $value['type'] = '<span class="badge badge-pill badge-danger">Denied</span>';
+                                                break;
+                                        }
+                                        echo '<tr><th scope="row">' . $value["id"] . '</th><td>' . $value["type"] . '</td><td>' . format_money($value["amount"]) . '</td><td>' . timespan($value["claim_time"], time(), 2) . ' ago</td></tr>';
+                                   
+}
+                                    ?>
+                                </tbody>
+                            </table>
+                        </div>
                 </div>
               </div>
             </div>
           </div>           
     </div>
-    <div class="col-lg-12">
+    <!-- <div class="col-lg-12">
         <div class="card">
             <div class="card-body text-center">
                 <h4 class="card-title mb-4">History</h4>
@@ -294,6 +317,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 </div>
