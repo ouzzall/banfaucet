@@ -676,7 +676,7 @@
 
   <?php if ($page == 'Dashboard') { ?>
     <script src="<?= base_url() ?>assets/libs/apexcharts/apexcharts.min.js"></script>
-    <script src="<?= base_url() ?>assets/js/vie/bclaim.js"></script>
+    <script src="<?= base_url() ?>assets/js/vie/bclaim.js?v=1"></script>
 
   <?php } ?>
   <script type="text/javascript">
