@@ -913,7 +913,7 @@
           </ol>
           <h6 class="font-weight-bolder mb-0">Default</h6>
         </nav> -->
-        <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
+        <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none" style="margin-top: 2px;">
           <a href="javascript:;" class="nav-link text-body p-0">
             <div class="sidenav-toggler-inner">
               <i class="sidenav-toggler-line"></i>
