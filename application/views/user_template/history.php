@@ -74,15 +74,25 @@
                             </table>
                         </div>
                 </div>
-                <div class="tab-pane fade position-relative height-400 border-radius-lg" id="lottery" role="tabpanel" aria-labelledby="lottery" style="background-image: url('newAssets/img/bg-smart-home-2.jpg'); background-size:cover;">
-                  <div class="position-absolute d-flex top-0 w-100">
-                    <p class="text-white p-3 mb-0">17.05.2021 4:35PM</p>
-                    <div class="ms-auto p-3">
-                      <span class="badge badge-secondary">
-                        <i class="fas fa-dot-circle text-danger"></i>
-                        Recording</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade position-relative height-400 border-radius-lg" id="lottery" role="tabpanel" aria-labelledby="lottery" style="">
+                <div class="table-responsive">
+                            <table class="table table-striped text-center">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col">Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php
+                                    foreach ($lottery_history as $value) {
+                                        echo '<tr><th scope="row">' . $value["id"] . '</th><td>' . format_money($value["amount"]) . '</td><td>' . timespan($value["create_time"], time(), 2) . ' ago</td></tr>';
+                                    }
+                                    ?>
+                                </tbody>
+                            </table>
+                        </div>
                 </div>
                 <div class="tab-pane fade position-relative height-400 border-radius-lg" id="offerwalls" role="tabpanel" aria-labelledby="offerwalls" style="background-image: url('newAssets/img/home-decor-3.jpg'); background-size:cover;">
                   <div class="position-absolute d-flex top-0 w-100">
