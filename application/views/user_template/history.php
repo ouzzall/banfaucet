@@ -134,6 +134,13 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    
+                                <tr>
+                                        <td>test</td>
+                                        <td>test</td>
+                                        <td>test</td>
+                                        <td>test</td>
+                                    </tr>
                                     <?php
                                     foreach ($task_history as $value) {
                                         echo '<tr><th scope="row">' . $value["id"] . '</th><td>' . $value['name'] . '</td><td>' . currencyDisplay($value["usd_reward"], $settings) . '</td><td>' . timespan($value["claim_time"], time(), 2) . ' ago</td></tr>';
@@ -177,14 +184,6 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>test</td>
-                                        <td>test</td>
-                                        <td>test</td>
-                                        <td>test</td>
-                                        <td>test</td>
-                                        <td>test</td>
-                                    </tr>
                                     <?php
                                     foreach ($offerwall_history as $value) {
                                         $release =  timespan(time(), $value["available_at"], 2);
