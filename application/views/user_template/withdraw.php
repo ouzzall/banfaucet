@@ -283,12 +283,7 @@
       document.querySelectorAll(".my_special_link").forEach(p => {
         if(current_ == p.value)
         {
-          p.style.background = "#bfc6cc";
           p.click();
-        }
-        else
-        {
-          p.style.background = "white";
         }
       });
     })
