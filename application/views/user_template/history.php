@@ -46,7 +46,7 @@
             </div>
             <div class="card-body p-3 mt-2">
               <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show position-relative active height-400 border-radius-lg" id="tasks" role="tabpanel" aria-labelledby="tasks" style="">
+                <div class="tab-pane fade show position-relative active  border-radius-lg" id="tasks" role="tabpanel" aria-labelledby="tasks" style="min-height: 400px;">
                 <div class="table-responsive">
                             <table class="table table-striped text-center">
                                 <thead>
@@ -68,7 +68,7 @@
                             </table>
                         </div>
                 </div>
-                <div class="tab-pane fade position-relative height-400 border-radius-lg" id="lottery" role="tabpanel" aria-labelledby="lottery" style="">
+                <div class="tab-pane fade position-relative  border-radius-lg" id="lottery" role="tabpanel" aria-labelledby="lottery" style="min-height: 400px;">
                 <div class="table-responsive">
                             <table class="table table-striped text-center">
                                 <thead>
@@ -88,7 +88,7 @@
                             </table>
                         </div>
                 </div>
-                <div class="tab-pane fade position-relative height-400 border-radius-lg" id="offerwalls" role="tabpanel" aria-labelledby="offerwalls" style="">
+                <div class="tab-pane fade position-relative  border-radius-lg" id="offerwalls" role="tabpanel" aria-labelledby="offerwalls" style="min-height: 400px;">
                 <div class="table-responsive">
                             <table class="table table-striped text-center">
                                 <thead>
@@ -126,7 +126,7 @@
                             </table>
                         </div>
                 </div>
-                <div class="tab-pane fade position-relative height-400 border-radius-lg" id="withdrawls" role="tabpanel" aria-labelledby="withdrawls" style="">
+                <div class="tab-pane fade position-relative  border-radius-lg" id="withdrawls" role="tabpanel" aria-labelledby="withdrawls" style="min-height: 400px;">
                 <div class="table-responsive">
                             <table class="table table-striped text-center">
                                 <thead>
