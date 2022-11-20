@@ -622,6 +622,9 @@
     </div>
   </div>
 
+  <script src="newAssets/js/core/popper.min.js"></script>
+  <script src="newAssets/js/core/bootstrap.min.js"></script>
+
   <script>
     $(document).ready(function() {
       console.log("ready!");
