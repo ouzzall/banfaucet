@@ -273,8 +273,15 @@
     $(".custom_work_click").on("click",function(){
       console.log($(this).attr("value"));
 
+      var current_ = $(this).attr("value");
+
       
-      document.querySelectorAll(".my_special_link").forEach(p => console.log(p.value));
+      document.querySelectorAll(".my_special_link").forEach(p => {
+        if(current_ == p.value)
+        {
+          console.log(p);
+        }
+      });
     })
 
   });
