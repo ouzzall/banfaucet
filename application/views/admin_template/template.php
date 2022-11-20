@@ -1052,7 +1052,7 @@
   </div>
   <!--   Core JS Files   -->
   <script src="newAssets/js/core/popper.min.js"></script>
-  <script src="newAssets/js/core/bootstrap.min.js"></script>
+  <script src="https://banfaucet.com/new/newAssets/js/core/bootstrap.min.js"></script>
   <script src="newAssets/js/plugins/perfect-scrollbar.min.js"></script>
   <script src="newAssets/js/plugins/smooth-scrollbar.min.js"></script>
   <script src="newAssets/js/plugins/choices.min.js"></script>
