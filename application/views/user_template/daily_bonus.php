@@ -31,7 +31,7 @@ if ($dailyStatus){
     $collectStreak = $collectStreak + 1;
     $btn .='<button type="button"  class="btn btn-success btn-sm" style="font-size: 14px;" disabled>'.$leftTime.'</button>';
 }else{
-    $btn .='<button type="button" style="background: #7D5B28;border-color: #7D5B28;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    $btn .='<button type="button" style="on_click_beauty background: #7D5B28;border-color: #7D5B28;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                                                     Claim
                                                 </button>';
 }
@@ -82,7 +82,7 @@ if ($dailyStatus){
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Complete The Captcha</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close btn btn-danger" data-dismiss="modal" aria-label="Close" >
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -160,7 +160,9 @@ if ($dailyStatus){
 <script>
     $(document).ready(function() {
 
-        $("#exampleModal").modal("show");
+        $(".on_click_beauty").on("click",function(){
+            $("#exampleModal").modal("show");
+        });
 
         /* Centering the modal vertically */
         function alignModal() {
