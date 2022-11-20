@@ -679,6 +679,10 @@
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="newAssets/js/soft-ui-dashboard.min.js?v=3"></script>
 
+  <script>
+    console.log("SCRIPT WORKING");
+  </script>
+
 </body>
 
 </html>
