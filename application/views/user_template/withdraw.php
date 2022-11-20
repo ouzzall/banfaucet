@@ -308,6 +308,7 @@
 
                   </div>
                 </div>
+                <center> <?= $captcha_display ?></center>
                 <div class="row">
                   <div class="button-row d-flex mt-4 col-12">
                     <button class="btn bg-gradient-light mb-0 js-btn-prev" type="button" title="Prev">Prev</button>
@@ -319,7 +320,6 @@
           </form>
         </div>
         <div class="form-group">
-          <center> <?= $captcha_display ?></center>
           <p>
             <center>
               <!-- Coinzilla Banner 300x250 -->
