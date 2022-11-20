@@ -85,12 +85,13 @@
         </div>
     </div>
     <div class="col-md-6 col-xl-3 mb-3 mb-xl-3">
-        <div class="card mini-stats-wid">
+        <div class="card mini-stats-wid" style="height: 100%;">
             <div class="card-body">
                 <div class="media" style="display: flex;justify-content: space-between !important;width: 100%;">
                     <div class="media-body">
                         <p class="lh-1 mb-1 font-weight-bold"><?= $pendingWithdrawal ?></p>
-                        <p class="mb-0">pending withdrawals <a target="_blank" class="btn btn-info btn-sm" href="<?= site_url('admin/withdraw/pending') ?>">Check</a></p>
+                        <p class="mb-0">pending withdrawals </p>
+                        <a target="_blank" class="btn btn-info btn-sm" href="<?= site_url('admin/withdraw/pending') ?>">Check</a>
                     </div>
 
                     <!-- <div class="mini-stat-icon avatar-sm rounded-circle bg-primary align-self-center">
@@ -99,19 +100,20 @@
                         </span>
                     </div> -->
                     <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i class="fas fa-hand-holding-usd text-lg opacity-10"></i>  
+                        <i style="width: 48px !important;" class="fas fa-hand-holding-usd text-lg opacity-10"></i>  
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="col-md-6 col-xl-3 mb-3 mb-xl-3">
-        <div class="card mini-stats-wid">
+        <div class="card mini-stats-wid" style="height: 100%;">
             <div class="card-body">
                 <div class="media" style="display: flex;justify-content: space-between !important;width: 100%;">
                     <div class="media-body">
                         <p class="lh-1 mb-1 font-weight-bold"><?= $pendingSubmissions ?></p>
-                        <p class="mb-0">pending task submissions <a target="_blank" class="btn btn-info btn-sm" href="<?= site_url('admin/tasks/submissions') ?>">Check</a></p>
+                        <p class="mb-0">pending task submissions </p>
+                        <a target="_blank" class="btn btn-info btn-sm" href="<?= site_url('admin/tasks/submissions') ?>">Check</a>
                     </div>
 
                     <!-- <div class="mini-stat-icon avatar-sm rounded-circle bg-primary align-self-center">
@@ -120,7 +122,7 @@
                         </span>
                     </div> -->
                     <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i class="fas fa-tasks text-lg opacity-10"></i>  
+                        <i style="width: 48px !important;" class="fas fa-tasks text-lg opacity-10"></i>  
                     </div>
                     
                 </div>
@@ -128,12 +130,13 @@
         </div>
     </div>
     <div class="col-md-6 col-xl-3 mb-3 mb-xl-3">
-        <div class="card mini-stats-wid">
+        <div class="card mini-stats-wid" style="height: 100%;">
             <div class="card-body">
                 <div class="media" style="display: flex;justify-content: space-between !important;width: 100%;">
                     <div class="media-body">
                         <p class="lh-1 mb-1 font-weight-bold"><?= $pendingOfferwall ?></p>
-                        <p class="mb-0">pending offerwalls <a target="_blank" class="btn btn-info btn-sm" href="<?= site_url('admin/offerwalls/pending') ?>">Check</a></p>
+                        <p class="mb-0">pending offerwalls </p>
+                        <a target="_blank" class="btn btn-info btn-sm" href="<?= site_url('admin/offerwalls/pending') ?>">Check</a>
                     </div>
 
                     <!-- <div class="mini-stat-icon avatar-sm rounded-circle bg-primary align-self-center">
@@ -142,19 +145,20 @@
                         </span>
                     </div> -->
                     <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i class="far fa-newspaper text-lg opacity-10"></i>  
+                        <i style="width: 48px !important;" class="far fa-newspaper text-lg opacity-10"></i>  
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="col-md-6 col-xl-3 mb-3 mb-xl-3">
-        <div class="card mini-stats-wid">
+        <div class="card mini-stats-wid" style="height: 100%;">
             <div class="card-body">
                 <div class="media" style="display: flex;justify-content: space-between !important;width: 100%;">
                     <div class="media-body">
                         <p class="lh-1 mb-1 font-weight-bold"><?= $pendingCampaigns ?></p>
-                        <p class="mb-0">pending campaigns <a target="_blank" class="btn btn-info btn-sm" href="<?= site_url('admin/advertise/pending') ?>">Check</a></p>
+                        <p class="mb-0">pending campaigns </p>
+                        <a target="_blank" class="btn btn-info btn-sm" href="<?= site_url('admin/advertise/pending') ?>">Check</a>
                     </div>
 
                     <!-- <div class="mini-stat-icon avatar-sm rounded-circle bg-primary align-self-center">
@@ -163,7 +167,7 @@
                         </span>
                     </div> -->
                     <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i class="fas fa-user-tie text-lg opacity-10"></i>  
+                        <i style="width: 48px !important;" class="fas fa-user-tie text-lg opacity-10"></i>  
                     </div>
                 </div>
             </div>
