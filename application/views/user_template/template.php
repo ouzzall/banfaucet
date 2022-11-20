@@ -685,6 +685,12 @@
     console.log("SCRIPT WORKING");
   </script>
 
+  <script>
+    $(document).ready(function(){
+      console.log("JQUERY READY");
+    });
+  </script>
+
 </body>
 
 </html>
