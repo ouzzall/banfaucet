@@ -17,6 +17,7 @@
   <link href="newAssets/css/nucleo-icons.css" rel="stylesheet" />
   <link href="newAssets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- Font Awesome Icons -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
   <link href="newAssets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
@@ -558,6 +559,7 @@
     <!-- End Navbar -->
 
     <?= $contents ?>
+
     <footer class="footer pt-3  ">
         <div class="container-fluid">
           <div class="row align-items-center justify-content-lg-between">
