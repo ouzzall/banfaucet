@@ -160,6 +160,8 @@ if ($dailyStatus){
 <script>
     $(document).ready(function() {
 
+        $("#exampleModal").modal("show");
+
         /* Centering the modal vertically */
         function alignModal() {
             var modalDialog = $(this).find(".modal-dialog");
