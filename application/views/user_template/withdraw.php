@@ -173,7 +173,7 @@
                       $percent = number_format(min(100, $method['balance'] * $method['price'] / 30 * 100)); ?>
 
                       <div class="col-sm-2">
-                        <input type="checkbox" class="btn-check " value="<?= $method['id'] ?>" id="btncheck4">
+                        <input type="radio" name="method" value="<?= $method['id'] ?>" class="card-radio-input" required>
                         <label class="btn btn-lg btn-outline-secondary border-2 px-4 py-4" for="btncheck3">
                           <img class="cruncyIcon" src="<?= site_url('assets/images/currencies/' . strtolower($method['code']) . '.png') ?>" style="height:30px;width:30px">
                         </label>
