@@ -22,26 +22,29 @@
   }
 </style>
 
-<div class="alert alert-success text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> LUNC withdrawals have returned! There will now be a <b>1.5% fee</b> for every withdrawal. If you have any questions please join our <a href="https://t.me/banfaucet" class="alert-link" target=_blank">Telegram Group</a>.</div>
-<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" class="alert-link">Timewall</a>!
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
+<div style="margin:24px">
+  <div class="alert alert-success text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> LUNC withdrawals have returned! There will now be a <b>1.5% fee</b> for every withdrawal. If you have any questions please join our <a href="https://t.me/banfaucet" class="alert-link" target=_blank">Telegram Group</a>.</div>
+  <div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" class="alert-link">Timewall</a>!
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <p>
+    <center>
+      <!-- Coinzilla Banner 728x90 -->
+      <script async src="https://coinzillatag.com/lib/display.js"></script>
+      <div class="coinzilla" data-zone="C-4766235297110347598"></div>
+      <script>
+        window.coinzilla_display = window.coinzilla_display || [];
+        var c_display_preferences = {};
+        c_display_preferences.zone = "4766235297110347598";
+        c_display_preferences.width = "728";
+        c_display_preferences.height = "90";
+        coinzilla_display.push(c_display_preferences);
+      </script>
+    </center>
+  </p>
 </div>
-<p>
-  <center>
-    <!-- Coinzilla Banner 728x90 -->
-    <script async src="https://coinzillatag.com/lib/display.js"></script>
-    <div class="coinzilla" data-zone="C-4766235297110347598"></div>
-    <script>
-      window.coinzilla_display = window.coinzilla_display || [];
-      var c_display_preferences = {};
-      c_display_preferences.zone = "4766235297110347598";
-      c_display_preferences.width = "728";
-      c_display_preferences.height = "90";
-      coinzilla_display.push(c_display_preferences);
-    </script>
-  </center>
 
 <div class="container-fluid py-4">
   <div class="row">
