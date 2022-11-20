@@ -1053,13 +1053,13 @@
   <!--   Core JS Files   -->
   <script src="newAssets/js/core/popper.min.js"></script>
   <script src="https://banfaucet.com/new/newAssets/js/core/bootstrap.min.js"></script>
-  <script src="newAssets/js/plugins/perfect-scrollbar.min.js"></script>
-  <script src="newAssets/js/plugins/smooth-scrollbar.min.js"></script>
-  <script src="newAssets/js/plugins/choices.min.js"></script>
-  <script src="newAssets/js/plugins/dragula/dragula.min.js"></script>
-  <script src="newAssets/js/plugins/jkanban/jkanban.js"></script>
-  <script src="newAssets/js/plugins/countup.min.js"></script>
-  <script src="newAssets/js/plugins/chartjs.min.js"></script>
+  <script src="https://banfaucet.com/new/newAssets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="https://banfaucet.com/new/newAssets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="https://banfaucet.com/new/newAssets/js/plugins/choices.min.js"></script>
+  <script src="https://banfaucet.com/new/newAssets/js/plugins/dragula/dragula.min.js"></script>
+  <script src="https://banfaucet.com/new/newAssets/js/plugins/jkanban/jkanban.js"></script>
+  <script src="https://banfaucet.com/new/newAssets/js/plugins/countup.min.js"></script>
+  <script src="https://banfaucet.com/new/newAssets/js/plugins/chartjs.min.js"></script>
   <script>
     // Rounded slider
     const setValue = function(value, active) {
