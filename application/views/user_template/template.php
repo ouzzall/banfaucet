@@ -656,6 +656,205 @@
     });
   </script>
 
+  <!-- PREVIOUS CODES ######################################################################################################## -->
+  <script src="<?= base_url() ?>assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= base_url() ?>assets/libs/metismenu/metisMenu.min.js"></script>
+  <script src="<?= base_url() ?>assets/libs/simplebar/simplebar.min.js"></script>
+  <script src="<?= base_url() ?>assets/libs/node-waves/waves.min.js"></script>
+  <script src="<?= base_url() ?>assets/js/vie/faucet.js?v=<?= VIE_VERSION ?>"></script>
+
+  <!--    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">-->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
+  <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $('#myTable').DataTable();
+    });
+  </script>
+
+  <?php if ($page == 'Dashboard') { ?>
+    <script src="<?= base_url() ?>assets/libs/apexcharts/apexcharts.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/vie/bclaim.js"></script>
+
+    <script>
+      var options = {
+        chart: {
+          height: 180,
+          type: 'radialBar',
+          offsetY: -10
+        },
+        plotOptions: {
+          radialBar: {
+            startAngle: -135,
+            endAngle: 135,
+            dataLabels: {
+              name: {
+                fontSize: '13px',
+                color: undefined,
+                offsetY: 60
+              },
+              value: {
+                offsetY: 22,
+                fontSize: '16px',
+                color: undefined,
+                formatter: function(val) {
+                  return val + "%";
+                }
+              }
+            }
+          }
+        },
+        colors: ['#556ee6'],
+        fill: {
+          type: 'gradient',
+          gradient: {
+            shade: 'dark',
+            shadeIntensity: 0.15,
+            inverseColors: false,
+            opacityFrom: 1,
+            opacityTo: 1,
+            stops: [0, 50, 65, 91]
+          },
+        },
+        stroke: {
+          dashArray: 4,
+        },
+        series: [<?= ($user['exp'] % 100) ?>],
+        labels: ['Level <?= $user['level'] + 1 ?>'],
+
+      }
+
+      var chart = new ApexCharts(
+        document.querySelector("#radialBar-chart"),
+        options
+      );
+
+      chart.render();
+    </script>
+  <?php } ?>
+  <script type="text/javascript">
+    var site_url = "<?= base_url() ?>";
+  </script>
+  <!-- App js -->
+  <script src="<?= base_url() ?>assets/js/app.js?v=<?= VIE_VERSION ?>"></script>
+  <script src="<?= base_url() ?>assets/js/vie/captcha.js?v=<?= VIE_VERSION ?>"></script>
+  <?php if ($page == 'Advertise') { ?>
+    <script src="<?= base_url() ?>assets/js/vie/advertise.js?v=<?= VIE_VERSION ?>"></script>
+  <?php } ?>
+  <?php if ($page == 'Deposit') { ?>
+    <script src="<?= base_url() ?>assets/js/vie/deposit.js?v=<?= VIE_VERSION ?>"></script>
+  <?php } ?>
+  <?php if ($page == 'Dice') { ?>
+    <script src="<?= base_url() ?>assets/js/vie/dice.js?v=<?= VIE_VERSION ?>"></script>
+  <?php } ?>
+  <?php if ($page == 'Coin Flip') { ?>
+    <script src="<?= site_url('assets/js/vie/coinflip.js?v=' . VIE_VERSION) ?>"></script>
+  <?php } ?>
+  <script type="text/javascript">
+    $("a[href='<?= current_url() ?>']").attr('data-active', 'true');
+  </script>
+  <?php if (isset($antibot_js)) { ?>
+    <?= $antibot_js ?>
+    <script src="<?= base_url() ?>assets/js/vie/antibotlinks.js?v=<?= VIE_VERSION ?>"></script>
+  <?php } ?>
+  <?php if ($page == 'Faucet') { ?>
+    <script src="<?= base_url() ?>assets/js/vie/faucet.js?v=<?= VIE_VERSION ?>"></script>
+  <?php } ?>
+  <?php if ($page == 'Wheel of fortunes') { ?>
+    <script src="<?= base_url() ?>assets/js/wheel/Winwheel.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/wheel/TweenMax.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/wheel/wheel.js"></script>
+  <?php } ?>
+  <?php if (isset($_COOKIE['captcha'])) { ?>
+    <script>
+      $('option[value=<?= $_COOKIE['captcha'] ?>]').attr('selected', 'selected');
+    </script>
+  <?php } ?>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <?php
+  if (isset($_SESSION['sweet_message'])) {
+    echo $_SESSION['sweet_message'];
+  }
+  ?>
+  <?php include 'adblock.php'; ?>
+  <style>
+    .sticky-ads {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 98%;
+      min-height: 70px;
+      max-height: 200px;
+      padding: 5px 0;
+      box-shadow: 0 -6px 18px 0 rgba(9, 32, 76, .1);
+      -webkit-transition: all .1s ease-in;
+      transition: all .1s ease-in;
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      z-index: 10;
+    }
+  </style>
+
+  <div class='sticky-ads' id='sticky-ads'>
+    <div class='sticky-ads-content'>
+
+      <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="Join our Telegram Group">
+        <a href="https://t.me/banfaucet" target="_blank"><img src="https://banfaucet.com/assets/images/telegram.png" style="width:50px;height:50px;"></a>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Placement of tooltip on top
+      var tipTop = document.getElementById("tipTop");
+      var tooltipTop = new bootstrap.Tooltip(tipTop, {
+        placement: "top"
+      });
+
+      // Placement of tooltip on right
+      var tipRight = document.getElementById("tipRight");
+      var tooltipRight = new bootstrap.Tooltip(tipRight, {
+        placement: "right"
+      });
+
+      // Placement of tooltip on bottom
+      var tipBottom = document.getElementById("tipBottom");
+      var tooltipBottom = new bootstrap.Tooltip(tipBottom, {
+        placement: "bottom"
+      });
+
+      // Placement of tooltip on left
+      var tipLeft = document.getElementById("tipLeft");
+      var tooltipLeft = new bootstrap.Tooltip(tipLeft, {
+        placement: "left"
+      });
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+      var tooltipList = tooltipTriggerList.map(function(element) {
+        return new bootstrap.Tooltip(element);
+      });
+    });
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://kit.fontawesome.com/affd6d170a.js" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-40X8JY6KVR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-40X8JY6KVR');
+  </script>
+
 </body>
 
 </html>
