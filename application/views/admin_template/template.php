@@ -801,7 +801,6 @@
 
     gtag('config', 'G-40X8JY6KVR');
   </script>
-
 </body>
 
 </html>
