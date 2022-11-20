@@ -272,6 +272,13 @@
 
     $(".custom_work_click").on("click",function(){
       // console.log($(this).attr("value"));
+
+      document.querySelectorAll(".custom_work_click").forEach(p => {
+          p.style.background = "white";
+      });
+
+      $(this).css("background", "#bfc6cc");
+      
       var current_ = $(this).attr("value");      
       document.querySelectorAll(".my_special_link").forEach(p => {
         if(current_ == p.value)
