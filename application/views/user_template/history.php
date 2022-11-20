@@ -1,7 +1,80 @@
-<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
+<div class="container-fluid py-4">
+<!-- <div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
-  </button></div><p><div class="row">
+  </button></div> -->
+  <div class="row">
+    <div class="col-12">
+            <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+                <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
+                <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+  </div>    
+  <p><div class="row">
+    <div class="col-md-8 mx-auto">
+    <div class="card">
+            <div class="card-header d-flex pb-0 p-3">
+              <h6 class="my-auto">Cameras</h6>
+              <div class="nav-wrapper position-relative ms-auto w-50">
+                <ul class="nav nav-pills nav-fill p-1" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#cam1" role="tab" aria-controls="cam1" aria-selected="true">
+                      Kitchen
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#cam2" role="tab" aria-controls="cam2" aria-selected="false">
+                      Living
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#cam3" role="tab" aria-controls="cam3" aria-selected="false">
+                      Attic
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-body p-3 mt-2">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show position-relative active height-400 border-radius-lg" id="cam1" role="tabpanel" aria-labelledby="cam1" style="background-image: url('../../assets/img/bg-smart-home-1.jpg'); background-size:cover;">
+                  <div class="position-absolute d-flex top-0 w-100">
+                    <p class="text-white p-3 mb-0">17.05.2021 4:34PM</p>
+                    <div class="ms-auto p-3">
+                      <span class="badge badge-secondary">
+                        <i class="fas fa-dot-circle text-danger"></i>
+                        Recording</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade position-relative height-400 border-radius-lg" id="cam2" role="tabpanel" aria-labelledby="cam2" style="background-image: url('../../assets/img/bg-smart-home-2.jpg'); background-size:cover;">
+                  <div class="position-absolute d-flex top-0 w-100">
+                    <p class="text-white p-3 mb-0">17.05.2021 4:35PM</p>
+                    <div class="ms-auto p-3">
+                      <span class="badge badge-secondary">
+                        <i class="fas fa-dot-circle text-danger"></i>
+                        Recording</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade position-relative height-400 border-radius-lg" id="cam3" role="tabpanel" aria-labelledby="cam3" style="background-image: url('../../assets/img/home-decor-3.jpg'); background-size:cover;">
+                  <div class="position-absolute d-flex top-0 w-100">
+                    <p class="text-white p-3 mb-0">17.05.2021 4:57PM</p>
+                    <div class="ms-auto p-3">
+                      <span class="badge badge-secondary">
+                        <i class="fas fa-dot-circle text-danger"></i>
+                        Recording</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>           
+    </div>
     <div class="col-lg-12">
         <div class="card">
             <div class="card-body text-center">
@@ -150,4 +223,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
