@@ -3,7 +3,25 @@
     font-size: .7rem;
     font-weight: bolder;
   }
-
+  .tokenBalace{
+    width: 50%;
+    padding-right: 0;
+  }
+.widrawlRecive{
+  width: 43%;
+}
+@media (max-width: 767.98px) {
+  .tokenBalace{
+    width: 100%;
+    padding-right: 0;
+  }
+.widrawlRecive{
+  width: 100%;
+}
+.widrawlIcon{
+  display: none;
+}
+}
   span.input-group-text-right {
     padding-left: 10px;
     padding-right: 10px;
@@ -279,7 +297,7 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="" style="width: 50%;padding-right: 0;">
+                    <div class="tokenBalace" >
                       <div class="form-group">
                         <div class="input-group input-group-alternative mb-4">
                           <span class="input-group-text" style="background: #dfdfdf;">Token Balance</span>
@@ -288,8 +306,8 @@
                       </div>
                       <small id="minimumWithdrawal" style="font-size: 12px;margin-top: -20px;"></small>
                     </div>
-                    <span style="background: #9999;border-radius: 50%; width: 38px; height: 38px; margin-left: 6px;"><i class="fa-solid fa-right-left text-white" style="margin-top: 10px;"></i></span>
-                    <div class="" style="width: 43%;">
+                    <span class="widrawlIcon" style="background: #9999;border-radius: 50%; width: 38px; height: 38px; margin-left: 6px;"><i class="fa-solid fa-right-left text-white" style="margin-top: 10px;"></i></span>
+                    <div class="widrawlRecive" style="">
                       <div class="form-group">
                         <div class="input-group input-group-alternative mb-4">
                           <input class="form-control" style="text-align: end;padding-right: 10px;border-top-right-radius: 0 !important;border-bottom-right-radius: 0 !important;background: #fff;" placeholder="" type="text" id="converted" disabled>
