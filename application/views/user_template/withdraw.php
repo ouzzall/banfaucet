@@ -21,14 +21,31 @@
     border-radius: 0.5rem;
   }
 </style>
+<div class="container-fluid py-4">
+<div class="row">
 
+  <div class="col-12">
+  <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+  <i class="fa-solid fa-circle-exclamation fa-xl"></i> LUNC withdrawals have returned! There will now be a <b>1.5% fee</b> for every withdrawal. If you have any questions please join our <a href="https://t.me/banfaucet" class="alert-link" target=_blank">Telegram Group</a>.
+        <button type="button" class="btn-close" data-b  s-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+          <div class="alert alert-warning alert-dismissible fade show text-center role="alert">
+          <i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" class="alert-link">Timewall</a>!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        </div>
+  </div>
 <div style="margin:24px">
-  <div class="alert alert-success text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> LUNC withdrawals have returned! There will now be a <b>1.5% fee</b> for every withdrawal. If you have any questions please join our <a href="https://t.me/banfaucet" class="alert-link" target=_blank">Telegram Group</a>.</div>
+  <!-- <div class="alert alert-success text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> LUNC withdrawals have returned! There will now be a <b>1.5% fee</b> for every withdrawal. If you have any questions please join our <a href="https://t.me/banfaucet" class="alert-link" target=_blank">Telegram Group</a>.</div>
   <div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" class="alert-link">Timewall</a>!
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
       <span aria-hidden="true">&times;</span>
     </button>
-  </div>
+  </div> -->
   <p>
     <center>
       <!-- Coinzilla Banner 728x90 -->
@@ -352,7 +369,7 @@
     </div>
   </div>
 </div>
-
+</div>
 <script>
   $(document).ready(function() {
 
