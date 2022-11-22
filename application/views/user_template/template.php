@@ -808,6 +808,10 @@
     gtag('config', 'G-40X8JY6KVR');
   </script>
 
+  <script>
+    console.log("DARK/LIGHT SETTINGS")
+  </script>
+
 </body>
 
 </html>
