@@ -814,6 +814,19 @@
 
     console.log(localStorage.getItem("my_theme"));
 
+    if(localStorage.getItem("my_theme") == null)
+    {
+      localStorage.setItem("my_theme", "light");
+    }
+    else if(localStorage.getItem("my_theme") == "light")
+    {
+      console.log("LIGHT");
+    }
+    else if(localStorage.getItem("my_theme") == "dark")
+    {
+      console.log("DARK");
+    }
+
   </script>
 
 </body>
