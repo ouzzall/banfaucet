@@ -666,6 +666,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
           </div>
         </div>
       </div>
+      
       <div class="modal fade" id="offptc" tabindex="-1" aria-labelledby="offptc" style="display: none;" aria-hidden="true">
 <div class="modal-dialog modal-dialog-centered" role="document">
 <div class="modal-content">
