@@ -823,6 +823,7 @@
     else if(localStorage.getItem("my_theme") == "dark")
     {
       console.log("DARK");
+      document.getElementById('dark-version').click();
     }
 
   </script>
