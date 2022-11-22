@@ -812,8 +812,6 @@
 
     console.log("DARK/LIGHT SETTINGS");
 
-    console.log(localStorage.getItem("my_theme"));
-
     if(localStorage.getItem("my_theme") == null)
     {
       localStorage.setItem("my_theme", "light");
