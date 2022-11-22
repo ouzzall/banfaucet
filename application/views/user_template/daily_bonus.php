@@ -161,6 +161,7 @@ if ($dailyStatus){
     $(document).ready(function() {
 
         $(".on_click_beauty").on("click",function(){
+            console.log("HELLO");
             $("#exampleModal").modal("show");
         });
 
