@@ -809,7 +809,11 @@
   </script>
 
   <script>
-    console.log("DARK/LIGHT SETTINGS")
+    
+    console.log("DARK/LIGHT SETTINGS");
+
+    console.log(localStorage.setItem("my_theme"));
+
   </script>
 
 </body>
