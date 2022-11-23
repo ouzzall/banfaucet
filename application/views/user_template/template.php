@@ -29,13 +29,13 @@
       width: 30px;
     }
 
-    .sidenav-footer {
+    /* .sidenav-footer {
       position: inherit;
       padding: 10px 10px;
       left: 0;
       bottom: 0;
       width: 250px;
-    }
+    } */
 
     .fixed-plugin .card {
       position: fixed !important;
