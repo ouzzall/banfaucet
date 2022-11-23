@@ -22,6 +22,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <style>
+    #sticky-ads {
+  display: none;
+}
     img.cruncyIcon {
       width: 30px;
     }
@@ -370,25 +373,18 @@
       </ul>
     </div>
     <div class="sidenav-footer mx-3 mt-3 pt-3">
-      <div class="card p-3">
-        <div class="docs-info">
-          <div class="row">
-            <div class="col-auto mr-auto font-weight-bold">Level <?= $user['level'] ?> / <span class="text-success"> <?= $bonus ?>% </span> Bonus </div>
-            <div class="col-auto font-weight-bold"> <?= ($user['exp'] % 100) ?>% </div>
+      <div class="card card-background shadow-none card-background-mask-secondary" id="sidenavCard">
+        <div class="full-background" style="background-image: url('../../assets/img/curved-images/white-curved.jpg')"></div>
+        <div class="card-body text-start p-3 w-100">
+          <div class="icon icon-shape icon-sm bg-white shadow text-center mb-3 d-flex align-items-center justify-content-center border-radius-md">
+            <i class="ni ni-diamond text-dark text-gradient text-lg top-0" aria-hidden="true" id="sidenavCardIcon"></i>
           </div>
-          <p>
-          <div class="progress" style="height: 5px;">
-            <div class="progress-bar bg-info" role="progressbar" style="width: 
-			<?= ($user['exp'] % 100) ?>%;" aria-valuenow="
-			<?= ($user['exp'] % 100) ?>" aria-valuemin="0" aria-valuemax="100">
-            </div>
+          <div class="docs-info">
+            <h6 class="text-white up mb-0">Need help?</h6>
+            <p class="text-xs font-weight-bold">Please check our docs</p>
+            <a href="https://www.creative-tim.com/learning-lab/bootstrap/overview/soft-ui-dashboard" target="_blank" class="btn btn-white btn-sm w-100 mb-0">Documentation</a>
           </div>
-          <hr>
-          <span class="text-success"> <?= ($user['level'] + 1) * 100 - $user['exp'] ?> </span> exp needed for Level <?= $user['level'] + 1 ?>
-
         </div>
-
-
       </div>
     </div>
   </aside>
