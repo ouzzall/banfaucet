@@ -591,10 +591,10 @@ Compete with other users throughout the week for a chance to win big rewards! To
     </div>
   </center>
   <div class="row ">
-    <div class="col-md-4 mt-2 col-12">
+    <!-- <div class="col-md-4 mt-2 col-12"> -->
 
 
-      <h5 class="mb-0 font-weight-bolder mb-4">Earn More</h5>
+      <!-- <h5 class="mb-0 font-weight-bolder mb-4">Earn More</h5> -->
       <!-- <img style="display: block;margin: auto;" src="newAssets/img/offer-icon.jpg" height="150" width="150">
               <p class="text-center mt-2" style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Complete tasks such as <strong>watch videos</strong>, <strong>complete surveys</strong>,<strong>view PTC ads</strong> and <strong>complete Shortlinks</strong>.</p>
               <hr class="horizontal dark mt-1 mb-3">
@@ -603,18 +603,8 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View Shortlinks</button>
                 <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View All</button>
               </div>   -->
-      <!-- Coinzilla Banner 300x250 -->
-      <script async src="https://coinzillatag.com/lib/display.js"></script>
-      <div class="coinzilla" data-zone="C-246623529710f792603"></div>
-      <script>
-        window.coinzilla_display = window.coinzilla_display || [];
-        var c_display_preferences = {};
-        c_display_preferences.zone = "246623529710f792603";
-        c_display_preferences.width = "300";
-        c_display_preferences.height = "250";
-        coinzilla_display.push(c_display_preferences);
-      </script>
-    </div>
+      
+    <!-- </div> -->
     <div class="col-md-4 mt-4 col-12">
       <div class="card p-3">
 
@@ -629,18 +619,19 @@ Compete with other users throughout the week for a chance to win big rewards! To
         </div>
       </div>
     </div>
-    <div class="col-md-4 mt-4 col-12">
+    <div class="col-md-4 mt-4  col-12">
       <div class="card p-3">
 
-        <h5 class="mb-0 font-weight-bolder mb-4">Daily Bonus</h5>
-        <img style="display: block;margin: auto;" src="newAssets/img/gift-icon.png" height="150" width="150">
-        <p class="text-center mt-2 " style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Login every day to receive <strong>tokens</strong>, <strong>exp</strong> and <strong>earning bonus</strong>.</p>
-        <hr class="horizontal dark mt-2 mb-3">
+        <h5 class="mb-0 font-weight-bolder mb-4">Challenges</h5>
+        <img style="display: block;margin: auto;" src="newAssets/img/challenge-icon.png" height="150" width="150">
+        <p class="text-center mt-2" style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Complete tasks throughout the day such as <strong>claim from the faucet</strong>, <strong>view PTC ads</strong> and <strong>earn from offerwall</strong>.</p>
+        <hr class="horizontal dark mt-1 mb-3">
         <div class="text-center">
-          <a href="https://banfaucet.com/daily-bonus"><button type="button" class="btn bg-gradient-info">Claim Bonus</button></a>
+          <a href="https://banfaucet.com/achievements"><button type="button" class="btn bg-gradient-info">View Challenges</button></a>
         </div>
       </div>
     </div>
+    
     <div class="col-md-4 mt-4 col-12">
 
       <center><ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins>
@@ -678,14 +669,27 @@ Compete with other users throughout the week for a chance to win big rewards! To
     <div class="col-md-4 mt-4 mx-auto col-12">
       <div class="card p-3">
 
-        <h5 class="mb-0 font-weight-bolder mb-4">Challenges</h5>
-        <img style="display: block;margin: auto;" src="newAssets/img/challenge-icon.png" height="150" width="150">
-        <p class="text-center mt-2" style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Complete tasks throughout the day such as <strong>claim from the faucet</strong>, <strong>view PTC ads</strong> and <strong>earn from offerwall</strong>.</p>
-        <hr class="horizontal dark mt-1 mb-3">
+        <h5 class="mb-0 font-weight-bolder mb-4">Daily Bonus</h5>
+        <img style="display: block;margin: auto;" src="newAssets/img/gift-icon.png" height="150" width="150">
+        <p class="text-center mt-2 " style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Login every day to receive <strong>tokens</strong>, <strong>exp</strong> and <strong>earning bonus</strong>.</p>
+        <hr class="horizontal dark mt-2 mb-3">
         <div class="text-center">
-          <a href="https://banfaucet.com/achievements"><button type="button" class="btn bg-gradient-info">View Challenges</button></a>
+          <a href="https://banfaucet.com/daily-bonus"><button type="button" class="btn bg-gradient-info">Claim Bonus</button></a>
         </div>
       </div>
+    </div>
+    <div class="col-md-4 mt-4 col-12"> 
+          <!-- Coinzilla Banner 300x250 -->
+      <script async src="https://coinzillatag.com/lib/display.js"></script>
+      <div class="coinzilla" data-zone="C-246623529710f792603"></div>
+      <script>
+        window.coinzilla_display = window.coinzilla_display || [];
+        var c_display_preferences = {};
+        c_display_preferences.zone = "246623529710f792603";
+        c_display_preferences.width = "300";
+        c_display_preferences.height = "250";
+        coinzilla_display.push(c_display_preferences);
+      </script>
     </div>
   </div>
 
