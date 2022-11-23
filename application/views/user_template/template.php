@@ -379,7 +379,7 @@
           <div class="icon icon-shape icon-sm bg-white shadow text-center mb-3 d-flex align-items-center justify-content-center border-radius-md">
             <i class="fa-solid fa-user-circle text-dark text-gradient text-lg top-0" aria-hidden="true" id="sidenavCardIcon"></i>
           </div>
-          <div class="docs-info">
+          <div class="docs-info" style="font-size: 14px;">
           <div class="row">
             <div class="col-auto mr-auto font-weight-bold">Level <?= $user['level'] ?> / <span class="text-success"> <?= $bonus ?>% </span> Bonus </div>
             <div class="col-auto font-weight-bold"> <?= ($user['exp'] % 100) ?>% </div>
