@@ -689,7 +689,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
     </div>
   </div>
 
-  <!-- <div class="modal fade" id="offptc" tabindex="-1" aria-labelledby="offptc" style="display: none;" aria-hidden="true">
+  <div class="modal fade" id="offptc" tabindex="-1" aria-labelledby="offptc" style="display: none;" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -713,8 +713,8 @@ Compete with other users throughout the week for a chance to win big rewards! To
         </div>
       </div>
     </div>
-  </div> -->
-  <div class="modal fade show" id="offshort" tabindex="-1" role="dialog" aria-labelledby="offpshort" style="padding-right: 17px; display: block;" aria-modal="true">
+  </div>
+  <div class="modal fade " id="offshort" tabindex="-1" role="dialog" aria-labelledby="offpshort" style="padding-right: 17px; display: block;" aria-modal="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
