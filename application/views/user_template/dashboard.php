@@ -713,7 +713,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="modal fade show" id="offshort" tabindex="-1" role="dialog" aria-labelledby="offpshort" style="padding-right: 17px; display: block;" aria-modal="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -736,7 +736,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 
 
   <!-- new code end -->
