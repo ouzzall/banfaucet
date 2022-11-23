@@ -591,7 +591,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
     </div>
   </center>
   <div class="row ">
-    <!-- <div class="col-md-4 mt-2 col-12"> -->
+    <div class="col-md-4 mt-2 col-12">
 
 
       <!-- <h5 class="mb-0 font-weight-bolder mb-4">Earn More</h5> -->
@@ -603,8 +603,18 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View Shortlinks</button>
                 <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View All</button>
               </div>   -->
-      
-    <!-- </div> -->
+      <!-- Coinzilla Banner 300x250 -->
+      <script async src="https://coinzillatag.com/lib/display.js"></script>
+      <div class="coinzilla" data-zone="C-246623529710f792603"></div>
+      <script>
+        window.coinzilla_display = window.coinzilla_display || [];
+        var c_display_preferences = {};
+        c_display_preferences.zone = "246623529710f792603";
+        c_display_preferences.width = "300";
+        c_display_preferences.height = "250";
+        coinzilla_display.push(c_display_preferences);
+      </script>
+    </div>
     <div class="col-md-4 mt-4 col-12">
       <div class="card p-3">
 
@@ -632,21 +642,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
       </div>
     </div>
     
-    <div class="col-md-4 mt-4 col-12">
-
-      <center><ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins>
-        <script>
-          ! function(e, n, c, t, o, r) {
-            ! function e(n, c, t, o, r, m, s, a) {
-              s = c.getElementsByTagName(t)[0], (a = c.createElement(t)).async = !0, a.src = "https://" + r[m] + "/js/" + o + ".js", a.onerror = function() {
-                a.remove(), (m += 1) >= r.length || e(n, c, t, o, r, m)
-              }, s.parentNode.insertBefore(a, s)
-            }(window, document, "script", "6295f53eb2e2b443b6100720", ["cdn.bmcdn3.com"], 0)
-          }();
-        </script>
-      </center>
-
-    </div>
+   
     <div class="col-md-4 mt-4 col-12">
 
       <center>
@@ -666,6 +662,21 @@ Compete with other users throughout the week for a chance to win big rewards! To
         </div>
       </div>
     </div>
+    <div class="col-md-4 mt-4 col-12">
+
+<center><ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins>
+  <script>
+    ! function(e, n, c, t, o, r) {
+      ! function e(n, c, t, o, r, m, s, a) {
+        s = c.getElementsByTagName(t)[0], (a = c.createElement(t)).async = !0, a.src = "https://" + r[m] + "/js/" + o + ".js", a.onerror = function() {
+          a.remove(), (m += 1) >= r.length || e(n, c, t, o, r, m)
+        }, s.parentNode.insertBefore(a, s)
+      }(window, document, "script", "6295f53eb2e2b443b6100720", ["cdn.bmcdn3.com"], 0)
+    }();
+  </script>
+</center>
+
+</div>
     <div class="col-md-4 mt-4 mx-auto col-12">
       <div class="card p-3">
 
@@ -677,19 +688,6 @@ Compete with other users throughout the week for a chance to win big rewards! To
           <a href="https://banfaucet.com/daily-bonus"><button type="button" class="btn bg-gradient-info">Claim Bonus</button></a>
         </div>
       </div>
-    </div>
-    <div class="col-md-4 mt-4 col-12"> 
-          <!-- Coinzilla Banner 300x250 -->
-      <script async src="https://coinzillatag.com/lib/display.js"></script>
-      <div class="coinzilla" data-zone="C-246623529710f792603"></div>
-      <script>
-        window.coinzilla_display = window.coinzilla_display || [];
-        var c_display_preferences = {};
-        c_display_preferences.zone = "246623529710f792603";
-        c_display_preferences.width = "300";
-        c_display_preferences.height = "250";
-        coinzilla_display.push(c_display_preferences);
-      </script>
     </div>
   </div>
 
