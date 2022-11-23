@@ -54,7 +54,7 @@
             <div class="card-body">
                 <h4 class="card-title mb-4 text-center">Your Referrals</h4>
                 <div class="table-responsive">
-                <table class="table table-flush" id="products-list">
+                <table class="table table-flush" id="datatable-search">
                   <thead class="thead-light">
                     <tr>
                       <th>User Name</th>
@@ -98,4 +98,11 @@
 <script src="https://coinzillatag.com/lib/fp.js"></script>
 <script src="https://banfaucet.com/new/assets/js/clipboard.min.js"></script>
 <script async src="https://appsha-lon2.cointraffic.io/js/?wkey=lgXFfbiPoT"></script>
+<script>
+    const dataTableSearch = new simpleDatatables.DataTable("#datatable-search", {
+      searchable: true,
+      fixedHeight: false,
+      perPageSelect: false
+    });
+</script>    
 

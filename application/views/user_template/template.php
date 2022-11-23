@@ -640,6 +640,8 @@
   <script src="https://banfaucet.com/new/newAssets/js/plugins/jkanban/jkanban.js"></script>
   <script src="https://banfaucet.com/new/newAssets/js/plugins/countup.min.js"></script>
   <script src="https://banfaucet.com/new/newAssets/js/plugins/chartjs.min.js"></script>
+  <script src="https://banfaucet.com/new/newAssets/js/plugins/datatables.js"></script>
+
 
   <?php if ($page == 'Withdraw') { ?>
     <script src="https://banfaucet.com/new/newAssets/js/plugins/multistep-form.js"></script>
@@ -737,24 +739,7 @@
   }
   ?>
   <?php include 'adblock.php'; ?>
-  <style>
-    .sticky-ads {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 98%;
-      min-height: 70px;
-      max-height: 200px;
-      padding: 5px 0;
-      box-shadow: 0 -6px 18px 0 rgba(9, 32, 76, .1);
-      -webkit-transition: all .1s ease-in;
-      transition: all .1s ease-in;
-      display: flex;
-      align-items: center;
-      justify-content: right;
-      z-index: 10;
-    }
-  </style>
+
 
   <div class='sticky-ads' id='sticky-ads'>
     <div class='sticky-ads-content'>
