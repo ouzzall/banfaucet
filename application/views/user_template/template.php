@@ -494,6 +494,7 @@
                         break;
                     }
                   ?>
+                  
                     <a href="" class="text-reset notification-item">
                       <div class="media" style="display: grid;grid-template-columns: .2fr 2fr;grid-template-rows: 1fr;grid-column-gap: 0px;grid-row-gap: 0px;">
                         <div class="avatar-xs mr-3">
