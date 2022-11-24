@@ -623,7 +623,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
         <p class="text-center mt-2" style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Complete tasks such as <strong>watch videos</strong>, <strong>complete surveys</strong>,<strong>view PTC ads</strong> and <strong>complete Shortlinks</strong>.</p>
         <hr class="horizontal dark mt-1 mb-3">
         <div class="text-center">
-          <button type="button" data-toggle="modal" data-bs-target="#exampleModal"  class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"  class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
           <button type="button" data-toggle="modal" data-target="#offshort" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View Shortlinks</button>
           <a href="https://banfaucet.com/offerwalls"><button type="button" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View All</button></a>
         </div>
