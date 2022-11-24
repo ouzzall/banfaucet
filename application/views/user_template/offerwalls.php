@@ -92,7 +92,7 @@
       <span class="badge bg-gradient-secondary">Surveys </span>
       </div>
       <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="5 / 5 Rating">
-        <p style="text-align:center;color:#FAAD13">
+        <p style="text-align:center;color:#FAAD13 !important">
         <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
@@ -165,7 +165,7 @@
       <span class="badge bg-gradient-secondary">Tasks</span>
       </div>
       <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="5 / 5 Rating">
-        <p style="text-align:center;color:#FAAD13">
+        <p style="text-align:center;color:#FAAD13 !important">
         <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
@@ -211,7 +211,7 @@
       <span class="badge bg-gradient-secondary">Shortlinks</span>
       </div>
       <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="5 / 5 Rating">
-        <p style="text-align:center;color:#FAAD13">
+        <p style="text-align:center;color:#FAAD13 !important">
         <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
@@ -256,7 +256,7 @@
       <span class="badge bg-gradient-secondary">Earnings</span>
       </div>
       <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="5 / 5 Rating">
-        <p style="text-align:center;color:#FAAD13">
+        <p style="text-align:center;color:#FAAD13 !important">
         <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
@@ -301,7 +301,7 @@
       <span class="badge bg-gradient-secondary">Earnings</span>
       </div>
       <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="5 / 5 Rating">
-        <p style="text-align:center;color:#FAAD13">
+        <p style="text-align:center;color:#FAAD13 !important">
         <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
@@ -346,7 +346,7 @@
       <span class="badge bg-gradient-secondary">Offers</span>
       </div>
       <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="5 / 5 Rating">
-        <p style="text-align:center;color:#FAAD13">
+        <p style="text-align:center;color:#FAAD13 !important">
         <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
@@ -390,7 +390,7 @@
       <span class="badge bg-gradient-secondary">Offers</span>
       </div>
       <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="5 / 5 Rating">
-        <p style="text-align:center;color:#FAAD13">
+        <p style="text-align:center;color:#FAAD13 !important">
         <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
@@ -435,7 +435,7 @@
       <span class="badge bg-gradient-secondary">Ptc</span>
       </div>
       <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="4 / 5 Rating">
-        <p style="text-align:center;color:#FAAD13">
+        <p style="text-align:center;color:#FAAD13 !important">
         <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
@@ -482,7 +482,7 @@
       <span class="badge bg-gradient-secondary">Shortlinks</span>
       </div>
       <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="4 / 5 Rating">
-        <p style="text-align:center;color:#FAAD13">
+        <p style="text-align:center;color:#FAAD13 !important">
         <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
@@ -530,7 +530,7 @@
       <span class="badge bg-gradient-secondary">Shortlinks</span>
       </div>
       <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="3.5 / 5 Rating">
-        <p style="text-align:center;color:#FAAD13">
+        <p style="text-align:center;color:#FAAD13 !important">
         <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
