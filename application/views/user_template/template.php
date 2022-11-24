@@ -509,7 +509,7 @@
                   <?php } ?>
                 </li>
                 <li>
-                  <a href="https://banfaucet.com/new/history" class="btn btn-secondary">
+                  <a href="https://banfaucet.com/new/history" style="width: 100%;" class="btn btn-secondary">
     
                       View all
                     
