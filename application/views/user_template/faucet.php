@@ -1,6 +1,11 @@
 <!-- <div class="ads">
     <?= $settings['faucet_top_ad'] ?>
 </div> -->
+<style>
+    .antibotlinks a img {
+  background: #f9f9f9;
+}
+</style>
 <div class="container-fluid py-4">
 <div class="row">
 
