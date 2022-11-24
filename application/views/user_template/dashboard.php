@@ -623,7 +623,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
         <p class="text-center mt-2" style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Complete tasks such as <strong>watch videos</strong>, <strong>complete surveys</strong>,<strong>view PTC ads</strong> and <strong>complete Shortlinks</strong>.</p>
         <hr class="horizontal dark mt-1 mb-3">
         <div class="text-center">
-          <button type="button" data-toggle="modal" data-bs-target="#exampleModalCenter"  class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
+          <button type="button" data-toggle="modal" data-bs-target="#exampleModal"  class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
           <button type="button" data-toggle="modal" data-target="#offshort" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View Shortlinks</button>
           <a href="https://banfaucet.com/offerwalls"><button type="button" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View All</button></a>
         </div>
@@ -707,37 +707,25 @@ Compete with other users throughout the week for a chance to win big rewards! To
     </div>
   </div>
 </div>
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Donate</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-Use the QR code or copy the banano address below to make a donation. 100% of the donations go towards you awesome people!<p>
-        <center><img style="width: 222px;" src="https://banfaucet.com/assets/images/qr-vault.png"></center><br>
-  <div class="form-row">
-	<div class="col-8">
-<input type="text" readonly class="form-control" value="ban_36aw66z9cnoraud94i7f77sfxahym6ks5ehf85pw495rrysm3cmy51xt54xs" id="copybanlink">
-</div>
-<div class="col">
-<button class="btn btn-primary btn-sm" type="button" onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M19 8.268a2 2 0 0 1 1 1.732v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h3" /><path d="M5.003 15.734a2 2 0 0 1 -1.003 -1.734v-8a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-3" /></svg> Copy</button>
-		</div>
-          </div>
-        </div>
-<script>
-                  function myFunction() {
-                    var copyText = document.getElementById('copybanlink');
-                    copyText.select();
-                    copyText.setSelectionRange(0, 99999)
-                    document.execCommand("copy");
-                  }
-                </script>
+        ...
+      </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
       </div>
     </div>
   </div>
