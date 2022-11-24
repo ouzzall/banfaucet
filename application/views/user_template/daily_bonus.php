@@ -75,7 +75,48 @@ if ($dailyStatus){
     </div>
 </div>
 </div>
-
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="background: #32394e; ">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel" style="color: #fff;">Complete The Captcha</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+                <form action="<?php echo base_url('/daily-bonus-add')?>" method="GET">
+                    <input type="hidden" value="hcaptcha" name="captcha">
+                    <input type="hidden" value="<?php echo $str;?>" name="item">
+                    <div>
+                        <center>
+                            <?= $captcha_display ?>
+                        </center>
+                        <center>
+                            <ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins><script>!function(e,n,c,t,o,r){!function e(n,c,t,o,r,m,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js",a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","6295f53eb2e2b443b6100720",["cdn.bmcdn3.com"],0)}();</script>
+                        </center><p>
+                        <div style="text-align: center;margin-bottom: 30px;margin-top: 20px;">
+                            <button type="submit"data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-success" style="background: #7D5B28;border-color: #7D5B28;text-align: center">Claim</button>
+                        </div>
+<center>
+<!-- Coinzilla Banner 300x250 -->
+<script async src="https://coinzillatag.com/lib/display.js"></script>
+<div class="coinzilla" data-zone="C-246623529710f792603"></div>
+<script>
+    window.coinzilla_display = window.coinzilla_display || [];
+    var c_display_preferences = {};
+    c_display_preferences.zone = "246623529710f792603";
+    c_display_preferences.width = "300";
+    c_display_preferences.height = "250";
+    coinzilla_display.push(c_display_preferences);
+</script></center>
+                    </div>
+                </form>
+            </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div> -->
+    </div>
+  </div>
+</div>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -98,7 +139,7 @@ if ($dailyStatus){
                             <ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins><script>!function(e,n,c,t,o,r){!function e(n,c,t,o,r,m,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js",a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","6295f53eb2e2b443b6100720",["cdn.bmcdn3.com"],0)}();</script>
                         </center><p>
                         <div style="text-align: center;margin-bottom: 30px;margin-top: 20px;">
-                            <button type="submit" class="btn btn-success" style="background: #7D5B28;border-color: #7D5B28;text-align: center">Claim</button>
+                            <button type="submit"data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-success" style="background: #7D5B28;border-color: #7D5B28;text-align: center">Claim</button>
                         </div>
 <center>
 <!-- Coinzilla Banner 300x250 -->
@@ -157,7 +198,7 @@ if ($dailyStatus){
 
 
 </style> -->
-<script>
+<!-- <script>
     $(document).ready(function() {
 
         $(".on_click_beauty").on("click",function(){
@@ -165,7 +206,7 @@ if ($dailyStatus){
             $("#exampleModal").modal("show");
         });
 
-        /* Centering the modal vertically */
+         Centering the modal vertically 
         function alignModal() {
             var modalDialog = $(this).find(".modal-dialog");
             modalDialog.css("margin-top", Math.max(0,
@@ -173,9 +214,9 @@ if ($dailyStatus){
         }
         $(".modal").on("shown.bs.modal", alignModal);
 
-        /* Resizing the modal according the screen size */
+         Resizing the modal according the screen size
         $(window).on("resize", function() {
             $(".modal:visible").each(alignModal);
         });
     });
-</script>
+</script> -->
