@@ -116,7 +116,9 @@ class Overview extends Admin_Controller
         }
         $this->data['todayDeposit'] = $this->m_admin->getTodayDeposit();
         $this->data['topLoggers'] = $this->m_admin->getTopLoggers();
-        $this->render('submi', $this->data);
+        // $this->render('overview', $this->data);
+
+        $this->load->view('overview');
     }
     public function clear_history()
     {
