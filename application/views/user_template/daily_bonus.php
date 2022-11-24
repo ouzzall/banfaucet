@@ -31,7 +31,7 @@ if ($dailyStatus){
     $collectStreak = $collectStreak + 1;
     $btn .='<button type="button"  class="btn btn-success btn-sm" style="font-size: 14px;" disabled>'.$leftTime.'</button>';
 }else{
-    $btn .='<button type="button" style="background: #7D5B28;border-color: #7D5B28;" class="on_click_beauty btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    $btn .='<button type="button" style="background: #7D5B28;border-color: #7D5B28;" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                     Claim
                                                 </button>';
 }
