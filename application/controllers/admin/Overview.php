@@ -14,7 +14,7 @@ class Overview extends Admin_Controller
     {
         // echo "HELLO";
 
-        // $this->data['page'] = 'Overview';
+        $this->data['page'] = 'Overview';
 
         $todayTime = strtotime('today midnight');
 
