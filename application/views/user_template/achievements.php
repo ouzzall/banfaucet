@@ -48,8 +48,8 @@
                                         <?= currencyDisplay($achievement['reward_usd'], $settings) ?></span>
                                     </td>
                                     <td>
-                                        <div class="progress" style="height: 20px;">
-                                            <div class="chalanges progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: <?= $achievement['progress'] ?>%;" aria-valuenow="<?= $achievement['progress'] ?>" aria-valuemin="0" aria-valuemax="100"><?= $achievement['completed'] ?>/ <?= $achievement['condition'] ?></div>
+                                        <div class="progress" style="height: 20px;border-radius: 0 !important;">
+                                            <div class="chalanges progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="border-radius: 0 !important;margin-top: 0px;width: <?= $achievement['progress'] ?>%;" aria-valuenow="<?= $achievement['progress'] ?>" aria-valuemin="0" aria-valuemax="100"><?= $achievement['completed'] ?>/ <?= $achievement['condition'] ?></div>
                                         </div>
                                     </td>
                                     <td>
