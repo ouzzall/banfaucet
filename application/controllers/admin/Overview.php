@@ -118,7 +118,7 @@ class Overview extends Admin_Controller
         $this->data['topLoggers'] = $this->m_admin->getTopLoggers();
         // $this->render('overview', $this->data);
 
-        $this->load->view('overview');
+        $this->load->view('admin_template/overview');
     }
     public function clear_history()
     {
