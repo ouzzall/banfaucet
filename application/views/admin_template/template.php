@@ -1,5 +1,5 @@
 <?php 
 
-$contents
+echo $contents
 
 ?>
