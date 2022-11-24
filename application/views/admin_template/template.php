@@ -1,5 +1,1 @@
-<?php 
-
-echo $contents
-
-?>
+<?php $contents ?>
