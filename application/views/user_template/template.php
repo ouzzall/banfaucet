@@ -509,10 +509,10 @@
                   <?php } ?>
                 </li>
                 <li>
-                  <a href="https://banfaucet.com/new/history" class="text-dark">
-                    <div style="width: 100%;background: #f9f9f9;border-radius: 6px;padding-top: 10px;padding-bottom: 10px;" class="text-center">
+                  <a href="https://banfaucet.com/new/history" class="btn btn-secondary">
+    
                       View all
-                    </div>
+                    
                   </a>
                   </a>
                 </li>
