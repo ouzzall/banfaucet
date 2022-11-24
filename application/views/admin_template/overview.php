@@ -74,6 +74,10 @@
         width: 36px;
         padding: 3px;
     }
+
+    .dark-version .sidenav.bg-white {
+        background: #141728 !important;
+    }
 </style>
 
 <body class="g-sidenav-show  bg-gray-100">
@@ -930,7 +934,7 @@
     </aside>
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky" id="navbarBlur" data-scroll="true">
-            <div class="container-fluid py-1 px-3">
+            <div class="container-fluid py-1 px-3" style="padding-top: 20px !important;padding-bottom: 20px !important;">
                 <!-- <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class="breadcrumb-item text-sm">
@@ -1376,7 +1380,7 @@
     <!-- Github buttons -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-    <script src="<?= base_url() ?>newAssets/js/soft-ui-dashboard.min.js"></script>
+    <script src="<?= base_url() ?>newAssets/js/soft-ui-dashboard.min.js?v=1"></script>
 
     <!-- old scripts  statr-->
     <script src="<?= base_url() ?>assets/libs/jquery/jquery.min.js"></script>
@@ -1758,6 +1762,26 @@
         });
         _client.start();
     </script>
+
+<script>
+
+console.log("DARK/LIGHT SETTINGS");
+
+if(localStorage.getItem("my_theme") == null)
+{
+  localStorage.setItem("my_theme", "light");
+}
+else if(localStorage.getItem("my_theme") == "light")
+{
+  console.log("LIGHT");
+}
+else if(localStorage.getItem("my_theme") == "dark")
+{
+  console.log("DARK");
+  document.getElementById('dark-version').click();
+}
+
+</script>
 
 
     <!-- onld scripts end -->
