@@ -623,7 +623,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
         <p class="text-center mt-2" style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Complete tasks such as <strong>watch videos</strong>, <strong>complete surveys</strong>,<strong>view PTC ads</strong> and <strong>complete Shortlinks</strong>.</p>
         <hr class="horizontal dark mt-1 mb-3">
         <div class="text-center">
-          <button type="button" data-toggle="modal" data-target="#offptc" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
+          <button type="button" data-toggle="modal" data-bs-target="#exampleModal"  class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
           <button type="button" data-toggle="modal" data-target="#offshort" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View Shortlinks</button>
           <a href="https://banfaucet.com/offerwalls"><button type="button" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View All</button></a>
         </div>
@@ -690,7 +690,23 @@ Compete with other users throughout the week for a chance to win big rewards! To
       </div>
     </div>
   </div>
-
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- <div class="modal fade" id="offptc" tabindex="-1" aria-labelledby="offptc" style="display: none;" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
