@@ -72,8 +72,8 @@
                             <td>Earn $1 USD in Offerwalls</td>
                             <td>50 tokens</td>
                             <td>
-                                <div class="progress" style="height: 20px; border-radius: 0;">
-                                    <div  class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="border-radius: 0;margin-top: 0px;width: <?= $total >= 1 ? 100:0 ?>%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><?= $total >= 1 ? 100 :0 ?></div>
+                                <div class="progress" style="height: 20px; border-radius: 0 !important;">
+                                    <div  class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="border-radius: 0 !important;margin-top: 0px;width: <?= $total >= 1 ? 100:0 ?>%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><?= $total >= 1 ? 100 :0 ?></div>
                                 </div>
                             </td>
                             <td>
