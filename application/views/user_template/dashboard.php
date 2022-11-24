@@ -624,7 +624,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
         <hr class="horizontal dark mt-1 mb-3">
         <div class="text-center">
           <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"  class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
-          <button type="button" data-toggle="modal" data-target="#offshort" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View Shortlinks</button>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropshortlink" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View Shortlinks</button>
           <a href="https://banfaucet.com/offerwalls"><button type="button" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View All</button></a>
         </div>
       </div>
@@ -714,13 +714,34 @@ Compete with other users throughout the week for a chance to win big rewards! To
   <div class="modal-dialog">
     <div class="modal-content" style="background: #32394e; ">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Offerwall PTC Ads</h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel" style="color: #fff;">Offerwall PTC Ads</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
           <center><a href="https://banfaucet.com/offerwall/offeroc"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/offeroc.svg" alt="Offeroc"></a>
             <hr>
             <a href="https://banfaucet.com/offerwall/timewall"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/timewall.png" alt="Timewall"></a>
+            <hr>
+            <a href="https://banfaucet.com/offerwall/bitcotasks"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/bitcotasks.png" alt="BitcoTasks"></a>
+            <hr>
+            <a href="https://banfaucet.com/offerwall/bitswall"><img style="max-width:350px;max-height:60px;filter:brightness(0)" src="https://banfaucet.com/assets/images/bitswall.png" alt="Bitswall"></a>
+          </center>
+        </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="staticBackdropshortlink" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropshortlink" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background: #32394e; ">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel" style="color: #fff;">Offerwall Shortlinks</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <center><a href="https://banfaucet.com/offerwall/offeroc"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/offeroc.svg" alt="Offeroc"></a>
             <hr>
             <a href="https://banfaucet.com/offerwall/bitcotasks"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/bitcotasks.png" alt="BitcoTasks"></a>
             <hr>
