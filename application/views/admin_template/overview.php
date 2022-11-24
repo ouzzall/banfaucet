@@ -16,7 +16,7 @@
                     </div> -->
                     <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
                         <i class="fas fa-users text-lg opacity-10"></i>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
                         </span>
                     </div> -->
                     <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i class="fas fa-wallet text-lg opacity-10"></i>  
+                        <i class="fas fa-wallet text-lg opacity-10"></i>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                         </span>
                     </div> -->
                     <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i class="fas fa-wallet text-lg opacity-10"></i>  
+                        <i class="fas fa-wallet text-lg opacity-10"></i>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@
                         </span>
                     </div> -->
                     <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i class="fas fa-user-plus text-lg opacity-10"></i>  
+                        <i class="fas fa-user-plus text-lg opacity-10"></i>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                         </span>
                     </div> -->
                     <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i style="width: 48px !important;" class="fas fa-hand-holding-usd text-lg opacity-10"></i>  
+                        <i style="width: 48px !important;" class="fas fa-hand-holding-usd text-lg opacity-10"></i>
                     </div>
                 </div>
             </div>
@@ -122,9 +122,9 @@
                         </span>
                     </div> -->
                     <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i style="width: 48px !important;" class="fas fa-tasks text-lg opacity-10"></i>  
+                        <i style="width: 48px !important;" class="fas fa-tasks text-lg opacity-10"></i>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -145,7 +145,7 @@
                         </span>
                     </div> -->
                     <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i style="width: 48px !important;" class="far fa-newspaper text-lg opacity-10"></i>  
+                        <i style="width: 48px !important;" class="far fa-newspaper text-lg opacity-10"></i>
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@
                         </span>
                     </div> -->
                     <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                        <i style="width: 48px !important;" class="fas fa-user-tie text-lg opacity-10"></i>  
+                        <i style="width: 48px !important;" class="fas fa-user-tie text-lg opacity-10"></i>
                     </div>
                 </div>
             </div>
@@ -261,4 +261,4 @@
             </div>
         </div>
     </div>
-</div> 
+</div>
