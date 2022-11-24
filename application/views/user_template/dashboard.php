@@ -625,7 +625,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
         <div class="text-center">
           <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"  class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
           <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropshortlink" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View Shortlinks</button>
-          <a href="https://banfaucet.com/offerwalls"><button type="button" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View All</button></a>
+          <a href="<?= site_url('offerwalls') ?>"><button type="button" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View All</button></a>
         </div>
       </div>
     </div>
