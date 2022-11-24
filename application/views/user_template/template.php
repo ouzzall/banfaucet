@@ -381,7 +381,7 @@
           </div>
           <div class="docs-info" style="font-size: 14px;">
           <div class="row">
-            <div class="col-auto mr-auto font-weight-bold">Level <?= $user['level'] ?> / <span class="text-success"> <?= $bonus ?>% </span> Bonus </div>
+            <div class="col-auto mr-auto font-weight-bold" style="font-size: 12px;">Level <?= $user['level'] ?> / <span class="text-success"> <?= $bonus ?>% </span> Bonus </div>
             <div class="col-auto font-weight-bold"> <?= ($user['exp'] % 100) ?>% </div>
           </div>
           <p>
@@ -741,14 +741,14 @@
   <?php include 'adblock.php'; ?>
 
 
-  <div class='sticky-ads' id='sticky-ads'>
+  <!-- <div class='sticky-ads' id='sticky-ads'>
     <div class='sticky-ads-content'>
 
       <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="Join our Telegram Group">
         <a href="https://t.me/banfaucet" target="_blank"><img src="https://banfaucet.com/assets/images/telegram.png" style="width:50px;height:50px;"></a>
       </div>
     </div>
-  </div>
+  </div> -->
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       // Placement of tooltip on top
