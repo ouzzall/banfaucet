@@ -1763,25 +1763,18 @@
         _client.start();
     </script>
 
-<script>
+    <script>
+        console.log("DARK/LIGHT SETTINGS");
 
-console.log("DARK/LIGHT SETTINGS");
-
-if(localStorage.getItem("my_theme") == null)
-{
-  localStorage.setItem("my_theme", "light");
-}
-else if(localStorage.getItem("my_theme") == "light")
-{
-  console.log("LIGHT");
-}
-else if(localStorage.getItem("my_theme") == "dark")
-{
-  console.log("DARK");
-  document.getElementById('dark-version').click();
-}
-
-</script>
+        if (localStorage.getItem("my_theme") == null) {
+            localStorage.setItem("my_theme", "light");
+        } else if (localStorage.getItem("my_theme") == "light") {
+            console.log("LIGHT");
+        } else if (localStorage.getItem("my_theme") == "dark") {
+            console.log("DARK");
+            document.getElementById('dark-version').click();
+        }
+    </script>
 
 
     <!-- onld scripts end -->
