@@ -118,7 +118,7 @@
       <span class="badge bg-gradient-secondary">Videos</span>
       </div>
       <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="5 / 5 Rating">
-        <p style="text-align:center;color:#FAAD13">
+        <p style="text-align:center;color:#FAAD13 !important">
         <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i>
