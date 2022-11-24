@@ -1,8 +1,12 @@
 <div class="container-fluid py-4">
-<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
-  <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button></div><p><center><span id="ct_cJd95UwrCma"></span></center><p>
+<div class="col-12">
+          <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+            <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
+            <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div></div><p><center><span id="ct_cJd95UwrCma"></span></center><p>
 <center><span id="ct_c1c1RkyZBbe"></span></center><p>
 <script>var _coinzilla_fp_id_ = "173623529710ebcf195",  _coinzilla_fp_interval_ = "5"; </script>
 <script src="https://coinzillatag.com/lib/fp.js"></script>
