@@ -707,26 +707,29 @@ Compete with other users throughout the week for a chance to win big rewards! To
     </div>
   </div>
 </div>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Launch static backdrop modal
-</button>
+
 
 <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
+    <div class="modal-content" style="background: #32394e; ">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Offerwall PTC Ads</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
+          <center><a href="https://banfaucet.com/offerwall/offeroc"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/offeroc.svg" alt="Offeroc"></a>
+            <hr>
+            <a href="https://banfaucet.com/offerwall/timewall"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/timewall.png" alt="Timewall"></a>
+            <hr>
+            <a href="https://banfaucet.com/offerwall/bitcotasks"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/bitcotasks.png" alt="BitcoTasks"></a>
+            <hr>
+            <a href="https://banfaucet.com/offerwall/bitswall"><img style="max-width:350px;max-height:60px;filter:brightness(0)" src="https://banfaucet.com/assets/images/bitswall.png" alt="Bitswall"></a>
+          </center>
+        </div>
+      <!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
