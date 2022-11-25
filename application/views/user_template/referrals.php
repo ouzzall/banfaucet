@@ -98,6 +98,12 @@
 <script src="https://coinzillatag.com/lib/fp.js"></script>
 <script src="https://banfaucet.com/new/assets/js/clipboard.min.js"></script>
 <script async src="https://appsha-lon2.cointraffic.io/js/?wkey=lgXFfbiPoT"></script>
+<style>
+  .pagination li:hover {
+  background: transparent !important;
+  border: none !important;
+}
+</style>
 <!-- <script>
     const dataTableSearch = new simpleDatatables.DataTable("#datatable-search", {
       searchable: true,
