@@ -110,6 +110,10 @@
 width: 100%;
 border-radius: 5px !important;
 }
+#myTable_previous .page-link{
+width: 100%;
+border-radius: 5px !important;
+}
 </style>
 <!-- <script>
     const dataTableSearch = new simpleDatatables.DataTable("#datatable-search", {
