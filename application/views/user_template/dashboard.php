@@ -435,7 +435,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
     <div class="col-12">
       <div class="alert alert-primary text-white alert-dismissible fade show text-center" role="alert">
         <span class="alert-icon"><i class="fa-solid fa-gift"></i>
-          <span class="alert-text">Don't miss out on coupon codes, rain and giveaways! Find them in our<a href="#" style="color: #fff !important;font-weight:bold"> Telegram Group.</a></span>
+          <span class="alert-text">Don't miss out on coupon codes, rain and giveaways! Find them in our<a href="https://t.me/banfaucet/64499" style="color: #fff !important;font-weight:bold"> Telegram Group.</a></span>
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -444,7 +444,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
     <div class="col-12">
       <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
         <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
-        <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="#" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
+        <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>

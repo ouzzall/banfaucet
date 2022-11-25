@@ -645,7 +645,7 @@
   <script src="https://banfaucet.com/new/newAssets/js/plugins/jkanban/jkanban.js"></script>
   <script src="https://banfaucet.com/new/newAssets/js/plugins/countup.min.js"></script>
   <script src="https://banfaucet.com/new/newAssets/js/plugins/chartjs.min.js"></script>
-  <script src="https://banfaucet.com/new/newAssets/js/plugins/datatables.js"></script>
+  <!-- <script src="https://banfaucet.com/new/newAssets/js/plugins/datatables.js"></script> -->
 
 
   <?php if ($page == 'Withdraw') { ?>
@@ -683,16 +683,16 @@
   <script src="<?= base_url() ?>assets/libs/node-waves/waves.min.js"></script>
   <script src="<?= base_url() ?>assets/js/vie/faucet.js?v=4"></script>
 
-  <!--    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">-->
+     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
-  <!-- <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
-  <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script> -->
+  <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
 
-  <!-- <script>
+  <script>
     $(document).ready(function() {
       $('#myTable').DataTable();
     });
-  </script> -->
+  </script>
 
   <?php if ($page == 'Dashboard') { ?>
     <script src="<?= base_url() ?>assets/libs/apexcharts/apexcharts.min.js"></script>
