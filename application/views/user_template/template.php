@@ -40,7 +40,7 @@
       width: 250px;
     } */
 
-    /* .fixed-plugin .card {
+    .fixed-plugin .card {
       position: fixed !important;
       right: -360px;
       bottom: 0 !important;
@@ -51,7 +51,7 @@
       width: 360px;
       border-radius: 22px !important;
 
-    } */
+    }
 
     
     .header-profile-user {
