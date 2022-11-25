@@ -103,6 +103,9 @@
   background: transparent !important;
   border: none !important;
 }
+.dark-version h1, .dark-version .h1, .dark-version .h1, .dark-version h2, .dark-version .h2, .dark-version .h2, .dark-version h3, .dark-version .h3, .dark-version .h3, .dark-version h4, .dark-version .h4, .dark-version .h4, .dark-version h5, .dark-version .h5, .dark-version .h5, .dark-version h6:not(.font-weight-bolder), .dark-version .h6:not(.font-weight-bolder), .dark-version .h6, .dark-version a:not(.dropdown-item):not(.choices__item):not(.leaflet-control-zoom-in):not(.leaflet-control-zoom-out):not(.btn):not(.nav-link):not(.fixed-plugin-button):not(.opacity-5), .dark-version .table thead tr th, .dark-version .kanban-title-board {
+  color: #8392ab !important;
+}
 </style>
 <!-- <script>
     const dataTableSearch = new simpleDatatables.DataTable("#datatable-search", {
