@@ -40,6 +40,18 @@
 
 <body class="bg-gray-100" style="visibility: hidden !important;">
 <style>
+  .fixed-plugin .card {
+      position: fixed !important;
+      right: -360px;
+      bottom: 0 !important;
+      top: unset !important;
+      height: 200px !important;
+      left: auto !important;
+      transform: unset !important;
+      width: 360px;
+      border-radius: 22px !important;
+
+    }
 @-webkit-keyframes nvvfu {0% {opacity: 0;}80% {opacity: 0;}100% {opacity: 1;}}
 @keyframes nvvfu {0% {opacity: 0;}80% {opacity: 0;}100% {opacity: 1;}}
 </style>
