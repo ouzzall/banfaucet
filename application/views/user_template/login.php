@@ -162,12 +162,14 @@
             <form class="needs-validation" action="<?= site_url('auth/login') ?>" method="POST" novalidate>
                     <input type="hidden" name="<?= $csrf_name ?>" value="<?= $csrf_hash ?>">
 
-                <div class="mb-3">
+                <div class="form-floating mb-3">
                   <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email" aria-label="Email" required>
+                  <label for="inputEmail">Email</label>
                   <div class="invalid-feedback">Please enter your email address.</div>
                 </div>
-                <div class="mb-3">
+                <div class="form-floating mb-3">
                   <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" aria-label="Password" required>
+                  <label for="inputPassword">Password</label>
                   <div class="invalid-feedback">Please enter your password.</div>
                 </div>
                 <div class="form-check form-switch">
