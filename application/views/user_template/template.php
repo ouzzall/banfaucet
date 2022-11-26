@@ -486,9 +486,9 @@ background: cornflowerblue !important;
               <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton" style="width: 320px;">
                 <li class="mb-2">
                   <div class="p-3 d-flex" style="    justify-content: space-between;">
-                    <h6 class="m-0" key="t-notifications"> Notifications</h6>
+                    <h6 class="m-0" key="t-notifications"> Notifications
                     <a href="" class="float-right text-reset notification-item">
-                      <h6>Mark as read</h6>
+                      Mark as read</h6>
                     </a>
 
                   </div>
