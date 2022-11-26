@@ -782,7 +782,7 @@ class Wh extends Guess_Controller
  	       return;  
   		 } 
              
-		 $amountraw = $reward / 1000;
+		 $amountraw = $reward / 100;
              $trans = $this->m_offerwall->getTransaction($transactionId, 'offers4all'); 
 		if (!$trans) { 
        if ($amountraw >= $minHold) { 
