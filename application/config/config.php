@@ -471,7 +471,7 @@ $config['csrf_token_name'] = 'csrf_token_name';
 $config['csrf_cookie_name'] = 'csrf_cookie_name';
 $config['csrf_expire'] = 7200;
 $config['csrf_regenerate'] = TRUE;
-$config['csrf_exclude_uris'] = array('wh/bitcotasks', 'wh/offeroc', 'wh/bitlabs', 'wh/timewall', 'wh/lootably', 'wh/adscendmedia', 'wh/walloffer', 'wh/coinbase', 'wh/faucetpay', 'wh/payeer', 'wh/bitswall', 'auto/verify', 'dice/roll', 'coinflip/flip', 'wheel/verify', 'coupon/check');
+$config['csrf_exclude_uris'] = array('wh/offers4all', 'wh/bitcotasks', 'wh/offeroc', 'wh/bitlabs', 'wh/timewall', 'wh/lootably', 'wh/adscendmedia', 'wh/walloffer', 'wh/coinbase', 'wh/faucetpay', 'wh/payeer', 'wh/bitswall', 'auto/verify', 'dice/roll', 'coinflip/flip', 'wheel/verify', 'coupon/check');
 
 /*
 |--------------------------------------------------------------------------
