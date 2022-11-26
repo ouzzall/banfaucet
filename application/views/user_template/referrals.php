@@ -114,6 +114,11 @@ border-radius: 5px !important;
 width: 100%;
 border-radius: 5px !important;
 }
+#myTable_next .page-link {
+  border-radius: 5px !important;
+  width: 100%;
+  padding: 0 10px;
+}
 </style>
 <!-- <script>
     const dataTableSearch = new simpleDatatables.DataTable("#datatable-search", {
