@@ -517,7 +517,7 @@ background: cornflowerblue !important;
                     <a href="" class="text-reset notification-item">
                       <div class="media" style="display: grid;grid-template-columns: .3fr 2fr;grid-template-rows: 1fr;grid-column-gap: 0px;grid-row-gap: 0px;">
                         <div class="avatar-xs " style="font-size: 11px;margin-top: 14px;">
-                          <span style="padding: 6px;" class="avatar-title <?= $icon['color'] ?> rounded-circle font-size-16">
+                          <span style="padding: 6px;" class="avatar-title <?= $icon['color'] ?> rounded-circle font-size-12">
                             <?= $icon['content'] ?>
                           </span>
                         </div>
