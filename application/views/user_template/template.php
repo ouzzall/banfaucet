@@ -596,8 +596,7 @@ background: cornflowerblue !important;
             <div class="form-check form-switch ps-0 d-xl-block">
               <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
             </div>
-                  </div>  
-                  <h1>??????</h1>
+                  </div>
     <?= $contents ?>
 
     <footer class="footer pt-3  ">
