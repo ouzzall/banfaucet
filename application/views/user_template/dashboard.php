@@ -718,7 +718,7 @@ if (document.cookie.indexOf('modal_shown=') >= 0) {
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">Join our Telegram</h5>
-                <button type="button" class="close" data-dismiss="modal"><i class="fa-solid fa-square-xmark"></i></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa-solid fa-square-xmark"></i></span></button>
             </div>
             <div class="modal-body">
                 <center><img src="https://banfaucet.com/assets/images/tlgrm.png"> <font size="5">+</font> <img src="https://banfaucet.com/assets/images/cwallet.png"></center><p>
