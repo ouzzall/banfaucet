@@ -145,20 +145,7 @@
       </div>
     </div>
   </div>
-  <center>
-    <div class="pb-3 mt-2">
-      <ins class="629f268f8f94281b2205d139" style="display:inline-block;width:728px;height:90px;"></ins>
-      <script>
-        ! function(e, n, c, t, o, r, d) {
-          ! function e(n, c, t, o, r, m, d, s, a) {
-            s = c.getElementsByTagName(t)[0], (a = c.createElement(t)).async = !0, a.src = "https://" + r[m] + "/js/" + o + ".js?v=" + d, a.onerror = function() {
-              a.remove(), (m += 1) >= r.length || e(n, c, t, o, r, m)
-            }, s.parentNode.insertBefore(a, s)
-          }(window, document, "script", "629f268f8f94281b2205d139", ["cdn.bmcdn4.com"], 0, new Date().getTime())
-        }();
-      </script>
-    </div>
-  </center>
+
   <div class="row ">
     <div class="col-md-4 mt-2 col-12">
 
@@ -172,17 +159,7 @@
                 <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View Shortlinks</button>
                 <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View All</button>
               </div>   -->
-      <!-- Coinzilla Banner 300x250 -->
-      <script async src="https://coinzillatag.com/lib/display.js"></script>
-      <div class="coinzilla" data-zone="C-246623529710f792603"></div>
-      <script>
-        window.coinzilla_display = window.coinzilla_display || [];
-        var c_display_preferences = {};
-        c_display_preferences.zone = "246623529710f792603";
-        c_display_preferences.width = "300";
-        c_display_preferences.height = "250";
-        coinzilla_display.push(c_display_preferences);
-      </script>
+     
     </div>
     <div class="col-md-4 mt-4 col-12">
       <div class="card p-3">
@@ -214,9 +191,7 @@
    
     <div class="col-md-4 mt-4 col-12">
 
-      <center>
-        <iframe data-aa='1960488' src='//ad.a-ads.com/1960488?size=300x250' style='width:300px; height:250px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
-      </center>
+      
 
     </div>
     <div class="col-md-4 mt-4 col-12">
@@ -233,17 +208,7 @@
     </div>
     <div class="col-md-4 mt-4 col-12">
 
-<center><ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins>
-  <script>
-    ! function(e, n, c, t, o, r) {
-      ! function e(n, c, t, o, r, m, s, a) {
-        s = c.getElementsByTagName(t)[0], (a = c.createElement(t)).async = !0, a.src = "https://" + r[m] + "/js/" + o + ".js", a.onerror = function() {
-          a.remove(), (m += 1) >= r.length || e(n, c, t, o, r, m)
-        }, s.parentNode.insertBefore(a, s)
-      }(window, document, "script", "6295f53eb2e2b443b6100720", ["cdn.bmcdn3.com"], 0)
-    }();
-  </script>
-</center>
+
 
 </div>
     <div class="col-md-4 mt-4 mx-auto col-12">
