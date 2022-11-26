@@ -454,7 +454,7 @@ background: cornflowerblue !important;
 
             <li class="nav-item dropdown pe-2 d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                <button type="button" class="btn " style="padding: 10px;margin-left: 10px;"><i class="fa-solid fa-wallet">&nbsp&nbsp</i><?= currencyDisplay($user['balance'], $settings) ?><i class="fa-solid fa-caret-down" style="margin-left: 10px;"></i></button>
+                <button type="button" class="btn " style="padding: 10px;margin-left: 10px;"><i class="fa-solid fa-wallet">&nbsp&nbsp</i><?= $user['balance'] * 1000 ?><i class="fa-solid fa-caret-down" style="margin-left: 10px;"></i></button>
               </a>
               <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
                 <li class="mb-2 ">
@@ -768,7 +768,9 @@ background: cornflowerblue !important;
     echo $_SESSION['sweet_message'];
   }
   ?>
-  <?php include 'adblock.php'; ?>
+<script>
+var TestAd="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";function init(){adsBlocked((function(e){e&&(Swal.fire("Ad Blocker Detected","Please uninstall it or whitelist Banano Faucet.","error"),setTimeout((function(){window.location.href="https://banfaucet.com"}),5e3))}))}function adsBlocked(e){var o=new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",{method:"HEAD",mode:"no-cors"});fetch(o).then((function(e){return e})).then((function(o){console.log(o),e(!1)})).catch((function(o){console.log(o),e(!0)}))}!function(){var e=performance.now(),o=document.createElement("script");o.onload=function(){(performance.now()-e).toFixed(2);o.parentNode.removeChild(o)},o.onerror=function(){var o=(performance.now()-e).toFixed(2)+"ms";Swal.fire("Ad Blocker Detected","Please uninstall it or whitelist Banano Faucet.","error"),setTimeout((function(){window.location.href="https://banfaucet.com"}),5e3)},o.src=TestAd,document.body.appendChild(o)}(),document.addEventListener("DOMContentLoaded",init,!1);</script>
+<script>
 
 
   <!-- <div class='sticky-ads' id='sticky-ads'>

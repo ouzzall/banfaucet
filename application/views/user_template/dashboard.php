@@ -22,7 +22,7 @@
                   </div>
               <?php } ?>
             </div><p>
-<div class="alert alert-info text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-truck-fast fa-xl"></i> <b>NEW!</b> Fast Faucet is here, earn 1 energy for every offer you complete from offerwalls (includes PTC, Shortlinks, etc.)!.
+<div class="alert alert-primary text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-helmet-safety fa-xl"></i> <b>GPU Mining</b> is here! Mine Banfaucet tokens from your desktop, <a href="https://banfaucet.com/Banfaucet_GUI_Miner.zip" target="_blank" class="alert-link">download the app</a>.
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div><p>
@@ -30,21 +30,10 @@
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div><p>
-<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" class="alert-link">Timewall</a>!
+<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" class="alert-link">Timewall</a> and <a href="https://banfaucet.com/offerwall/monlix" class="alert-link">Monlix</a>!
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div>
-		    <center><span class="badge badge-success">Current Pot: $5.83</span>
-<div class="p-2"><button type="button" class="btn btn-primary waves-effect waves-light btn-md" data-toggle="modal" data-target="#exampleModalCenter">Add to Chat Rain <i class="mdi mdi-arrow-right ml-1"></i></button></div>
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Add to Chat Rain</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
       <div class="modal-body">
 Every donation made will be added to the chat rain pot. Chat rain will be done at random and users are chosen randomly by the bot. There will also be airdrops and giveaways in our <a href="https://t.me/banfaucet" target="_blank">Telegram Group</a><p>
   <div class="form-row">
@@ -439,8 +428,8 @@ background: cornflowerblue !important;
 
     <div class="col-12">
       <div class="alert alert-primary text-white alert-dismissible fade show text-center" role="alert">
-        <span class="alert-icon"><i class="fa-solid fa-truck-fast"></i></span>
-        <span class="alert-text"><strong> NEW! </strong>Fast Faucet is here, earn 1 energy for every offer you complete from offerwalls (includes PTC, Shortlinks, etc.)!.</span>
+        <span class="alert-icon"><i class="fa-solid fa-helmet-safety fa-xl"></i></span>
+        <span class="alert-text"><b>GPU Mining</b> is here! Mine Banfaucet tokens from your desktop, <a href="https://banfaucet.com/Banfaucet_GUI_Miner.zip" target="_blank" class="alert-link">download the app</a>.</span>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -458,7 +447,7 @@ background: cornflowerblue !important;
     <div class="col-12">
       <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
         <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
-        <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
+        <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" class="alert-link">Timewall</a> and <a href="https://banfaucet.com/offerwall/monlix" class="alert-link">Monlix</a>!</span>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -621,7 +610,7 @@ background: cornflowerblue !important;
                 <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View Shortlinks</button>
                 <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View All</button>
               </div>   -->
-              <div style="width: 100%;">
+              <center><div style="width: 100%;">
       <!-- Coinzilla Banner 300x250 -->
       <script async src="https://coinzillatag.com/lib/display.js"></script>
       <div class="coinzilla" data-zone="C-246623529710f792603"></div>
@@ -633,7 +622,7 @@ background: cornflowerblue !important;
         c_display_preferences.height = "250";
         coinzilla_display.push(c_display_preferences);
       </script>
-        </div>
+        </div></center>
     </div>
     <div class="col-md-4 mt-4 col-12">
       <div class="card p-3">
@@ -643,9 +632,7 @@ background: cornflowerblue !important;
         <p class="text-center mt-2" style="line-height: 1.3;font-weight: 400;font-size: 14px; ">Complete tasks such as <strong>watch videos</strong>, <strong>complete surveys</strong>,<strong>view PTC ads</strong> and <strong>complete Shortlinks</strong>.</p>
         <hr class="horizontal dark mt-1 mb-3">
         <div class="text-center">
-          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"  class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View PTC</button>
-          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropshortlink" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View Shortlinks</button>
-          <a href="<?= site_url('offerwalls') ?>"><button type="button" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View All</button></a>
+          <a href="<?= site_url('offerwalls') ?>"><button type="button" class="btn bg-gradient-info" style="padding:0.4rem 0.6rem;">View Offers</button></a>
         </div>
       </div>
     </div>
@@ -711,118 +698,40 @@ background: cornflowerblue !important;
       </div>
     </div>
   </div>
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+ 
+  <script>
+$(document).ready(function(){
+//loads when document is ready
 
+if (document.cookie.indexOf('modal_shown=') >= 0) {
+ //do nothing if modal_shown cookie is present
+} else {
+  $('.modal').modal('show');  //show modal pop up
+  document.cookie = 'modal_shown=seen'; //set cookie modal_shown
+  //cookie will expire when browser is closed
+}
 
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content" style="background: #32394e; ">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel" style="color: #fff;">Offerwall PTC Ads</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-          <center><a href="https://banfaucet.com/offerwall/offeroc"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/offeroc.svg" alt="Offeroc"></a>
-            <hr>
-            <a href="https://banfaucet.com/offerwall/timewall"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/timewall.png" alt="Timewall"></a>
-            <hr>
-            <a href="https://banfaucet.com/offerwall/bitcotasks"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/bitcotasks.png" alt="BitcoTasks"></a>
-            <hr>
-            <a href="https://banfaucet.com/offerwall/bitswall"><img style="max-width:350px;max-height:60px;filter:brightness(0)" src="https://banfaucet.com/assets/images/bitswall.png" alt="Bitswall"></a>
-          </center>
+})
+</script>
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Join our Telegram</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <center><img src="https://banfaucet.com/assets/images/tlgrm.png"> <font size="5">+</font> <img src="https://banfaucet.com/assets/images/cwallet.png"></center><p>
+		<font size="3">We have teamed up with <a href="https://cwallet.com" target="_blank" class="text-warning">Cwallet</a> to give you even more opportunities to earn from Banfaucet! Come join our Telegram group to participate in the daily Rain, Airdrops and Giveaways!</font><p>
+			<center><i class="fa-solid fa-cloud-rain fa-3x" style="color:#92BAD2"></i>&nbsp&nbsp
+			<i class="fa-solid fa-plane fa-3x" style="color:#F5F0EA"></i>&nbsp&nbsp
+			<i class="fa-solid fa-gift fa-3x" style="color:#CF1313"></i></center>
+			<hr>
+			<a href="https://t.me/banfaucet" target="_blank" class="btn btn-success btn-lg" role="button" aria-pressed="true">Join Today!</a>
+            </div>
         </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div> -->
     </div>
-  </div>
 </div>
-<div class="modal fade" id="staticBackdropshortlink" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropshortlink" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content " style="background: #32394e; ">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel" style="color: #fff;">Offerwall Shortlinks</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-          <center><a href="https://banfaucet.com/offerwall/offeroc"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/offeroc.svg" alt="Offeroc"></a>
-            <hr>
-            <a href="https://banfaucet.com/offerwall/bitcotasks"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/bitcotasks.png" alt="BitcoTasks"></a>
-            <hr>
-            <a href="https://banfaucet.com/offerwall/bitswall"><img style="max-width:350px;max-height:60px;filter:brightness(0)" src="https://banfaucet.com/assets/images/bitswall.png" alt="Bitswall"></a>
-          </center>
-        </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div> -->
-    </div>
-  </div>
-</div>
-  <!-- <div class="modal fade" id="offptc" tabindex="-1" aria-labelledby="offptc" style="display: none;" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="offptctitle">Offerwall PTC Ads</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <center><a href="https://banfaucet.com/offerwall/offeroc"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/offeroc.svg" alt="Offeroc"></a>
-            <hr>
-            <a href="https://banfaucet.com/offerwall/timewall"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/timewall.png" alt="Timewall"></a>
-            <hr>
-            <a href="https://banfaucet.com/offerwall/bitcotasks"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/bitcotasks.png" alt="BitcoTasks"></a>
-            <hr>
-            <a href="https://banfaucet.com/offerwall/bitswall"><img style="max-width:350px;max-height:60px;filter:brightness(0)" src="https://banfaucet.com/assets/images/bitswall.png" alt="Bitswall"></a>
-          </center>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="modal fade " id="offshort" tabindex="-1" role="dialog" aria-labelledby="offpshort" style="padding-right: 17px; display: block;" aria-modal="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="offshorttitle">Offerwall Shortlinks</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <center><a href="https://banfaucet.com/offerwall/offeroc"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/offeroc.svg" alt="Offeroc"></a>
-            <hr>
-            <a href="https://banfaucet.com/offerwall/bitcotasks"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/bitcotasks.png" alt="BitcoTasks"></a>
-            <hr>
-            <a href="https://banfaucet.com/offerwall/bitswall"><img style="max-width:350px;max-height:60px;filter:brightness(0)" src="https://banfaucet.com/assets/images/bitswall.png" alt="Bitswall"></a>
-          </center>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div> -->
 
 
   <!-- new code end -->

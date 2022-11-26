@@ -766,6 +766,50 @@ class Wh extends Guess_Controller
        } 
      } 
    }
+   public function offers4all() 
+   { 
+             $secret ="d6a6ec77c438fdc82eef52e06a2e7d20"; // UPDATE YOUR SECRET KEY 
+             $minHold= $this->data['settings']['offerwall_min_hold']; // Reward Lower than this amount will not be hold 
+             
+             $userId = isset($_REQUEST['user_id']) ? $this->db->escape_str($_REQUEST['user_id']) : null; 
+             $transactionId = isset($_REQUEST['transaction_id']) ? $this->db->escape_str($_REQUEST['transaction_id']) : null; 
+             $reward = isset($_REQUEST['amount']) ? $this->db->escape_str($_REQUEST['amount']) : null; 
+             $action = isset($_REQUEST['status']) ? $this->db->escape_str($_REQUEST['status']) : null; 
+             $userIp = isset($_REQUEST['ip_user']) ? $this->db->escape_str($_REQUEST['ip_user']) : "0.0.0.0"; 
+             $signature = isset($_REQUEST['ms']) ? $this->db->escape_str($_REQUEST['ms']) : null; 
+             if (md5($transactionId.":".$secret) != $signature) {  
+  		 echo "0";  
+ 	       return;  
+  		 } 
+             
+		 $amountraw = $reward / 1000;
+             $trans = $this->m_offerwall->getTransaction($transactionId, 'offers4all'); 
+		if (!$trans) { 
+       if ($amountraw >= $minHold) { 
+           $hold = 0; // UPDATE HOLD DAYS Which you Use for hold 
+       
+       if ($hold == 0) { 
+       $offerId = $this->m_offerwall->insertTransaction($userId, 'offers4all', $userIp, $amountraw, $transactionId, 2, time()); 
+       $this->m_offerwall->updateUserBalance($userId, $amountraw); 
+       $this->m_core->addNotification($userId, currencyDisplay($amountraw, $this->data['settings']) . " from Offers4all #" . $offerId . " was credited to your balance.", 1); 
+             
+       $user = $this->m_core->getUserFromId($userId); 
+	 $this->m_core->addEnergy($user['id'], $this->data['settings']['offerwall_energy']); 
+       $this->m_core->addExp($user['id'], $this->data['settings']['offerwall_exp_reward']); 
+       if (($user['exp'] + $this->data['settings']['offerwall_exp_reward']) >= ($user['level'] + 1) * 100) { 
+       $this->m_core->levelUp($user['id']); 
+       } 
+       } else { 
+       $availableAt = time() + $hold * 86400; 
+       $offerId = $this->m_offerwall->insertTransaction($userId, 'offers4all', $userIp, $amountraw, $transactionId, 0, $availableAt); 
+       $this->m_core->addNotification($userId, "Your Offers4all #" . $offerId . " is pending approval.", 0); 
+       } 
+       echo "200"; 
+       } else { 
+       echo "0"; 
+       } 
+     } 
+   }
 	public function timewall() 
    { 
              $secret ="5ff92c48b77d915969d44a17a89b0eb0"; // UPDATE YOUR SECRET KEY 

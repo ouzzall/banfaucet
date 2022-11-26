@@ -241,7 +241,7 @@ window.config = config;
             public function offers4all()
 	  {
 		 $api_key="2993528b22e33a4f34b04988d2ca730d"; // UPDATE YOUR API KEY HERE
-		 $this->data['page'] = 'offers4all Offerwall';
+		 $this->data['page'] = 'Offers4all Offerwall';
     		 $this->data['achievements'] = $this->m_achievements->getAchievements($this->data['user']['id']);
     		 $this->data['totalAchievements'] = count($this->data['achievements']);
 		 $this->data['iframe'] = '<iframe style="width:100%;height:800px;border:0;padding:0;margin:0;" scrolling="yes" frameborder="0" src="https://offers4all.net/index.php?view=ads&api_key=' . $api_key . '&user_id=' . $this->data['user']['id'] . '"></iframe>';
