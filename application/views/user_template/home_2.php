@@ -465,7 +465,8 @@
         </nav> -->
         <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
           <a href="#" class="nav-link text-body p-0">
-            <img width="150px" src="https://banfaucet.com/assets/images/logo.png" alt="" />
+            <img class="navbar-brand-img h-100"  src="https://banfaucet.com/assets/images/logo-min.png" alt="" />
+            <span class="ms-1 font-weight-bold">BANFAUCET</span>
           </a>
         </div>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
