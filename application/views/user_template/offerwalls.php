@@ -466,6 +466,30 @@
 </div>
 </div> -->
 
+<div class="col-md-6 col-xl-3 mt-3" data-cat="ptc">
+  <div class="card">
+    <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
+      <a href="javascript:;" class="d-block">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/offersall.png" alt="Offers4all">
+      </a>
+    </div>
+    <div class="card-body pt-2">
+      <div style="min-height: 100px;margin-top: 20px;" >
+      <span class="badge bg-gradient-secondary">Ptc</span>
+      </div>
+      <div style="color:#2a3042cf;" data-toggle="tooltip" data-bs-postition="top" title="4 / 5 Rating">
+        <p style="text-align:center;color:#FAAD13 !important">
+        <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-solid fa-star fa-xl"></i>
+          <i class="fa-regular fa-star fa-xl"></i></p>
+        </div>
+        <a href="https://banfaucet.com/offerwall/offers4all" ><button class="btn btn-primary w-100 " type="button">View</button></a>  
+    </div>
+  </div>
+</div>
+
 <div class="col-md-6 col-xl-3 mt-3" data-cat="tasks,ptc,shortlinks">
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
