@@ -1,0 +1,168 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+   .header-menu li a {
+  color: #777;
+  display: block;
+  font-size: 15px;
+  padding: 6px;
+}
+    .boxed-btn-1 {
+    padding: 15px 39px 14px 17px;
+}
+.ebook-slider-txt-1 h1 {
+    font-size: 35px;
+    line-height: 35px;
+    margin: 0 0 13px;
+}
+
+
+}
+/* Tablet Layout: 768px. */
+@media only screen  and (max-width: 991px) { 
+.header-menu li a {
+    color: #777;
+    display: block;
+    font-size: 14px;
+    padding: 5px;
+}
+.tp-btn {
+    color: #fff !important;
+    padding: 6px 23px !important;
+}
+ .slicknav_menu{display:block;}
+ .header-menu{display:none;}
+ .boxed-btn-1 {
+    padding: 15px;
+}
+
+.ebook-slider-txt-1 {
+    margin-top: 11px;
+}
+.ebook-slider-txt-1 {
+    text-align: center;
+}
+.slicknav_menu .slicknav_btn {
+    position: absolute;
+    right: 0;
+    top: -43px;
+}
+.boxed-btn-1 {
+    display: block;
+}
+.slicknav_nav {
+    margin-top: 6px;
+    background-color: #141E46;
+    text-align: center;
+}
+
+.slicknav_nav a:hover {
+    background-color: #079FDD;
+    color: #fff;
+    border-radius: 0;
+	
+}
+
+
+.slicknav_nav a {
+    transition: .4s;
+    border-radius: 0px;
+	color:#7D7D7D;
+}
+.boxed-btn-1.buy-btn {
+    margin-left: 0;
+    margin-bottom: 63px;
+}
+
+.boxed-btn-1.read-btn {
+    margin-top: 40px;
+}
+.ebook-slider-txt-1 h1 {
+    font-size: 52px;
+    line-height: 60px;
+}
+
+.circle-bar-1 {
+    margin-bottom: 52px;
+}
+
+.circle-bar-1:last-child {
+    /* margin-bottom: 0; */
+}
+
+.list-price {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.list-price ul {
+    padding-left: 0;
+    padding-top: 10px;
+    list-style: none;
+    padding-bottom: 17px;
+}
+
+.single-pricing-box {
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    padding-bottom: 53px;
+}
+
+.ebook-slider-img-1 {
+    text-align: center;
+}
+
+
+.author-img {
+    text-align: center;
+}
+
+.single-template img {
+  height: auto;
+  width: 100%;
+}
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+    
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .slicknav_menu{display:block;}
+.header-menu{display:none;}
+.boxed-btn-1.read-btn {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.ebook-slider-txt-1 h1 {
+	font-size: 34px;
+	line-height: 60px;
+}
+.ebook-slider-txt-1 p {
+	font-size: 19px;
+	line-height: 34px;
+	padding-right: 2%;
+	padding-bottom: 21px;
+}
+.sell-title h1 {
+	font-size: 28px;
+	text-transform: uppercase;
+}
+.sngle-bx-1 {
+	background-color: #262F4A;
+	border-radius: 9px;
+	box-shadow: 15px 10px 33px -12px #070342;
+	width: 92%;
+	padding: 25px;
+	margin: 15px;
+}    
+	
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
