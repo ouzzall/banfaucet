@@ -773,7 +773,7 @@ class Wh extends Guess_Controller
              
              $userId = isset($_REQUEST['user_id']) ? $this->db->escape_str($_REQUEST['user_id']) : null; 
              $transactionId = isset($_REQUEST['transaction_id']) ? $this->db->escape_str($_REQUEST['transaction_id']) : null; 
-             $amountraw = isset($_REQUEST['amount']) ? $this->db->escape_str($_REQUEST['amount']) : null; 
+             $reward = isset($_REQUEST['amount']) ? $this->db->escape_str($_REQUEST['amount']) : null; 
              $action = isset($_REQUEST['status']) ? $this->db->escape_str($_REQUEST['status']) : null; 
              $userIp = isset($_REQUEST['ip_user']) ? $this->db->escape_str($_REQUEST['ip_user']) : "0.0.0.0"; 
              $signature = isset($_REQUEST['ms']) ? $this->db->escape_str($_REQUEST['ms']) : null; 
@@ -782,6 +782,7 @@ class Wh extends Guess_Controller
  	       return;  
   		 } 
              
+		 $amountraw = $reward / 1000;
              $trans = $this->m_offerwall->getTransaction($transactionId, 'offers4all'); 
 		if (!$trans) { 
        if ($amountraw >= $minHold) { 
