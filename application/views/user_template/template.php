@@ -65,6 +65,9 @@
   padding-right: 28px;
   margin-bottom: 10px;
 }
+.swal2-title{
+  color: #000 !important;
+}
   </style>
 
 </head>
