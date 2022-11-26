@@ -181,7 +181,19 @@
                                 <div class="ads">
                                         <?= $settings['login_ad'] ?>
                                     </div>
-
+            <center>
+              <!-- Coinzilla Banner 300x250 -->
+<script async src="https://coinzillatag.com/lib/display.js"></script>
+<div class="coinzilla" data-zone="C-246623529710f792603"></div>
+<script>
+    window.coinzilla_display = window.coinzilla_display || [];
+    var c_display_preferences = {};
+    c_display_preferences.zone = "246623529710f792603";
+    c_display_preferences.width = "300";
+    c_display_preferences.height = "250";
+    coinzilla_display.push(c_display_preferences);
+</script>
+  </center>
                                     <center>
                                         <?= $captcha_display ?>
                                     </center>
