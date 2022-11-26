@@ -418,7 +418,15 @@ Compete with other users throughout the week for a chance to win big rewards! To
 <!-- new code start -->
 <!-- Navbar -->
 <style>
-
+.swal2-title{
+  color: #000 !important;
+}
+#swal2-title{
+  color: #000 !important;
+}
+h2#swal2-title {
+    color: #000 !important;
+}
 </style>
 <div class="container-fluid py-4" style="padding-top: 0 !important;">
   <div class="row">
