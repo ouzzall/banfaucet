@@ -56,6 +56,9 @@
     #sidenav-main {
   display: none;
 }
+.sidenav.fixed-start ~ .main-content {
+  margin-left: 0 !important;
+}
     .header-profile-user {
       height: 36px;
       width: 36px;
