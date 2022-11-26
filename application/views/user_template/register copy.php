@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Login | <?= $settings['name'] ?></title>
+    <title>Register | <?= $settings['name'] ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="<?= $settings['description'] ?>" name="description" />
     <meta content="Vie Faucet Script" name="author" />
@@ -23,10 +23,9 @@
     <!-- Icons Css -->
     <link href="<?= base_url() ?>assets/css/icons.min.css?v=<?= VIE_VERSION ?>" rel="stylesheet" type="text/css" />
     <!-- <link href="<?= base_url() ?>assets/css/styles.css?v=<?= VIE_VERSION ?>" rel="stylesheet" type="text/css" />
-    <link href="stylelr.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet"> -->
-    <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <link href="stylelr.css" rel="stylesheet"> -->
+ <!--     Fonts and icons     -->
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
   <!-- Nucleo Icons -->
   <link href="newAssets/css/nucleo-icons.css" rel="stylesheet" />
   <link href="newAssets/css/nucleo-svg.css" rel="stylesheet" />
@@ -35,18 +34,9 @@
   <link href="newAssets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link id="pagestyle" href="newAssets/css/soft-ui-dashboard.css?v=1.1.0" rel="stylesheet" />
-
 </head>
 
-<body class="bg-gray-100" style="visibility: hidden !important;">
-<style>
- 
-@-webkit-keyframes nvvfu {0% {opacity: 0;}80% {opacity: 0;}100% {opacity: 1;}}
-@keyframes nvvfu {0% {opacity: 0;}80% {opacity: 0;}100% {opacity: 1;}}
-</style>
-<div id="babasbmsgx" style="visibility: visible; -webkit-animation-name: nvvfu;-webkit-animation-duration: 5s; animation-name: nvvfu;animation-duration: 5s;">
-Please disable your adblock and script blockers to view this page.
-</div>
+<body class="bg-gray-100">
 	<!-- <div class="ebook-header absolute-header fixed-head design-color1 design-color2">  -->
         <!-- Start Header -->
 		<!-- <div class="container">
@@ -72,10 +62,10 @@ Please disable your adblock and script blockers to view this page.
 				<!-- </div>
 			</div>
 		</div>
-	</div> -->
-<!-- <div class="ebook-slider-1 ebook-slider-bg-1 padding-section design-color1 design-color2" id="home">
-<h2 class="text-center text-3xl font-extrabold">Login to your account</h2>
-<p class="text-center text-sm">Or <a href="https://banfaucet.com/new/register">create an account</a></p>
+	</div>
+<div class="ebook-slider-1 ebook-slider-bg-1 padding-section design-color1 design-color2" id="home">
+<h2 class="text-center text-3xl font-extrabold">Create your account</h2>
+<p class="text-center text-sm">Or <a href="https://banfaucet.com/new/login">login to your account</a></p>
         <div class="container">
 <div class="row justify-content-center">
 <div class="col-md-6 col-md-offset-3">
@@ -86,41 +76,56 @@ Please disable your adblock and script blockers to view this page.
 <li>Using a temp e-mail address is not allowed</li></div>
                             <div class="p-2">
 
-                                <form class="needs-validation" action="<?= site_url('auth/login') ?>" method="POST" novalidate>
+                                <form class="needs-validation" action="<?= site_url('auth/register') ?>" method="POST" novalidate>
 
                                     <input type="hidden" name="<?= $csrf_name ?>" value="<?= $csrf_hash ?>">
 
                                     <div class="form-group">
                                         <label style="color:#bfc8e2!important;font-weight:500;" for="inputEmail">Email</label>
-						<div class="input-group">
-					      <div class="input-group-prepend">
-          						<div class="input-group-text"><i class="fa-solid fa-envelope"></i></div>
+					      <div class="input-group">
+        					<div class="input-group-prepend">
+        				      <div class="input-group-text"><i class="fa-solid fa-envelope"></i></div>
         					</div>
                                         <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Enter email" required>
-						<div class="invalid-feedback">Please enter your email address.</div>
+						<div class="invalid-feedback">Please enter a valid email address.</div>
+                                    </div>
+						</div>
+
+                                    <div class="form-group">
+                                        <label style="color:#bfc8e2!important;font-weight:500;" for="inputUsername">Username</label>
+					      <div class="input-group">
+        					<div class="input-group-prepend">
+        				      <div class="input-group-text"><i class="fa-solid fa-user"></i></div>
+        					</div>
+                                        <input type="text" name="username" class="form-control" id="inputUsername" placeholder="Enter username" pattern="^[a-zA-Z]{1,1}[a-zA-Z0-9_]{2,13}[a-zA-Z0-9]{1,1}$" title="Username should only contain lowercase letters, numbers and _. e.g. tungaqhd_1234" required>
+						<div class="invalid-feedback">Please enter a valid username.</div>
                                     </div>
 						</div>
 
                                     <div class="form-group">
                                         <label style="color:#bfc8e2!important;font-weight:500;" for="inputPassword">Password</label>
-						<div class="input-group">
-					      <div class="input-group-prepend">
-          						<div class="input-group-text"><i class="fa-solid fa-lock"></i></div>
+					      <div class="input-group">
+        					<div class="input-group-prepend">
+        				      <div class="input-group-text"><i class="fa-solid fa-lock"></i></div>
         					</div>
                                         <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Enter password" required>
 						<div class="invalid-feedback">Please enter your password.</div>
                                     </div>
-						<p>
-						<div class="d-flex justify-content-between">
-						<div class="flex items-center">
-                                            <label style="color: #bfc8e2!important; display: flex;"><input type="checkbox" name="remember" value="1"> <span style="padding-left: 5px">Remember me</span></label>
-                                        </div>
-						<div class="flex items-center">
-							<a href="<?= site_url('forgot-password') ?>" class="text-muted"><i class="mdi mdi-lock mr-1"></i> Forgot your password?</a>
-						</div></div>
+						</div>
+
+                                    <div class="form-group">
+                                        <label style="color:#bfc8e2!important;font-weight:500;" for="inputConfirm_password">Confirm Password</label>
+					      <div class="input-group">
+        					<div class="input-group-prepend">
+        				      <div class="input-group-text"><i class="fa-solid fa-unlock"></i></div>
+        					</div>
+                                        <input type="password" name="confirm_password" class="form-control" id="inputConfirm_password" placeholder="Confirm password" required>
+						<div class="invalid-feedback">Password doesn't match</div>
+                                    </div>
+						</div>
 
                                     <div class="ads">
-                                        <?= $settings['login_ad'] ?>
+                                        <?= $settings['register_ad'] ?>
                                     </div>
 
                                     <center>
@@ -128,12 +133,13 @@ Please disable your adblock and script blockers to view this page.
                                     </center>
 						<center>
 						    <ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins><script>!function(e,n,c,t,o,r){!function e(n,c,t,o,r,m,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js",a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","6295f53eb2e2b443b6100720",["cdn.bmcdn3.com"],0)}();</script>
-						</center><p>
+						</center>
+
                                     <div class="mt-3">
-                                        <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Log In</button>
+                                        <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Register</button>
                                     </div><p>
 						<center> -->
-						<!-- Coinzilla Banner 300x250 -->
+<!-- Coinzilla Banner 300x250 -->
 <!-- <script async src="https://coinzillatag.com/lib/display.js"></script>
 <div class="coinzilla" data-zone="C-246623529710f792603"></div>
 <script>
@@ -147,11 +153,14 @@ Please disable your adblock and script blockers to view this page.
 						</center>
                                 </form>
                             </div>
+					<center>Having issues creating an account? Get help <a href="https://t.me/banfaucet" target="_blank"> here </a></center>
+                        </div>
+                            </div>
 
                         </div>
-                    </div> -->
+                    </div>
 
-		<!-- <div class="container">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="author-links margin-top">
@@ -160,8 +169,8 @@ Please disable your adblock and script blockers to view this page.
 								<li><a class="gradient-custom" href="https://discord.gg/EcUfn9MtV3" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
 								<li><a class="gradient-custom" href="https://reddit.com/r/banfaucet/" target="_blank"><i class="fa-brands fa-reddit"></i></a></li>
 							</ul>
-						</div>
-					<div class="footer-copyrite">
+						</div> -->
+					<!-- <div class="footer-copyrite">
 						<p>&copy; 2022 Banano Faucet. | <i class="fas fa-clock"></i> Server Time: <?= date('H:i') ?></p>
 					</div>
 				</div>
@@ -184,30 +193,33 @@ Please disable your adblock and script blockers to view this page.
         <div class="col-xl-4 col-lg-5 col-md-7 mx-auto">
           <div class="card z-index-0">
             <div class="card-header text-center pt-4">
-              <h5>Sign in</h5>
+              <h5>Create your account</h5>
             </div>
             <div class="card-body">
-            <form class="needs-validation" action="<?= site_url('auth/login') ?>" method="POST" novalidate>
-                    <input type="hidden" name="<?= $csrf_name ?>" value="<?= $csrf_hash ?>">
+            <form class="needs-validation" action="<?= site_url('auth/register') ?>" method="POST" novalidate>
+                <input type="hidden" name="<?= $csrf_name ?>" value="<?= $csrf_hash ?>">
 
                 <div class="mb-3">
                   <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email" aria-label="Email" required>
                   <div class="invalid-feedback">Please enter your email address.</div>
                 </div>
                 <div class="mb-3">
+                <input type="text" name="username" class="form-control" id="inputUsername" placeholder="Enter username" pattern="^[a-zA-Z]{1,1}[a-zA-Z0-9_]{2,13}[a-zA-Z0-9]{1,1}$" title="Username should only contain lowercase letters, numbers and _. e.g. tungaqhd_1234" required>
+						<div class="invalid-feedback">Please enter a valid username.</div>
+                </div>
+                <div class="mb-3">
                   <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" aria-label="Password" required>
                   <div class="invalid-feedback">Please enter your password.</div>
                 </div>
-                <div class="form-check form-switch">
-                  <input class="form-check-input" name="remember" value="1" type="checkbox" id="rememberMe">
-                  <label class="form-check-label" for="rememberMe">Remember me</label>
+                <div class="mb-3">
+                    <input type="password" name="confirm_password" class="form-control" id="inputConfirm_password" placeholder="Confirm password" required>
+					<div class="invalid-feedback">Password doesn't match</div>
                 </div>
-                <div class="flex items-center">
-							<a href="<?= site_url('forgot-password') ?>" class="text-muted"><i class="mdi mdi-lock mr-1"></i> Forgot your password?</a>
-						</div>
+                
+                
                 <div>
-                                <div class="ads">
-                                        <?= $settings['login_ad'] ?>
+                        <div class="ads">
+                                        <?= $settings['register_ad'] ?>
                                     </div>
 
                                     <center>
@@ -218,7 +230,7 @@ Please disable your adblock and script blockers to view this page.
 						</center>
                 </div>
                 <div class="text-center">
-                  <button type="submit" class="btn bg-gradient-info w-100 my-4 mb-2">Sign in</button>
+                  <button type="submit" class="btn bg-gradient-info w-100 my-4 mb-2">Register</button>
                 </div>
                 <div class="mb-2 position-relative text-center">
                   <p class="text-sm font-weight-bold mb-2 text-secondary text-border d-inline z-index-2 bg-white px-3">
@@ -226,8 +238,8 @@ Please disable your adblock and script blockers to view this page.
                   </p>
                 </div>
                 <div class="text-center">
-                    <a href="<?= site_url('register') ?>">
-                        <button type="button" class="btn bg-gradient-dark w-100 mt-2 mb-4">Register</button>
+                    <a href="<?= site_url('login') ?>">
+                        <button type="button" class="btn bg-gradient-dark w-100 mt-2 mb-4">Sign in</button>
                     </a>
                 </div>
               </form>
@@ -262,109 +274,15 @@ Please disable your adblock and script blockers to view this page.
       </div>
     </div>
   </footer>
-  	<div cl$settings['footer_code'] ?>
+    <?= $settings['footer_code'] ?>
 
-    <div class="fixed-plugin">
-    <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
-      <i class="fa fa-cog py-2"> </i>
-    </a>
-    <div class="card shadow-lg blur">
-      <div class="card-header pb-0 pt-3  bg-transparent ">
-        <div class="float-start">
-          <h5 class="mt-3 mb-0">Soft UI Configurator</h5>
-          <p>See our dashboard options.</p>
-        </div>
-        <div class="float-end mt-4">
-          <button class="btn btn-link text-dark p-0 fixed-plugin-close-button">
-            <i class="fa fa-close"></i>
-          </button>
-        </div>
-        <!-- End Toggle Button -->
-      </div>
-      <hr class="horizontal dark my-1">
-      <div class="card-body pt-sm-3 pt-0">
-        <!-- Sidebar Backgrounds -->
-        <div>
-          <h6 class="mb-0">Sidebar Colors</h6>
-        </div>
-        <a href="javascript:void(0)" class="switch-trigger background-color">
-          <div class="badge-colors my-2 text-start">
-            <span class="badge filter bg-gradient-primary active" data-color="primary" onclick="sidebarColor(this)"></span>
-            <span class="badge filter bg-gradient-dark" data-color="dark" onclick="sidebarColor(this)"></span>
-            <span class="badge filter bg-gradient-info" data-color="info" onclick="sidebarColor(this)"></span>
-            <span class="badge filter bg-gradient-success" data-color="success" onclick="sidebarColor(this)"></span>
-            <span class="badge filter bg-gradient-warning" data-color="warning" onclick="sidebarColor(this)"></span>
-            <span class="badge filter bg-gradient-danger" data-color="danger" onclick="sidebarColor(this)"></span>
-          </div>
-        </a>
-        <!-- Sidenav Type -->
-        <div class="mt-3">
-          <h6 class="mb-0">Sidenav Type</h6>
-          <p class="text-sm">Choose between 2 different sidenav types.</p>
-        </div>
-        <div class="d-flex">
-          <button class="btn bg-gradient-primary w-100 px-3 mb-2 active" data-class="bg-transparent" onclick="sidebarType(this)">Transparent</button>
-          <button class="btn bg-gradient-primary w-100 px-3 mb-2 ms-2" data-class="bg-white" onclick="sidebarType(this)">White</button>
-        </div>
-        <p class="text-sm d-xl-none d-block mt-2">You can change the sidenav type just on desktop view.</p>
-        <!-- Navbar Fixed -->
-        <div class="mt-3">
-          <h6 class="mb-0">Navbar Fixed</h6>
-        </div>
-        <div class="form-check form-switch ps-0">
-          <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarFixed" onclick="navbarFixed(this)">
-        </div>
-        <hr class="horizontal dark mb-1 d-xl-block d-none">
-        <div class="mt-2 d-xl-block d-none">
-          <h6 class="mb-0">Sidenav Mini</h6>
-        </div>
-        <div class="form-check form-switch ps-0 d-xl-block d-none">
-          <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarMinimize" onclick="navbarMinimize(this)">
-        </div>
-        <hr class="horizontal dark mb-1 d-xl-block d-none">
-        <div class="mt-2 d-xl-block d-none">
-          <h6 class="mb-0">Light/Dark</h6>
-        </div>
-        <div class="form-check form-switch ps-0 d-xl-block d-none">
-          <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
-        </div>
-        <hr class="horizontal dark my-sm-4">
-        <a class="btn bg-gradient-info w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard-pro">Buy now</a>
-        <a class="btn bg-gradient-dark w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard">Free demo</a>
-        <a class="btn btn-outline-dark w-100" href="https://www.creative-tim.com/learning-lab/bootstrap/overview/soft-ui-dashboard">View documentation</a>
-        <div class="w-100 text-center">
-          <a class="github-button" href="https://github.com/creativetimofficial/ct-soft-ui-dashboard-pro" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star creativetimofficial/soft-ui-dashboard on GitHub">Star</a>
-          <h6 class="mt-3">Thank you for sharing!</h6>
-          <a href="https://twitter.com/intent/tweet?text=Check%20Soft%20UI%20Dashboard%20PRO%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fsoft-ui-dashboard-pro" class="btn btn-dark mb-0 me-2" target="_blank">
-            <i class="fab fa-twitter me-1" aria-hidden="true"></i> Tweet
-          </a>
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/soft-ui-dashboard-pro" class="btn btn-dark mb-0 me-2" target="_blank">
-            <i class="fab fa-facebook-square me-1" aria-hidden="true"></i> Share
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
     <!-- JAVASCRIPT -->
-    <script src="newAssets/js/core/popper.min.js"></script>
-  <script src="newAssets/js/core/bootstrap.min.js"></script>
-  <script src="newAssets/js/plugins/perfect-scrollbar.min.js"></script>
-  <script src="newAssets/js/plugins/smooth-scrollbar.min.js"></script>
-  <!-- Kanban scripts -->
-  <script src="newAssets/js/plugins/dragula/dragula.min.js"></script>
-  <script src="newAssets/js/plugins/jkanban/jkanban.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="<?= base_url() ?>assets/libs/jquery/jquery.min.js"></script>
     <script src="<?= base_url() ?>assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="<?= base_url() ?>assets/libs/metismenu/metisMenu.min.js"></script>
     <script src="<?= base_url() ?>assets/libs/simplebar/simplebar.min.js"></script>
     <script src="<?= base_url() ?>assets/libs/node-waves/waves.min.js"></script>
-    <script src="<?= base_url() ?>assets/js/app.js?v=<?= VIE_VERSION ?>"></script>
-    <script src="<?= base_url() ?>assets/js/vie/captcha.js"></script>
-<!--    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">-->
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
-    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/vie/captcha.js?v=<?= VIE_VERSION ?>"></script>
     <?php include 'adblock.php'; ?>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <?php
@@ -393,7 +311,8 @@ Please disable your adblock and script blockers to view this page.
         }, false);
     })();
 </script>
-    <script src="https://kit.fontawesome.com/affd6d170a.js" crossorigin="anonymous"></script>
+    <!-- App js -->
+    <script src="<?= base_url() ?>assets/js/app.js?v=<?= VIE_VERSION ?>"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-40X8JY6KVR"></script>
 <script src="https://kit.fontawesome.com/affd6d170a.js" crossorigin="anonymous"></script>
