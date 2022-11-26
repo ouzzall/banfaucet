@@ -150,27 +150,16 @@
   </div>
   </div>
 
-  <center><ins class="629f268f8f94281b2205d139" style="display:inline-block;width:728px;height:90px;"></ins>
-    <script>
-      ! function(e, n, c, t, o, r) {
-        ! function e(n, c, t, o, r, m, s, a) {
-          s = c.getElementsByTagName(t)[0], (a = c.createElement(t)).async = !0, a.src = "https://" + r[m] + "/js/" + o + ".js", a.onerror = function() {
-            a.remove(), (m += 1) >= r.length || e(n, c, t, o, r, m)
-          }, s.parentNode.insertBefore(a, s)
-        }(window, document, "script", "629f268f8f94281b2205d139", ["cdn.bmcdn3.com"], 0)
-      }();
-    </script>
-  </center>
   <div class="card">
     <div class="card-body">
-      <h4 class="card-title mb-4">Daily Withdraw Limit</h4>
+      <h4 class="card-title mb-4">Daily Withdrawal Limit</h4>
       <h6><span class="text-success"><?= ($settings['withdraw_limit'] / $settings['currency_rate']) - ($withdrawLimit / $settings['currency_rate']) ?> tokens</span> remaining</h6>
       <div class="progress" style="height: 15px;">
         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: <?= ($withdrawLimit * 40) ?>%;" aria-valuenow="<?= ($withdrawLimit * 40) ?>" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
       <h6 align="right"><?= ($withdrawLimit * 40) ?>%</h6>
       <center>
-        <h6>You have a withdraw limit of <b class="text-success">2,500 tokens</b> per day</h6>
+        <h6>You have a withdrawal limit of <b class="text-success">2,500 tokens</b> per day</h6>
       </center>
     </div>
   </div>
@@ -313,20 +302,7 @@
 
                   </div>
                 </div>
-                <center> <?= $captcha_display ?></center>
-                <div class="row">
-                  <div class="button-row d-flex mt-4 col-12">
-                    <button class="btn bg-gradient-light mb-0 js-btn-prev" type="button" title="Prev">Prev</button>
-                    <button class="btn bg-gradient-dark ms-auto mb-0" type="submit" title="Send">Withdraw</button>
-                  </div>
-                </div>
-              </div>
-          </div>
-          </form>
-        </div>
-        <div class="form-group">
-          <p>
-            <center>
+                <center> <?= $captcha_display ?>
               <!-- Coinzilla Banner 300x250 -->
               <script async src="https://coinzillatag.com/lib/display.js"></script>
               <div class="coinzilla" data-zone="C-246623529710f792603"></div>
@@ -338,8 +314,18 @@
                 c_display_preferences.height = "250";
                 coinzilla_display.push(c_display_preferences);
               </script>
-            </center>
-          <p>
+              </center>
+                <div class="row">
+                  <div class="button-row d-flex mt-4 col-12">
+                    <button class="btn bg-gradient-light mb-0 js-btn-prev" type="button" title="Prev">Prev</button>
+                    <button class="btn bg-gradient-dark ms-auto mb-0" type="submit" title="Send">Withdraw</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </form>
+        </div>
+        <div class="form-group">
           <p>
             <center><ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins>
               <script>
