@@ -96,82 +96,41 @@
       <div class="accordion-body">
         <h6><li>You must verify your account before withdrawing</li></h6>
 	<h6><li>All payments methods are now done through Direct Wallet</li></h6>
-  <ul>
-          <li style="list-style-type: none;">
-            <ul>
+  <li style="list-style-type: none; ">
+	<ul>
 	<li>Maximum you can withdraw per day is <b>2,500 tokens</b></li>
 	<li>Currency rate is updated every 5 minutes and data is provided by CoinGecko</li><br>
-  </ul>
-          </li>
-        </ul>
-        &nbsp;
-        <ul>
-          <li style="list-style-type: none;">
-            <ul>
-  <li>To withdraw <img src="https://banfaucet.com/assets/images/currencies/ban.png" alt="Banano" width="16" height="16"> <b>Banano</b> get a free wallet address from <a href="https://kalium.banano.cc/" target="_blank">Kalium</a> or <a href="https://vault.banano.cc/" target="_blank">Vault</a>
+	<li>To withdraw <img src="https://banfaucet.com/assets/images/currencies/ban.png" alt="Banano" width="16" height="16"> <b>Banano</b> get a free wallet address from <a href="https://kalium.banano.cc/" target="_blank">Kalium</a> or <a href="https://vault.banano.cc/" target="_blank">Vault</a>
 	<ul>
 	<li>Minimum withdraw will be <b>100</b> tokens or <b>$0.10 USD</b>
 	<li>A proper Banano wallet addres will look something like <code>ban_36aw66z9cnoraud94i7f77sfxahym6ks5ehf85pw495rrysm3cmy51xt54xs</code></li>
-  </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        &nbsp;
-        <ul>
-          <li style="list-style-type: none;">
-            <ul>
+	</ul>
+	</li><br>
 	<li>To withdraw <img src="https://banfaucet.com/assets/images/currencies/paw.png" alt="PAW" width="16" height="16"> <b>PAW</b> you must have a valid wallet from <a href="https://wallet.paw.digital" target="_blank">Biome</a> or <a href="https://play.google.com/store/apps/details?id=co.pawdigital.wallet&hl=en_US&gl=US" target="_blank">Biota</a>
 	<ul>
 	<li>Minimum withdraw will be <b>100</b> tokens or <b>$0.10 USD</b>
 	<li>Your PAW wallet address will look something like <code>paw_1std8u5xdic7wb5k6a9mxe18dkpiefx9pqqw8dwiz786jeghd1ghjwduhgte</code>
-  </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        &nbsp;
-        <ul>
-          <li style="list-style-type: none;">
-            <ul>
+	</ul>
+	</li><br>
 	<li>To withdraw <img src="https://banfaucet.com/assets/images/currencies/matic.png" alt="Matic" width="16" height="16"> <b>Matic</b> you must have a valid wallet that supports the Polygon Network such as <a href="https://metamask.io/download/" target="_blank">MetaMask</a> or <a href="https://trustwallet.com/deeplink/" target="_blank">Trust Wallet</a>
 	<ul>
 	<li>Minimum withdraw will be <b>250</b> tokens or <b>$0.25 USD</b> due to network fees
 	<li><span style="color:red;font-weight:bold">NOTICE:</span> If you try using a Coinbase wallet address to withdraw Matic your funds will be lost forever due to Coinbase using ERC-20 network for Matic transactions.
 	<li>We are not responsible for lost transactions due to user negligence!
-  </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        &nbsp;
-        <ul>
-          <li style="list-style-type: none;">
-            <ul>
+	</ul>
+	</li><br>
 	<li>To withdraw <img src="https://banfaucet.com/assets/images/currencies/shib.png" alt="Shiba Inu" width="16" height="16"> <b>SHIB</b> you must provide your <b>Coinbase E-Mail Address</b>. If you do not have a Coinbase account, register one for free <a href="https://coinbase.com/join/walton_hrl" target="_blank">here</a> 
 	<ul>
 	<li>Minimum withdraw will be <b>500</b> tokens or <b>$0.50 USD</b> due to payments being sent manually
 	<li>If you do not provide your Coinbase E-Mail address when withdrawing your request will be denied
-  </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        &nbsp;
-        <ul>
-          <li style="list-style-type: none;">
-            <ul>
+	</ul>
+	</li><br>
 	<li>To withdraw <img src="https://banfaucet.com/assets/images/currencies/lunc.png" alt="Luna Classic" width="16" height="16"> <b>LUNC</b> you must have a wallet that supports Terra Network such as <a href="https://trustwallet.com/deeplink/" target="_blank">Trust Wallet</a> or <a href="https://terra.money" target="_blank">Terra</a>
 	<ul>
 	<li>Minimum withdraw will be <b>250</b> tokens or <b>$0.25 USD</b> due to network fees and payments being manually sent</li>
 	<li>Here is an example of a valid LUNC wallet address <code>terra1jtkvazagum6t2emxk09un7yuv7k5hrdgtefndh</code></li>
-  </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        &nbsp;
-        <ul>
+	</ul>
+	</li><br>
 	<li><img src="https://banfaucet.com/assets/images/currencies/doge.png" alt="Dogecoin" width="16" height="16"> <b>Dogecoin</b>, <img src="https://banfaucet.com/assets/images/currencies/trx.png" alt="Tron" width="16" height="16"> <b>Tron</b>, <img src="https://banfaucet.com/assets/images/currencies/bnb.png" alt="BNB" width="16" height="16"> <b>BNB</b>, <img src="https://banfaucet.com/assets/images/currencies/sol.png" alt="Solana" width="16" height="16"> <b>SOL</b> and <img src="https://banfaucet.com/assets/images/currencies/dgb.png" alt="DigiByte" width="16" height="16"> <b>DGB</b>
 	    will now include fees because we will no longer be supporting FaucetPay. You can send these coins to any wallet or exchange that accepts these coins. Below is a list of the Networks and Fees.
 	<ul>
@@ -180,10 +139,9 @@
 	<li><img src="https://banfaucet.com/assets/images/currencies/sol.png" alt="Solana" width="16" height="16"> Network: <b>Solana</b> | Fee: <b>0.003 SOL</b></li>
 	<li><img src="https://banfaucet.com/assets/images/currencies/dgb.png" alt="DigiByte" width="16" height="16"> Network: <b>DigiByte</b> | Fee: <b>0.007 DGB</b></li>
 	<li><img src="https://banfaucet.com/assets/images/currencies/doge.png" alt="Dogecoin" width="16" height="16"> Network: <b>BEP20</b> | Fee: <b>0.00018 BNB</b></li>
-  </ul>
-          </li>
-        </ul>
-        &nbsp;
+	</ul>
+	</li>
+	</ul><br>
 	<h5>All currencies are now manually proccessed and payments could take up to <b>12 hours</b> to receive!</h5>
       </div>
     </div>
