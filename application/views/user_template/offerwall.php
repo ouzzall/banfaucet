@@ -58,26 +58,4 @@
     coinzilla_display.push(c_display_preferences);
 </script></center>
 </div>
-<script>
-  $(document).ready(function() {
-
-    $(".custom_work_click").on("click", function() {
-      // console.log($(this).attr("value"));
-
-      document.querySelectorAll(".custom_work_click").forEach(p => {
-        p.style.background = "white";
-      });
-
-      $(this).css("background", "#bfc6cc");
-
-      var current_ = $(this).attr("value");
-      document.querySelectorAll(".my_special_link").forEach(p => {
-        if (current_ == p.value) {
-          p.click();
-        }
-      });
-    })
-
-  });
-</script>
 <script async src="https://appsha-lon2.cointraffic.io/js/?wkey=lgXFfbiPoT"></script>

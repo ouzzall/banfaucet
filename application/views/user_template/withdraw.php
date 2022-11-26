@@ -367,7 +367,7 @@
       // console.log($(this).attr("value"));
 
       document.querySelectorAll(".custom_work_click").forEach(p => {
-        p.style.background = "white";
+        p.style.background = "#bfc6cc";
       });
 
       $(this).css("background", "#bfc6cc");
