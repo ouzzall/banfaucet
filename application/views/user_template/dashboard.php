@@ -449,7 +449,8 @@ Compete with other users throughout the week for a chance to win big rewards! To
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div>
+      <div style="width: 100%;">
+      <center>
         <!-- Coinzilla Banner 728x90 -->
         <script async src="https://coinzillatag.com/lib/display.js"></script>
         <div class="coinzilla" data-zone="C-4766235297110347598"></div>
@@ -461,8 +462,9 @@ Compete with other users throughout the week for a chance to win big rewards! To
           c_display_preferences.height = "90";
           coinzilla_display.push(c_display_preferences);
         </script>
-      </div>
+      </center>
       <?= $settings['dashboard_top_ad'] ?>
+      </div>
     </div>
   </div>
   <!-- <div class="text-center" style="display: flex; align-content: center;justify-content: center;">
@@ -576,7 +578,8 @@ Compete with other users throughout the week for a chance to win big rewards! To
       </div>
     </div>
   </div>
-  <div>
+  <div style="width: 100%;">
+  <center>
     <div class="pb-3 mt-2">
       <ins class="629f268f8f94281b2205d139" style="display:inline-block;width:728px;height:90px;"></ins>
       <script>
@@ -589,6 +592,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
         }();
       </script>
     </div>
+  </center>
   </div>
   <div class="row ">
     <div class="col-md-4 mt-2 col-12">
@@ -603,6 +607,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
                 <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View Shortlinks</button>
                 <button type="button" class="btn bg-gradient-info"style="padding:0.4rem 0.6rem;">View All</button>
               </div>   -->
+              <div style="width: 100%;">
       <!-- Coinzilla Banner 300x250 -->
       <script async src="https://coinzillatag.com/lib/display.js"></script>
       <div class="coinzilla" data-zone="C-246623529710f792603"></div>
@@ -614,6 +619,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
         c_display_preferences.height = "250";
         coinzilla_display.push(c_display_preferences);
       </script>
+        </div>
     </div>
     <div class="col-md-4 mt-4 col-12">
       <div class="card p-3">
@@ -644,10 +650,11 @@ Compete with other users throughout the week for a chance to win big rewards! To
     
    
     <div class="col-md-4 mt-4 col-12">
-
-      <div>
+    <div style="width: 100%;">
+      <center>
         <iframe data-aa='1960488' src='//ad.a-ads.com/1960488?size=300x250' style='width:300px; height:250px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
-      </d>
+      </center>
+    </div>
 
     </div>
     <div class="col-md-4 mt-4 col-12">
@@ -663,7 +670,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
       </div>
     </div>
     <div class="col-md-4 mt-4 col-12">
-
+    <div style="width: 100%;">
 <center><ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins>
   <script>
     ! function(e, n, c, t, o, r) {
@@ -675,7 +682,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
     }();
   </script>
 </center>
-
+    </div>
 </div>
     <div class="col-md-4 mt-4 mx-auto col-12">
       <div class="card p-3">
