@@ -708,7 +708,7 @@ if (document.cookie.indexOf('modal_shown=') >= 0) {
 } else {
   setTimeout(() => {
     $('#myModal').modal('show');
-  }, 1000);  //show modal pop up
+  }, 500);  //show modal pop up
   document.cookie = 'modal_shown=seen'; //set cookie modal_shown
   //cookie will expire when browser is closed
 }
