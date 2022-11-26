@@ -87,7 +87,7 @@
   <div class="accordion-item">
         <h4 class="accordion-header" id="headingOne">
         <button class="accordion-button" type="button" data-bs-toggle="collapse"
-        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
         <i class="fas fa-question-circle fa-sm me-2 opacity-70"></i>Guidelines
       </button>
         </h4>
@@ -96,6 +96,7 @@
       <div class="accordion-body">
         <h6><li>You must verify your account before withdrawing</li></h6>
 	<h6><li>All payments methods are now done through Direct Wallet</li></h6>
+  <li style="list-style-type: none; ">
 	<ul>
 	<li>Maximum you can withdraw per day is <b>2,500 tokens</b></li>
 	<li>Currency rate is updated every 5 minutes and data is provided by CoinGecko</li><br>
