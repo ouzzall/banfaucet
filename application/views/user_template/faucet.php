@@ -85,7 +85,7 @@
 					<div class="">
 						<div class="numbers">
 							<p class="text-sm mb-0 text-capitalize font-weight-bold">Reward</p>
-							<h5 class="font-weight-bolder mb-0" style="">
+							<h5 class="font-weight-bolder mb-0">
                             <?= currencyDisplay($settings['reward'], $settings) ?> <sup><span class="text-success me-2">+<?= $bonus ?>%</span></sup>
                         </h5> </div>
 					</div>
