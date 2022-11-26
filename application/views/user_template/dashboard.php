@@ -208,7 +208,7 @@
     </div>
     <div class="col-md-4 mt-4 col-12">
 
-<ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins>
+<center><ins class="6295f53eb2e2b443b6100720" style="display:inline-block;width:300px;height:250px;"></ins>
   <script>
     ! function(e, n, c, t, o, r) {
       ! function e(n, c, t, o, r, m, s, a) {
@@ -218,7 +218,7 @@
       }(window, document, "script", "6295f53eb2e2b443b6100720", ["cdn.bmcdn3.com"], 0)
     }();
   </script>
-
+</center>
 
 </div>
     <div class="col-md-4 mt-4 mx-auto col-12">
