@@ -13,13 +13,13 @@
 <div class="col-12">
           <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
             <span class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
-            <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
+            <span class="alert-text">Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" style="color: #fff !important;font-weight:bold">Timewall!</a></span>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
         </div></div>
 <div class="alert alert-primary text-white alert-dismissible fade show text-center" role="alert">
-  <strong>Earn $1 USD (1,000 tokens) per day from Offerwalls and redeem the <a href="https://banfaucet.com/new/achievements" class="alert-link">challenge</a> worth 50 tokens!</strong>
+  <strong>Earn $1 USD (1,000 tokens) per day from Offerwalls and redeem the <a href="https://banfaucet.com/achievements" class="alert-link">challenge</a> worth 50 tokens!</strong>
   <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
@@ -63,7 +63,7 @@
 <!-- <div class="col-md-6 col-xl-3" data-cat="survey">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
-<center><img style="max-width:350px;max-height:60px;filter:brightness(0)" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/cpxresearch.png" alt="CPX Research"></center>
+<center><img style="max-width:350px;max-height:60px;filter:brightness(0)" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/cpxresearch.png" alt="CPX Research"></center>
 </div>
 <div class="card-body">
 <p style="text-align:center;padding-bottom:2rem;font-size:100%"><span style="font-size:100%;" class="badge badge-light">Surveys</span></p>
@@ -76,14 +76,14 @@
     <i class="fa-solid fa-star fa-xl"></i></p>
 </div>
 </div>
-<a href="https://banfaucet.com/new/offerwall/cpx" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
+<a href="https://banfaucet.com/offerwall/cpx" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
 </div> -->
 <div class="col-md-6 col-xl-3 mt-3" data-cat="survey">
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
-      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/cpxresearch-removebg-preview.png" alt="Adscend Media">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/newAssets/img/cpxresearch-removebg-preview.png" alt="Adscend Media">
       </a>
     </div>
 
@@ -99,7 +99,7 @@
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i></p>
         </div>
-        <a href="https://banfaucet.com/new/offerwall/cpx"><button class="btn btn-primary w-100 " type="button">View</button></a>  
+        <a href="https://banfaucet.com/offerwall/cpx"><button class="btn btn-primary w-100 " type="button">View</button></a>  
     </div>
   </div>
 </div>
@@ -107,7 +107,7 @@
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
-      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/adscendmedia.svg" alt="Adscend Media">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/newAssets/img/adscendmedia.svg" alt="Adscend Media">
       </a>
     </div>
 
@@ -125,14 +125,14 @@
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i></p>
         </div>
-        <a href="https://banfaucet.com/new/offerwall/adscendmedia"><button class="btn btn-primary w-100 " type="button">View</button></a>  
+        <a href="https://banfaucet.com/offerwall/adscendmedia"><button class="btn btn-primary w-100 " type="button">View</button></a>  
     </div>
   </div>
 </div>
 <!-- <div class="col-md-6 col-xl-3" data-cat="survey">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
-<center><img style="max-width:350px;max-height:60px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/adscend.png" alt="Adscend Media"></center>
+<center><img style="max-width:350px;max-height:60px;" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/adscend.png" alt="Adscend Media"></center>
 </div>
 <div class="card-body">
 <p style="text-align:center;padding-bottom:2rem;font-size:100%"><span style="font-size:100%;" class="badge badge-light">Surveys</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Offers</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Videos</span></p>
@@ -145,7 +145,7 @@
     <i class="fa-solid fa-star fa-xl"></i></p>
 
 </div>
-<a href="https://banfaucet.com/new/offerwall/adscendmedia"><button class="btn btn-primary" type="button">View</button></a>
+<a href="https://banfaucet.com/offerwall/adscendmedia"><button class="btn btn-primary" type="button">View</button></a>
 </div>
 </div>
 </div> -->
@@ -154,7 +154,7 @@
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
-      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/timewall.png" alt="Adscend Media">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/newAssets/img/timewall.png" alt="Adscend Media">
       </a>
     </div>
 
@@ -172,14 +172,14 @@
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i></p>
         </div>
-        <a href="https://banfaucet.com/new/offerwall/timewall"><button class="btn btn-primary w-100 " type="button">View</button></a>  
+        <a href="https://banfaucet.com/offerwall/timewall"><button class="btn btn-primary w-100 " type="button">View</button></a>  
     </div>
   </div>
 </div>
 <!-- <div class="col-md-6 col-xl-3" data-cat="ptc,tasks,survey">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
-<center><img style="max-width:350px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/timewall.png" alt="Timewall"></center>
+<center><img style="max-width:350px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/timewall.png" alt="Timewall"></center>
 </div>
 <div class="card-body">
 <p style="text-align:center;padding-bottom:2rem;font-size:100%"><span style="font-size:100%;" class="badge badge-light">PTC</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Tasks</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Surveys</span></p>
@@ -192,14 +192,14 @@
     <i class="fa-solid fa-star fa-xl"></i></p>
 </div>
 </div>
-<a href="https://banfaucet.com/new/offerwall/timewall" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
+<a href="https://banfaucet.com/offerwall/timewall" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
 </div> -->
 <div class="col-md-6 col-xl-3 mt-3" data-cat="survey,ptc,tasks,shortlinks">
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
-      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/bitcotasks.png" alt="Adscend Media">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/bitcotasks.png" alt="Adscend Media">
       </a>
     </div>
 
@@ -218,14 +218,14 @@
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i></p>
         </div>
-        <a href="https://banfaucet.com/new/offerwall/bitcotasks"><button class="btn btn-primary w-100 " type="button">View</button></a>  
+        <a href="https://banfaucet.com/offerwall/bitcotasks"><button class="btn btn-primary w-100 " type="button">View</button></a>  
     </div>
   </div>
 </div>
 <!-- <div class="col-md-6 col-xl-3" data-cat="survey,ptc,tasks,shortlinks">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
-<center><img style="max-width:350px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/bitcotasks.png" alt="TheoremReach"></center>
+<center><img style="max-width:350px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/bitcotasks.png" alt="TheoremReach"></center>
 </div>
 <div class="card-body">
 <p style="text-align:center;padding-bottom:2rem;font-size:100%"><span style="font-size:100%;" class="badge badge-light">Surveys</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Offers</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">PTC</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Shortlinks</span></p>
@@ -238,14 +238,14 @@
     <i class="fa-solid fa-star fa-xl"></i></p>
 </div>
 </div>
-<a href="https://banfaucet.com/new/offerwall/bitcotasks" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
+<a href="https://banfaucet.com/offerwall/bitcotasks" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
 </div> -->
 <div class="col-md-6 col-xl-3 mt-3" data-cat="video">
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
-      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/hideout.svg" alt="Adscend Media">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/newAssets/img/hideout.svg" alt="Adscend Media">
       </a>
     </div>
 
@@ -270,7 +270,7 @@
 <!-- <div class="col-md-6 col-xl-3" data-cat="video">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
-<center><img style="max-width:350px;max-height:60px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/hideout.svg" alt="HideoutTV"></center>
+<center><img style="max-width:350px;max-height:60px;" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/hideout.svg" alt="HideoutTV"></center>
 </div>
 <div class="card-body">
 <p style="text-align:center;padding-bottom:2rem;font-size:100%"><span style="font-size:100%;" class="badge badge-light">Videos</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Passive Earnings</span></p>
@@ -290,7 +290,7 @@
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
-      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/loot.svg" alt="Adscend Media">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/newAssets/img/loot.svg" alt="Adscend Media">
       </a>
     </div>
 
@@ -315,7 +315,7 @@
 <!-- <div class="col-md-6 col-xl-3" data-cat="video">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
-<center><img style="max-width:350px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/loot.svg" alt="LootTV"></center>
+<center><img style="max-width:350px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/loot.svg" alt="LootTV"></center>
 </div>
 <div class="card-body">
 <p style="text-align:center;padding-bottom:2rem;font-size:100%"><span style="font-size:100%;" class="badge badge-light">Videos</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Passive Earnings</span></p>
@@ -335,7 +335,7 @@
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
-      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/lootably.png" alt="Adscend Media">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/newAssets/img/lootably.png" alt="Adscend Media">
       </a>
     </div>
 
@@ -353,14 +353,14 @@
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i></p>
         </div>
-        <a href="https://banfaucet.com/new/offerwall/lootably" ><button class="btn btn-primary w-100 " type="button">View</button></a>  
+        <a href="https://banfaucet.com/offerwall/lootably" ><button class="btn btn-primary w-100 " type="button">View</button></a>  
     </div>
   </div>
 </div>
 <!-- <div class="col-md-6 col-xl-3" data-cat="survey,tasks">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
-<center><img style="max-width:250px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/lootably.png" alt="Lootably"></center>
+<center><img style="max-width:250px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/lootably.png" alt="Lootably"></center>
 </div>
 <div class="card-body">
 <p style="text-align:center;padding-bottom:2rem;font-size:100%"><span style="font-size:100%;" class="badge badge-light">Surveys</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Offers</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Videos</span></p>
@@ -373,14 +373,14 @@
     <i class="fa-solid fa-star fa-xl"></i></p>
 </div>
 </div>
-<a href="https://banfaucet.com/new/offerwall/lootably" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
+<a href="https://banfaucet.com/offerwall/lootably" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
 </div> -->
 <div class="col-md-6 col-xl-3 mt-3" data-cat="survey,tasks">
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
-      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/bitlabs.svg" alt="Adscend Media">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/newAssets/img/bitlabs.svg" alt="Adscend Media">
       </a>
     </div>
 
@@ -397,14 +397,14 @@
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-solid fa-star fa-xl"></i></p>
         </div>
-        <a href="https://banfaucet.com/new/offerwall/bitlabs" ><button class="btn btn-primary w-100 " type="button">View</button></a>  
+        <a href="https://banfaucet.com/offerwall/bitlabs" ><button class="btn btn-primary w-100 " type="button">View</button></a>  
     </div>
   </div>
 </div>
 <!-- <div class="col-md-6 col-xl-3" data-cat="survey,tasks">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
-<center><img style="max-width:350px;max-height:60px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/bitlabs.svg" alt="BitLabs"></center>
+<center><img style="max-width:350px;max-height:60px;" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/bitlabs.svg" alt="BitLabs"></center>
 </div>
 <div class="card-body">
 <p style="text-align:center;padding-bottom:2rem;font-size:100%"><span style="font-size:100%;" class="badge badge-light">Surveys</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Offers</span></p>
@@ -417,14 +417,14 @@
     <i class="fa-solid fa-star fa-xl"></i></p>
 </div>
 </div>
-<a href="https://banfaucet.com/new/offerwall/bitlabs" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
+<a href="https://banfaucet.com/offerwall/bitlabs" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
 </div> -->
 <div class="col-md-6 col-xl-3 mt-3" data-cat="survey,tasks">
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
-      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/monlix.svg" alt="Adscend Media">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/newAssets/img/monlix.svg" alt="Adscend Media">
       </a>
     </div>
 
@@ -442,14 +442,14 @@
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-regular fa-star fa-xl"></i></p>
         </div>
-        <a href="https://banfaucet.com/new/offerwall/monlix" ><button class="btn btn-primary w-100 " type="button">View</button></a>  
+        <a href="https://banfaucet.com/offerwall/monlix" ><button class="btn btn-primary w-100 " type="button">View</button></a>  
     </div>
   </div>
 </div>
 <!-- <div class="col-md-6 col-xl-3" data-cat="survey,tasks">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
-<center><img style="max-width:350px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/monlix.svg" alt="Monlix"></center>
+<center><img style="max-width:350px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/monlix.svg" alt="Monlix"></center>
 </div>
 <div class="card-body">
 <p style="text-align:center;padding-bottom:2rem;font-size:100%"><span style="font-size:100%;" class="badge badge-light">Surveys</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Offers</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">PTC</span></p>
@@ -462,7 +462,7 @@
     <i class="fa-regular fa-star fa-xl"></i></p>
 </div>
 </div>
-<a href="https://banfaucet.com/new/offerwall/monlix" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
+<a href="https://banfaucet.com/offerwall/monlix" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
 </div> -->
 
@@ -470,7 +470,7 @@
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
-      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/offeroc.svg" alt="Adscend Media">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/offeroc.svg" alt="Adscend Media">
       </a>
     </div>
 
@@ -489,7 +489,7 @@
           <i class="fa-solid fa-star fa-xl"></i>
           <i class="fa-regular fa-star fa-xl"></i></p>
         </div>
-        <a href="https://banfaucet.com/new/offerwall/offeroc" ><button class="btn btn-primary w-100 " type="button">View</button></a>  
+        <a href="https://banfaucet.com/offerwall/offeroc" ><button class="btn btn-primary w-100 " type="button">View</button></a>  
     </div>
   </div>
 </div>
@@ -497,7 +497,7 @@
 <!-- <div class="col-md-6 col-xl-3" data-cat="tasks,ptc,shortlinks">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
-<center><img style="max-width:350px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/offeroc.svg" alt="Offeroc"></center>
+<center><img style="max-width:350px;max-height:60px" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/offeroc.svg" alt="Offeroc"></center>
 </div>
 <div class="card-body">
 <p style="text-align:center;padding-bottom:2rem;font-size:100%"><span style="font-size:100%;" class="badge badge-light">Games</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Offers</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">PTC</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Shortlinks</span></p>
@@ -510,7 +510,7 @@
     <i class="fa-regular fa-star fa-xl"></i></p>
 </div>
 </div>
-<a href="https://banfaucet.com/new/offerwall/offeroc" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
+<a href="https://banfaucet.com/offerwall/offeroc" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
 </div> -->
 
@@ -518,7 +518,7 @@
   <div class="card">
     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1" style="background: #d2d1d1;margin: 0 !important;padding: 20px !important;">
       <a href="javascript:;" class="d-block">
-      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/new/newAssets/img/bitswall.png" alt="Adscend Media">
+      <img style="max-width:350px;max-height:60px; width: 150px;" class="card-img-top img-fluid" src="https://banfaucet.com/newAssets/img/bitswall.png" alt="Adscend Media">
       </a>
     </div>
 
@@ -537,14 +537,14 @@
           <i class="fa-regular fa-star-half-stroke fa-xl"></i>
     <i class="fa-regular fa-star fa-xl"></i></p>
         </div>
-        <a href="https://banfaucet.com/new/offerwall/bitswall" ><button class="btn btn-primary w-100 " type="button">View</button></a>  
+        <a href="https://banfaucet.com/offerwall/bitswall" ><button class="btn btn-primary w-100 " type="button">View</button></a>  
     </div>
   </div>
 </div>
 <!-- <div class="col-md-6 col-xl-3" data-cat="survey,tasks,ptc,shortlinks">
 <div class="card">
 <div style="background-color: #B6C1E1;padding: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;transition:.3s;border:1px solid #939FC1">
-<center><img style="max-width:350px;max-height:60px;filter:brightness(0) invert(1)" class="card-img-top img-fluid" src="https://banfaucet.com/new/assets/images/bitswall.png" alt="Bitswall"></center>
+<center><img style="max-width:350px;max-height:60px;filter:brightness(0) invert(1)" class="card-img-top img-fluid" src="https://banfaucet.com/assets/images/bitswall.png" alt="Bitswall"></center>
 </div>
 <div class="card-body">
 <p style="text-align:center;padding-bottom:2rem;font-size:100%"><span style="font-size:100%;" class="badge badge-light">Surveys</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Offers</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">PTC</span>&nbsp;&nbsp;&nbsp;<span style="font-size:100%;" class="badge badge-light">Shortlinks</span></p>
@@ -557,7 +557,7 @@
     <i class="fa-regular fa-star fa-xl"></i></p>
 </div>
 </div>
-<a href="https://banfaucet.com/new/offerwall/bitswall" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
+<a href="https://banfaucet.com/offerwall/bitswall" class="btn btn-primary btn-block text-dark" role="button" aria-pressed="true">View</a>
 </div>
 </div> -->
 
@@ -584,7 +584,7 @@
 </style>
 <script>var _coinzilla_fp_id_ = "173623529710ebcf195",  _coinzilla_fp_interval_ = "5"; </script>
 <script src="https://coinzillatag.com/lib/fp.js"></script>
-<script src="https://banfaucet.com/new/assets/js/clipboard.min.js"></script>
+<script src="https://banfaucet.com/assets/js/clipboard.min.js"></script>
 <script src="<?= base_url() ?>assets/js/vie/captcha.js"></script>
 <script async src="https://appsha-lon2.cointraffic.io/js/?wkey=lgXFfbiPoT"></script>
 <script>
@@ -704,6 +704,5 @@ document.addEventListener("DOMContentLoaded", function(){
 
 .is-animated {
   animation: .6s zoom-in;
-  // animation: .6s rotate-right; 
 }
 </style>

@@ -30,7 +30,7 @@
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div><p>
-<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/new/offerwall/timewall" class="alert-link">Timewall</a>!
+<div class="alert alert-warning text-center alert-dismissable fade show" role="alert"><i class="fa-solid fa-circle-exclamation fa-xl"></i> Earn a 15% bonus for every offer you complete from <a href="https://banfaucet.com/offerwall/timewall" class="alert-link">Timewall</a>!
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button></div>
@@ -93,7 +93,7 @@ Every donation made will be added to the chat rain pot. Chat rain will be done a
                         if ($wait) { ?>
                             <h4 class="mb-0"><b id="minute"><?= floor($wait / 60) ?></b>:<b id="second"><?= $wait % 60 ?></b></h4>
                         <?php } else { ?>
-                            <h4 class="mb-0"><a class="text-success" href="https://banfaucet.com/new/faucet">READY</a></h4>
+                            <h4 class="mb-0"><a class="text-success" href="https://banfaucet.com/faucet">READY</a></h4>
                         <?php } ?>
                     </div>
 
@@ -286,7 +286,7 @@ Every donation made will be added to the chat rain pot. Chat rain will be done a
 <div class="card-body">
 <h4 class="card-title mb-4">Offerwalls</h4>
 <div class="text-center">
-    <img src="https://banfaucet.com/new/assets/images/offer-icon.jpg" height="150px" width="150px" style="margin-bottom: 15px;">
+    <img src="https://banfaucet.com/assets/images/offer-icon.jpg" height="150px" width="150px" style="margin-bottom: 15px;">
 <p>
     Complete tasks such as
     <span style="color:#2D75BA;font-weight:bold">watch videos</span>, 
@@ -307,10 +307,10 @@ Every donation made will be added to the chat rain pot. Chat rain will be done a
         </button>
 	</div>
       <div class="modal-body">
-<center><a href="https://banfaucet.com/new/offerwall/offeroc"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/new/assets/images/offeroc.svg" alt="Offeroc"></a><hr>
-<a href="https://banfaucet.com/new/offerwall/timewall"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/new/assets/images/timewall.png" alt="Timewall"></a><hr>
-<a href="https://banfaucet.com/new/offerwall/bitcotasks"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/new/assets/images/bitcotasks.png" alt="BitcoTasks"></a><hr>
-<a href="https://banfaucet.com/new/offerwall/bitswall"><img style="max-width:350px;max-height:60px;filter:brightness(0)" src="https://banfaucet.com/new/assets/images/bitswall.png" alt="Bitswall"></a></center>
+<center><a href="https://banfaucet.com/offerwall/offeroc"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/offeroc.svg" alt="Offeroc"></a><hr>
+<a href="https://banfaucet.com/offerwall/timewall"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/timewall.png" alt="Timewall"></a><hr>
+<a href="https://banfaucet.com/offerwall/bitcotasks"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/bitcotasks.png" alt="BitcoTasks"></a><hr>
+<a href="https://banfaucet.com/offerwall/bitswall"><img style="max-width:350px;max-height:60px;filter:brightness(0)" src="https://banfaucet.com/assets/images/bitswall.png" alt="Bitswall"></a></center>
         </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -329,9 +329,9 @@ Every donation made will be added to the chat rain pot. Chat rain will be done a
         </button>
 	</div>
       <div class="modal-body">
-<center><a href="https://banfaucet.com/new/offerwall/offeroc"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/new/assets/images/offeroc.svg" alt="Offeroc"></a><hr>
-<a href="https://banfaucet.com/new/offerwall/bitcotasks"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/new/assets/images/bitcotasks.png" alt="BitcoTasks"></a><hr>
-<a href="https://banfaucet.com/new/offerwall/bitswall"><img style="max-width:350px;max-height:60px;filter:brightness(0)" src="https://banfaucet.com/new/assets/images/bitswall.png" alt="Bitswall"></a></center>
+<center><a href="https://banfaucet.com/offerwall/offeroc"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/offeroc.svg" alt="Offeroc"></a><hr>
+<a href="https://banfaucet.com/offerwall/bitcotasks"><img style="max-width:350px;max-height:60px;" src="https://banfaucet.com/assets/images/bitcotasks.png" alt="BitcoTasks"></a><hr>
+<a href="https://banfaucet.com/offerwall/bitswall"><img style="max-width:350px;max-height:60px;filter:brightness(0)" src="https://banfaucet.com/assets/images/bitswall.png" alt="Bitswall"></a></center>
         </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -339,7 +339,7 @@ Every donation made will be added to the chat rain pot. Chat rain will be done a
     </div>
   </div>
     </div>
-&nbsp;<a href="https://banfaucet.com/new/offerwalls" class="btn btn-info btn-md" role="group" aria-pressed="true">View All</a>
+&nbsp;<a href="https://banfaucet.com/offerwalls" class="btn btn-info btn-md" role="group" aria-pressed="true">View All</a>
 </div>
 </div>
 </div></center>
@@ -352,7 +352,7 @@ Every donation made will be added to the chat rain pot. Chat rain will be done a
 <div class="card-body">
 <h4 class="card-title mb-4">Challenges</h4>
 <div class="text-center">
-<img src="https://banfaucet.com/new/assets/images/challenge-icon.png" height="150px" width="150px" style="margin-bottom: 15px;">
+<img src="https://banfaucet.com/assets/images/challenge-icon.png" height="150px" width="150px" style="margin-bottom: 15px;">
 <p>
 Complete tasks throughout the day such as
 <span style="color:#2D75BA;font-weight:bold">claim from the faucet</span>,
@@ -361,7 +361,7 @@ Complete tasks throughout the day such as
 </p>
 </div><hr>
 <div class="text-center">
-<a href="https://banfaucet.com/new/achievements" class="btn btn-info btn-lg" role="button" aria-pressed="true">View Challenges</a>
+<a href="https://banfaucet.com/achievements" class="btn btn-info btn-lg" role="button" aria-pressed="true">View Challenges</a>
 </div>
 </div>
 </div>
@@ -371,7 +371,7 @@ Complete tasks throughout the day such as
 <div class="card-body">
     <h4 class="card-title mb-4">Daily Bonus</h4>
     <div class="text-center">
-<img src="https://banfaucet.com/new/assets/images/gift-icon.png" height="150px" width="150px" style="margin-bottom: 15px;">
+<img src="https://banfaucet.com/assets/images/gift-icon.png" height="150px" width="150px" style="margin-bottom: 15px;">
 <p>
     Login every day to receive 
     <span style="color:#2D75BA;font-weight:bold">tokens</span>, 
@@ -381,7 +381,7 @@ Complete tasks throughout the day such as
 </div>
     <hr>
     <div class="text-center">
-    <a href="https://banfaucet.com/new/daily-bonus" class="btn btn-info btn-lg" role="button" aria-pressed="true">Claim Bonus</a>
+    <a href="https://banfaucet.com/daily-bonus" class="btn btn-info btn-lg" role="button" aria-pressed="true">Claim Bonus</a>
 </div>
 </div>
 </div>
@@ -396,7 +396,7 @@ Complete tasks throughout the day such as
 <div class="card-body">
 <h4 class="card-title mb-4">Weekly Contest</h4>
 <div class="text-center">
-<img src="https://banfaucet.com/new/assets/images/contest-icon.png" height="150px" width="150px" style="margin-bottom: 15px;">
+<img src="https://banfaucet.com/assets/images/contest-icon.png" height="150px" width="150px" style="margin-bottom: 15px;">
 <p>
 Compete with other users throughout the week for a chance to win big rewards! Top 10 users will receive rewards in
     <span style="color:#2D75BA;font-weight:bold">referral contest</span> and 
@@ -404,7 +404,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
 </p>
 </div><hr>
 <div class="text-center">
-<a href="https://banfaucet.com/new/leaderboard" class="btn btn-info btn-lg" role="button" aria-pressed="true">View Contest</a>
+<a href="https://banfaucet.com/leaderboard" class="btn btn-info btn-lg" role="button" aria-pressed="true">View Contest</a>
 </div>
 </div>
 </div>
@@ -536,7 +536,7 @@ Compete with other users throughout the week for a chance to win big rewards! To
                                                                                                   if ($wait) { ?>
                     <b id="minute"><?= floor($wait / 60) ?></b>:<b id="second"><?= $wait % 60 ?></b>
                   <?php } else { ?>
-                    <a class="text-success" href="https://banfaucet.com/new/faucet">READY</a>
+                    <a class="text-success" href="https://banfaucet.com/faucet">READY</a>
                   <?php } ?></span> <span class="text-lg ms-n1"><i class="fa-solid fa-stopwatch"></i></span>
               </h1>
               <h6 class="mb-0 font-weight-bolder">Claim</h6>

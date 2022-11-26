@@ -43,7 +43,7 @@
 				<div class="col-md-4 col-xs-12">
 					<div class="logo"> -->
                         <!-- Logo -->
-						<!-- <a href="https://banfaucet.com/new"><h1 class="gradient-custom">Banano Faucet</h1> -->
+						<!-- <a href="https://banfaucet.com"><h1 class="gradient-custom">Banano Faucet</h1> -->
                         <!-- <img src="assets/img/black-wite-logo.png" alt="" /> -->
                     <!-- </a>
 					</div>
@@ -53,8 +53,8 @@
                      Start Menu -->
 					<!-- <div class="header-menu text-right">
 						<ul id="menu"> -->
-							<!-- <li><a class="tp-btn" style="color:#45545E" href="https://banfaucet.com/new/register">Register</a></li>
-							<li><a class="tp-btn" href="https://banfaucet.com/new/login">Login</a></li> -->
+							<!-- <li><a class="tp-btn" style="color:#45545E" href="https://banfaucet.com/register">Register</a></li>
+							<li><a class="tp-btn" href="https://banfaucet.com/login">Login</a></li> -->
 						<!-- </ul>
 					</div>  -->
                     <!-- End Header -->
@@ -64,7 +64,7 @@
 	</div>
 <div class="ebook-slider-1 ebook-slider-bg-1 padding-section design-color1 design-color2" id="home">
 <h2 class="text-center text-3xl font-extrabold">Reset your password</h2>
-<p class="text-center text-sm">Or <a href="https://banfaucet.com/new/login">login to your account</a></p>
+<p class="text-center text-sm">Or <a href="https://banfaucet.com/login">login to your account</a></p>
         <div class="container">
 <div class="row justify-content-center">
 <div class="col-md-6 col-md-offset-3">

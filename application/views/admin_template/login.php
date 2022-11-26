@@ -34,15 +34,15 @@
 			<div class="row">
 				<div class="col-md-4 col-xs-12">
 					<div class="logo"> <!-- Logo -->
-						<a href="https://banfaucet.com/new"><h1 class="gradient-custom">Banano Faucet</h1><!-- <img src="assets/img/black-wite-logo.png" alt="" /> --></a>
+						<a href="https://banfaucet.com"><h1 class="gradient-custom">Banano Faucet</h1><!-- <img src="assets/img/black-wite-logo.png" alt="" /> --></a>
 					</div>
 				</div>
 				<div class="col-md-8 col-xs-12">
 					<div class="mainmenu"></div> <!-- Start Menu -->
 					<div class="header-menu text-right">
 						<ul id="menu">
-							<!-- <li><a class="tp-btn" style="color:#45545E" href="https://banfaucet.com/new/register">Register</a></li>
-							<li><a class="tp-btn" href="https://banfaucet.com/new/login">Login</a></li> -->
+							<!-- <li><a class="tp-btn" style="color:#45545E" href="https://banfaucet.com/register">Register</a></li>
+							<li><a class="tp-btn" href="https://banfaucet.com/login">Login</a></li> -->
 						</ul>
 					</div> <!-- End Header -->
 				</div>
