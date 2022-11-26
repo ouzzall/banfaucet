@@ -235,7 +235,7 @@
     line-height: 1.5em;
     // this is really the only tricky part, you need to specify the background color of the container element...
     color: #818078;
-    background-color: #fcfcfa;
+    background-color: #111322;
   }
 }
 </style>
@@ -245,13 +245,13 @@
         
         <div class="col-lg-8 mx-auto text-center mb-4 mt-2">
           <a href="https://t.me/banfaucet" target="_blank" class="text-secondary me-xl-4 me-4">
-            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-telegram fa-xl"></i>
           </a>
           <a href="https://discord.gg/EcUfn9MtV3" target="_blank" class="text-secondary me-xl-4 me-4">
-            <i class="fa-brands fa-discord"></i>
+            <i class="fa-brands fa-discord fa-xl"></i>
           </a>
           <a href="https://reddit.com/r/banfaucet/" target="_blank" class="text-secondary me-xl-4 me-4">
-            <i class="fa-brands fa-reddit"></i>
+            <i class="fa-brands fa-reddit fa-xl"></i>
           </a>
         </div>
       </div>
