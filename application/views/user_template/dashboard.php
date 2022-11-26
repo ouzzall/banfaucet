@@ -712,8 +712,9 @@ if (document.cookie.indexOf('modal_shown=') >= 0) {
 			<center><i class="fa-solid fa-cloud-rain fa-3x" style="color:#92BAD2"></i>&nbsp&nbsp
 			<i class="fa-solid fa-plane fa-3x" style="color:#F5F0EA"></i>&nbsp&nbsp
 			<i class="fa-solid fa-gift fa-3x" style="color:#CF1313"></i></center>
+      <p>
       <div class="modal-footer">
-      <a href="https://t.me/banfaucet" target="_blank" class="btn btn-success btn-lg" role="button" aria-pressed="true">Join Today!</a>
+      <a href="https://t.me/banfaucet" target="_blank" align="left" class="btn btn-success btn-lg" role="button" aria-pressed="true">Join Today!</a>
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
             </div>
