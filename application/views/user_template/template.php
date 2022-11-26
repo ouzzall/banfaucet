@@ -477,7 +477,7 @@ background: cornflowerblue !important;
               <a href="javascript:;" style="margin-top: -12px;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                 <?php if ($countUnreadNotification > 0) { ?>
                   <i class="fa fa-bell cursor-pointer"></i>
-                  <span class="badge badge-md badge-circle badge-floating badge-danger border-white"><?= $countUnreadNotification ?></span>
+                  <span class="badge badge-sm badge-circle badge-floating badge-danger border-white"><?= $countUnreadNotification ?></span>
                 <?php } else { ?>
                   <i class="fa fa-bell cursor-pointer"></i>
                 <?php } ?>
