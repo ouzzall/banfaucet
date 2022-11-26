@@ -81,16 +81,18 @@
   </p>
 </div>
 
+<div class="col-md-12">
+      <div class="card p-3">
 <div class="accordion" id="guidelines">
   <div class="accordion-item">
         <h4 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-mdb-toggle="collapse"
-        data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         <i class="fas fa-question-circle fa-sm me-2 opacity-70"></i>Guidelines
       </button>
         </h4>
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-      data-mdb-parent="#guidelines">
+      data-bs-parent="#guidelines">
       <div class="accordion-body">
         <h6><li>You must verify your account before withdrawing</li></h6>
 	<h6><li>All payments methods are now done through Direct Wallet</li></h6>
@@ -142,6 +144,8 @@
 	<h5>All currencies are now manually proccessed and payments could take up to <b>12 hours</b> to receive!</h5>
       </div>
     </div>
+  </div>
+  </div>
   </div>
   </div>
 
