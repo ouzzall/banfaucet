@@ -83,8 +83,6 @@
 
 <div class="accordion" id="guidelines">
   <div class="accordion-item">
-    <div class="col-md-12">
-      <div class="card p-3">
         <h4 class="accordion-header" id="headingOne">
         <button class="accordion-button" type="button" data-mdb-toggle="collapse"
         data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -144,8 +142,6 @@
 	<h5>All currencies are now manually proccessed and payments could take up to <b>12 hours</b> to receive!</h5>
       </div>
     </div>
-  </div>
-  </div>
   </div>
   </div>
 
