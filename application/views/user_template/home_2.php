@@ -463,10 +463,10 @@
           </ol>
           <h6 class="font-weight-bolder mb-0">Smart Home</h6>
         </nav> -->
-        <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
-          <a href="#" class="nav-link text-body p-0 d-flex">
+        <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none " >
+          <a href="#" class="nav-link text-body p-0 d-flex" style="align-items: center;">
             <img class="navbar-brand-img "  height="50px" src="https://banfaucet.com/assets/images/logo-min.png" alt="" />
-            <h5 class="ms-1 font-weight-bold">BANFAUCET</h5>
+            <h5 style="margin-bottom: 0;margin-left: 10px !important;" class="ms-1 font-weight-bold">BANFAUCET</h5>
           </a>
         </div>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
@@ -475,9 +475,10 @@
           </div>
           <ul class="navbar-nav  " style="justify-content: space-between !important;">
             <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
-              <a href="#" class="nav-link text-body p-0" id="iconNavbarSidenav">
-                <img width="100px" src="https://banfaucet.com/assets/images/logo.png" alt="" />
-              </a>
+            <a href="#" class="nav-link text-body p-0 d-flex" style="align-items: center;">
+            <img class="navbar-brand-img "  height="50px" src="https://banfaucet.com/assets/images/logo-min.png" alt="" />
+            <h5 style="margin-bottom: 0;margin-left: 10px !important;" class="ms-1 font-weight-bold">BANFAUCET</h5>
+          </a>
             </li>
             <li class="nav-item d-flex align-items-center">
               <a href="<?= site_url('login') ?>" class="nav-link text-body font-weight-bold px-0" >
