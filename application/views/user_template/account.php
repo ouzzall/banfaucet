@@ -106,7 +106,7 @@
                   <div class="numbers">
                     <p class="text-sm mb-0 text-capitalize font-weight-bold">Total Earning</p>
                     <h5 class="font-weight-bolder mb-0">
-                      <?= $user['total_earned'] ?>
+                      $<?= $user['total_earned'] ?>
                     </h5>
                   </div>
                 </div>
