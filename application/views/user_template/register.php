@@ -194,7 +194,7 @@
                 <div class="text-center">
                   <button type="submit" class="btn bg-gradient-info w-100 my-4 mb-2">Register</button>
                 </div>
-                <p>Or</p>
+                <p style="text-align: center;margin-bottom: 0;">Or</p>
                 <div class="text-center">
                     <a href="<?= site_url('login') ?>">
                         <button type="button" class="btn bg-gradient-dark w-100 mt-2 mb-4">Sign in</button>
