@@ -591,7 +591,11 @@ background: cornflowerblue !important;
     <!-- End Navbar -->
     <div class="customDarkLight">
         <div class="d-xl-block">
-              <h6 class="mb-0" style="margin-right: 20px;">Enable Dark Mode</h6>
+              <h6 class="mb-0" style="margin-right: 20px;">
+              <svg class="ionicon header-icon-svgs" viewBox="0 0 512 512">
+<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94"></path>
+<circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"></circle>
+</svg></h6>
             </div>
             <div class="form-check form-switch ps-0 d-xl-block">
               <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
