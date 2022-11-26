@@ -488,8 +488,7 @@ background: cornflowerblue !important;
                   <div class="p-3 d-flex" style="    justify-content: space-between;">
                     <h6 class="m-0" key="t-notifications"> Notifications
                     <a href="" class="float-right text-reset notification-item">
-                      Mark as read</h6>
-                    </a>
+                      Mark as read</a></h6>
 
                   </div>
 
