@@ -192,7 +192,7 @@
                   <button type="submit" class="btn bg-gradient-info w-100 my-4 mb-2">Sign in</button>
                 </div>
                 <div class="mb-2 position-relative text-center">
-                  <p class="text-sm font-weight-bold mb-2 text-secondary text-border d-inline z-index-2 bg-white px-3">
+                  <p class="text-sm font-weight-bold mb-2 text-secondary text-border d-inline z-index-2 bg-white px-3" style="margin-left: 53px;">
                     or
                   </p>
                 </div>
