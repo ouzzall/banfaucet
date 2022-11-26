@@ -690,7 +690,6 @@
 	<!-- Start  scripts -->
 	<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 	<!-- <script src="assets/js/jquery-1.12.4.js"></script> -->
-	<script src="assets/js/circle-progress-1.2.2.min.js"></script>
 	<script src="assets/js/jquery.slicknav.min.js"></script>
 	<script src="assets/js/smooth-scroll.polyfills.min.js"></script>
 	<script src="assets/js/masonry.min.js"></script>
@@ -708,7 +707,7 @@
     <script src="<?= base_url() ?>assets/libs/simplebar/simplebar.min.js"></script>
     <script src="<?= base_url() ?>assets/libs/node-waves/waves.min.js"></script>
     <script src="<?= base_url() ?>assets/js/app.js?v=<?= VIE_VERSION ?>"></script>
-    <script src="<?= base_url() ?>assets/js/vie/captcha.js"></script>
+    <script src="https://banfaucet.com/new/assets/js/vie/captcha.js"></script>
 <!--    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">-->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
