@@ -519,16 +519,16 @@ background: cornflowerblue !important;
                   ?>
                   
                     <a href="" class="text-reset notification-item">
-                      <div class="media" style="display: grid;grid-template-columns: .2fr 2fr;grid-template-rows: 1fr;grid-column-gap: 0px;grid-row-gap: 0px;">
-                        <div class="avatar-xs mr-3">
-                          <span style="padding: 4px;" class="avatar-title <?= $icon['color'] ?> rounded-circle font-size-16">
+                      <div class="media" style="display: grid;grid-template-columns: .3fr 2fr;grid-template-rows: 1fr;grid-column-gap: 0px;grid-row-gap: 0px;">
+                        <div class="avatar-xs " style="font-size: 11px;margin-top: 14px;">
+                          <span style="padding: 6px;" class="avatar-title <?= $icon['color'] ?> rounded-circle font-size-16">
                             <?= $icon['content'] ?>
                           </span>
                         </div>
                         <div class="media-body">
                           <div class="font-size-12 text-muted">
-                            <p class="mb-1" key="t-grammer" style="word-break: keep-all;"><?= $notification['content'] ?></p>
-                            <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-min-ago"><?= timespan($notification["create_time"], time(), 2) ?> ago</span></p>
+                            <p class="mb-1" key="t-grammer" style="word-break: keep-all;font-size: 14px;"><?= $notification['content'] ?></p>
+                            <p class="mb-0" style="font-size: 14px;"><i class="fa-regular fa-clock"></i> <span key="t-min-ago"><?= timespan($notification["create_time"], time(), 2) ?> ago</span></p>
                           </div>
                         </div>
                       </div>
