@@ -68,6 +68,12 @@
 .swal2-title{
   color: #000 !important;
 }
+#swal2-title{
+  color: #000 !important;
+}
+h2#swal2-title {
+    color: #000 !important;
+}
   </style>
 
 </head>
