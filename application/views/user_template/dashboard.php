@@ -427,6 +427,12 @@ Compete with other users throughout the week for a chance to win big rewards! To
 h2#swal2-title {
     color: #000 !important;
 }
+.swal2-popup{
+background: cornflowerblue !important;
+}
+.swal2-toast{
+background: cornflowerblue !important;
+}
 </style>
 <div class="container-fluid py-4" style="padding-top: 0 !important;">
   <div class="row">

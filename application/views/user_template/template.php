@@ -74,6 +74,13 @@
 h2#swal2-title {
     color: #000 !important;
 }
+.swal2-popup{
+background: cornflowerblue !important;
+}
+.swal2-toast{
+background: cornflowerblue !important;
+}
+
   </style>
 
 </head>
