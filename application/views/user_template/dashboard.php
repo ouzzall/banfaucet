@@ -717,7 +717,7 @@ if (document.cookie.indexOf('modal_shown=') >= 0) {
 </script>
 <div id="myModal" class="modal fade">
     <div class="modal-dialog">
-        <div class="modal-content">
+        <div class="modal-content" style="background: #32394e; ">
             <div class="modal-header">
                 <h5 class="modal-title">Join our Telegram</h5>
                 <button type="button" class="btn-close btn-close-white" data-dismiss="#myModal" aria-label="Close"></button>
