@@ -59,6 +59,12 @@
       width: 36px;
       padding: 3px;
     }
+    .customDarkLight {
+  display: flex;
+  justify-content: end;
+  padding-right: 28px;
+  margin-bottom: 10px;
+}
   </style>
 
 </head>
@@ -573,7 +579,7 @@
     <!-- End Navbar -->
     <div class="customDarkLight">
         <div class="d-xl-block">
-              <h6 class="mb-0">Light/Dark</h6>
+              <h6 class="mb-0" style="margin-right: 20px;">Enable Dark Mode</h6>
             </div>
             <div class="form-check form-switch ps-0 d-xl-block">
               <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
@@ -602,7 +608,7 @@
     </footer>
     </div>
   </main>
-  <div class="fixed-plugin">
+  <!-- <div class="fixed-plugin">
     <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
       <i class="fa fa-cog py-2"> </i>
     </a>
@@ -618,9 +624,9 @@
           <button class="btn btn-link text-dark p-0 fixed-plugin-close-button">
             <i class="fa fa-close"></i>
           </button>
-        </div>
+        </div> -->
         <!-- End Toggle Button -->
-      </div>
+      <!-- </div>
       <hr class="horizontal dark my-1">
       <div class="card-body pt-0 mt-4">
         <div class="d-xl-block">
@@ -628,7 +634,7 @@
         </div>
         <div class="form-check form-switch ps-0 d-xl-block">
           <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
-        </div>
+        </div> -->
         <!-- Sidebar Backgrounds -->
         <!-- <hr class="horizontal dark mb-1 d-xl-block d-none">
         <div class="mt-2 d-xl-block d-none">
@@ -637,9 +643,9 @@
         <div class="form-check form-switch ps-0 d-xl-block d-none">
           <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarMinimize" onclick="navbarMinimize(this)">
         </div> -->
-      </div>
+      <!-- </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- // -->
 
