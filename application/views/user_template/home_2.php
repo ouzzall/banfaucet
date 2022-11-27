@@ -529,7 +529,7 @@
 					</div>
 				</div>
         <div class="col-xl-5 ms-auto mt-xl-0 mt-4">
-        <div class="customDarkLight" style="align: right">
+        <div class="customDarkLight">
         <div class="d-xl-block">
               <h5 class="mb-0" style="margin-right: 20px;">
               <i class="bi bi-brightness-high"></i></h5>
