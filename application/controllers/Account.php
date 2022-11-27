@@ -15,6 +15,7 @@ class Account extends Member_Controller
 		$this->data['page'] = 'Profile';
 
 		$this->data['referral_count'] = $this->m_account->get_ref($this->data['user']['id']);
+		$this->data['referralCount'] = $this->m_account->get_ref($this->data['user']['id']);
     	$this->data['achievements'] = $this->m_achievements->getAchievements($this->data['user']['id']);
     	$this->data['totalAchievements'] = count($this->data['achievements']);
 		$this->data['countLotteries'] = $this->m_account->countLotteries($this->data['user']['id']);
