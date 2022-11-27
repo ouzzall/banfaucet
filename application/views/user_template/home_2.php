@@ -494,15 +494,6 @@
       </div>
     </nav>
     <!-- End Navbar -->
-    <div class="customDarkLight" align="right">
-        <div class="d-xl-block">
-              <h5 class="mb-0" style="margin-right: 20px;">
-              <i class="bi bi-brightness-high"></i></h5>
-            </div>
-            <div class="form-check form-switch ps-0 d-xl-block">
-              <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
-            </div>
-                  </div>
     <div class="container-fluid py-4">
       <div class="row">
       <div class="col-md-7">
@@ -538,6 +529,15 @@
 					</div>
 				</div>
         <div class="col-xl-5 ms-auto mt-xl-0 mt-4">
+        <div class="customDarkLight" align="right";>
+        <div class="d-xl-block">
+              <h5 class="mb-0" style="margin-right: 20px;">
+              <i class="bi bi-brightness-high"></i></h5>
+            </div>
+            <div class="form-check form-switch ps-0 d-xl-block">
+              <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
+            </div>
+                  </div>
           <div class="row">
             <div class="col-12">
               <div class="card bg-gradient-primary">
