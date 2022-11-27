@@ -12,6 +12,8 @@
   <!-- Nucleo Icons -->
   <link href="https://banfaucet.com/newAssets/css/nucleo-icons.css" rel="stylesheet" />
   <link href="https://banfaucet.com/newAssets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Bootstrap Font Icon CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
   <link href="https://banfaucet.com/newAssets/css/nucleo-svg.css" rel="stylesheet" />
