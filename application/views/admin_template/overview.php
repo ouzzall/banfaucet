@@ -1099,12 +1099,12 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-3 mb-3 mb-xl-3">
-                    <div class="card mini-stats-wid" style="height: 100%;">
+                    <div class="card mini-stats-wid">
                         <div class="card-body">
                             <div class="media" style="display: flex;justify-content: space-between !important;width: 100%;">
                                 <div class="media-body">
                                     <p class="lh-1 mb-1 font-weight-bold"><?= $pendingWithdrawal ?></p>
-                                    <p class="mb-0" style="height: 70px;padding-right: 10px;">pending withdrawals </p>
+                                    <p class="mb-0">withdrawals </p>
                                     <a target="_blank" class="btn btn-info btn-sm" href="<?= site_url('admin/withdraw/pending') ?>">Check</a>
                                 </div>
 
