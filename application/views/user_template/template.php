@@ -68,13 +68,13 @@
   margin-bottom: 10px;
 }
 .swal2-title{
-  color: #000 !important;
+  color: #fff !important;
 }
 #swal2-title{
-  color: #000 !important;
+  color: #fff !important;
 }
 h2#swal2-title {
-    color: #000 !important;
+    color: #fff !important;
 }
 .swal2-popup{
 background: cornflowerblue !important;
@@ -491,6 +491,26 @@ background: cornflowerblue !important;
                     <h6 class="m-0" key="t-notifications"> Notifications</h6>
                     <h6><a href="" class="float-right text-reset notification-item">Mark as read</a></h6>
                 </div>
+                </li>
+                <li>
+                  <a class="dropdown-item border-radius-md" href="javascript:;">
+                    <div class="d-flex py-1">
+                      <div class="avatar avatar-sm bg-gradient-secondary me-3 my-auto">
+                        <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
+                          <i class="fa-solid fa-user-circle text-dark"></i>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="text-sm font-weight-normal mb-1">
+                          Payment successfully completed
+                        </h6>
+                        <p class="text-xs text-secondary mb-0">
+                          <i class="fa fa-clock me-1"></i>
+                          2 days
+                        </p>
+                      </div>
+                    </div>
+                  </a>
                 </li>
                 <li class="mb-2">
                   <?php

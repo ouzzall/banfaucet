@@ -408,13 +408,13 @@ Compete with other users throughout the week for a chance to win big rewards! To
 <!-- Navbar -->
 <style>
 .swal2-title{
-  color: #000 !important;
+  color: #fff !important;
 }
 #swal2-title{
-  color: #000 !important;
+  color: #fff !important;
 }
 h2#swal2-title {
-    color: #000 !important;
+    color: #fff !important;
 }
 .swal2-popup{
 background: cornflowerblue !important;
