@@ -498,9 +498,9 @@
       <div class="row">
       <div class="col-md-7">
 					<div class="ebook-slider-txt-1">
-						<h1 class="h1h2h3h4-color in2"> <span style="color:#000">Earn </span>  <a href="" class="typewrite gradient-custom" data-period="2000" data-type='[ "BAN", "DOGE", "MATIC", "TRX", "PAW", "BNB", "SHIB", "SOL", "LUNC", "DGB", "HBAR", "XNO", "BTC" ]'>
+						<h2 class="h1h2h3h4-color in2"> <span style="color:#000">Earn </span>  <a href="" class="typewrite gradient-custom" data-period="2000" data-type='[ "BAN", "DOGE", "MATIC", "TRX", "PAW", "BNB", "SHIB", "SOL", "LUNC", "DGB", "HBAR", "XNO" ]'>
 							<span class="wrap"></span>
-						  </a></h1>
+						  </a></h2>
 						
 						<p class="p_custom">Are you looking for the best paying crypto faucet? You found it! Register today to start earning!</p>
 						
@@ -519,7 +519,6 @@
 								<li><img src="assets/img/dgb.png" alt="DigiByte" /></li>
 								<li><img src="assets/img/hbar.png" alt="Hedera" /></li>
 								<li><img src="assets/img/xno.png" alt="Nano" /></li>
-								<li><img src="assets/img/btc.png" alt="Bitcoin" /></li>
 							</ul>
 						</div>
 						
@@ -529,15 +528,6 @@
 					</div>
 				</div>
         <div class="col-xl-5 ms-auto mt-xl-0 mt-4">
-        <div class="customDarkLight">
-        <div class="d-xl-block">
-              <h5 class="mb-0" style="margin-right: 20px;">
-              <i class="bi bi-brightness-high"></i></h5>
-            </div>
-            <div class="form-check form-switch ps-0 d-xl-block">
-              <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
-            </div>
-                  </div>
           <div class="row">
             <div class="col-12">
               <div class="card bg-gradient-primary">
@@ -626,7 +616,7 @@
               <div class="col-md-4 mt-4">
                   <h1 class="text-gradient text-primary"> <i class="fa fa-file-text-o "></i></h1>
                   <h5>Faucet</h5>
-                  <p>Claim .0005 USD every 5 minutes.</p>
+                  <p>Claim 0.7 Tokens every 10 minutes.</p>
               </div>
               <div class="col-md-4 mt-4">
                 <h1 class="text-gradient text-primary"> <i class="fa-solid fa-ticket"></i></h1>
