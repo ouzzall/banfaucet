@@ -494,7 +494,7 @@
       </div>
     </nav>
     <!-- End Navbar -->
-    <div class="customDarkLight">
+    <div class="customDarkLight" align="right">
         <div class="d-xl-block">
               <h5 class="mb-0" style="margin-right: 20px;">
               <i class="bi bi-brightness-high"></i></h5>
