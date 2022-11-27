@@ -673,6 +673,7 @@ background: cornflowerblue !important;
   <script src="https://banfaucet.com/newAssets/js/plugins/jkanban/jkanban.js"></script>
   <script src="https://banfaucet.com/newAssets/js/plugins/countup.min.js"></script>
   <script src="https://banfaucet.com/newAssets/js/plugins/chartjs.min.js"></script>
+  <script src="https://banfaucet.com/assets/libs/simplebar/simplebar.min.js"></script>
   <!-- <script src="https://banfaucet.com/newAssets/js/plugins/datatables.js"></script> -->
 
 
